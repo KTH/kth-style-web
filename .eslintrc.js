@@ -1,0 +1,45 @@
+const path = require('path')
+module.exports = {
+  parser: 'babel-eslint',
+  env: {
+    node: true,
+    browser: true
+  },
+  extends: ['airbnb', 'prettier'],
+  plugins: ['prettier'],
+  rules: {
+    'import/newline-after-import': ['error', { count: 0 }],
+    semi: ['error', 'never'],
+    'global-require': 'off',
+    'prefer-template': 'off',
+    'import/order': 'off',
+    quotes: [1, 'single', 'avoid-escape'],
+    'no-underscore-dangle': 'off',
+    'react/prop-types': 'off',
+    'array-callback-return': 'off',
+    'react/no-access-state-in-setstate': 'off',
+    'react/destructuring-assignment': [true, 'always', { ignoreClassFields: true }],
+    'sort-imports': [
+      'error',
+      {
+        ignoreCase: true,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: true,
+        memberSyntaxSortOrder: ['all', 'single', 'multiple', 'none']
+      }
+    ],
+    strict: 'off'
+  },
+  overrides: [
+    {
+      files: ['**/__tests__/**'],
+      settings: {
+        'import/resolver': {
+          jest: {
+            jestConfigFile: path.join(__dirname, './jest.config.js')
+          }
+        }
+      }
+    }
+  ]
+}
