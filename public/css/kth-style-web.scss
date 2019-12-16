@@ -1,0 +1,13 @@
+// Scss code goes here!
+#app {
+  width: 100%;
+  padding: 15px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  grid-gap: 15px;
+}
+.mainContent {
+  width: 100%;
+  grid-column-span: 2;
+}
+@import './NavBar.scss';

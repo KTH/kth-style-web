@@ -1,0 +1,11 @@
+<script>
+  window.__initialState__ = {{{initialState}}}
+</script>
+
+<!--{{prefixScript '/static/app.js' 'scripts'}}-->
+
+{{#if error}}
+<p>Error: {{ error }}</p>
+{{else}}
+<div id="app">{{{html}}}</div>
+{{/if}}

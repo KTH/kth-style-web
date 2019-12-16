@@ -1,0 +1,10 @@
+.NavBar {
+  max-width: 300px;
+  border: 1px solid blue;
+  ul {
+    padding-left: 15px;
+    ul {
+      padding-left: 15px;
+    }
+  }
+}
