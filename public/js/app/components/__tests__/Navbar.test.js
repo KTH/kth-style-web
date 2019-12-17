@@ -87,6 +87,16 @@ test('Navbar component includes typografi', () => {
                     Ikoner
                   </a>
                 </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/forskning/sarskilda-forskningssatsningar"
+                  >
+                    Mellanrum och storlekar
+                  </a>
+                </li>
               </ul>
             </li>
             <li

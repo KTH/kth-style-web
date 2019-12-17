@@ -146,7 +146,7 @@ server.use(config.proxyPrefixPath.uri, languageHandler)
  * ******************************
  */
 const passport = require('passport')
-// const ldapClient = require('./adldapClient')
+const ldapClient = require('./adldapClient')
 const {
   authLoginHandler,
   authCheckHandler,

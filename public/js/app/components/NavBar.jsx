@@ -36,6 +36,11 @@ export default () => {
                   Ikoner
                 </a>
               </li>
+              <li className="nav-item leaf">
+                <a href="/forskning/sarskilda-forskningssatsningar" className="nav-link">
+                  Mellanrum och storlekar
+                </a>
+              </li>
             </ul>
           </li>
           <li className="nav-item node">
