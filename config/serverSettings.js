@@ -32,17 +32,17 @@ const devLdapBase = devDefaults('OU=UG,DC=ref,DC=ug,DC=kth,DC=se')
 
 // These options are fixed for this application
 const ldapOptions = {
-  //   base: getEnv('LDAP_BASE', devLdapBase),
-  //   filter: '(ugKthid=KTHID)',
-  //   filterReplaceHolder: 'KTHID',
-  //   userattrs: ['displayName', 'mail', 'ugUsername', 'memberOf', 'ugKthid'],
-  //   groupattrs: ['cn', 'objectCategory'],
-  //   testSearch: true, // TODO: Should this be an ENV setting?
-  //   timeout: typeConversion(getEnv('LDAP_TIMEOUT', null)),
-  //   reconnectTime: typeConversion(getEnv('LDAP_IDLE_RECONNECT_INTERVAL', null)),
-  //   reconnectOnIdle: getEnv('LDAP_IDLE_RECONNECT_INTERVAL', null) !== null,
-  //   connecttimeout: typeConversion(getEnv('LDAP_CONNECT_TIMEOUT', null)),
-  //   searchtimeout: typeConversion(getEnv('LDAP_SEARCH_TIMEOUT', null))
+  base: getEnv('LDAP_BASE', devLdapBase),
+  filter: '(ugKthid=KTHID)',
+  filterReplaceHolder: 'KTHID',
+  userattrs: ['displayName', 'mail', 'ugUsername', 'memberOf', 'ugKthid'],
+  groupattrs: ['cn', 'objectCategory'],
+  testSearch: true, // TODO: Should this be an ENV setting?
+  timeout: typeConversion(getEnv('LDAP_TIMEOUT', null)),
+  reconnectTime: typeConversion(getEnv('LDAP_IDLE_RECONNECT_INTERVAL', null)),
+  reconnectOnIdle: getEnv('LDAP_IDLE_RECONNECT_INTERVAL', null) !== null,
+  connecttimeout: typeConversion(getEnv('LDAP_CONNECT_TIMEOUT', null)),
+  searchtimeout: typeConversion(getEnv('LDAP_SEARCH_TIMEOUT', null))
 }
 
 Object.keys(ldapOptions).forEach(key => {
@@ -73,7 +73,7 @@ module.exports = {
   cas: {
     ssoBaseURL: getEnv('CAS_SSO_URI', devSsoBaseURL)
   },
-  // ldap: unpackLDAPConfig('LDAP_URI', getEnv('LDAP_PASSWORD'), devLdap, ldapOptions),
+  ldap: unpackLDAPConfig('LDAP_URI', getEnv('LDAP_PASSWORD'), devLdap, ldapOptions),
 
   // // Service API's
   // nodeApi: {
