@@ -17,7 +17,7 @@ export default () => {
         </ul>
         <ul className="nav nav-list expandable">
           <li className="nav-item node expanded">
-            <a href="/style/foundation" className="nav-link">
+            <a href="/style/colors" className="nav-link">
               Grund form
             </a>
             <ul id="leftmenu-div-1" className="nav nav-list">
@@ -33,12 +33,32 @@ export default () => {
               </li>
               <li className="nav-item leaf">
                 <a href="/style/spacing" className="nav-link">
-                  Mellanrum och storlekar
+                  Mellanrum
                 </a>
               </li>
               <li className="nav-item leaf">
                 <a href="/style/typography" className="nav-link">
                   Typografi
+                </a>
+              </li>
+              <li className="nav-item leaf">
+                <a href="/style/buttons" className="nav-link">
+                  Länkar
+                </a>
+              </li>
+              <li className="nav-item leaf">
+                <a href="/style/buttons" className="nav-link">
+                  Knappar
+                </a>
+              </li>
+              <li className="nav-item leaf">
+                <a href="/style/" className="nav-link">
+                  Tabeller
+                </a>
+              </li>
+              <li className="nav-item leaf">
+                <a href="/style/" className="nav-link">
+                  Avskiljare
                 </a>
               </li>
             </ul>
@@ -58,11 +78,7 @@ export default () => {
                   Alerts
                 </a>
               </li>
-              <li className="nav-item leaf">
-                <a href="/style/buttons" className="nav-link">
-                  Buttons
-                </a>
-              </li>
+
               <li className="nav-item leaf">
                 <a href="/style/collapse" className="nav-link">
                   Collapse
@@ -83,11 +99,7 @@ export default () => {
                   Navbar
                 </a>
               </li>
-              <li className="nav-item leaf">
-                <a href="/style/" className="nav-link">
-                  Table
-                </a>
-              </li>
+
               <li className="nav-item leaf">
                 <a href="/style/" className="nav-link">
                   Tabs
@@ -98,6 +110,11 @@ export default () => {
           <li className="nav-item node">
             <a href="/style/guidelines" className="nav-link">
               Riktlinjer
+            </a>
+          </li>
+          <li className="nav-item node">
+            <a href="/style/" className="nav-link">
+              Använda kth-style
             </a>
           </li>
         </ul>

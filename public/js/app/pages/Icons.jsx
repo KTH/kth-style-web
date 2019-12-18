@@ -5,7 +5,9 @@ import NavBar from '../components/NavBar'
 const ItemBox = props => {
   const { url, displayName } = props
   const itemBoxStyle = {
-    backgroundImageUrl: url
+    backgroundImage: `url(/style/static/kth-style/img/kth-style/${url})`,
+    backgroundSize: '30px 30px',
+    backgroundRepeat: 'no-repeat'
   }
   return (
     <div>
@@ -17,8 +19,8 @@ const ItemBox = props => {
 }
 export const Main = props => {
   const items = [
-    { displayName: 'Alert-Attention.svg', url: '/img/kth-style/icons/alert-attention.svg' },
-    { displayName: 'Alert-info.svg', url: '/img/kth-style/icons/alert-info.svg' }
+    { displayName: 'Alert-Attention.svg', url: 'icons/alert-attention.svg' },
+    { displayName: 'Alert-info.svg', url: 'icons/alert-info.svg' }
   ]
   const itemsPane = items.map(item => <ItemBox displayName={item.displayName} key={item.displayName} url={item.url} />)
   return (

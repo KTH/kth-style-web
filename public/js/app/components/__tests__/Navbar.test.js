@@ -49,7 +49,7 @@ test('Navbar component includes typografi', () => {
             >
               <a
                 class="nav-link"
-                href="/style/foundation"
+                href="/style/colors"
               >
                 Grund form
               </a>
@@ -84,7 +84,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/spacing"
                   >
-                    Mellanrum och storlekar
+                    Mellanrum
                   </a>
                 </li>
                 <li
@@ -95,6 +95,46 @@ test('Navbar component includes typografi', () => {
                     href="/style/typography"
                   >
                     Typografi
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/buttons"
+                  >
+                    Länkar
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/buttons"
+                  >
+                    Knappar
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/"
+                  >
+                    Tabeller
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/"
+                  >
+                    Avskiljare
                   </a>
                 </li>
               </ul>
@@ -130,16 +170,6 @@ test('Navbar component includes typografi', () => {
                     href="/style/alerts"
                   >
                     Alerts
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/buttons"
-                  >
-                    Buttons
                   </a>
                 </li>
                 <li
@@ -189,16 +219,6 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/"
                   >
-                    Table
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/"
-                  >
                     Tabs
                   </a>
                 </li>
@@ -212,6 +232,16 @@ test('Navbar component includes typografi', () => {
                 href="/style/guidelines"
               >
                 Riktlinjer
+              </a>
+            </li>
+            <li
+              class="nav-item node"
+            >
+              <a
+                class="nav-link"
+                href="/style/"
+              >
+                Använda kth-style
               </a>
             </li>
           </ul>
