@@ -38,4 +38,4 @@ If you use VSCode, run the application from Debug mode by adding this to the con
 },
 ```
 
-Start the application from the debug "Play" button and go to http//localhost:3000/style in your web browser.
+Start the application from the debug "Play" button and go to http://localhost:3000/style in your web browser.
