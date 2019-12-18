@@ -49,7 +49,7 @@ test('Navbar component includes typografi', () => {
             >
               <a
                 class="nav-link"
-                href="/forskning"
+                href="/style/colors"
               >
                 Grund form
               </a>
@@ -62,17 +62,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/forskning/omraden"
-                  >
-                    Typografi
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/forskning/forskningsplattformar"
+                    href="/style/colors"
                   >
                     Färger
                   </a>
@@ -82,7 +72,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/forskning/sarskilda-forskningssatsningar"
+                    href="/style/icons"
                   >
                     Ikoner
                   </a>
@@ -92,9 +82,144 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/forskning/sarskilda-forskningssatsningar"
+                    href="/style/spacing"
                   >
-                    Mellanrum och storlekar
+                    Mellanrum
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/typography"
+                  >
+                    Typografi
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/buttons"
+                  >
+                    Länkar
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/buttons"
+                  >
+                    Knappar
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/"
+                  >
+                    Tabeller
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/"
+                  >
+                    Avskiljare
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="nav-item node expanded"
+            >
+              <a
+                class="nav-link"
+                href="/style/layouts"
+              >
+                Layouter
+              </a>
+            </li>
+            <li
+              class="nav-item node expanded"
+            >
+              <a
+                class="nav-link"
+                href="/style/components"
+              >
+                Komponenter
+              </a>
+              <ul
+                class="nav nav-list"
+                id="leftmenu-div-2"
+              >
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/alerts"
+                  >
+                    Alerts
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/collapse"
+                  >
+                    Collapse
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/"
+                  >
+                    Forms
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/"
+                  >
+                    Modal
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/"
+                  >
+                    Navbar
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/"
+                  >
+                    Tabs
                   </a>
                 </li>
               </ul>
@@ -104,29 +229,19 @@ test('Navbar component includes typografi', () => {
             >
               <a
                 class="nav-link"
-                href="/samverkan"
-              >
-                Layouter
-              </a>
-            </li>
-            <li
-              class="nav-item node"
-            >
-              <a
-                class="nav-link"
-                href="/om"
-              >
-                Komponenter
-              </a>
-            </li>
-            <li
-              class="nav-item node"
-            >
-              <a
-                class="nav-link"
-                href="/student"
+                href="/style/guidelines"
               >
                 Riktlinjer
+              </a>
+            </li>
+            <li
+              class="nav-item node"
+            >
+              <a
+                class="nav-link"
+                href="/style/"
+              >
+                Använda kth-style
               </a>
             </li>
           </ul>
