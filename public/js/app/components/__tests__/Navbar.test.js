@@ -51,7 +51,7 @@ test('Navbar component includes typografi', () => {
                 class="nav-link"
                 href="/style/colors"
               >
-                Grund form
+                Grundform
               </a>
               <ul
                 class="nav nav-list"

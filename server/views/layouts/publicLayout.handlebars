@@ -16,14 +16,19 @@
     {{prefixStyle '/static/app.css' 'styles' 'screen'}}
 
     {{{render 'styles'
+
     }}}
 
     {{prefixScript '/static/vendor.js' 'head-scripts'}}
     {{prefixScript '/static/browserConfig' 'head-scripts'}}
+    {{prefixScript '/static/kth-style/js/menus.min.js' 'head-scripts'}}
+    {{prefixScript '/static/kth-style/js/backtotop.min.js' 'head-scripts'}}
+
     {{#extend 'head-scripts'}}
     <script src="//www.kth.se/social/toolbar/widget.js"></script>
     <!-- analytics start -->
     {{{blocks.analytics
+
     }}}
     <!-- analytics end -->
     {{/extend}}
@@ -33,6 +38,7 @@
     {{/if}}
 
     {{{render 'head-scripts'
+
     }}}
   </head>
   <body>

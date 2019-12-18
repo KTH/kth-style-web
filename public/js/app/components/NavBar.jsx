@@ -18,7 +18,7 @@ export default () => {
         <ul className="nav nav-list expandable">
           <li className="nav-item node expanded">
             <a href="/style/colors" className="nav-link">
-              Grund form
+              Grundform
             </a>
             <ul id="leftmenu-div-1" className="nav nav-list">
               <li className="nav-item leaf">
