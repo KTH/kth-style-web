@@ -1,10 +1,10 @@
 # kth-style-web
 
-This is a web application that serve as an example of and a documentation guide on how to use the design provided by KTH Style. KTH Style is the base/foundation of the design we use at KTH but not the complete set of all design elements for all applications.
+The purpose of this project is to provide the essential design and style for applications within KTH and make the development process of these applications faster.
 
-KTH Style is build to fit and be a part of our node templates but could also be used in any application if the application it self retireve the design resourses and follows the main structure which the design is based upon.
+This is a web application that serves as an example of the design it self and a documentation guide on how to use the design provided by KTH Style. KTH Style is the base/foundation of the design we use at KTH but not the complete set of all design elements for all applications.
 
-This web application serves as a documentation site for KTH Style it self.
+KTH Style is build to fit and be a part of our node templates but could also be used in any application if the application it self fetch the design resourses and follows the main structure the design is based upon.
 
 ## How to set up and run kth-style-web on your local machine
 
@@ -38,4 +38,4 @@ If you use VSCode, run the application from Debug mode by adding this to the con
 },
 ```
 
-Start the application from the debug "Play" button.
+Start the application from the debug "Play" button and go to http//localhost:3000/style in your web browser.
