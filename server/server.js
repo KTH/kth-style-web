@@ -227,6 +227,7 @@ server.use('/', systemRoute.getRouter())
 const appRoute = AppRouter()
 appRoute.get('system.index', config.proxyPrefixPath.uri + '/', KthStyle.getIndex)
 appRoute.get('system.index', config.proxyPrefixPath.uri + '/:page', KthStyle.getIndex)
+
 appRoute.get(
   'system.gateway',
   config.proxyPrefixPath.uri + '/gateway',

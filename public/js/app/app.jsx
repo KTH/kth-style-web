@@ -12,6 +12,10 @@ import { styleStore } from './stores/StyleStore'
 
 // Pages
 import Start from './pages/Start'
+import Colors from './pages/Colors'
+import Icons from './pages/Icons'
+import Spacing from './pages/Spacing'
+import Typography from './pages/Typography'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -22,6 +26,10 @@ function appFactory() {
     <Provider styleStore={styleStore}>
       <Switch>
         <Route exact path="/style" component={Start} />
+        <Route exact path="/style/colors" component={Colors} />
+        <Route exact path="/style/icons" component={Icons} />
+        <Route exact path="/style/spacing" component={Spacing} />
+        <Route exact path="/style/typography" component={Typography} />
       </Switch>
     </Provider>
   )
