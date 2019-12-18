@@ -6,7 +6,7 @@ KTH Style is build to fit and be a part of our node templates but could also be 
 
 This web application serves as a documentation site for KTH Style it self.
 
-## How to set up kth-style-web locally
+## How to set up and run kth-style-web on your local machine
 
 Run the following commands to get it up and running
 
