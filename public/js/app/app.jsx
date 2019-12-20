@@ -16,6 +16,7 @@ import Colors from './pages/Colors'
 import Icons from './pages/Icons'
 import Spacing from './pages/Spacing'
 import Typography from './pages/Typography'
+import ButtonsPage from './pages/ButtonsPage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -30,6 +31,7 @@ function appFactory() {
         <Route exact path="/style/icons" component={Icons} />
         <Route exact path="/style/spacing" component={Spacing} />
         <Route exact path="/style/typography" component={Typography} />
+        <Route exact path="/style/buttons" component={ButtonsPage} />
       </Switch>
     </Provider>
   )
