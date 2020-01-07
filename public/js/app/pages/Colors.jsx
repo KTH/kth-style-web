@@ -9,7 +9,7 @@ const ColorBox = props => {
     backgroundColor: code
   }
   return (
-    <div>
+    <div className="itemBox">
       <div className="colorBox" style={colorBoxStyle}></div>
       <div>{displayName}</div>
       <div> {code}</div>

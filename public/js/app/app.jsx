@@ -17,6 +17,7 @@ import Icons from './pages/Icons'
 import Spacing from './pages/Spacing'
 import Typography from './pages/Typography'
 import ButtonsPage from './pages/ButtonsPage'
+import CollapsePage from './pages/CollapsePage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -26,12 +27,13 @@ function appFactory() {
   return (
     <Provider styleStore={styleStore}>
       <Switch>
-        <Route exact path="/style" component={Start} />
-        <Route exact path="/style/colors" component={Colors} />
-        <Route exact path="/style/icons" component={Icons} />
-        <Route exact path="/style/spacing" component={Spacing} />
-        <Route exact path="/style/typography" component={Typography} />
-        <Route exact path="/style/buttons" component={ButtonsPage} />
+        <Route exact path="/" component={Start} />
+        <Route exact path="/colors" component={Colors} />
+        <Route exact path="/icons" component={Icons} />
+        <Route exact path="/spacing" component={Spacing} />
+        <Route exact path="/typography" component={Typography} />
+        <Route exact path="/buttons" component={ButtonsPage} />
+        <Route exact path="/collapse" component={CollapsePage} />
       </Switch>
     </Provider>
   )
@@ -46,7 +48,8 @@ function staticRender(context, location) {
 }
 
 if (typeof window !== 'undefined') {
-  ReactDOM.render(<BrowserRouter>{appFactory()}</BrowserRouter>, document.getElementById('app'))
+  const basename = window.config.proxyPrefixPath.uri
+  ReactDOM.render(<BrowserRouter basename={basename}>{appFactory()}</BrowserRouter>, document.getElementById('app'))
 }
 
 export { appFactory, staticRender }

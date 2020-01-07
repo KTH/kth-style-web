@@ -41,7 +41,14 @@ async function getIndex(req, res, next) {
 
     styleStore.setMessage('Hello from store')
     const html = ReactDOMServer.renderToString(renderProps)
-
+    const { location } = renderProps.props
+    let pagePath = 'page_kth_style_index'
+    if (location.replace(/\/style\//, '')) {
+      pagePath = 'page_kth_style_' + location.replace(/\/style\//, '')
+      if (i18n.message(pagePath).match(/DOES NOT EXIST/)) {
+        pagePath = 'page_kth_style_index'
+      }
+    }
     res.render('react/index', {
       html,
       title: 'Style',
@@ -50,7 +57,7 @@ async function getIndex(req, res, next) {
       description: 'Style',
       breadcrumbsPath: [
         {
-          label: `${i18n.message('page_kth_style_index')}`
+          label: `${i18n.message(pagePath)}`
         }
       ]
     })

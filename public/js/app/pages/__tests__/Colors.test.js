@@ -18,7 +18,9 @@ test('Colors component includes colors', () => {
         <div
           class="itemContainer"
         >
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(101, 101, 108);"
@@ -31,7 +33,9 @@ test('Colors component includes colors', () => {
               #65656c
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(246, 246, 246);"
@@ -44,7 +48,9 @@ test('Colors component includes colors', () => {
               #f6f6f6
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(132, 132, 137);"
@@ -57,7 +63,9 @@ test('Colors component includes colors', () => {
               #848489
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(212, 212, 212);"
@@ -70,7 +78,9 @@ test('Colors component includes colors', () => {
               #d4d4d4
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(81, 81, 81);"
@@ -83,7 +93,9 @@ test('Colors component includes colors', () => {
               #515151
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(237, 237, 237);"
@@ -96,7 +108,9 @@ test('Colors component includes colors', () => {
               #ededed
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(230, 230, 230);"
@@ -109,7 +123,9 @@ test('Colors component includes colors', () => {
               #e6e6e6
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(0, 127, 174);"
@@ -122,7 +138,9 @@ test('Colors component includes colors', () => {
               #007fae
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(25, 84, 166);"
@@ -135,7 +153,9 @@ test('Colors component includes colors', () => {
               #1954a6
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(94, 135, 192);"
@@ -148,7 +168,9 @@ test('Colors component includes colors', () => {
               #5e87c0
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(0, 108, 183);"
@@ -161,7 +183,9 @@ test('Colors component includes colors', () => {
               #006cb7
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(0, 99, 136);"
@@ -174,7 +198,9 @@ test('Colors component includes colors', () => {
               #006388
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(217, 89, 153);"
@@ -187,7 +213,9 @@ test('Colors component includes colors', () => {
               #d95999
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(217, 89, 153);"
@@ -200,7 +228,9 @@ test('Colors component includes colors', () => {
               #d95999
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(208, 47, 128);"
@@ -213,7 +243,9 @@ test('Colors component includes colors', () => {
               #d02f80
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(98, 146, 46);"
@@ -226,7 +258,9 @@ test('Colors component includes colors', () => {
               #62922e
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(78, 116, 37);"
@@ -239,7 +273,9 @@ test('Colors component includes colors', () => {
               #4e7425
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(223, 240, 216);"
@@ -252,7 +288,9 @@ test('Colors component includes colors', () => {
               #dff0d8
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(98, 146, 46);"
@@ -265,7 +303,9 @@ test('Colors component includes colors', () => {
               #62922e
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(214, 233, 198);"
@@ -278,7 +318,9 @@ test('Colors component includes colors', () => {
               #d6e9c6
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(224, 31, 40);"
@@ -291,7 +333,9 @@ test('Colors component includes colors', () => {
               #e01f28
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(242, 222, 222);"
@@ -304,7 +348,9 @@ test('Colors component includes colors', () => {
               #f2dede
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(224, 31, 40);"
@@ -317,7 +363,9 @@ test('Colors component includes colors', () => {
               #e01f28
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(235, 204, 209);"
@@ -330,7 +378,9 @@ test('Colors component includes colors', () => {
               #ebccd1
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(202, 28, 36);"
@@ -343,7 +393,9 @@ test('Colors component includes colors', () => {
               #ca1c24
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(252, 248, 227);"
@@ -356,7 +408,9 @@ test('Colors component includes colors', () => {
               #fcf8e3
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(250, 185, 25);"
@@ -369,7 +423,9 @@ test('Colors component includes colors', () => {
               #fab919
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(250, 235, 204);"
@@ -382,7 +438,9 @@ test('Colors component includes colors', () => {
               #faebcc
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(0, 0, 0);"
@@ -395,7 +453,9 @@ test('Colors component includes colors', () => {
               #000
             </div>
           </div>
-          <div>
+          <div
+            class="itemBox"
+          >
             <div
               class="colorBox"
               style="background-color: rgb(255, 255, 255);"
