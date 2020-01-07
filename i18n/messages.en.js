@@ -35,6 +35,8 @@ module.exports = {
     site_name: 'KTH style',
     host_name: 'KTH',
     page_kth_style_index: 'Start',
-    page_kth_style_colors: 'Colors'
+    page_kth_style_colors: 'Colors',
+    page_kth_style_icons: 'Icons',
+    page_kth_style_buttons: 'Buttons'
   }
 }

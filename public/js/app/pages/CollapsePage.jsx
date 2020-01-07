@@ -9,7 +9,7 @@ export const Main = props => {
     <div className="itemContainer">
       <div className="itemBox">
         <h1>Collapse with hooks</h1>
-        <Collapse title="hooks-test" className="ProgramItem">
+        <Collapse title="hooks-test">
           <div>
             <div>
               <div>Hooks seems to work here</div>

@@ -3,10 +3,16 @@ import { render, waitForElement } from '@testing-library/react'
 import 'jest-axe/extend-expect'
 import { axe } from 'jest-axe'
 
-import { Main as Colors } from '../Colors'
+import { Main } from '../ColorsPage'
+
+test('Colors page complies to axe accesibility', async () => {
+  const { container } = render(<Main />)
+  const results = await axe(container)
+  expect(results).toHaveNoViolations()
+})
 
 test('Colors component includes colors', () => {
-  const { container, getByText, debug } = render(<Colors />)
+  const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
       <div
@@ -473,10 +479,4 @@ test('Colors component includes colors', () => {
     </div>
   `)
   getByText(/Colors/i)
-})
-
-test('Colors component complies to axe accesibility', async () => {
-  const { container } = render(<Colors />)
-  const results = await axe(container)
-  expect(results).toHaveNoViolations()
 })

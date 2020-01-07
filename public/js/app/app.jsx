@@ -12,10 +12,10 @@ import { styleStore } from './stores/StyleStore'
 
 // Pages
 import Start from './pages/Start'
-import Colors from './pages/Colors'
-import Icons from './pages/Icons'
-import Spacing from './pages/Spacing'
-import Typography from './pages/Typography'
+import Colors from './pages/ColorsPage'
+import Icons from './pages/IconsPage'
+import Spacing from './pages/SpacingPage'
+import Typography from './pages/TypographyPage'
 import ButtonsPage from './pages/ButtonsPage'
 import CollapsePage from './pages/CollapsePage'
 

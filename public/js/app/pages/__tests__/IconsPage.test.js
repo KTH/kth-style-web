@@ -3,10 +3,16 @@ import { render, waitForElement } from '@testing-library/react'
 import 'jest-axe/extend-expect'
 import { axe } from 'jest-axe'
 
-import { Main as Icons } from '../Icons'
+import { Main } from '../IconsPage'
 
-test('Icons component snapshot', () => {
-  const { container, getByText, debug } = render(<Icons />)
+test('Icons page complies to axe accesibility', async () => {
+  const { container } = render(<Main />)
+  const results = await axe(container)
+  expect(results).toHaveNoViolations()
+})
+
+test('Icons page snapshot', () => {
+  const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
       <div
@@ -48,10 +54,4 @@ test('Icons component snapshot', () => {
       </div>
     </div>
   `)
-})
-
-test('Icons component complies to axe accesibility', async () => {
-  const { container } = render(<Icons />)
-  const results = await axe(container)
-  expect(results).toHaveNoViolations()
 })
