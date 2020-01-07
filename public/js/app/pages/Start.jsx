@@ -7,7 +7,6 @@ export const Main = props => {
   return (
     <div className="mainContent">
       <h1>KTH style web app</h1>
-      <p>{`Message from styleStore: ${props.message}`}</p>
     </div>
   )
 }
