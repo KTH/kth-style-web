@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import { inject, observer } from 'mobx-react'
 
 import NavBar from '../components/NavBar'
+import CodeSnippet from '../components/CodeSnippet'
 
 const Button = ({ type, disabled, children, block, title }) => {
   let buttonClass = block ? `btn btn-${type} btn-block` : `btn btn-${type}`
@@ -15,45 +16,52 @@ const Button = ({ type, disabled, children, block, title }) => {
 export const Main = props => {
   return (
     <div className="itemContainer">
+      <h1>Buttons</h1>
       <div className="itemBox">
-        <p>Primary button</p>
+        <h2>Primary button</h2>
         <Button type="primary">Primary button</Button>
-        <Button type="primary" size="lg" disabled>
+        <CodeSnippet snippet={'<button type="button" class="btn btn-primary">Primary button</button>'} />
+      </div>
+
+      <div className="itemBox">
+        <h2>Secondary button</h2>
+        <Button type="secondary">Secondary</Button>
+        <CodeSnippet snippet={'<button type="button" class="btn btn-primary">Secondary</button>'} />
+      </div>
+
+      <div className="itemBox">
+        <h2>Success button</h2>
+        <Button type="success">Save</Button>
+        <CodeSnippet snippet={'<button type="button" class="btn btn-success">Sucess button</button>'} />
+      </div>
+
+      <div className="itemBox">
+        <h2>Danger button</h2>
+        <Button type="danger">Delete</Button>
+        <CodeSnippet snippet={'<button type="button" class="btn btn-danger">Danger button</button>'} />
+      </div>
+
+      <div className="itemBox">
+        <h2>Block level buttons</h2>
+        <Button type="primary" block>
+          Block level button
+        </Button>
+        <CodeSnippet snippet={'<button type="button" class="btn btn-primary btn-block">Block level button</button>'} />
+
+        <Button type="secondary" block>
+          Block level button
+        </Button>
+        <CodeSnippet
+          snippet={'<button type="button" class="btn btn-secondary btn-block">Block level button</button>'}
+        />
+      </div>
+
+      <div className="itemBox">
+        <h2>Disabled buttons</h2>
+        <Button type="primary" disabled>
           Primary button
         </Button>
-        <div className="codeSnippet">
-          <pre>
-            <code className="language-html">{'<button type="primary">Primary button</button>'}</code>
-          </pre>
-        </div>
-      </div>
-
-      <div className="itemBox">
-        <p>Secondary button</p>
-        <Button type="secondary">Secondary</Button>
-        <Button type="secondary" size="lg" disabled>
-          Disabled Button
-        </Button>
-      </div>
-
-      <div className="itemBox">
-        <p>Success button</p>
-        <Button type="success">Save</Button>
-      </div>
-
-      <div className="itemBox">
-        <p>Danger button</p>
-        <Button type="danger">Delete</Button>
-      </div>
-
-      <div className="itemBox">
-        <p>Block level buttons</p>
-        <Button type="primary" size="lg" block>
-          Block level button
-        </Button>
-        <Button type="secondary" size="lg" block>
-          Block level button
-        </Button>
+        <CodeSnippet snippet={'<button type="button" class="btn btn-primary" disabled>Disabled button</button>'} />
       </div>
     </div>
   )
