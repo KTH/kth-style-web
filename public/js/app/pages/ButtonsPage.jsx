@@ -3,7 +3,10 @@ import { inject, observer } from 'mobx-react'
 
 import NavBar from '../components/NavBar'
 import CodeSnippet from '../components/CodeSnippet'
-
+/**
+ *
+ * @param {Object} param0
+ */
 const Button = ({ type, disabled, children, block, title }) => {
   let buttonClass = block ? `btn btn-${type} btn-block` : `btn btn-${type}`
   return (

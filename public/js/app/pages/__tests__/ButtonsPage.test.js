@@ -33,15 +33,26 @@ test('Buttons page snapshot', () => {
             Primary button
           </button>
           <div
-            class="codeSnippet"
+            class="code-snippet"
           >
-            <pre>
-              <code
-                class="language-html"
-              >
-                &lt;button type="button" class="btn btn-primary"&gt;Primary button&lt;/button&gt;
-              </code>
-            </pre>
+            <div
+              class="code-snippet__container"
+            >
+              <pre>
+                <code
+                  class="language-html"
+                >
+                  &lt;button type="button" class="btn btn-primary"&gt;Primary button&lt;/button&gt;
+                </code>
+              </pre>
+              <div>
+                <button
+                  class="btn"
+                >
+                  Copy
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -56,15 +67,26 @@ test('Buttons page snapshot', () => {
             Secondary
           </button>
           <div
-            class="codeSnippet"
+            class="code-snippet"
           >
-            <pre>
-              <code
-                class="language-html"
-              >
-                &lt;button type="button" class="btn btn-primary"&gt;Secondary&lt;/button&gt;
-              </code>
-            </pre>
+            <div
+              class="code-snippet__container"
+            >
+              <pre>
+                <code
+                  class="language-html"
+                >
+                  &lt;button type="button" class="btn btn-primary"&gt;Secondary&lt;/button&gt;
+                </code>
+              </pre>
+              <div>
+                <button
+                  class="btn"
+                >
+                  Copy
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -79,15 +101,26 @@ test('Buttons page snapshot', () => {
             Save
           </button>
           <div
-            class="codeSnippet"
+            class="code-snippet"
           >
-            <pre>
-              <code
-                class="language-html"
-              >
-                &lt;button type="button" class="btn btn-success"&gt;Sucess button&lt;/button&gt;
-              </code>
-            </pre>
+            <div
+              class="code-snippet__container"
+            >
+              <pre>
+                <code
+                  class="language-html"
+                >
+                  &lt;button type="button" class="btn btn-success"&gt;Sucess button&lt;/button&gt;
+                </code>
+              </pre>
+              <div>
+                <button
+                  class="btn"
+                >
+                  Copy
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -102,15 +135,26 @@ test('Buttons page snapshot', () => {
             Delete
           </button>
           <div
-            class="codeSnippet"
+            class="code-snippet"
           >
-            <pre>
-              <code
-                class="language-html"
-              >
-                &lt;button type="button" class="btn btn-danger"&gt;Danger button&lt;/button&gt;
-              </code>
-            </pre>
+            <div
+              class="code-snippet__container"
+            >
+              <pre>
+                <code
+                  class="language-html"
+                >
+                  &lt;button type="button" class="btn btn-danger"&gt;Danger button&lt;/button&gt;
+                </code>
+              </pre>
+              <div>
+                <button
+                  class="btn"
+                >
+                  Copy
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -125,15 +169,26 @@ test('Buttons page snapshot', () => {
             Block level button
           </button>
           <div
-            class="codeSnippet"
+            class="code-snippet"
           >
-            <pre>
-              <code
-                class="language-html"
-              >
-                &lt;button type="button" class="btn btn-primary btn-block"&gt;Block level button&lt;/button&gt;
-              </code>
-            </pre>
+            <div
+              class="code-snippet__container"
+            >
+              <pre>
+                <code
+                  class="language-html"
+                >
+                  &lt;button type="button" class="btn btn-primary btn-block"&gt;Block level button&lt;/button&gt;
+                </code>
+              </pre>
+              <div>
+                <button
+                  class="btn"
+                >
+                  Copy
+                </button>
+              </div>
+            </div>
           </div>
           <button
             class="btn btn-secondary btn-block"
@@ -141,15 +196,26 @@ test('Buttons page snapshot', () => {
             Block level button
           </button>
           <div
-            class="codeSnippet"
+            class="code-snippet"
           >
-            <pre>
-              <code
-                class="language-html"
-              >
-                &lt;button type="button" class="btn btn-secondary btn-block"&gt;Block level button&lt;/button&gt;
-              </code>
-            </pre>
+            <div
+              class="code-snippet__container"
+            >
+              <pre>
+                <code
+                  class="language-html"
+                >
+                  &lt;button type="button" class="btn btn-secondary btn-block"&gt;Block level button&lt;/button&gt;
+                </code>
+              </pre>
+              <div>
+                <button
+                  class="btn"
+                >
+                  Copy
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -165,15 +231,26 @@ test('Buttons page snapshot', () => {
             Primary button
           </button>
           <div
-            class="codeSnippet"
+            class="code-snippet"
           >
-            <pre>
-              <code
-                class="language-html"
-              >
-                &lt;button type="button" class="btn btn-primary" disabled&gt;Disabled button&lt;/button&gt;
-              </code>
-            </pre>
+            <div
+              class="code-snippet__container"
+            >
+              <pre>
+                <code
+                  class="language-html"
+                >
+                  &lt;button type="button" class="btn btn-primary" disabled&gt;Disabled button&lt;/button&gt;
+                </code>
+              </pre>
+              <div>
+                <button
+                  class="btn"
+                >
+                  Copy
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

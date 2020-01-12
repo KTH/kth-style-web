@@ -1,0 +1,40 @@
+.code-snippet {
+  background-color: #f6f6f6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    pre {
+      margin: 10px;
+    }
+    code[class*='language-html'] {
+      text-shadow: 0 1px #fff;
+      direction: ltr;
+      text-align: left;
+      white-space: pre;
+      word-spacing: normal;
+      word-break: normal;
+      word-wrap: normal;
+      line-height: 2;
+      -moz-tab-size: 2;
+      -o-tab-size: 2;
+      tab-size: 2;
+      -webkit-hyphens: none;
+      -moz-hyphens: none;
+      -ms-hyphens: none;
+      hyphens: none;
+    }
+  }
+
+  &__tooltip {
+    opacity: 1;
+
+    .arrow {
+      left: 50%;
+    }
+  }
+}
