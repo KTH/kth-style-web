@@ -20,20 +20,12 @@ export const Main = props => {
   const colors = [
     { displayName: '$grey', code: '#65656c' },
     { displayName: '$lightGrey', code: '#f6f6f6' },
-    { displayName: '$darkGrey', code: '#848489' },
     { displayName: '$borderGrey', code: '#d4d4d4' },
-    { displayName: '$darkBorderGrey', code: '#515151' },
-    { displayName: '$calendarGrey', code: '#ededed' },
-    { displayName: '$inputBorderGrey', code: '#e6e6e6' },
 
     { displayName: '$blue', code: '#007fae' },
-    { displayName: '$darkBlue', code: '#1954a6' },
-    { displayName: '$matteBlue', code: '#5e87c0' },
     { displayName: '$linkBlue', code: '#006cb7' },
     { displayName: '$blueHover', code: '#006388' },
 
-    { displayName: '$lightPink', code: '#d95999' },
-    { displayName: '$mediumPink', code: '#d95999' },
     { displayName: '$pink', code: '#d02f80' },
 
     { displayName: '$green', code: '#62922e' },

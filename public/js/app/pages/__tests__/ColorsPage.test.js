@@ -59,21 +59,6 @@ test('Colors component includes colors', () => {
           >
             <div
               class="colorBox"
-              style="background-color: rgb(132, 132, 137);"
-            />
-            <div>
-              $darkGrey
-            </div>
-            <div>
-               
-              #848489
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
               style="background-color: rgb(212, 212, 212);"
             />
             <div>
@@ -89,51 +74,6 @@ test('Colors component includes colors', () => {
           >
             <div
               class="colorBox"
-              style="background-color: rgb(81, 81, 81);"
-            />
-            <div>
-              $darkBorderGrey
-            </div>
-            <div>
-               
-              #515151
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(237, 237, 237);"
-            />
-            <div>
-              $calendarGrey
-            </div>
-            <div>
-               
-              #ededed
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(230, 230, 230);"
-            />
-            <div>
-              $inputBorderGrey
-            </div>
-            <div>
-               
-              #e6e6e6
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
               style="background-color: rgb(0, 127, 174);"
             />
             <div>
@@ -142,36 +82,6 @@ test('Colors component includes colors', () => {
             <div>
                
               #007fae
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(25, 84, 166);"
-            />
-            <div>
-              $darkBlue
-            </div>
-            <div>
-               
-              #1954a6
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(94, 135, 192);"
-            />
-            <div>
-              $matteBlue
-            </div>
-            <div>
-               
-              #5e87c0
             </div>
           </div>
           <div
@@ -202,36 +112,6 @@ test('Colors component includes colors', () => {
             <div>
                
               #006388
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(217, 89, 153);"
-            />
-            <div>
-              $lightPink
-            </div>
-            <div>
-               
-              #d95999
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(217, 89, 153);"
-            />
-            <div>
-              $mediumPink
-            </div>
-            <div>
-               
-              #d95999
             </div>
           </div>
           <div
