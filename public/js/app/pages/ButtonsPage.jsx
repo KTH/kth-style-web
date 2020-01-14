@@ -7,7 +7,7 @@ import CodeSnippet from '../components/CodeSnippet'
  *
  * @param {Object} param0
  */
-const Button = ({ type, disabled, children, block, title }) => {
+const Button = ({ type, disabled, children, block }) => {
   let buttonClass = block ? `btn btn-${type} btn-block` : `btn btn-${type}`
   return (
     <button className={buttonClass} disabled={disabled}>
@@ -29,7 +29,7 @@ export const Main = props => {
       <div className="itemBox">
         <h2>Secondary button</h2>
         <Button type="secondary">Secondary</Button>
-        <CodeSnippet snippet={'<button type="button" class="btn btn-primary">Secondary</button>'} />
+        <CodeSnippet snippet={'<button type="button" class="btn btn-secondary">Secondary</button>'} />
       </div>
 
       <div className="itemBox">

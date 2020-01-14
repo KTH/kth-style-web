@@ -1,5 +1,7 @@
+@import '../../node_modules/kth-style/public/sass/variables/colors';
+
 .code-snippet {
-  background-color: #f6f6f6;
+  background-color: $lightGrey;
   margin-top: 20px;
   margin-bottom: 20px;
   position: relative;

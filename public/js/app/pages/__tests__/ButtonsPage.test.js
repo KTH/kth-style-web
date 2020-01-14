@@ -76,7 +76,7 @@ test('Buttons page snapshot', () => {
                 <code
                   class="language-html"
                 >
-                  &lt;button type="button" class="btn btn-primary"&gt;Secondary&lt;/button&gt;
+                  &lt;button type="button" class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
                 </code>
               </pre>
               <div>

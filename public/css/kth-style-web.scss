@@ -1,4 +1,7 @@
 // Scss code goes here!
+
+@import '../../node_modules/kth-style/public/sass/variables/fonts';
+
 #app {
   width: 100%;
   padding: 15px 0;
@@ -28,6 +31,16 @@
   grid-gap: 15px;
   margin-bottom: 2 * 15px;
 }
+
+// .tableRow {
+//   span {
+//     text-overflow: ellipsis;
+//     white-space: nowrap;
+//     max-width: 450px;
+//     display: inherit;
+//     overflow: hidden;
+//   }
+// }
 
 @import './NavBar.scss';
 @import './CodeSnippet.scss';
