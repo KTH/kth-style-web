@@ -32,15 +32,10 @@
   margin-bottom: 2 * 15px;
 }
 
-// .tableRow {
-//   span {
-//     text-overflow: ellipsis;
-//     white-space: nowrap;
-//     max-width: 450px;
-//     display: inherit;
-//     overflow: hidden;
-//   }
-// }
+.typographyItem {
+  display: flex;
+  flex-direction: column;
+}
 
 @import './NavBar.scss';
 @import './CodeSnippet.scss';
