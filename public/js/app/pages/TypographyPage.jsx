@@ -48,7 +48,7 @@ export const Main = props => {
     {
       className: 't24',
       text: 'H2 - Heading',
-      html: '<h2 class="t24"></h2>',
+      html: '<h2></h2>',
       sass: 'h2 { @include t24; }',
       usedFor: ['Rubrik puffblock bred']
     },
@@ -77,14 +77,14 @@ export const Main = props => {
       className: 't12',
       text: 'P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       html: '<p class="t12"></p>',
-      sass: '@include t12;',
+      sass: 'p { @include t12; }',
       usedFor: ['Brödtext artikel']
     },
     {
       className: 't10',
       text: 'P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       html: '<p class="t10"></p>',
-      sass: '@include t10;',
+      sass: 'p { @include t10; }',
       usedFor: ['Ingress', 'Megameny', 'Blockquote']
     }
   ]
