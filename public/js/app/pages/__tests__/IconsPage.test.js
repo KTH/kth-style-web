@@ -2414,7 +2414,7 @@ test('Icons page snapshot', () => {
           <div>
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/input-clear.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/input-clear.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
             />
             <div>
               Input-clear.svg

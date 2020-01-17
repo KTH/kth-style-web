@@ -102,7 +102,7 @@ export const Main = props => {
     { displayName: 'White-arrow.svg', url: 'icons/white-arrow.svg', isWhite: true },
     { displayName: 'Back-to-top.svg', url: 'back-to-top.svg' },
     { displayName: 'Input-clear-gray.svg', url: 'input-clear-gray.svg' },
-    { displayName: 'Input-clear.svg', url: 'input-clear.svg' },
+    { displayName: 'Input-clear.svg', url: 'input-clear.svg', isWhite: true },
     { displayName: 'KTH_Logotyp_RGB_2013-2.svg', url: 'KTH_Logotyp_RGB_2013-2.svg' },
     { displayName: 'Quotation-mark.png', url: 'quotation-mark.png' },
     { displayName: 'Search-icon.svg', url: 'search-icon.svg', isWhite: true },
