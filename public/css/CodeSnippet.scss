@@ -1,12 +1,12 @@
 @import '../../node_modules/kth-style/public/sass/variables/colors';
 
 .code-snippet {
-  background-color: $lightGrey;
   margin-top: 20px;
   margin-bottom: 20px;
   position: relative;
 
   &__container {
+    background-color: $lightGrey;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

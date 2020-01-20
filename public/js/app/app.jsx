@@ -18,6 +18,7 @@ import Spacing from './pages/SpacingPage'
 import Typography from './pages/TypographyPage'
 import ButtonsPage from './pages/ButtonsPage'
 import CollapsePage from './pages/CollapsePage'
+import TablesPage from './pages/TablesPage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -34,6 +35,7 @@ function appFactory() {
         <Route exact path="/typography" component={Typography} />
         <Route exact path="/buttons" component={ButtonsPage} />
         <Route exact path="/collapse" component={CollapsePage} />
+        <Route exact path="/tables" component={TablesPage} />
       </Switch>
     </Provider>
   )
