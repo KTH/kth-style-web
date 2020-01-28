@@ -31,12 +31,10 @@ export const Main = props => {
     { displayName: '$green', code: '#62922e' },
     { displayName: '$greenHover', code: '#4e7425' },
     { displayName: '$infoGreen', code: '#dff0d8' },
-    { displayName: '$infoGreenIcon', code: '#62922e' },
     { displayName: '$infoGreenBorder', code: '#d6e9c6' },
 
     { displayName: '$red', code: '#e01f28' },
     { displayName: '$infoRed', code: '#f2dede' },
-    { displayName: '$infoRedIcon', code: '#e01f28' },
     { displayName: '$infoRedBorder', code: '#ebccd1' },
     { displayName: '$lightRedHover', code: '#ca1c24' },
 

@@ -179,21 +179,6 @@ test('Colors component includes colors', () => {
           >
             <div
               class="colorBox"
-              style="background-color: rgb(98, 146, 46);"
-            />
-            <div>
-              $infoGreenIcon
-            </div>
-            <div>
-               
-              #62922e
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
               style="background-color: rgb(214, 233, 198);"
             />
             <div>
@@ -232,21 +217,6 @@ test('Colors component includes colors', () => {
             <div>
                
               #f2dede
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(224, 31, 40);"
-            />
-            <div>
-              $infoRedIcon
-            </div>
-            <div>
-               
-              #e01f28
             </div>
           </div>
           <div
