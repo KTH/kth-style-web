@@ -19,6 +19,7 @@ import Typography from './pages/TypographyPage'
 import ButtonsPage from './pages/ButtonsPage'
 import CollapsePage from './pages/CollapsePage'
 import TablesPage from './pages/TablesPage'
+import FormsPage from './pages/FormsPage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -36,6 +37,7 @@ function appFactory() {
         <Route exact path="/buttons" component={ButtonsPage} />
         <Route exact path="/collapse" component={CollapsePage} />
         <Route exact path="/tables" component={TablesPage} />
+        <Route exact path="/forms" component={FormsPage} />
       </Switch>
     </Provider>
   )

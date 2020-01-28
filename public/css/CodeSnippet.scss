@@ -7,12 +7,14 @@
 
   &__container {
     background-color: $lightGrey;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    grid-gap: 15px;
+
     pre {
       margin: 10px;
     }
+
     code[class*='language-html'] {
       text-shadow: 0 1px #fff;
       direction: ltr;
@@ -32,8 +34,13 @@
     }
   }
 
+  &__btn-container {
+    position: relative;
+  }
+
   &__tooltip {
     opacity: 1;
+    width: 100%;
 
     .arrow {
       left: 50%;

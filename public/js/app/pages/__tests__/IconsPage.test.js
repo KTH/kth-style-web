@@ -45,7 +45,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/alert-attention.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -76,7 +78,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/alert-info.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -107,7 +111,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/alert-success.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -138,7 +144,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-black-down.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -169,7 +177,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-black-left.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -200,7 +210,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-black-right.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -231,7 +243,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-cross-black.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -262,7 +276,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-gallery.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -293,7 +309,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-sort-asc-black.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -324,7 +342,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-sort-asc-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -355,7 +375,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-sort-default-black.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -386,7 +408,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-sort-default-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -417,7 +441,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-sort-desc-black.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -448,7 +474,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-sort-desc-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -479,7 +507,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-up-down-black.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -510,7 +540,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-up-down-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -541,7 +573,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-white-down.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -572,7 +606,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-white-left.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -603,7 +639,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/arrow-white-right.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -634,7 +672,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/back-link-pill.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -665,7 +705,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/back-link.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -696,7 +738,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/balance-scale-black.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -727,7 +771,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/balance-scale-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -758,7 +804,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/canvas.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -789,7 +837,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/check-mark.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -820,7 +870,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/clock_grey_25.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -851,7 +903,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/clock_grey_50.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -882,7 +936,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/clock_grey_100.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -913,7 +969,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/Clock_three_quarter.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -944,7 +1002,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/document-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -975,7 +1035,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/document.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1006,7 +1068,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/en_UK.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1037,7 +1101,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/external-link.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1068,7 +1134,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-archive-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1099,7 +1167,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-archive-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1130,7 +1200,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-audio-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1161,7 +1233,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-code-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1192,7 +1266,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-code-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1223,7 +1299,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-download-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1254,7 +1332,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-excel-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1285,7 +1365,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-excel-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1316,7 +1398,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-export-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1347,7 +1431,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1378,7 +1464,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1409,7 +1497,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-image-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1440,7 +1530,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-image-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1471,7 +1563,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-import-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1502,7 +1596,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-pdf-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1533,7 +1629,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-pdf-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1564,7 +1662,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-powerpoint-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1595,7 +1695,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-powerpoint-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1626,7 +1728,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-upload-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1657,7 +1761,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-video-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1688,7 +1794,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-video-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1719,7 +1827,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-word-fa-regular.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1750,7 +1860,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/file-word-fa-solid.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1781,7 +1893,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/globe-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1812,7 +1926,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/globe.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1843,7 +1959,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/icon-from-canvas-blue.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1874,7 +1992,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/link-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1905,7 +2025,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/modal-info.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1936,7 +2058,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/pause-gallery.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1967,7 +2091,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/pen-blue.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -1998,7 +2124,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/pen.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2029,7 +2157,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/picture-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2060,7 +2190,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/pill-back-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2091,7 +2223,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/pill-back.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2122,7 +2256,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/play-gallery.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2153,7 +2289,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/sv_SE.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2184,7 +2322,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/table-modal.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2215,7 +2355,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/thumbs-down.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2246,7 +2388,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/thumbs-up.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2277,7 +2421,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/trash-can-blue.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2308,7 +2454,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/trash-can-white.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2339,7 +2487,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/icons/white-arrow.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2370,7 +2520,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/back-to-top.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2401,7 +2553,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/input-clear-gray.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2432,7 +2586,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/input-clear.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2463,7 +2619,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/KTH_Logotyp_RGB_2013-2.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2494,7 +2652,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/quotation-mark.png)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2525,7 +2685,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/search-icon.svg)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >
@@ -2556,7 +2718,9 @@ test('Icons page snapshot', () => {
                     url(/style/static/kth-style/img/kth-style/select-arrow.png)
                   </code>
                 </pre>
-                <div>
+                <div
+                  class="code-snippet__btn-container"
+                >
                   <button
                     class="btn"
                   >

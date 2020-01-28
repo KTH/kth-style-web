@@ -16,239 +16,257 @@ test('Buttons page snapshot', () => {
   expect(container).toMatchInlineSnapshot(`
     <div>
       <div
-        class="itemContainer"
+        class="mainContent"
       >
         <h1>
           Buttons
         </h1>
         <div
-          class="itemBox"
+          class="itemContainer"
         >
-          <h2>
-            Primary button
-          </h2>
-          <button
-            class="btn btn-primary"
-          >
-            Primary button
-          </button>
           <div
-            class="code-snippet"
+            class="itemBox"
           >
-            <div
-              class="code-snippet__container"
+            <h2>
+              Primary button
+            </h2>
+            <button
+              class="btn btn-primary"
             >
-              <pre>
-                <code
-                  class="language-html"
+              Primary button
+            </button>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-primary"&gt;Primary button&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
                 >
-                  &lt;button type="button" class="btn btn-primary"&gt;Primary button&lt;/button&gt;
-                </code>
-              </pre>
-              <div>
-                <button
-                  class="btn"
-                >
-                  Copy
-                </button>
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="itemBox"
-        >
-          <h2>
-            Secondary button
-          </h2>
-          <button
-            class="btn btn-secondary"
-          >
-            Secondary
-          </button>
           <div
-            class="code-snippet"
+            class="itemBox"
           >
-            <div
-              class="code-snippet__container"
+            <h2>
+              Secondary button
+            </h2>
+            <button
+              class="btn btn-secondary"
             >
-              <pre>
-                <code
-                  class="language-html"
+              Secondary
+            </button>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
                 >
-                  &lt;button type="button" class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
-                </code>
-              </pre>
-              <div>
-                <button
-                  class="btn"
-                >
-                  Copy
-                </button>
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="itemBox"
-        >
-          <h2>
-            Success button
-          </h2>
-          <button
-            class="btn btn-success"
-          >
-            Save
-          </button>
           <div
-            class="code-snippet"
+            class="itemBox"
           >
-            <div
-              class="code-snippet__container"
+            <h2>
+              Success button
+            </h2>
+            <button
+              class="btn btn-success"
             >
-              <pre>
-                <code
-                  class="language-html"
+              Save
+            </button>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-success"&gt;Sucess button&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
                 >
-                  &lt;button type="button" class="btn btn-success"&gt;Sucess button&lt;/button&gt;
-                </code>
-              </pre>
-              <div>
-                <button
-                  class="btn"
-                >
-                  Copy
-                </button>
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="itemBox"
-        >
-          <h2>
-            Danger button
-          </h2>
-          <button
-            class="btn btn-danger"
-          >
-            Delete
-          </button>
           <div
-            class="code-snippet"
+            class="itemBox"
           >
-            <div
-              class="code-snippet__container"
+            <h2>
+              Danger button
+            </h2>
+            <button
+              class="btn btn-danger"
             >
-              <pre>
-                <code
-                  class="language-html"
+              Delete
+            </button>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-danger"&gt;Danger button&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
                 >
-                  &lt;button type="button" class="btn btn-danger"&gt;Danger button&lt;/button&gt;
-                </code>
-              </pre>
-              <div>
-                <button
-                  class="btn"
-                >
-                  Copy
-                </button>
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="itemBox"
-        >
-          <h2>
-            Block level buttons
-          </h2>
-          <button
-            class="btn btn-primary btn-block"
-          >
-            Block level button
-          </button>
           <div
-            class="code-snippet"
+            class="itemBox"
           >
-            <div
-              class="code-snippet__container"
+            <h2>
+              Block level buttons
+            </h2>
+            <button
+              class="btn btn-primary btn-block"
             >
-              <pre>
-                <code
-                  class="language-html"
+              Block level button
+            </button>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-primary btn-block"&gt;Block level button&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
                 >
-                  &lt;button type="button" class="btn btn-primary btn-block"&gt;Block level button&lt;/button&gt;
-                </code>
-              </pre>
-              <div>
-                <button
-                  class="btn"
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn btn-secondary btn-block"
+            >
+              Block level button
+            </button>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-secondary btn-block"&gt;Block level button&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
                 >
-                  Copy
-                </button>
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <button
-            class="btn btn-secondary btn-block"
-          >
-            Block level button
-          </button>
           <div
-            class="code-snippet"
+            class="itemBox"
           >
-            <div
-              class="code-snippet__container"
+            <h2>
+              Disabled buttons
+            </h2>
+            <button
+              class="btn btn-primary"
+              disabled=""
             >
-              <pre>
-                <code
-                  class="language-html"
-                >
-                  &lt;button type="button" class="btn btn-secondary btn-block"&gt;Block level button&lt;/button&gt;
-                </code>
-              </pre>
-              <div>
-                <button
-                  class="btn"
-                >
-                  Copy
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="itemBox"
-        >
-          <h2>
-            Disabled buttons
-          </h2>
-          <button
-            class="btn btn-primary"
-            disabled=""
-          >
-            Primary button
-          </button>
-          <div
-            class="code-snippet"
-          >
+              Primary button
+            </button>
             <div
-              class="code-snippet__container"
+              class="code-snippet"
             >
-              <pre>
-                <code
-                  class="language-html"
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-primary" disabled&gt;Disabled button&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
                 >
-                  &lt;button type="button" class="btn btn-primary" disabled&gt;Disabled button&lt;/button&gt;
-                </code>
-              </pre>
-              <div>
-                <button
-                  class="btn"
-                >
-                  Copy
-                </button>
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
               </div>
             </div>
           </div>

@@ -44,7 +44,7 @@ export default props => {
         <pre>
           <code className="language-html">{snippet}</code>
         </pre>
-        <div ref={hoverRef}>
+        <div className="code-snippet__btn-container" ref={hoverRef}>
           <button className="btn" onClick={copyCodeToClipboard}>
             Copy
           </button>

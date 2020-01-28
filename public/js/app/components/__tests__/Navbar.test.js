@@ -187,7 +187,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/"
+                    href="/style/forms"
                   >
                     Forms
                   </a>

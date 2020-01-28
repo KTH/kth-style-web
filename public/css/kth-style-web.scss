@@ -5,9 +5,12 @@
 #app {
   width: 100%;
   padding: 15px 0;
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  grid-gap: 15px;
+
+  @media (min-width: 992px) {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 15px;
+  }
 }
 .mainContent {
   width: 100%;
@@ -22,14 +25,17 @@
 
 .itemBox {
   padding: 30px;
+  overflow: hidden;
 }
 
 .itemContainer {
-  display: grid;
-  grid-template-columns: 1fr;
-
-  grid-gap: 15px;
   margin-bottom: 2 * 15px;
+
+  @media (min-width: 992px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
 }
 
 .typographyItem {

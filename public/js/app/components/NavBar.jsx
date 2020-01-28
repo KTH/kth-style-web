@@ -85,7 +85,7 @@ export default () => {
                 </a>
               </li>
               <li className="nav-item leaf">
-                <a href="/style/" className="nav-link">
+                <a href="/style/forms" className="nav-link">
                   Forms
                 </a>
               </li>

@@ -141,7 +141,9 @@ test('Tables page snapshot', () => {
     &lt;/table&gt;
               </code>
             </pre>
-            <div>
+            <div
+              class="code-snippet__btn-container"
+            >
               <button
                 class="btn"
               >
