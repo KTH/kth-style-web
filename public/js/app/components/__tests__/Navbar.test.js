@@ -239,7 +239,7 @@ test('Navbar component includes typografi', () => {
             >
               <a
                 class="nav-link"
-                href="/style/"
+                href="/style/setup-guide"
               >
                 Använda kth-style
               </a>

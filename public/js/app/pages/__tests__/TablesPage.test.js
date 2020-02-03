@@ -109,7 +109,7 @@ test('Tables page snapshot', () => {
               <code
                 class="language-html"
               >
-                &lt;table className="table"&gt;
+                &lt;table class="table"&gt;
       &lt;thead&gt;
         &lt;tr&gt;
           &lt;th scope="col"&gt;#&lt;/th&gt;

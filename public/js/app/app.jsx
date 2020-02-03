@@ -20,6 +20,7 @@ import ButtonsPage from './pages/ButtonsPage'
 import CollapsePage from './pages/CollapsePage'
 import TablesPage from './pages/TablesPage'
 import FormsPage from './pages/FormsPage'
+import SetupGuidePage from './pages/SetupGuidePage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -38,6 +39,7 @@ function appFactory() {
         <Route exact path="/collapse" component={CollapsePage} />
         <Route exact path="/tables" component={TablesPage} />
         <Route exact path="/forms" component={FormsPage} />
+        <Route exact path="/setup-guide" component={SetupGuidePage} />
       </Switch>
     </Provider>
   )

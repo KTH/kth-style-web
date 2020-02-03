@@ -113,7 +113,7 @@ export default () => {
             </a>
           </li>
           <li className="nav-item node">
-            <a href="/style/" className="nav-link">
+            <a href="/style/setup-guide" className="nav-link">
               Använda kth-style
             </a>
           </li>

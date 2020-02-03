@@ -39,7 +39,7 @@ const Table = () => {
 }
 
 export const Main = props => {
-  const snippet = `<table className="table">
+  const snippet = `<table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>

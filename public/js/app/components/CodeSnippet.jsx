@@ -18,7 +18,7 @@ export default props => {
   const copyCodeToClipboard = () => {
     // Creating a temporary textarea element to be able to copy text to clipboard.
     let el = document.createElement('textarea')
-    el.value = snippet
+    el.value = snippet.replace('$', '')
     el.setAttribute('readonly', '')
     el.style = { position: 'absolute', left: '-9999px' }
     document.body.appendChild(el)
