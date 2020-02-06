@@ -21,6 +21,7 @@ import CollapsePage from './pages/CollapsePage'
 import TablesPage from './pages/TablesPage'
 import FormsPage from './pages/FormsPage'
 import SetupGuidePage from './pages/SetupGuidePage'
+import Breadcrumbs from './pages/BreadcrumbsPage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -40,6 +41,7 @@ function appFactory() {
         <Route exact path="/tables" component={TablesPage} />
         <Route exact path="/forms" component={FormsPage} />
         <Route exact path="/setup-guide" component={SetupGuidePage} />
+        <Route exact path="/breadcrumbs" component={Breadcrumbs} />
       </Switch>
     </Provider>
   )

@@ -24,6 +24,9 @@ test('Collapse page snapshot', () => {
           <h1>
             Collapse with hooks
           </h1>
+          <p>
+            This example is based on bootstrap Collapse. To get the same functionality you have to install bootstrap and jquery. To toggle the visibility of the collapse, bootstrap uses jquery toggle the class "show" and also to toggle the value of aria-expanded attribute on the a-tag. If you dont want to use jquery in your project you have to add your own javascript to handle the visibility.
+          </p>
           <div
             class="card collapsible blue  undefined"
           >
@@ -37,6 +40,42 @@ test('Collapse page snapshot', () => {
               >
                 hooks-test
               </a>
+            </div>
+          </div>
+          <h2>
+            With bootstrap and jquery:
+          </h2>
+          <div
+            class="code-snippet"
+          >
+            <div
+              class="code-snippet__container"
+            >
+              <pre>
+                <code
+                  class="language-html"
+                >
+                  &lt;div class="card collapsible blue undefined"&gt;
+      &lt;div class="card-header"&gt;
+        &lt;a aria-expanded="false" href="#collapseExample" aria-controls="collapseExample" load="false" data-toggle="collapse"&gt;hooks-test&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="collapse" id="collapseExample"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;div&gt;Lorem ipsum&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+                </code>
+              </pre>
+              <div
+                class="code-snippet__btn-container"
+              >
+                <button
+                  class="btn"
+                >
+                  Copy
+                </button>
+              </div>
             </div>
           </div>
         </div>

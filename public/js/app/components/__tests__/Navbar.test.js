@@ -177,6 +177,16 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
+                    href="/style/breadcrumbs"
+                  >
+                    Breadcrumbs
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
                     href="/style/collapse"
                   >
                     Collapse

@@ -78,7 +78,11 @@ export default () => {
                   Alerts
                 </a>
               </li>
-
+              <li className="nav-item leaf">
+                <a href="/style/breadcrumbs" className="nav-link">
+                  Breadcrumbs
+                </a>
+              </li>
               <li className="nav-item leaf">
                 <a href="/style/collapse" className="nav-link">
                   Collapse
