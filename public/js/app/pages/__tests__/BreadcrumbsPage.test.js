@@ -67,13 +67,13 @@ test('Breadcrumbs page snapshot', () => {
                 &lt;nav id="breadcrumbs" aria-label="breadcrumb"&gt;
       &lt;ol class="breadcrumb"&gt;
         &lt;li class="breadcrumb-item"&gt;
-        &lt;a href="#"&gt;Home&lt;/a&gt;
+          &lt;a href="#"&gt;Home&lt;/a&gt;
         &lt;/li&gt;
         &lt;li class="breadcrumb-item"&gt;
-        &lt;a href="#"&gt;Library&lt;/a&gt;
+          &lt;a href="#"&gt;Library&lt;/a&gt;
         &lt;/li&gt;
         &lt;li class="breadcrumb-item active" aria-current="page"&gt;
-        Data
+          Data
         &lt;/li&gt;
       &lt;/ol&gt;
     &lt;/nav&gt;

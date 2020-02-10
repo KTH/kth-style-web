@@ -43,5 +43,25 @@
   flex-direction: column;
 }
 
+.alert {
+  &.alert-success,
+  &.alert-danger,
+  &.alert-info {
+    width: 100%;
+    margin: 0 0 50px;
+
+    padding: 0.5rem 1rem 0.5rem 3rem;
+    min-height: 0;
+
+    color: #000;
+
+    &:before {
+      width: 1em;
+      top: 0.15em;
+    }
+  }
+}
+
 @import './NavBar.scss';
 @import './CodeSnippet.scss';
+@import './Tabs.scss';

@@ -27,13 +27,13 @@ export const Main = props => {
         snippet={`<nav id="breadcrumbs" aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
-    <a href="#">Home</a>
+      <a href="#">Home</a>
     </li>
     <li class="breadcrumb-item">
-    <a href="#">Library</a>
+      <a href="#">Library</a>
     </li>
     <li class="breadcrumb-item active" aria-current="page">
-    Data
+      Data
     </li>
   </ol>
 </nav>`}
