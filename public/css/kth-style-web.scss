@@ -49,15 +49,26 @@
   &.alert-info {
     width: 100%;
     margin: 0 0 50px;
-
-    padding: 0.5rem 1rem 0.5rem 3rem;
+    font-size: 1rem;
+    border: none;
+    padding: 20px 20px 20px 60px;
     min-height: 0;
-
     color: #000;
 
     &:before {
       width: 1em;
-      top: 0.15em;
+      top: 15px;
+      left: 20px;
+    }
+
+    @media (min-width: 768px) {
+      padding: 30px 30px 30px 70px;
+
+      &:before {
+        width: 1em;
+        top: 25px;
+        left: 30px;
+      }
     }
   }
 }
