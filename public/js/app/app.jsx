@@ -23,7 +23,7 @@ import FormsPage from './pages/FormsPage'
 import SetupGuidePage from './pages/SetupGuidePage'
 import Breadcrumbs from './pages/BreadcrumbsPage'
 import Alerts from './pages/AlertsPage'
-// import Tabs from './pages/TabsPage'
+import Tabs from './pages/TabsPage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -45,7 +45,7 @@ function appFactory() {
         <Route exact path="/setup-guide" component={SetupGuidePage} />
         <Route exact path="/breadcrumbs" component={Breadcrumbs} />
         <Route exact path="/alerts" component={Alerts} />
-        {/* <Route exact path="/tabs" component={Tabs} /> */}
+        <Route exact path="/tabs" component={Tabs} />
       </Switch>
     </Provider>
   )

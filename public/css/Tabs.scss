@@ -1,0 +1,156 @@
+// @import '../../node_modules/kth-style/public/sass/variables/colors';
+
+// // Move the styling to kth-style
+
+// .tab-bar-container {
+//   margin-left: 0;
+//   margin-right: 0;
+//   border-bottom: 1px solid $borderGrey;
+//   flex-direction: column-reverse;
+
+//   @media (min-width: 992px) {
+//     flex-direction: row;
+//   }
+
+//   & > .col {
+//     padding: 0;
+
+//     @media (min-width: 768px) {
+//       padding: 0 15px;
+//       padding-left: 0;
+//     }
+
+//     &:last-of-type {
+//       padding-right: 0;
+//     }
+//   }
+
+//   .col {
+//     margin-bottom: -1px;
+//     max-width: 100%;
+//   }
+
+//   // .nav {
+//   //   &.nav-tabs {
+//   //     .nav-item {
+//   //       &.error {
+//   //         .nav-link {
+//   //           border: 1px solid #e01f28;
+//   //         }
+//   //       }
+//   //     }
+//   //   }
+//   // }
+
+//   .nav {
+//     &.nav-tabs {
+//       overflow-y: hidden;
+//       flex-wrap: nowrap;
+
+//       @media (min-width: 992px) {
+//         overflow: initial;
+//         flex-wrap: nowrap;
+//       }
+
+//       & > li {
+//         margin-bottom: 0;
+//       }
+
+//       .nav-link {
+//         font-size: 1rem;
+//         margin-right: 5px;
+//         border-style: solid;
+//         border-color: $borderGrey;
+//         background-color: $lightGrey;
+//         cursor: pointer;
+//         padding: 8px 20px 8px 20px;
+//         position: relative;
+//         top: 5px;
+//         color: $black;
+//         white-space: nowrap;
+
+//         &.active {
+//           background-color: $white;
+//           font-weight: 700;
+//           border-bottom: 1px solid $white;
+//           padding: 13px 20px 8px 20px;
+//           top: 0;
+//         }
+//       }
+//     }
+//     // &.nav-links {
+//     //   @media (min-width: 992px) {
+//     //     justify-content: flex-end;
+//     //   }
+
+//     //   .nav-link {
+//     //     position: relative;
+//     //     padding: 0.5rem 1.6rem 0.5rem 1.5rem;
+//     //     margin-right: 0;
+
+//     //     &:last-of-type {
+//     //       padding: 0.5rem 0;
+//     //     }
+
+//     //     &.tab-bar-help {
+//     //       padding-left: $gutter;
+//     //     }
+
+//     //     &.tab-bar-help:after {
+//     //       content: '';
+//     //       position: relative;
+//     //       left: 6px;
+//     //       top: 0;
+//     //       height: 14px;
+//     //       display: inline-block;
+//     //       // background: url('/form/static/kth-style/img/kth-style/icons/external-link.svg') no-repeat center center;
+//     //       background-size: contain;
+//     //       margin-bottom: -1px;
+//     //       width: 14px;
+//     //       margin-right: 6px;
+//     //     }
+
+//     //     &.tab-bar-list {
+//     //       margin-right: 0;
+//     //       padding-right: $gutter;
+//     //       padding-left: 0;
+
+//     //       @media (min-width: 992px) {
+//     //         padding-left: $gutter;
+//     //       }
+//     //     }
+
+//     //     &.tab-bar-answer {
+//     //       padding-left: $gutter;
+//     //       padding-right: 19px; // To compensate for the external link icon.
+//     //     }
+
+//     //     &.tab-bar-answer:after {
+//     //       content: '';
+//     //       position: relative;
+//     //       left: 6px;
+//     //       top: 0;
+//     //       height: 14px;
+//     //       display: inline-block;
+//     //       // background: url('/form/static/kth-style/img/kth-style/icons/external-link.svg') no-repeat center center;
+//     //       background-size: contain;
+//     //       margin-bottom: -1px;
+//     //       width: 14px;
+//     //     }
+//     //   }
+//     // }
+//   }
+// }
+// .tab-content {
+//   border: 1px solid $borderGrey;
+//   border-top: none;
+
+//   .tab-pane {
+//     padding: 20px;
+//   }
+// }
+
+// // -- KTH Style override
+// .tab-content .tab-pane {
+//   border: none;
+// }
