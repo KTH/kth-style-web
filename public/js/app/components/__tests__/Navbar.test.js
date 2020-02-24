@@ -102,7 +102,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/buttons"
+                    href="/style/links"
                   >
                     Länkar
                   </a>

@@ -24,6 +24,7 @@ import SetupGuidePage from './pages/SetupGuidePage'
 import Breadcrumbs from './pages/BreadcrumbsPage'
 import Alerts from './pages/AlertsPage'
 import Tabs from './pages/TabsPage'
+import Links from './pages/LinksPage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -46,6 +47,7 @@ function appFactory() {
         <Route exact path="/breadcrumbs" component={Breadcrumbs} />
         <Route exact path="/alerts" component={Alerts} />
         <Route exact path="/tabs" component={Tabs} />
+        <Route exact path="/links" component={Links} />
       </Switch>
     </Provider>
   )

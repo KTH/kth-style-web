@@ -42,7 +42,7 @@ export default () => {
                 </a>
               </li>
               <li className="nav-item leaf">
-                <a href="/style/buttons" className="nav-link">
+                <a href="/style/links" className="nav-link">
                   Länkar
                 </a>
               </li>
