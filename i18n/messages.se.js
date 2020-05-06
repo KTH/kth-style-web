@@ -37,6 +37,6 @@ module.exports = {
     page_kth_style_index: 'Start',
     page_kth_style_colors: 'Färger',
     page_kth_style_icons: 'Ikoner',
-    page_kth_style_buttons: 'Knappar'
-  }
+    page_kth_style_buttons: 'Knappar',
+  },
 }

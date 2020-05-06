@@ -1,6 +1,5 @@
 'use strict'
 
-const api = require('../api')
 const log = require('kth-node-log')
 
 const { toJS } = require('mobx')
@@ -58,9 +57,9 @@ async function getIndex(req, res, next) {
       description: 'Style',
       breadcrumbsPath: [
         {
-          label: `${i18n.message(pagePath)}`
-        }
-      ]
+          label: `${i18n.message(pagePath)}`,
+        },
+      ],
     })
   } catch (err) {
     log.error('Error in getIndex', { error: err })
@@ -69,5 +68,5 @@ async function getIndex(req, res, next) {
 }
 
 module.exports = {
-  getIndex
+  getIndex,
 }

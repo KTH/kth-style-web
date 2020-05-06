@@ -7,13 +7,7 @@
  * *************************************************
  *
  */
-const {
-  getEnv,
-  devDefaults,
-  unpackLDAPConfig,
-  unpackRedisConfig,
-  unpackNodeApiConfig
-} = require('kth-node-configuration')
+const { getEnv, devDefaults, unpackLDAPConfig, unpackRedisConfig } = require('kth-node-configuration')
 const { typeConversion } = require('kth-node-configuration/lib/utils')
 const { safeGet } = require('safe-utils')
 
@@ -21,7 +15,6 @@ const { safeGet } = require('safe-utils')
 const devPort = devDefaults(3000)
 const devSsl = devDefaults(false)
 const devUrl = devDefaults('http://localhost:' + devPort)
-const devInnovationApi = devDefaults('http://localhost:3001/api/node?defaultTimeout=10000') // required=true&
 const devSessionKey = devDefaults('node-web.sid')
 const devSessionUseRedis = devDefaults(true)
 const devRedis = devDefaults('redis://localhost:6379/')
@@ -42,7 +35,7 @@ const ldapOptions = {
   reconnectTime: typeConversion(getEnv('LDAP_IDLE_RECONNECT_INTERVAL', null)),
   reconnectOnIdle: getEnv('LDAP_IDLE_RECONNECT_INTERVAL', null) !== null,
   connecttimeout: typeConversion(getEnv('LDAP_CONNECT_TIMEOUT', null)),
-  searchtimeout: typeConversion(getEnv('LDAP_SEARCH_TIMEOUT', null))
+  searchtimeout: typeConversion(getEnv('LDAP_SEARCH_TIMEOUT', null)),
 }
 
 Object.keys(ldapOptions).forEach(key => {
@@ -58,20 +51,20 @@ module.exports = {
   ssl: {
     // In development we don't have SSL feature enabled
     pfx: getEnv('SERVER_CERT_FILE', ''),
-    passphrase: getEnv('SERVER_CERT_PASSPHRASE', '')
+    passphrase: getEnv('SERVER_CERT_PASSPHRASE', ''),
   },
 
   // API keys
   apiKey: {
-    nodeApi: getEnv('NODE_API_KEY', devDefaults('1234'))
+    nodeApi: getEnv('NODE_API_KEY', devDefaults('1234')),
   },
 
   // Authentication
   auth: {
-    adminGroup: 'app.node.admin'
+    adminGroup: 'app.node.admin',
   },
   cas: {
-    ssoBaseURL: getEnv('CAS_SSO_URI', devSsoBaseURL)
+    ssoBaseURL: getEnv('CAS_SSO_URI', devSsoBaseURL),
   },
   ldap: unpackLDAPConfig('LDAP_URI', getEnv('LDAP_PASSWORD'), devLdap, ldapOptions),
 
@@ -82,25 +75,25 @@ module.exports = {
 
   // Cortina
   blockApi: {
-    blockUrl: getEnv('CM_HOST_URL', devDefaults('https://www-r.referens.sys.kth.se/cm/')) // Block API base URL
+    blockUrl: getEnv('CM_HOST_URL', devDefaults('https://www-r.referens.sys.kth.se/cm/')), // Block API base URL
   },
 
   // Logging
   logging: {
     log: {
-      level: getEnv('LOGGING_LEVEL', 'debug')
+      level: getEnv('LOGGING_LEVEL', 'debug'),
     },
     accessLog: {
-      useAccessLog: getEnv('LOGGING_ACCESS_LOG', true)
-    }
+      useAccessLog: getEnv('LOGGING_ACCESS_LOG', true),
+    },
   },
   clientLogging: {
-    level: 'debug'
+    level: 'debug',
   },
   cache: {
     cortinaBlock: {
-      redis: unpackRedisConfig('REDIS_URI', devRedis)
-    }
+      redis: unpackRedisConfig('REDIS_URI', devRedis),
+    },
   },
 
   // Session
@@ -111,10 +104,10 @@ module.exports = {
     sessionOptions: {
       // do not set session secret here!!
       cookie: {
-        secure: safeGet(() => getEnv('SESSION_SECURE_COOKIE', false) === 'true')
+        secure: safeGet(() => getEnv('SESSION_SECURE_COOKIE', false) === 'true'),
       },
-      proxy: safeGet(() => getEnv('SESSION_TRUST_PROXY', true) === 'true')
+      proxy: safeGet(() => getEnv('SESSION_TRUST_PROXY', true) === 'true'),
     },
-    redisOptions: unpackRedisConfig('REDIS_URI', devRedis)
-  }
+    redisOptions: unpackRedisConfig('REDIS_URI', devRedis),
+  },
 }

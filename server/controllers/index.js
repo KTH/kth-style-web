@@ -7,5 +7,5 @@
 
 module.exports = {
   System: require('./systemCtrl'),
-  KthStyle: require('./StyleCtrl')
+  KthStyle: require('./StyleCtrl'),
 }
