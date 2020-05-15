@@ -16,7 +16,7 @@
   #navbarNav.collapse.navbar-collapse
   ul.nav.nav-list.expandable
   li.nav-item.node.expanded {
-  background: $data-arrow-black-down-svg no-repeat 100%;
+  background: url(../../node_modules/kth-style/dist/img/kth-style/icons/arrow-black-down.svg) no-repeat 100%;
   background-size: 14px 14px;
   background-position: 100% 14px;
 }
