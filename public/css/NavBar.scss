@@ -1,10 +1,22 @@
-.NavBar {
-  max-width: 300px;
-  border: 1px solid blue;
-  ul {
-    padding-left: 15px;
-    ul {
-      padding-left: 15px;
-    }
-  }
+// .NavBar {
+//   max-width: 300px;
+//   border: 1px solid blue;
+//   ul {
+//     padding-left: 15px;
+//     ul {
+//       padding-left: 15px;
+//     }
+//   }
+// }
+
+// This should not be needed but of some reason it does not work without - 2020-05-15 wk
+@import '../../node_modules/kth-style/public/sass/variables/_svg_data';
+
+#mainMenu.col.navbar.navbar-expand-lg.navbar-light
+  #navbarNav.collapse.navbar-collapse
+  ul.nav.nav-list.expandable
+  li.nav-item.node.expanded {
+  background: $data-arrow-black-down-svg no-repeat 100%;
+  background-size: 14px 14px;
+  background-position: 100% 14px;
 }
