@@ -22,7 +22,7 @@ test('Icons page snapshot', () => {
           Icons
         </h1>
         <div
-          class="itemContainer"
+          class="gridItemContainer"
         >
           <div>
             <div

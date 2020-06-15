@@ -13,7 +13,7 @@ const ItemBox = props => {
     backgroundRepeat: 'no-repeat',
     backgroundColor: isWhite ? '#65656c' : '',
     width: 'fit-content',
-    backgroundPosition: 'center'
+    backgroundPosition: 'center',
   }
   return (
     <div>
@@ -106,7 +106,7 @@ export const Main = props => {
     { displayName: 'KTH_Logotyp_RGB_2013-2.svg', url: 'KTH_Logotyp_RGB_2013-2.svg' },
     { displayName: 'Quotation-mark.png', url: 'quotation-mark.png' },
     { displayName: 'Search-icon.svg', url: 'search-icon.svg', isWhite: true },
-    { displayName: 'Select-arrow.png', url: 'select-arrow.png' }
+    { displayName: 'Select-arrow.png', url: 'select-arrow.png' },
   ]
 
   const itemsPane = items.map(item => (
@@ -115,7 +115,7 @@ export const Main = props => {
   return (
     <div className="mainContent">
       <h1>Icons</h1>
-      <div className="itemContainer">{itemsPane}</div>
+      <div className="gridItemContainer">{itemsPane}</div>
     </div>
   )
 }

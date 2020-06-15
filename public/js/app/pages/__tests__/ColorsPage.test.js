@@ -22,7 +22,7 @@ test('Colors component includes colors', () => {
           Colors
         </h1>
         <div
-          class="itemContainer"
+          class="gridItemContainer"
         >
           <div
             class="itemBox"
@@ -35,7 +35,6 @@ test('Colors component includes colors', () => {
               $grey
             </div>
             <div>
-               
               #65656c
             </div>
           </div>
@@ -50,7 +49,6 @@ test('Colors component includes colors', () => {
               $lightGrey
             </div>
             <div>
-               
               #f6f6f6
             </div>
           </div>
@@ -65,7 +63,6 @@ test('Colors component includes colors', () => {
               $borderGrey
             </div>
             <div>
-               
               #d4d4d4
             </div>
           </div>
@@ -80,7 +77,6 @@ test('Colors component includes colors', () => {
               $blue
             </div>
             <div>
-               
               #007fae
             </div>
           </div>
@@ -95,7 +91,6 @@ test('Colors component includes colors', () => {
               $linkBlue
             </div>
             <div>
-               
               #006cb7
             </div>
           </div>
@@ -110,7 +105,6 @@ test('Colors component includes colors', () => {
               $blueHover
             </div>
             <div>
-               
               #006388
             </div>
           </div>
@@ -125,7 +119,6 @@ test('Colors component includes colors', () => {
               $pink
             </div>
             <div>
-               
               #d02f80
             </div>
           </div>
@@ -140,7 +133,6 @@ test('Colors component includes colors', () => {
               $green
             </div>
             <div>
-               
               #62922e
             </div>
           </div>
@@ -155,7 +147,6 @@ test('Colors component includes colors', () => {
               $greenHover
             </div>
             <div>
-               
               #4e7425
             </div>
           </div>
@@ -170,23 +161,7 @@ test('Colors component includes colors', () => {
               $infoGreen
             </div>
             <div>
-               
               #dff0d8
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(214, 233, 198);"
-            />
-            <div>
-              $infoGreenBorder
-            </div>
-            <div>
-               
-              #d6e9c6
             </div>
           </div>
           <div
@@ -200,7 +175,6 @@ test('Colors component includes colors', () => {
               $red
             </div>
             <div>
-               
               #e01f28
             </div>
           </div>
@@ -215,23 +189,7 @@ test('Colors component includes colors', () => {
               $infoRed
             </div>
             <div>
-               
               #f2dede
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(235, 204, 209);"
-            />
-            <div>
-              $infoRedBorder
-            </div>
-            <div>
-               
-              #ebccd1
             </div>
           </div>
           <div
@@ -245,7 +203,6 @@ test('Colors component includes colors', () => {
               $lightRedHover
             </div>
             <div>
-               
               #ca1c24
             </div>
           </div>
@@ -260,7 +217,6 @@ test('Colors component includes colors', () => {
               $infoYellow
             </div>
             <div>
-               
               #fcf8e3
             </div>
           </div>
@@ -275,23 +231,7 @@ test('Colors component includes colors', () => {
               $infoYellowIcon
             </div>
             <div>
-               
               #fab919
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(250, 235, 204);"
-            />
-            <div>
-              $infoYellowBorder
-            </div>
-            <div>
-               
-              #faebcc
             </div>
           </div>
           <div
@@ -305,7 +245,6 @@ test('Colors component includes colors', () => {
               $black
             </div>
             <div>
-               
               #000
             </div>
           </div>
@@ -320,7 +259,6 @@ test('Colors component includes colors', () => {
               $white
             </div>
             <div>
-               
               #fff
             </div>
           </div>
