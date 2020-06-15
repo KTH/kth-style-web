@@ -6,7 +6,39 @@ import NavBar from '../components/NavBar'
 export const Main = props => {
   return (
     <div className="mainContent">
-      <h1>KTH style web app</h1>
+      <h1>KTH Style Web</h1>
+      <h2>Syftet med denna webblplats</h2>
+      <p>
+        Denna applikation kallas <i>kth-style-web</i> eller <i>KTH Style Guide</i> och är ett hjälpmedel för oss som
+        jobbar med utveckling av webbappliaktioner på KTH. Den bygger sitt utseende och form på paketet{' '}
+        <a href="https://github.com/KTH/kth-style/" alt="kth-style-paketet på Github">
+          kth-style
+        </a>{' '}
+        . Syftet är att snabba upp utvecklingen, skapa enhetlighet mellan applikationer samt underlätta form- och
+        UX-arbete.
+      </p>
+      <p>
+        Till vänster i menyn hittar du formelement som färger och typografi samt form för olika komponenter. Tanken är
+        att tillhandahålla det som är gemensamt för de flesta av våra applikationer och alltså inte all färg och form
+        för alla tänkbara komponenter och applikationsspecifika delar.{' '}
+      </p>
+      <h3>Relaterade projekt</h3>
+      <p>
+        Github:{' '}
+        <a href="https://github.com/KTH/kth-style-web/" alt="kth-style-paketet på Github">
+          kth-style-web
+        </a>
+        <br></br>
+        Github:{' '}
+        <a href="https://github.com/KTH/kth-style/" alt="kth-style-paketet på Github">
+          kth-style
+        </a>
+        <br></br>
+        Github:{' '}
+        <a href="https://github.com/KTH/kth-style-react-components" alt="kth-style-react-components-paketet på Github">
+          kth-style-react-components
+        </a>
+      </p>
     </div>
   )
 }
