@@ -1,52 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>KTH | {{ title }}</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="{{ description }}" />
-    <link rel="shortcut icon" id="favicon" href="/style/static/icon/favicon" />
 
-    {{#if canonicalUrl}}
-    <link href="{{ canonicalUrl }}" rel="canonical" />
-    {{/if}}
+<head>
+  <title>KTH | {{ title }}</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ description }}" />
+  <link rel="shortcut icon" id="favicon" href="/style/static/icon/favicon" />
 
-    {{prefixStyle '/static/kth-style/css/kth-bootstrap.min.css' 'styles' 'screen'}}
-    {{prefixStyle '/static/app.css' 'styles' 'screen'}}
+  {{#if canonicalUrl}}
+  <link href="{{ canonicalUrl }}" rel="canonical" />
+  {{/if}}
 
-    {{{render 'styles'
+  {{prefixStyle '/static/kth-style/css/kth-bootstrap.css' 'styles' 'screen'}}
+  {{prefixStyle '/static/app.css' 'styles' 'screen'}}
 
-    }}}
+  {{{render 'styles'}}}
 
-    {{prefixScript '/static/vendor.js' 'head-scripts'}}
-    {{prefixScript '/static/browserConfig' 'head-scripts'}}
-    {{prefixScript '/static/kth-style/js/menus.min.js' 'head-scripts'}}
-    {{prefixScript '/static/kth-style/js/backtotop.min.js' 'head-scripts'}}
+  {{prefixScript '/static/vendor.js' 'head-scripts'}}
+  {{prefixScript '/static/browserConfig' 'head-scripts'}}
+  {{prefixScript '/static/kth-style/js/menus.js' 'head-scripts'}}
+  {{prefixScript '/static/kth-style/js/backtotop.js' 'head-scripts'}}
 
-    {{#extend 'head-scripts'}}
-    <script src="//www.kth.se/social/toolbar/widget.js"></script>
-    <!-- analytics start -->
-    {{{blocks.analytics
+  {{#extend 'head-scripts'}}
+  <script src="//www.kth.se/social/toolbar/widget.js"></script>
 
-    }}}
-    <!-- analytics end -->
-    {{/extend}}
+  <!-- analytics start -->
+  {{{blocks.analytics}}}
+  <!-- analytics end -->
+  {{/extend}}
 
-    {{#if debug}}
-    {{prefixScript '/static/js/lib/firebug-lite/build/firebug-lite.js' 'head-scripts'}}
-    {{/if}}
+  {{{render 'head-scripts'}}}
+</head>
 
-    {{{render 'head-scripts'
+<body>
+  {{> kthHeader }}
+  <div class="container main">
+    <div class="row">{{{body}}}</div>
+  </div>
+  {{> kthFooter }}
+  {{{render 'scripts'}}}
+</body>
 
-    }}}
-  </head>
-  <body>
-    {{> kthHeader }}
-    <div class="container main">
-      <div class="row">{{{body}}}</div>
-    </div>
-    {{> kthFooter }}
-    {{{render 'scripts'}}}
-  </body>
 </html>
