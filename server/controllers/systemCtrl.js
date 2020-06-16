@@ -35,8 +35,8 @@ function _getFriendlyErrorMessage(lang, statusCode) {
   }
 }
 
-// this function must keep this signature for it to work properly
-function _final(err, req, res) {
+// this function must keep this signature for it to work properly, next param is needed.
+function _final(err, req, res, next) {
   switch (err.status) {
     case 403:
       log.info({ err }, `403 Forbidden ${err.message}`)
