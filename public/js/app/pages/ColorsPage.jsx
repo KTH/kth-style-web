@@ -16,40 +16,63 @@ const ColorBox = props => {
     </div>
   )
 }
+
 export const Main = props => {
-  const colors = [
+  const bgColorsWithWhitText = [
     { displayName: '$grey', code: '#65656c' },
-    { displayName: '$lightGrey', code: '#f6f6f6' },
-    { displayName: '$borderGrey', code: '#d4d4d4' },
-
     { displayName: '$blue', code: '#007fae' },
-    { displayName: '$linkBlue', code: '#006cb7' },
     { displayName: '$blueHover', code: '#006388' },
-
-    { displayName: '$pink', code: '#d02f80' },
-
     { displayName: '$green', code: '#62922e' },
     { displayName: '$greenHover', code: '#4e7425' },
-    { displayName: '$infoGreen', code: '#dff0d8' },
-
     { displayName: '$red', code: '#e01f28' },
-    { displayName: '$infoRed', code: '#f2dede' },
-    { displayName: '$lightRedHover', code: '#ca1c24' },
-
-    { displayName: '$infoYellow', code: '#fcf8e3' },
+    { displayName: '$redHover', code: '#8e0b18' },
     { displayName: '$infoYellowIcon', code: '#fab919' },
+    { displayName: '$pink', code: '#d02f80' },
+  ]
 
+  const bgColorsWithBlackText = [
+    { displayName: '$white', code: '#fff' },
+    { displayName: '$lightGrey', code: '#f6f6f6' },
+    { displayName: '$infoGreen', code: '#dff0d8' },
+    { displayName: '$infoRed', code: '#f2dede' },
+    { displayName: '$infoYellow', code: '#fcf8e3' },
+  ]
+
+  const textColors = [
+    { displayName: '$linkBlue', code: '#006cb7' },
     { displayName: '$black', code: '#000' },
-
     { displayName: '$white', code: '#fff' },
   ]
-  const colorsPane = colors.map(color => (
+
+  const borderColors = [{ displayName: '$borderGrey', code: '#d4d4d4' }]
+
+  const bgColorsWithWhiteTextPane = bgColorsWithWhitText.map(color => (
     <ColorBox displayName={color.displayName} key={color.displayName} code={color.code} />
   ))
+
+  const bgColorsWithBlackTextPane = bgColorsWithBlackText.map(color => (
+    <ColorBox displayName={color.displayName} key={color.displayName} code={color.code} />
+  ))
+
+  const textColorsPane = textColors.map(color => (
+    <ColorBox displayName={color.displayName} key={color.displayName} code={color.code} />
+  ))
+
+  const borderColorsPane = borderColors.map(color => (
+    <ColorBox displayName={color.displayName} key={color.displayName} code={color.code} />
+  ))
+
   return (
     <div className="mainContent">
-      <h1>Colors</h1>
-      <div className="gridItemContainer">{colorsPane}</div>
+      <h1>Färger</h1>
+      <h2>Bakgrundsfärger med vit text</h2>
+      <div className="gridItemContainer">{bgColorsWithWhiteTextPane}</div>
+      <h2>Bakgrundsfärger med svart text</h2>
+      <div className="gridItemContainer">{bgColorsWithBlackTextPane}</div>
+      <h2>Textfärger</h2>
+      <div className="gridItemContainer">{textColorsPane}</div>
+      <h2>Kantfärger</h2>
+      <div className="gridItemContainer">{borderColorsPane}</div>
     </div>
   )
 }
