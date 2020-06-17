@@ -169,7 +169,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/alerts"
                   >
-                    Alerts
+                    Meddelanderutor (Alerts)
                   </a>
                 </li>
                 <li
@@ -179,7 +179,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/breadcrumbs"
                   >
-                    Breadcrumbs
+                    Brödsmulor
                   </a>
                 </li>
                 <li
@@ -199,7 +199,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/forms"
                   >
-                    Forms
+                    Formulär
                   </a>
                 </li>
                 <li
@@ -209,7 +209,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/"
                   >
-                    Modal
+                    Modaler
                   </a>
                 </li>
                 <li
@@ -219,7 +219,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/"
                   >
-                    Navbar
+                    Navigering
                   </a>
                 </li>
                 <li
@@ -229,7 +229,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/tabs"
                   >
-                    Tabs
+                    Tabbar
                   </a>
                 </li>
               </ul>
@@ -251,7 +251,7 @@ test('Navbar component includes typografi', () => {
                 class="nav-link"
                 href="/style/setup-guide"
               >
-                Använda kth-style
+                Använda kth-style i sitt projekt
               </a>
             </li>
           </ul>

@@ -75,12 +75,12 @@ export default () => {
             <ul id="leftmenu-div-2" className="nav nav-list">
               <li className="nav-item leaf">
                 <a href="/style/alerts" className="nav-link">
-                  Alerts
+                  Meddelanderutor (Alerts)
                 </a>
               </li>
               <li className="nav-item leaf">
                 <a href="/style/breadcrumbs" className="nav-link">
-                  Breadcrumbs
+                  Brödsmulor
                 </a>
               </li>
               <li className="nav-item leaf">
@@ -90,23 +90,23 @@ export default () => {
               </li>
               <li className="nav-item leaf">
                 <a href="/style/forms" className="nav-link">
-                  Forms
+                  Formulär
                 </a>
               </li>
               <li className="nav-item leaf">
                 <a href="/style/" className="nav-link">
-                  Modal
+                  Modaler
                 </a>
               </li>
               <li className="nav-item leaf">
                 <a href="/style/" className="nav-link">
-                  Navbar
+                  Navigering
                 </a>
               </li>
 
               <li className="nav-item leaf">
                 <a href="/style/tabs" className="nav-link">
-                  Tabs
+                  Tabbar
                 </a>
               </li>
             </ul>
@@ -118,7 +118,7 @@ export default () => {
           </li>
           <li className="nav-item node">
             <a href="/style/setup-guide" className="nav-link">
-              Använda kth-style
+              Använda kth-style i sitt projekt
             </a>
           </li>
         </ul>
