@@ -19,8 +19,11 @@ test('Setup guide page snapshot', () => {
         class="mainContent"
       >
         <h1>
-          Använda KTH-style
+          How to use KTH Style in your project
         </h1>
+        <p>
+          The tecnical documentation is written in english.
+        </p>
         <p>
           To use KTH-style in a Node.JS project you can look at the node template project
            
@@ -58,6 +61,9 @@ test('Setup guide page snapshot', () => {
             </div>
           </div>
         </div>
+        <p>
+          This will add the kth-style package to your dependencies in you package.json file and into the node_modules folder.
+        </p>
         <h2>
           Serving static files
         </h2>
@@ -166,8 +172,62 @@ test('Setup guide page snapshot', () => {
           </div>
         </div>
         <p>
-          Remember to place the import above your own project stylesheet imports.
+          Remember to place the import above your own project stylesheet imports to be able to override necessary elements.
         </p>
+        <h2>
+          Linking to static resouces from kth-style package
+        </h2>
+        <p>
+          If you just want to reference to resourses in the node_modules package you can do that as well. This is examples from scss files.
+        </p>
+        <div
+          class="code-snippet"
+        >
+          <div
+            class="code-snippet__container"
+          >
+            <pre>
+              <code
+                class="language-html"
+              >
+                @import '../../node_modules/kth-style/public/sass/variables/fonts';
+              </code>
+            </pre>
+            <div
+              class="code-snippet__btn-container"
+            >
+              <button
+                class="btn"
+              >
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="code-snippet"
+        >
+          <div
+            class="code-snippet__container"
+          >
+            <pre>
+              <code
+                class="language-html"
+              >
+                background-image: url(../../node_modules/kth-style/dist/img/kth-style/icons/arrow-black-left.svg);
+              </code>
+            </pre>
+            <div
+              class="code-snippet__btn-container"
+            >
+              <button
+                class="btn"
+              >
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   `)
