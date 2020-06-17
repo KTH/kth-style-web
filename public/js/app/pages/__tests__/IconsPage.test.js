@@ -19,18 +19,22 @@ test('Icons page snapshot', () => {
         class="mainContent"
       >
         <h1>
-          Icons
+          Ikoner
         </h1>
         <div
           class="gridItemContainer"
         >
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/alert-attention.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/alert-attention.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Alert-Attention.svg
+            <div
+              class="displayName"
+            >
+              alert-attention.svg
             </div>
             <div
               class="code-snippet"
@@ -57,13 +61,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/alert-info.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/alert-info.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Alert-info.svg
+            <div
+              class="displayName"
+            >
+              alert-info.svg
             </div>
             <div
               class="code-snippet"
@@ -90,13 +98,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/alert-success.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/alert-success.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Alert-success.svg
+            <div
+              class="displayName"
+            >
+              alert-success.svg
             </div>
             <div
               class="code-snippet"
@@ -123,13 +135,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-black-down.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-black-down.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-black-down.svg
+            <div
+              class="displayName"
+            >
+              arrow-black-down.svg
             </div>
             <div
               class="code-snippet"
@@ -156,13 +172,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-black-left.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-black-left.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-black-left.svg
+            <div
+              class="displayName"
+            >
+              arrow-black-left.svg
             </div>
             <div
               class="code-snippet"
@@ -189,13 +209,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-black-right.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-black-right.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-black-right.svg
+            <div
+              class="displayName"
+            >
+              arrow-black-right.svg
             </div>
             <div
               class="code-snippet"
@@ -222,13 +246,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-cross-black.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-cross-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-cross-black.svg
+            <div
+              class="displayName"
+            >
+              arrow-cross-black.svg
             </div>
             <div
               class="code-snippet"
@@ -255,13 +283,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-gallery.svg
+            <div
+              class="displayName"
+            >
+              arrow-gallery.svg
             </div>
             <div
               class="code-snippet"
@@ -288,13 +320,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-asc-black.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-asc-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-sort-asc-black.svg
+            <div
+              class="displayName"
+            >
+              arrow-sort-asc-black.svg
             </div>
             <div
               class="code-snippet"
@@ -321,13 +357,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-asc-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-asc-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-sort-asc-white.svg
+            <div
+              class="displayName"
+            >
+              arrow-sort-asc-white.svg
             </div>
             <div
               class="code-snippet"
@@ -354,13 +394,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-default-black.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-default-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-sort-default-black.svg
+            <div
+              class="displayName"
+            >
+              arrow-sort-default-black.svg
             </div>
             <div
               class="code-snippet"
@@ -387,13 +431,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-default-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-default-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-sort-default-white.svg
+            <div
+              class="displayName"
+            >
+              arrow-sort-default-white.svg
             </div>
             <div
               class="code-snippet"
@@ -420,13 +468,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-desc-black.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-desc-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-sort-desc-black.svg
+            <div
+              class="displayName"
+            >
+              arrow-sort-desc-black.svg
             </div>
             <div
               class="code-snippet"
@@ -453,13 +505,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-desc-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-sort-desc-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-sort-desc-white.svg
+            <div
+              class="displayName"
+            >
+              arrow-sort-desc-white.svg
             </div>
             <div
               class="code-snippet"
@@ -486,13 +542,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-up-down-black.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-up-down-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-up-down-black.svg
+            <div
+              class="displayName"
+            >
+              arrow-up-down-black.svg
             </div>
             <div
               class="code-snippet"
@@ -519,13 +579,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-up-down-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-up-down-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-up-down-white.svg
+            <div
+              class="displayName"
+            >
+              arrow-up-down-white.svg
             </div>
             <div
               class="code-snippet"
@@ -552,13 +616,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-down.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-down.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-white-down.svg
+            <div
+              class="displayName"
+            >
+              arrow-white-down.svg
             </div>
             <div
               class="code-snippet"
@@ -585,13 +653,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-left.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-left.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-white-left.svg
+            <div
+              class="displayName"
+            >
+              arrow-white-left.svg
             </div>
             <div
               class="code-snippet"
@@ -618,13 +690,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-right.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-right.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Arrow-white-right.svg
+            <div
+              class="displayName"
+            >
+              arrow-white-right.svg
             </div>
             <div
               class="code-snippet"
@@ -651,13 +727,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/back-link-pill.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/back-link-pill.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Back-link-pill.svg
+            <div
+              class="displayName"
+            >
+              back-link-pill.svg
             </div>
             <div
               class="code-snippet"
@@ -684,13 +764,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/back-link.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/back-link.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Back-link.svg
+            <div
+              class="displayName"
+            >
+              back-link.svg
             </div>
             <div
               class="code-snippet"
@@ -717,13 +801,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/balance-scale-black.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/balance-scale-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Balance-scale-black.svg
+            <div
+              class="displayName"
+            >
+              balance-scale-black.svg
             </div>
             <div
               class="code-snippet"
@@ -750,13 +838,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/balance-scale-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/balance-scale-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Balance-scale-white.svg
+            <div
+              class="displayName"
+            >
+              balance-scale-white.svg
             </div>
             <div
               class="code-snippet"
@@ -783,13 +875,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/canvas.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/canvas.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Canvas.svg
+            <div
+              class="displayName"
+            >
+              canvas.svg
             </div>
             <div
               class="code-snippet"
@@ -816,13 +912,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/check-mark.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/check-mark.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Check-mark.svg
+            <div
+              class="displayName"
+            >
+              check-mark.svg
             </div>
             <div
               class="code-snippet"
@@ -849,13 +949,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/clock_grey_25.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/clock_grey_25.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Clock_grey_25.svg
+            <div
+              class="displayName"
+            >
+              clock_grey_25.svg
             </div>
             <div
               class="code-snippet"
@@ -882,13 +986,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/clock_grey_50.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/clock_grey_50.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Clock_grey_50.svg
+            <div
+              class="displayName"
+            >
+              clock_grey_50.svg
             </div>
             <div
               class="code-snippet"
@@ -915,13 +1023,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/clock_grey_100.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/clock_grey_100.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Clock_grey_100.svg
+            <div
+              class="displayName"
+            >
+              clock_grey_100.svg
             </div>
             <div
               class="code-snippet"
@@ -948,13 +1060,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/Clock_three_quarter.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/Clock_three_quarter.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Clock_three_quarter.svg
+            <div
+              class="displayName"
+            >
+              clock_three_quarter.svg
             </div>
             <div
               class="code-snippet"
@@ -981,13 +1097,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/document-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/document-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Document-white.svg
+            <div
+              class="displayName"
+            >
+              document-white.svg
             </div>
             <div
               class="code-snippet"
@@ -1014,13 +1134,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/document.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/document.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Document.svg
+            <div
+              class="displayName"
+            >
+              document.svg
             </div>
             <div
               class="code-snippet"
@@ -1047,13 +1171,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/en_UK.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/en_UK.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              En_UK.svg
+            <div
+              class="displayName"
+            >
+              en_UK.svg
             </div>
             <div
               class="code-snippet"
@@ -1080,13 +1208,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/external-link.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/external-link.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              External-link.svg
+            <div
+              class="displayName"
+            >
+              external-link.svg
             </div>
             <div
               class="code-snippet"
@@ -1113,13 +1245,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-archive-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-archive-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-archive-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-archive-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1146,13 +1282,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-archive-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-archive-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-archive-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-archive-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1179,13 +1319,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-audio-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-audio-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-audio-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-audio-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1212,13 +1356,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-code-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-code-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-code-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-code-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1245,13 +1393,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-code-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-code-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-code-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-code-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1278,13 +1430,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-download-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-download-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-download-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-download-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1311,13 +1467,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-excel-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-excel-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-excel-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-excel-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1344,13 +1504,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-excel-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-excel-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-excel-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-excel-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1377,13 +1541,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-export-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-export-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-export-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-export-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1410,13 +1578,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1443,13 +1615,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1476,13 +1652,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-image-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-image-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-image-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-image-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1509,13 +1689,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-image-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-image-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-image-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-image-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1542,13 +1726,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-import-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-import-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-import-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-import-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1575,13 +1763,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-pdf-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-pdf-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-pdf-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-pdf-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1608,13 +1800,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-pdf-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-pdf-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-pdf-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-pdf-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1641,13 +1837,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-powerpoint-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-powerpoint-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-powerpoint-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-powerpoint-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1674,13 +1874,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-powerpoint-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-powerpoint-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-powerpoint-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-powerpoint-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1707,13 +1911,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-upload-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-upload-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-upload-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-upload-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1740,13 +1948,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-video-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-video-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-video-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-video-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1773,13 +1985,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-video-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-video-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-video-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-video-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1806,13 +2022,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-word-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-word-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-word-fa-regular.svg
+            <div
+              class="displayName"
+            >
+              file-word-fa-regular.svg
             </div>
             <div
               class="code-snippet"
@@ -1839,13 +2059,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-word-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-word-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              File-word-fa-solid.svg
+            <div
+              class="displayName"
+            >
+              file-word-fa-solid.svg
             </div>
             <div
               class="code-snippet"
@@ -1872,13 +2096,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/globe-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/globe-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Globe-white.svg
+            <div
+              class="displayName"
+            >
+              globe-white.svg
             </div>
             <div
               class="code-snippet"
@@ -1905,13 +2133,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/globe.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/globe.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Globe.svg
+            <div
+              class="displayName"
+            >
+              globe.svg
             </div>
             <div
               class="code-snippet"
@@ -1938,13 +2170,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/icon-from-canvas-blue.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/icon-from-canvas-blue.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Icon-from-canvas-blue.svg
+            <div
+              class="displayName"
+            >
+              icon-from-canvas-blue.svg
             </div>
             <div
               class="code-snippet"
@@ -1971,13 +2207,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/link-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/link-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Link-white.svg
+            <div
+              class="displayName"
+            >
+              link-white.svg
             </div>
             <div
               class="code-snippet"
@@ -2004,13 +2244,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/modal-info.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/modal-info.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Modal-info.svg
+            <div
+              class="displayName"
+            >
+              modal-info.svg
             </div>
             <div
               class="code-snippet"
@@ -2037,13 +2281,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pause-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pause-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Pause-gallery.svg
+            <div
+              class="displayName"
+            >
+              pause-gallery.svg
             </div>
             <div
               class="code-snippet"
@@ -2070,13 +2318,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pen-blue.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pen-blue.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Pen-blue.svg
+            <div
+              class="displayName"
+            >
+              pen-blue.svg
             </div>
             <div
               class="code-snippet"
@@ -2103,13 +2355,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pen.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pen.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Pen.svg
+            <div
+              class="displayName"
+            >
+              pen.svg
             </div>
             <div
               class="code-snippet"
@@ -2136,13 +2392,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/picture-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/picture-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Picture-white.svg
+            <div
+              class="displayName"
+            >
+              picture-white.svg
             </div>
             <div
               class="code-snippet"
@@ -2169,13 +2429,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pill-back-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pill-back-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Pill-back-white.svg
+            <div
+              class="displayName"
+            >
+              pill-back-white.svg
             </div>
             <div
               class="code-snippet"
@@ -2202,13 +2466,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pill-back.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pill-back.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Pill-back.svg
+            <div
+              class="displayName"
+            >
+              pill-back.svg
             </div>
             <div
               class="code-snippet"
@@ -2235,13 +2503,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/play-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/play-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Play-gallery.svg
+            <div
+              class="displayName"
+            >
+              play-gallery.svg
             </div>
             <div
               class="code-snippet"
@@ -2268,13 +2540,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/sv_SE.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/sv_SE.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Sv_SE.svg
+            <div
+              class="displayName"
+            >
+              sv_SE.svg
             </div>
             <div
               class="code-snippet"
@@ -2301,13 +2577,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/table-modal.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/table-modal.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Table-modal.svg
+            <div
+              class="displayName"
+            >
+              table-modal.svg
             </div>
             <div
               class="code-snippet"
@@ -2334,13 +2614,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/thumbs-down.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/thumbs-down.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Thumbs-down.svg
+            <div
+              class="displayName"
+            >
+              thumbs-down.svg
             </div>
             <div
               class="code-snippet"
@@ -2367,13 +2651,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/thumbs-up.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/thumbs-up.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Thumbs-up.svg
+            <div
+              class="displayName"
+            >
+              thumbs-up.svg
             </div>
             <div
               class="code-snippet"
@@ -2400,13 +2688,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/trash-can-blue.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/trash-can-blue.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Trash-can-blue.svg
+            <div
+              class="displayName"
+            >
+              trash-can-blue.svg
             </div>
             <div
               class="code-snippet"
@@ -2433,13 +2725,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/trash-can-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/trash-can-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Trash-can-white.svg
+            <div
+              class="displayName"
+            >
+              trash-can-white.svg
             </div>
             <div
               class="code-snippet"
@@ -2466,13 +2762,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/white-arrow.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/white-arrow.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              White-arrow.svg
+            <div
+              class="displayName"
+            >
+              white-arrow.svg
             </div>
             <div
               class="code-snippet"
@@ -2499,13 +2799,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/back-to-top.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/back-to-top.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Back-to-top.svg
+            <div
+              class="displayName"
+            >
+              back-to-top.svg
             </div>
             <div
               class="code-snippet"
@@ -2532,13 +2836,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/input-clear-gray.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/input-clear-gray.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Input-clear-gray.svg
+            <div
+              class="displayName"
+            >
+              input-clear-gray.svg
             </div>
             <div
               class="code-snippet"
@@ -2565,13 +2873,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/input-clear.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/input-clear.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Input-clear.svg
+            <div
+              class="displayName"
+            >
+              input-clear.svg
             </div>
             <div
               class="code-snippet"
@@ -2598,12 +2910,16 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/KTH_Logotyp_RGB_2013-2.svg); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/KTH_Logotyp_RGB_2013-2.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
+            <div
+              class="displayName"
+            >
               KTH_Logotyp_RGB_2013-2.svg
             </div>
             <div
@@ -2631,13 +2947,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/quotation-mark.png); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/quotation-mark.png); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Quotation-mark.png
+            <div
+              class="displayName"
+            >
+              quotation-mark.png
             </div>
             <div
               class="code-snippet"
@@ -2664,13 +2984,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/search-icon.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/search-icon.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Search-icon.svg
+            <div
+              class="displayName"
+            >
+              search-icon.svg
             </div>
             <div
               class="code-snippet"
@@ -2697,13 +3021,17 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div>
+          <div
+            class="gridItem"
+          >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/select-arrow.png); background-size: 30px 30px; background-repeat: no-repeat; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/select-arrow.png); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
-            <div>
-              Select-arrow.png
+            <div
+              class="displayName"
+            >
+              select-arrow.png
             </div>
             <div
               class="code-snippet"

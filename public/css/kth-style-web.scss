@@ -12,10 +12,12 @@
     grid-gap: 15px;
   }
 }
+
 .mainContent {
   width: 100%;
   padding: 15px;
 }
+
 .colorBox {
   width: 150px;
   height: 150px;
@@ -38,6 +40,10 @@
   }
 }
 
+.displayName {
+  text-align: center;
+}
+
 .gridItemContainer {
   margin-bottom: 2 * 15px;
 
@@ -53,6 +59,11 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
     grid-auto-rows: minmax(152px, auto);
+  }
+
+  .gridItem {
+    border: 1px solid lightgray;
+    margin-top: 30px;
   }
 }
 
