@@ -2,7 +2,7 @@
 
 .code-snippet {
   margin-top: 20px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   position: relative;
 
   &__container {
@@ -45,5 +45,11 @@
     .arrow {
       left: 50%;
     }
+  }
+}
+
+.gridItem {
+  .code-snippet {
+    margin-bottom: 0;
   }
 }
