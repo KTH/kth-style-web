@@ -6,7 +6,7 @@ import NavBar from '../components/NavBar'
 export const Main = props => {
   return (
     <div className="mainContent">
-      <h1>Spacing</h1>
+      <h1>Avstånd</h1>
       <p>{`Message from styleStore: ${props.message}`}</p>
     </div>
   )

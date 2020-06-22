@@ -33,7 +33,7 @@ export default () => {
               </li>
               <li className="nav-item leaf">
                 <a href="/style/spacing" className="nav-link">
-                  Mellanrum
+                  Avstånd
                 </a>
               </li>
               <li className="nav-item leaf">

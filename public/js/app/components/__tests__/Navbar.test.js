@@ -84,7 +84,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/spacing"
                   >
-                    Mellanrum
+                    Avstånd
                   </a>
                 </li>
                 <li
