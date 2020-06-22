@@ -22,7 +22,7 @@ test('Setup guide page snapshot', () => {
           How to use KTH Style in your project
         </h1>
         <p>
-          (The tecnical documentation is written in english)
+          (The technical documentation is written in english)
         </p>
         <h2>
           General description
@@ -70,7 +70,7 @@ test('Setup guide page snapshot', () => {
           </div>
         </div>
         <p>
-          To download hte kth-style package from npmjs.org you need to install the Node Package Manager (NPM). Instructions on how to do that can be found on this page:
+          To download the kth-style package from npmjs.org you need to install the Node Package Manager (NPM). Instructions on how to do that can be found on this page:
            
           <a
             href="https://www.npmjs.com/get-npm"
