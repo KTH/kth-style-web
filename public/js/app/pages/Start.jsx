@@ -9,8 +9,8 @@ export const Main = props => {
       <h1>KTH Style Web</h1>
       <h2>Syftet med denna webblplats</h2>
       <p>
-        Denna applikation kallas <i>kth-style-web</i> eller <i>KTH Style Guide</i> och är ett hjälpmedel för oss som
-        jobbar med utveckling av webbappliaktioner på KTH. Den bygger sitt utseende och form på paketet{' '}
+        Denna applikation kallas <i>kth-style-web</i> och är ett hjälpmedel för oss som jobbar med utveckling av
+        webbappliaktioner på KTH. Den bygger sitt utseende och form på paketet{' '}
         <a href="https://github.com/KTH/kth-style/" alt="kth-style-paketet på Github">
           kth-style
         </a>{' '}
