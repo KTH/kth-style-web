@@ -26,6 +26,9 @@ import Alerts from './pages/AlertsPage'
 import Tabs from './pages/TabsPage'
 import Links from './pages/LinksPage'
 import GuidelinesPage from './pages/GuidelinesPage'
+import SeparatorPage from './pages/SeparatorPage'
+import NavigationPage from './pages/NavigationPage'
+import ModalPage from './pages/ModalPage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -50,6 +53,9 @@ function appFactory() {
         <Route exact path="/tabs" component={Tabs} />
         <Route exact path="/links" component={Links} />
         <Route exact path="/guidelines" component={GuidelinesPage} />
+        <Route exact path="/separators" component={SeparatorPage} />
+        <Route exact path="/navigation" component={NavigationPage} />
+        <Route exact path="/modals" component={ModalPage} />
       </Switch>
     </Provider>
   )

@@ -57,7 +57,7 @@ export default () => {
                 </a>
               </li>
               <li className="nav-item leaf">
-                <a href="/style/" className="nav-link">
+                <a href="/style/separators" className="nav-link">
                   Avskiljare
                 </a>
               </li>
@@ -94,12 +94,12 @@ export default () => {
                 </a>
               </li>
               <li className="nav-item leaf">
-                <a href="/style/" className="nav-link">
+                <a href="/style/modals" className="nav-link">
                   Modaler
                 </a>
               </li>
               <li className="nav-item leaf">
-                <a href="/style/" className="nav-link">
+                <a href="/style/navigation" className="nav-link">
                   Navigering
                 </a>
               </li>

@@ -132,7 +132,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/"
+                    href="/style/separators"
                   >
                     Avskiljare
                   </a>
@@ -207,7 +207,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/"
+                    href="/style/modals"
                   >
                     Modaler
                   </a>
@@ -217,7 +217,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/"
+                    href="/style/navigation"
                   >
                     Navigering
                   </a>

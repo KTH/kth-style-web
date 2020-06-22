@@ -6,8 +6,8 @@ import NavBar from '../components/NavBar'
 export const Main = props => {
   return (
     <div className="mainContent">
-      <h1>Avstånd</h1>
-      <p>Avstånd mellan olika element ...</p>
+      <h1>Modaler</h1>
+      <p>Modaler ... </p>
     </div>
   )
 }
