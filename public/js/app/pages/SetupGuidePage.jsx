@@ -8,7 +8,7 @@ export const Main = props => {
   return (
     <div className="mainContent">
       <h1>How to use KTH Style in your project</h1>
-      <p>(The tecnical documentation is written in english)</p>
+      <p>(The technical documentation is written in english)</p>
       <h2>General description</h2>
       <p>
         The <a href="https://www.npmjs.com/package/kth-style">kth-style package</a> is a npm package with resources for
@@ -27,7 +27,7 @@ export const Main = props => {
     |--kth-style-scss.zip`}
       />
       <p>
-        To download hte kth-style package from npmjs.org you need to install the Node Package Manager (NPM).
+        To download the kth-style package from npmjs.org you need to install the Node Package Manager (NPM).
         Instructions on how to do that can be found on this page:{' '}
         <a href="https://www.npmjs.com/get-npm">https://www.npmjs.com/get-npm</a>
       </p>
