@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar'
 
 export const Main = props => {
   return (
-    <div className="mainContent">
+    <main role="main" id="mainContent" className="mainContent">
       <h1>Riktlinjer för användbarhet och tillgänglighet</h1>
       <p>
         Som utvecklare behöver behöver du ta del av de riktlinjer som först ger en övergripande förståelse av
@@ -24,7 +24,7 @@ export const Main = props => {
           KTH Style Guide
         </a>
       </p>
-    </div>
+    </main>
   )
 }
 

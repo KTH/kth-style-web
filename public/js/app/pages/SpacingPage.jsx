@@ -5,10 +5,10 @@ import NavBar from '../components/NavBar'
 
 export const Main = props => {
   return (
-    <div className="mainContent">
+    <main role="main" id="mainContent" className="mainContent">
       <h1>Avstånd</h1>
       <p>Avstånd mellan olika element ...</p>
-    </div>
+    </main>
   )
 }
 

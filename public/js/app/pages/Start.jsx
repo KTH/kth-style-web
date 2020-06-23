@@ -5,12 +5,12 @@ import NavBar from '../components/NavBar'
 
 export const Main = props => {
   return (
-    <div className="mainContent">
+    <main role="main" id="mainContent" className="mainContent">
       <h1>KTH Style Web</h1>
-      <h2>Syftet med denna webblplats</h2>
+      <h2>Syftet med denna webbplats</h2>
       <p>
         Denna applikation kallas <i>kth-style-web</i> och är ett hjälpmedel för oss som jobbar med utveckling av
-        webbappliaktioner på KTH. Den bygger sitt utseende och form på paketet{' '}
+        webbapplikationer på KTH. Den bygger sitt utseende och form på paketet{' '}
         <a href="https://github.com/KTH/kth-style/" alt="kth-style-paketet på Github">
           kth-style
         </a>{' '}
@@ -39,7 +39,7 @@ export const Main = props => {
           kth-style-react-components
         </a>
       </p>
-    </div>
+    </main>
   )
 }
 

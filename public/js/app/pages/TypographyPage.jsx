@@ -36,61 +36,61 @@ export const Main = props => {
       text: 'H1 - Heading',
       html: '<h1></h1>',
       sass: 'h1 { @include t1; }',
-      usedFor: ['Rubrik nivå 1']
+      usedFor: ['Rubrik nivå 1'],
     },
     {
       className: 't2',
       text: 'H2 - Heading',
       html: '<h2></h2>',
       sass: 'h2 { @include t2; }',
-      usedFor: ['Rubrik nivå 2']
+      usedFor: ['Rubrik nivå 2'],
     },
     {
       className: 't24',
       text: 'H2 - Heading',
       html: '<h2></h2>',
       sass: 'h2 { @include t24; }',
-      usedFor: ['Rubrik puffblock bred']
+      usedFor: ['Rubrik puffblock bred'],
     },
     {
       className: 't3',
       text: 'H3 - Heading',
       html: '<h3></h3>',
       sass: 'h3 { @include t3; }',
-      usedFor: ['Rubrik nivå 3 (i artikel)']
+      usedFor: ['Rubrik nivå 3 (i artikel)'],
     },
     {
       className: 't4',
       text: 'H4 - Heading',
       html: '<h4></h4>',
       sass: 'h4 { @include t4; }',
-      usedFor: ['Rubrik nivå 4', 'Blockrubrik', 'Rubrik puffblock smal', 'Menyrubrik', 'Sitename']
+      usedFor: ['Rubrik nivå 4', 'Blockrubrik', 'Rubrik puffblock smal', 'Menyrubrik', 'Sitename'],
     },
     {
       className: 't11',
       text: 'P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       html: '<p></p>',
       sass: '@include t11;',
-      usedFor: ['Brödtext puff']
+      usedFor: ['Brödtext puff'],
     },
     {
       className: 't12',
       text: 'P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       html: '<p class="t12"></p>',
       sass: 'p { @include t12; }',
-      usedFor: ['Brödtext artikel']
+      usedFor: ['Brödtext artikel'],
     },
     {
       className: 't10',
       text: 'P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       html: '<p class="t10"></p>',
       sass: 'p { @include t10; }',
-      usedFor: ['Ingress', 'Megameny', 'Blockquote']
-    }
+      usedFor: ['Ingress', 'Megameny', 'Blockquote'],
+    },
   ]
 
   return (
-    <div className="mainContent">
+    <main role="main" id="mainContent" className="mainContent">
       <h1>Typografi</h1>
       <p>Detta är en lista med olika rubriker och varianter på brödtext som finns i KTH-style.</p>
       <p>
@@ -106,7 +106,7 @@ export const Main = props => {
       </div>
 
       {/* <p>{`Message from styleStore: ${props.message}`}</p> */}
-    </div>
+    </main>
   )
 }
 

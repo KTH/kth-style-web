@@ -121,10 +121,10 @@ export const Main = props => {
     />
   ))
   return (
-    <div className="mainContent">
+    <main role="main" id="mainContent" className="mainContent">
       <h1>Ikoner</h1>
       <div className="gridItemContainer">{itemsPane}</div>
-    </div>
+    </main>
   )
 }
 

@@ -18,7 +18,7 @@ const Button = ({ type, disabled, children, block }) => {
 
 export const Main = props => {
   return (
-    <div className="mainContent">
+    <main role="main" id="mainContent" className="mainContent">
       <h1>Buttons</h1>
 
       <div className="itemContainer">
@@ -67,7 +67,7 @@ export const Main = props => {
           <CodeSnippet snippet={'<button class="btn btn-primary" disabled>Disabled button</button>'} />
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 

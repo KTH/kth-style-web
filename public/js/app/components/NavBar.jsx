@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () => {
   return (
-    <nav id="mainMenu" className="col navbar navbar-expand-lg navbar-light">
+    <nav id="mainMenu" aria-label="main" className="col navbar navbar-expand-lg navbar-light">
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="nav">
           <li className="parentLink">

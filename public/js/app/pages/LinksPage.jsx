@@ -6,7 +6,7 @@ import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
   return (
-    <div className="mainContent">
+    <main role="main" id="mainContent" className="mainContent">
       <h1>Links</h1>
       <div className="itemContainer">
         <div className="itemBox">
@@ -45,7 +45,7 @@ export const Main = props => {
           <CodeSnippet snippet={`<a class="pdf-link" href="#">Link</a>`} />
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 

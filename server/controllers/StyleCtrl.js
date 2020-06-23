@@ -1,9 +1,11 @@
 'use strict'
 
-const log = require('kth-node-log')
-
-const { toJS } = require('mobx')
 const ReactDOMServer = require('react-dom/server')
+const { toJS } = require('mobx')
+
+const log = require('kth-node-log')
+const language = require('kth-node-web-common/lib/language')
+
 const i18n = require('../../i18n')
 
 function hydrateStores(renderProps) {
@@ -35,6 +37,8 @@ async function getIndex(req, res, next) {
     const context = {}
     const renderProps = _staticRender(context, req.url)
 
+    const lang = language.getLanguage(res) || 'sv'
+
     log.debug(`renderProps ${JSON.stringify(renderProps)}`)
     const { styleStore } = renderProps.props.children.props
 
@@ -49,17 +53,14 @@ async function getIndex(req, res, next) {
         pagePath = 'page_kth_style_index'
       }
     }
+
     res.render('react/index', {
       html,
       title: 'Style',
       initialState: JSON.stringify(hydrateStores(renderProps)),
-      // lang: lang,
+      lang,
       description: 'Style',
-      breadcrumbsPath: [
-        {
-          label: `${i18n.message(pagePath)}`,
-        },
-      ],
+      breadcrumbsPath: [{ label: `${i18n.message(pagePath)}` }],
     })
   } catch (err) {
     log.error('Error in getIndex', { error: err })
