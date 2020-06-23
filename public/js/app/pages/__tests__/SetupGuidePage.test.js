@@ -15,8 +15,10 @@ test('Setup guide page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
+        role="main"
       >
         <h1>
           How to use KTH Style in your project
@@ -39,7 +41,7 @@ test('Setup guide page snapshot', () => {
         <h3>
           The structure and contents of the package
         </h3>
-        The distribution folder has the structure shown below and contains css, image, javascript and scss resourses which can be used in the parent project.
+        The distribution folder has the structure shown below and contains css, image, javascript and scss resources which can be used in the parent project.
         <div
           class="code-snippet"
         >
@@ -109,7 +111,7 @@ test('Setup guide page snapshot', () => {
           Linking to static resouces from the kth-style package
         </h3>
         <p>
-          If you just want to reference resourses in the node_modules/kth-style package. Eg. from scss files.
+          If you just want to reference resources in the node_modules/kth-style package. Eg. from scss files.
         </p>
         <div
           class="code-snippet"
@@ -160,10 +162,10 @@ test('Setup guide page snapshot', () => {
           </div>
         </div>
         <h3>
-          Use the scss resouces as part of your projects local transpilation
+          Use the scss resources as part of your project's local transpilation
         </h3>
         <p>
-          If you want to use the scss resources in you local project just import them in your scss files so you can use all the colors and other variables directly in your own styling.
+          If you want to use the scss resources in your local project just import them in your scss files so you can use all the colors and other variables directly in your own styling.
         </p>
         <h2>
           Use in Node.js projects
@@ -289,7 +291,7 @@ test('Setup guide page snapshot', () => {
           Linking to stylesheet
         </h3>
         <p>
-          Then link to the KTH-bootstrap stylesheet in /dist directory, f.e.:
+          Then link to the KTH-bootstrap stylesheet in /dist directory, e.g.:
         </p>
         <div
           class="code-snippet"
@@ -318,7 +320,7 @@ test('Setup guide page snapshot', () => {
         <p>
           Remember to place the import above your own project stylesheet imports to be able to override necessary elements.
         </p>
-      </div>
+      </main>
     </div>
   `)
 })

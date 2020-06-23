@@ -10,6 +10,7 @@ test('Navbar component includes typografi', () => {
   expect(container).toMatchInlineSnapshot(`
     <div>
       <nav
+        aria-label="main"
         class="col navbar navbar-expand-lg navbar-light"
         id="mainMenu"
       >

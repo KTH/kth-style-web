@@ -15,8 +15,10 @@ test('Colors component includes headline Färger', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
+        role="main"
       >
         <h1>
           Färger
@@ -301,7 +303,7 @@ test('Colors component includes headline Färger', () => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   `)
   getByText(/Textfärger/i)

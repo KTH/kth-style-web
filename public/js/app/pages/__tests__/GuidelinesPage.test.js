@@ -15,8 +15,10 @@ test('Guidelines page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
+        role="main"
       >
         <h1>
           Riktlinjer för användbarhet och tillgänglighet
@@ -39,7 +41,7 @@ test('Guidelines page snapshot', () => {
             KTH Style Guide
           </a>
         </p>
-      </div>
+      </main>
     </div>
   `)
 })

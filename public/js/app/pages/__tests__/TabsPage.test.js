@@ -15,8 +15,10 @@ test('Tabs page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
+        role="main"
       >
         <h1>
           Tabs
@@ -159,7 +161,7 @@ test('Tabs page snapshot', () => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   `)
 })

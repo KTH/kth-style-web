@@ -15,8 +15,10 @@ test('Typography page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
+        role="main"
       >
         <h1>
           Typografi
@@ -366,7 +368,7 @@ test('Typography page snapshot', () => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   `)
 })
