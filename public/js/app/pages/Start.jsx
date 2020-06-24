@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar'
 
 export const Main = props => {
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>KTH Style Web</h1>
       <h2>Syftet med denna webbplats</h2>
       <p>

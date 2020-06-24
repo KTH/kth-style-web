@@ -18,7 +18,6 @@ test('Guidelines page snapshot', () => {
       <main
         class="mainContent"
         id="mainContent"
-        role="main"
       >
         <h1>
           Riktlinjer för användbarhet och tillgänglighet

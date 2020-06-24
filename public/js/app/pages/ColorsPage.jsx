@@ -63,7 +63,7 @@ export const Main = props => {
   ))
 
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Färger</h1>
       <h2>Bakgrundsfärger med vit text</h2>
       <div className="gridItemContainer">{bgColorsWithWhiteTextPane}</div>

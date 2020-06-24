@@ -18,7 +18,6 @@ test('Setup guide page snapshot', () => {
       <main
         class="mainContent"
         id="mainContent"
-        role="main"
       >
         <h1>
           How to use KTH Style in your project

@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar'
 
 export const Main = props => {
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Modaler</h1>
       <p>Modaler ... </p>
     </main>

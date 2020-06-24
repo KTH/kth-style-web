@@ -90,7 +90,7 @@ export const Main = props => {
   ]
 
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Typografi</h1>
       <p>Detta är en lista med olika rubriker och varianter på brödtext som finns i KTH-style.</p>
       <p>

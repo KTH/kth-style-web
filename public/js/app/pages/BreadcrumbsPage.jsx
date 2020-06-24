@@ -6,7 +6,7 @@ import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Breadcrumbs</h1>
 
       <nav id="breadcrumbs" aria-label="breadcrumb">

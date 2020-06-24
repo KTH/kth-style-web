@@ -121,7 +121,7 @@ export const Main = props => {
     />
   ))
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Ikoner</h1>
       <div className="gridItemContainer">{itemsPane}</div>
     </main>

@@ -6,7 +6,7 @@ import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>How to use KTH Style in your project</h1>
       <p>(The technical documentation is written in english)</p>
       <h2>General description</h2>

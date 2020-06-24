@@ -13,7 +13,7 @@ export const Main = props => {
   ]
 
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Tabs</h1>
       <div className="itemContainer">
         <div className="itemBox">

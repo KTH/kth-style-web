@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar'
 
 export const Main = props => {
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Riktlinjer för användbarhet och tillgänglighet</h1>
       <p>
         Som utvecklare behöver behöver du ta del av de riktlinjer som först ger en övergripande förståelse av

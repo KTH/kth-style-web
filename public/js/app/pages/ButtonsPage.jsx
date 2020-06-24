@@ -18,7 +18,7 @@ const Button = ({ type, disabled, children, block }) => {
 
 export const Main = props => {
   return (
-    <main role="main" id="mainContent" className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Buttons</h1>
 
       <div className="itemContainer">

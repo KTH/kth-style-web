@@ -18,7 +18,6 @@ test('Buttons page snapshot', () => {
       <main
         class="mainContent"
         id="mainContent"
-        role="main"
       >
         <h1>
           Buttons
