@@ -254,6 +254,16 @@ test('Navbar component includes typografi', () => {
                 Använda kth-style i sitt projekt
               </a>
             </li>
+            <li
+              class="nav-item node"
+            >
+              <a
+                class="nav-link"
+                href="/style/cortina-blocks"
+              >
+                Hur man hämtar html-block från Cortina
+              </a>
+            </li>
           </ul>
         </div>
       </nav>

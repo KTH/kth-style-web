@@ -121,6 +121,11 @@ export default () => {
               Använda kth-style i sitt projekt
             </a>
           </li>
+          <li className="nav-item node">
+            <a href="/style/cortina-blocks" className="nav-link">
+              Hur man hämtar html-block från Cortina
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
