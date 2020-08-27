@@ -22,6 +22,7 @@ test('Navigation page snapshot', () => {
         <h1>
           Navigation
         </h1>
+        1
         <p>
           Navigation is based on several menus in different contexts. Below you will find examples of these menus. 
         </p>

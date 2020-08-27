@@ -15,12 +15,14 @@ test('Cortina blocks page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
       >
         <h1>
           Navigation
         </h1>
+        1
         <p>
           Navigation is based on several menus in different contexts. Below you will find examples of these menus. 
         </p>
@@ -145,7 +147,7 @@ test('Cortina blocks page snapshot', () => {
            
           or similar functionality to keep the navigation in the header consistent throughout the sites.
         </p>
-      </div>
+      </main>
     </div>
   `)
 })
