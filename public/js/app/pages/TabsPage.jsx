@@ -9,11 +9,11 @@ export const Main = props => {
   const itemList = [
     { tab: 'Tab1', content: 'Lorem Ipsum' },
     { tab: 'Tab2', content: 'Lorem Ipsum 2' },
-    { tab: 'Tab3', content: 'Lorem Ipsum 3' }
+    { tab: 'Tab3', content: 'Lorem Ipsum 3' },
   ]
 
   return (
-    <div className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Tabs</h1>
       <div className="itemContainer">
         <div className="itemBox">
@@ -42,7 +42,7 @@ export const Main = props => {
           />
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 

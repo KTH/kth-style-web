@@ -15,8 +15,9 @@ test('Buttons page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
       >
         <h1>
           Buttons
@@ -271,7 +272,7 @@ test('Buttons page snapshot', () => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   `)
 })

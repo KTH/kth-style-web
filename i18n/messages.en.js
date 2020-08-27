@@ -38,5 +38,7 @@ module.exports = {
     page_kth_style_colors: 'Colors',
     page_kth_style_icons: 'Icons',
     page_kth_style_buttons: 'Buttons',
+
+    skip_to_main_content: 'Skip to main content',
   },
 }

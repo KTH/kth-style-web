@@ -6,7 +6,7 @@ import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
   return (
-    <div className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>How to use KTH Style in your project</h1>
       <p>(The technical documentation is written in english)</p>
       <h2>General description</h2>
@@ -16,7 +16,7 @@ export const Main = props => {
         contains and how to retrieve it from NPM.
       </p>
       <h3>The structure and contents of the package</h3>
-      The distribution folder has the structure shown below and contains css, image, javascript and scss resourses which
+      The distribution folder has the structure shown below and contains css, image, javascript and scss resources which
       can be used in the parent project.
       <CodeSnippet
         snippet={`kth-style
@@ -37,14 +37,14 @@ export const Main = props => {
       </p>
       <CodeSnippet snippet={'$ npm i -S kth-style'} />
       <h3>Linking to static resouces from the kth-style package</h3>
-      <p>If you just want to reference resourses in the node_modules/kth-style package. Eg. from scss files.</p>
+      <p>If you just want to reference resources in the node_modules/kth-style package. Eg. from scss files.</p>
       <CodeSnippet snippet={`@import '../../node_modules/kth-style/public/sass/variables/fonts';`} />
       <CodeSnippet
         snippet={`background-image: url(../../node_modules/kth-style/dist/img/kth-style/icons/arrow-black-left.svg);`}
       />
-      <h3>Use the scss resouces as part of your projects local transpilation</h3>
+      <h3>Use the scss resources as part of your project's local transpilation</h3>
       <p>
-        If you want to use the scss resources in you local project just import them in your scss files so you can use
+        If you want to use the scss resources in your local project just import them in your scss files so you can use
         all the colors and other variables directly in your own styling.
       </p>
       <h2>Use in Node.js projects</h2>
@@ -85,13 +85,13 @@ const config = require('./configuration').server
 app.use(config.proxyPrefixPath.uri +'/kth-style', express.static(path.join(__dirname, '../node_modules/kth-style/dist')))`}
       />
       <h3>Linking to stylesheet</h3>
-      <p>Then link to the KTH-bootstrap stylesheet in /dist directory, f.e.:</p>
+      <p>Then link to the KTH-bootstrap stylesheet in /dist directory, e.g.:</p>
       <CodeSnippet snippet={`<link rel='stylesheet' href='/style/static/kth-style/css/kth-bootstrap.css'/>`} />
       <p>
         Remember to place the import above your own project stylesheet imports to be able to override necessary
         elements.
       </p>
-    </div>
+    </main>
   )
 }
 

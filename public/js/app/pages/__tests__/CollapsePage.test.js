@@ -15,47 +15,45 @@ test('Collapse page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
-        class="itemContainer"
+      <main
+        class="mainContent"
+        id="mainContent"
       >
+        <h1>
+          Collapse with hooks
+        </h1>
+        <p>
+          This example is based on bootstrap Collapse. To get the same functionality you have to install bootstrap and jquery. To toggle the visibility of the collapse, bootstrap uses jquery toggle the class "show" and also to toggle the value of aria-expanded attribute on the a-tag. If you dont want to use jquery in your project you have to add your own javascript to handle the visibility.
+        </p>
         <div
-          class="itemBox"
+          class="card collapsible blue  undefined"
         >
-          <h1>
-            Collapse with hooks
-          </h1>
-          <p>
-            This example is based on bootstrap Collapse. To get the same functionality you have to install bootstrap and jquery. To toggle the visibility of the collapse, bootstrap uses jquery toggle the class "show" and also to toggle the value of aria-expanded attribute on the a-tag. If you dont want to use jquery in your project you have to add your own javascript to handle the visibility.
-          </p>
           <div
-            class="card collapsible blue  undefined"
+            class="card-header"
           >
-            <div
-              class="card-header"
+            <a
+              aria-expanded="false"
+              href=""
+              load="false"
             >
-              <a
-                aria-expanded="false"
-                href=""
-                load="false"
-              >
-                hooks-test
-              </a>
-            </div>
+              hooks-test
+            </a>
           </div>
-          <h2>
-            With bootstrap and jquery:
-          </h2>
+        </div>
+        <h2>
+          With bootstrap and jquery:
+        </h2>
+        <div
+          class="code-snippet"
+        >
           <div
-            class="code-snippet"
+            class="code-snippet__container"
           >
-            <div
-              class="code-snippet__container"
-            >
-              <pre>
-                <code
-                  class="language-html"
-                >
-                  &lt;div class="card collapsible blue undefined"&gt;
+            <pre>
+              <code
+                class="language-html"
+              >
+                &lt;div class="card collapsible blue undefined"&gt;
       &lt;div class="card-header"&gt;
         &lt;a aria-expanded="false" href="#collapseExample" aria-controls="collapseExample" load="false" data-toggle="collapse"&gt;hooks-test&lt;/a&gt;
       &lt;/div&gt;
@@ -65,21 +63,20 @@ test('Collapse page snapshot', () => {
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-                </code>
-              </pre>
-              <div
-                class="code-snippet__btn-container"
+              </code>
+            </pre>
+            <div
+              class="code-snippet__btn-container"
+            >
+              <button
+                class="btn"
               >
-                <button
-                  class="btn"
-                >
-                  Copy
-                </button>
-              </div>
+                Copy
+              </button>
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   `)
 })

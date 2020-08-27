@@ -71,11 +71,11 @@ export const Main = props => {
 </table>`
 
   return (
-    <div className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Tabeller</h1>
       <Table />
       <CodeSnippet snippet={snippet} />
-    </div>
+    </main>
   )
 }
 

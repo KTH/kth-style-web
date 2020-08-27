@@ -15,8 +15,9 @@ test('Separator page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
       >
         <h1>
           Avskiljare
@@ -24,7 +25,7 @@ test('Separator page snapshot', () => {
         <p>
           Avskiljare mellan element ... 
         </p>
-      </div>
+      </main>
     </div>
   `)
 })

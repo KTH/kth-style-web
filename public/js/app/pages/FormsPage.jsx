@@ -6,7 +6,7 @@ import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
   return (
-    <div className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Forms</h1>
       <div className="itemContainer">
         <div className="form">
@@ -218,7 +218,7 @@ export const Main = props => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 

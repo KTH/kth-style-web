@@ -15,8 +15,9 @@ test('Modal page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
       >
         <h1>
           Modaler
@@ -24,7 +25,7 @@ test('Modal page snapshot', () => {
         <p>
           Modaler ... 
         </p>
-      </div>
+      </main>
     </div>
   `)
 })

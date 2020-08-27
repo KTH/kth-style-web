@@ -15,8 +15,9 @@ test('Navigation page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
+        id="mainContent"
       >
         <h1>
           Navigation
@@ -145,7 +146,7 @@ test('Navigation page snapshot', () => {
            
           or similar functionality to keep the navigation in the header consistent throughout the sites.
         </p>
-      </div>
+      </main>
     </div>
   `)
 })

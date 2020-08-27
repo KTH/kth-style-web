@@ -6,7 +6,7 @@ import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
   return (
-    <div className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Alerts</h1>
       <div className="alert alert-success" role="alert">
         This is a success alert—check it out!
@@ -30,7 +30,7 @@ export const Main = props => {
   This is a info alert—check it out!
 </div>`}
       />
-    </div>
+    </main>
   )
 }
 

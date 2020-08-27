@@ -6,8 +6,8 @@ import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
   return (
-    <div className="mainContent">
-      <h1>Navigation</h1>
+    <main id="mainContent" className="mainContent">
+      <h1>Navigation</h1>1
       <p>Navigation is based on several menus in different contexts. Below you will find examples of these menus. </p>
       <h2>Main navigation</h2>
       <p>
@@ -32,7 +32,6 @@ export const Main = props => {
     </div>
   </nav>`}
       />
-
       <h2>Secondary menu</h2>
       <p>
         The secondary menu is placed in the top right corner of the header and contains entrancies for students,
@@ -67,7 +66,7 @@ export const Main = props => {
         </a>{' '}
         or similar functionality to keep the navigation in the header consistent throughout the sites.
       </p>
-    </div>
+    </main>
   )
 }
 

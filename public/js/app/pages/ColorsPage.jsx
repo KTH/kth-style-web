@@ -63,7 +63,7 @@ export const Main = props => {
   ))
 
   return (
-    <div className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>Färger</h1>
       <h2>Bakgrundsfärger med vit text</h2>
       <div className="gridItemContainer">{bgColorsWithWhiteTextPane}</div>
@@ -73,7 +73,7 @@ export const Main = props => {
       <div className="gridItemContainer">{textColorsPane}</div>
       <h2>Kantfärger</h2>
       <div className="gridItemContainer">{borderColorsPane}</div>
-    </div>
+    </main>
   )
 }
 
