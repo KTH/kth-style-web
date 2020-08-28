@@ -7,16 +7,16 @@ import CodeSnippet from '../components/CodeSnippet'
 export const Main = props => {
   return (
     <main id="mainContent" className="mainContent">
-      <h1>Navigation</h1>1
+      <h1>Navigation</h1>
       <p>Navigation is based on several menus in different contexts. Below you will find examples of these menus. </p>
       <h2>Main navigation</h2>
       <p>
-        The main navigation is placed on the left side of the main contnent. Real life examples can be found on KTH.se,
+        The main navigation is placed on the left side of the main content. Real life examples can be found on KTH.se,
         for examle here: <a href="https://www.kth.se/en/aktuellt/">Aktuellt</a>
       </p>
       <p>A shortened example of the code can be seen below:</p>
       <CodeSnippet
-        snippet={`<nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light">
+        snippet={`<nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light" area-label="main">
   <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav">
         <li class="parentLink"><a href="/">KTH</a></li>

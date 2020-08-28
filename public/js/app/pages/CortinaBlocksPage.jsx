@@ -22,10 +22,9 @@ export const Main = props => {
         </a>{' '}
         package to retrive the html blocks you need. Look at the documentation of the package to see how it works.
       </p>
-      <p>
-        The header code in a Node application looks something like this:
-        <CodeSnippet
-          snippet={`<!--indexOff: all-->
+      <p>The header code in a Node application looks something like this:</p>
+      <CodeSnippet
+        snippet={`<!--indexOff: all-->
 <header>
   <div class="container-fluid">
     <div class="container">
@@ -60,8 +59,8 @@ export const Main = props => {
 
 </header>
 <!--indexOn: all-->`}
-        />
-      </p>
+      />
+
       <h2>Other applications</h2>
       <p>
         If your app is based on some other language you can retrieve the html blocks via the Cortina API directly. Eg.{' '}
@@ -72,13 +71,12 @@ export const Main = props => {
         The Cortina API gives you the html of the given content id the the content id can bee seen in the
         kth-node-cortina-block pakage or directly in the sourse code of www.kth.se.
       </p>
-      <p>
-        <CodeSnippet
-          snippet={`<h1 class="block siteName" data-cid="1.260060">
+
+      <CodeSnippet
+        snippet={`<h1 class="block siteName" data-cid="1.260060">
   <a href="/">Välkommen till KTH</a>
 </h1>`}
-        />
-      </p>
+      />
     </div>
   )
 }

@@ -22,7 +22,6 @@ test('Navigation page snapshot', () => {
         <h1>
           Navigation
         </h1>
-        1
         <p>
           Navigation is based on several menus in different contexts. Below you will find examples of these menus. 
         </p>
@@ -30,7 +29,7 @@ test('Navigation page snapshot', () => {
           Main navigation
         </h2>
         <p>
-          The main navigation is placed on the left side of the main contnent. Real life examples can be found on KTH.se, for examle here: 
+          The main navigation is placed on the left side of the main content. Real life examples can be found on KTH.se, for examle here: 
           <a
             href="https://www.kth.se/en/aktuellt/"
           >
@@ -50,7 +49,7 @@ test('Navigation page snapshot', () => {
               <code
                 class="language-html"
               >
-                &lt;nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light"&gt;
+                &lt;nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light" area-label="main"&gt;
       &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
           &lt;ul class="nav"&gt;
             &lt;li class="parentLink"&gt;&lt;a href="/"&gt;KTH&lt;/a&gt;&lt;/li&gt;

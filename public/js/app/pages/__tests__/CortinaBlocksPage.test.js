@@ -3,7 +3,7 @@ import { render, waitForElement } from '@testing-library/react'
 import 'jest-axe/extend-expect'
 import { axe } from 'jest-axe'
 
-import { Main } from '../NavigationPage'
+import { Main } from '../CortinaBlocksPage'
 
 test('Cortina blocks page complies to axe accesibility', async () => {
   const { container } = render(<Main />)
@@ -15,30 +15,33 @@ test('Cortina blocks page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <main
+      <div
         class="mainContent"
-        id="mainContent"
       >
         <h1>
-          Navigation
+          How to get html blocks from Cortina
         </h1>
-        1
         <p>
-          Navigation is based on several menus in different contexts. Below you will find examples of these menus. 
+          To make your new application to look and behave as a "KTH application" you need a base html structure to apply stylesheets on. You can grab that from the source of www.kth.se due to the fact that it is relativly static but when it comes to the elements (so called blocks) in the header and footer like menus, search widget etc. you need to use the Cortina API to get the html blocks.
         </p>
         <h2>
-          Main navigation
+          NodeJS based applications
         </h2>
         <p>
-          The main navigation is placed on the left side of the main contnent. Real life examples can be found on KTH.se, for examle here: 
+          If your application is based on NodeJS, you can use the
+           
           <a
-            href="https://www.kth.se/en/aktuellt/"
+            class="external-link"
+            href="https://github.com/KTH/kth-node-cortina-block"
+            target="_blank"
           >
-            Aktuellt
+            kth-node-cortina-block
           </a>
+           
+          package to retrive the html blocks you need. Look at the documentation of the package to see how it works.
         </p>
         <p>
-          A shortened example of the code can be seen below:
+          The header code in a Node application looks something like this:
         </p>
         <div
           class="code-snippet"
@@ -50,21 +53,41 @@ test('Cortina blocks page snapshot', () => {
               <code
                 class="language-html"
               >
-                &lt;nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light"&gt;
-      &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
-          &lt;ul class="nav"&gt;
-            &lt;li class="parentLink"&gt;&lt;a href="/"&gt;KTH&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;ul class="nav nav-ancestor"&gt;
-          &lt;li&gt;&lt;span class="nav-item ancestor"&gt;Aktuellt&lt;/span&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-          &lt;ul class="nav nav-list"&gt;
-            &lt;li class="nav-item leaf"&gt;&lt;a class="nav-link" href="/aktuellt/nyheter"&gt;Nyheter&lt;/a&gt;&lt;/li&gt;
-            &lt;li class="nav-item node"&gt;&lt;a class="nav-link" href="/aktuellt/nyhetsteman"&gt;Aktuella nyhetsteman&lt;/a&gt;&lt;/li&gt;
-            &lt;li class="nav-item node"&gt;&lt;a class="nav-link" href="/aktuellt/kalender"&gt;KTH-kalendern&lt;/a&gt;&lt;/li&gt;
-          &lt;/ul&gt;
+                &lt;!--indexOff: all--&gt;
+    &lt;header&gt;
+      &lt;div class="container-fluid"&gt;
+        &lt;div class="container"&gt;
+          
+          &lt;div class="header-container__top"&gt;
+            {{{blocks.image}}} {{{blocks.title}}}
+            &lt;div id="mobileMenuWrapper"&gt;
+              &lt;button id="nav-icon" class="navbar-toggler nav-icon" type="button" title="Öppna/stäng mobilmenyn"&gt;
+                &lt;span&gt;&lt;/span&gt;
+                &lt;span&gt;&lt;/span&gt;
+                &lt;span&gt;&lt;/span&gt;
+                &lt;span&gt;&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;nav id="mobileMenu" class="block navbar navbar-expand-lg navbar-light"&gt;
+                &lt;div id="mobileMenuContent" class="navbar-collapse collapse"&gt;
+                  &lt;ul id="mobileMenuList" class="menu navbar-nav mr-auto"&gt;&lt;/ul&gt;
+                &lt;/div&gt;
+              &lt;/nav&gt;
+            &lt;/div&gt;
+            {{{blocks.secondaryMenu}}}
+          &lt;/div&gt;
+          &lt;div class="header-container__bottom"&gt;{{{blocks.megaMenu}}} {{{blocks.search}}}&lt;/div&gt;
         &lt;/div&gt;
-      &lt;/nav&gt;
+      &lt;/div&gt;
+      &lt;div id="gradientBorder"&gt;&lt;/div&gt;
+
+      &lt;div class="container articleNavigation"&gt;
+        &lt;div class="row justify-content-between"&gt;
+          {{breadcrumbs breadcrumbsPath lang}}
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+    &lt;/header&gt;
+    &lt;!--indexOn: all--&gt;
               </code>
             </pre>
             <div
@@ -79,23 +102,20 @@ test('Cortina blocks page snapshot', () => {
           </div>
         </div>
         <h2>
-          Secondary menu
+          Other applications
         </h2>
         <p>
-          The secondary menu is placed in the top right corner of the header and contains entrancies for students, alumnies, employees and a language switcher. This menu is more or less included on all pages of www.kth.se.
-        </p>
-        <p>
-          This menu is preferably imported to the application you are building via
+          If your app is based on some other language you can retrieve the html blocks via the Cortina API directly. Eg.
            
           <a
-            class="external-link"
-            href="https://github.com/KTH/kth-node-cortina-block"
-            target="_blank"
+            href="https://www.kth.se/cm/1.260060"
           >
-            kth-node-cortina-block
+            https://www.kth.se/cm/1.260060
           </a>
-           
-          or similar functionality to keep the navigation in the header consistent throughout the sites.
+           will give you the site name of the start page.
+        </p>
+        <p>
+          The Cortina API gives you the html of the given content id the the content id can bee seen in the kth-node-cortina-block pakage or directly in the sourse code of www.kth.se.
         </p>
         <div
           class="code-snippet"
@@ -107,14 +127,9 @@ test('Cortina blocks page snapshot', () => {
               <code
                 class="language-html"
               >
-                &lt;nav aria-label="global secondary"&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href="/student"&gt;Student&lt;/a&gt;
-        &lt;/li&gt;&lt;li&gt;&lt;a href="/alumni"&gt;Alumn&lt;/a&gt;
-        &lt;/li&gt;&lt;li&gt;&lt;a href="https://intra.kth.se/"&gt;Anställd&lt;/a&gt;
-        &lt;/li&gt;&lt;li&gt;&lt;a href="https://www.kth.se/en" hreflang="en-UK"&gt;International website&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/nav&gt;
+                &lt;h1 class="block siteName" data-cid="1.260060"&gt;
+      &lt;a href="/"&gt;Välkommen till KTH&lt;/a&gt;
+    &lt;/h1&gt;
               </code>
             </pre>
             <div
@@ -128,26 +143,7 @@ test('Cortina blocks page snapshot', () => {
             </div>
           </div>
         </div>
-        <h2>
-          Mega menu
-        </h2>
-        <p>
-          The mega menu is placed in the bottom of the the header and is expanded upon hover of a menu item and is included on all pages of www.kth.se.
-        </p>
-        <p>
-          This menu is also preferably imported to the application you are building via
-           
-          <a
-            class="external-link"
-            href="https://github.com/KTH/kth-node-cortina-block"
-            target="_blank"
-          >
-            kth-node-cortina-block
-          </a>
-           
-          or similar functionality to keep the navigation in the header consistent throughout the sites.
-        </p>
-      </main>
+      </div>
     </div>
   `)
 })
