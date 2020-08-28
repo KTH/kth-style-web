@@ -100,7 +100,7 @@ export default () => {
               </li>
               <li className="nav-item leaf">
                 <a href="/style/navigation" className="nav-link">
-                  Navigering
+                  Navigation
                 </a>
               </li>
 

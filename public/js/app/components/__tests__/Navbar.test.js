@@ -220,7 +220,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/style/navigation"
                   >
-                    Navigering
+                    Navigation
                   </a>
                 </li>
                 <li
