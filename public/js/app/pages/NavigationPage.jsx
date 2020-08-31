@@ -14,9 +14,13 @@ export const Main = props => {
         The main navigation is placed on the left side of the main content. Real life examples can be found on KTH.se,
         for examle here: <a href="https://www.kth.se/en/aktuellt/">Aktuellt</a>
       </p>
+      <p>
+        Remember that the area-label attribute should be based on the current language of the page. For the primary menu
+        it should be "Sub menu" or "Undermeny"
+      </p>
       <p>A shortened example of the code can be seen below:</p>
       <CodeSnippet
-        snippet={`<nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light" area-label="main">
+        snippet={`<nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light" area-label="Sub menu">
   <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav">
         <li class="parentLink"><a href="/">KTH</a></li>
@@ -44,8 +48,12 @@ export const Main = props => {
         </a>{' '}
         or similar functionality to keep the navigation in the header consistent throughout the sites.
       </p>
+      <p>
+        Remember that the area-label attribute should be based on the current language of the page. For the primary menu
+        it should be "Secondary top menu" or "Sekundär toppmeny"
+      </p>
       <CodeSnippet
-        snippet={`<nav aria-label="global secondary">
+        snippet={`<nav aria-label="Secondary top menu">
   <ul>
     <li><a href="/student">Student</a>
     </li><li><a href="/alumni">Alumn</a>
@@ -65,6 +73,10 @@ export const Main = props => {
           kth-node-cortina-block
         </a>{' '}
         or similar functionality to keep the navigation in the header consistent throughout the sites.
+      </p>
+      <p>
+        Remember that the area-label attribute should be based on the current language of the page. For the primary menu
+        it should be "Primary top menu" or "Primär toppmeny"
       </p>
     </main>
   )

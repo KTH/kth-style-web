@@ -37,6 +37,9 @@ test('Navigation page snapshot', () => {
           </a>
         </p>
         <p>
+          Remember that the area-label attribute should be based on the current language of the page. For the primary menu it should be "Sub menu" or "Undermeny"
+        </p>
+        <p>
           A shortened example of the code can be seen below:
         </p>
         <div
@@ -49,7 +52,7 @@ test('Navigation page snapshot', () => {
               <code
                 class="language-html"
               >
-                &lt;nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light" area-label="main"&gt;
+                &lt;nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light" area-label="Sub menu"&gt;
       &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
           &lt;ul class="nav"&gt;
             &lt;li class="parentLink"&gt;&lt;a href="/"&gt;KTH&lt;/a&gt;&lt;/li&gt;
@@ -96,6 +99,9 @@ test('Navigation page snapshot', () => {
            
           or similar functionality to keep the navigation in the header consistent throughout the sites.
         </p>
+        <p>
+          Remember that the area-label attribute should be based on the current language of the page. For the primary menu it should be "Secondary top menu" or "Sekundär toppmeny"
+        </p>
         <div
           class="code-snippet"
         >
@@ -106,7 +112,7 @@ test('Navigation page snapshot', () => {
               <code
                 class="language-html"
               >
-                &lt;nav aria-label="global secondary"&gt;
+                &lt;nav aria-label="Secondary top menu"&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href="/student"&gt;Student&lt;/a&gt;
         &lt;/li&gt;&lt;li&gt;&lt;a href="/alumni"&gt;Alumn&lt;/a&gt;
@@ -145,6 +151,9 @@ test('Navigation page snapshot', () => {
           </a>
            
           or similar functionality to keep the navigation in the header consistent throughout the sites.
+        </p>
+        <p>
+          Remember that the area-label attribute should be based on the current language of the page. For the primary menu it should be "Primary top menu" or "Primär toppmeny"
         </p>
       </main>
     </div>
