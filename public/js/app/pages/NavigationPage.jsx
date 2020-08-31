@@ -15,12 +15,12 @@ export const Main = props => {
         for examle here: <a href="https://www.kth.se/en/aktuellt/">Aktuellt</a>
       </p>
       <p>
-        Remember that the area-label attribute should be based on the current language of the page. For the primary menu
+        Remember that the aria-label attribute should be based on the current language of the page. For the primary menu
         it should be "Sub menu" or "Undermeny"
       </p>
       <p>A shortened example of the code can be seen below:</p>
       <CodeSnippet
-        snippet={`<nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light" area-label="Sub menu">
+        snippet={`<nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light" aria-label="Sub menu">
   <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav">
         <li class="parentLink"><a href="/">KTH</a></li>
@@ -49,7 +49,7 @@ export const Main = props => {
         or similar functionality to keep the navigation in the header consistent throughout the sites.
       </p>
       <p>
-        Remember that the area-label attribute should be based on the current language of the page. For the primary menu
+        Remember that the aria-label attribute should be based on the current language of the page. For the primary menu
         it should be "Secondary top menu" or "Sekundär toppmeny"
       </p>
       <CodeSnippet
@@ -75,7 +75,7 @@ export const Main = props => {
         or similar functionality to keep the navigation in the header consistent throughout the sites.
       </p>
       <p>
-        Remember that the area-label attribute should be based on the current language of the page. For the primary menu
+        Remember that the aria-label attribute should be based on the current language of the page. For the primary menu
         it should be "Primary top menu" or "Primär toppmeny"
       </p>
     </main>

@@ -14,7 +14,7 @@ export const Main = props => {
       </p>
 
       <p>
-        Remember that the area-label attribute should be based on the current language of the page. For the primary menu
+        Remember that the aria-label attribute should be based on the current language of the page. For the primary menu
         it should be "Breadcrumbs" or "Brödsmulor"
       </p>
       <p>An example of the code can be seen below:</p>
