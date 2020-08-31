@@ -8,8 +8,18 @@ export const Main = props => {
   return (
     <main id="mainContent" className="mainContent">
       <h1>Breadcrumbs</h1>
+      <p>
+        Breadcrumbs help the user to navigate up and down in the structure. This component is places above the main
+        content on most of our regular pages.
+      </p>
 
-      <nav id="breadcrumbs" aria-label="breadcrumb">
+      <p>
+        Remember that the area-label attribute should be based on the current language of the page. For the primary menu
+        it should be "Breadcrumbs" or "Brödsmulor"
+      </p>
+      <p>An example of the code can be seen below:</p>
+
+      <nav id="breadcrumbs" aria-label="Breadcrumbs">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
             <a href="#">Home</a>
@@ -24,7 +34,7 @@ export const Main = props => {
       </nav>
 
       <CodeSnippet
-        snippet={`<nav id="breadcrumbs" aria-label="breadcrumb">
+        snippet={`<nav id="breadcrumbs" aria-label="Breadcrumbs">
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
       <a href="#">Home</a>

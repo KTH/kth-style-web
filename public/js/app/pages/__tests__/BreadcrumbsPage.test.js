@@ -22,8 +22,17 @@ test('Breadcrumbs page snapshot', () => {
         <h1>
           Breadcrumbs
         </h1>
+        <p>
+          Breadcrumbs help the user to navigate up and down in the structure. This component is places above the main content on most of our regular pages.
+        </p>
+        <p>
+          Remember that the area-label attribute should be based on the current language of the page. For the primary menu it should be "Breadcrumbs" or "Brödsmulor"
+        </p>
+        <p>
+          An example of the code can be seen below:
+        </p>
         <nav
-          aria-label="breadcrumb"
+          aria-label="Breadcrumbs"
           id="breadcrumbs"
         >
           <ol
@@ -65,7 +74,7 @@ test('Breadcrumbs page snapshot', () => {
               <code
                 class="language-html"
               >
-                &lt;nav id="breadcrumbs" aria-label="breadcrumb"&gt;
+                &lt;nav id="breadcrumbs" aria-label="Breadcrumbs"&gt;
       &lt;ol class="breadcrumb"&gt;
         &lt;li class="breadcrumb-item"&gt;
           &lt;a href="#"&gt;Home&lt;/a&gt;
