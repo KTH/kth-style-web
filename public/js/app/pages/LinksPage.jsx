@@ -44,6 +44,30 @@ export const Main = props => {
           </a>
           <CodeSnippet snippet={`<a class="pdf-link" href="#">Link</a>`} />
         </div>
+        <div className="itemBox">
+          <ul className="link-list">
+            <li>
+              <a href="https://www.kth.se">This is a link in a list</a>
+            </li>
+            <li>
+              <a href="https://www.kth.se">This is a link in a list</a>
+            </li>
+            <li>
+              <a href="https://www.kth.se">This is a link in a list</a>
+            </li>
+            <li>
+              <a href="https://www.kth.se">This is a link in a list</a>
+            </li>
+          </ul>
+          <CodeSnippet
+            snippet={`<ul class="link-list">
+  <li><a href="https://www.kth.se">This is a link in a list</a></li>
+  <li><a href="https://www.kth.se">This is a link in a list</a></li>
+  <li><a href="https://www.kth.se">This is a link in a list</a></li>
+  <li><a href="https://www.kth.se">This is a link in a list</a></li>
+</ul>`}
+          />
+        </div>
       </div>
     </main>
   )

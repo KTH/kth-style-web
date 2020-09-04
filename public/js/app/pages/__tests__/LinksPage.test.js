@@ -229,6 +229,71 @@ test('Links page snapshot', () => {
               </div>
             </div>
           </div>
+          <div
+            class="itemBox"
+          >
+            <ul
+              class="link-list"
+            >
+              <li>
+                <a
+                  href="https://www.kth.se"
+                >
+                  This is a link in a list
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.kth.se"
+                >
+                  This is a link in a list
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.kth.se"
+                >
+                  This is a link in a list
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.kth.se"
+                >
+                  This is a link in a list
+                </a>
+              </li>
+            </ul>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;ul class="link-list"&gt;
+      &lt;li&gt;&lt;a href="https://www.kth.se"&gt;This is a link in a list&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://www.kth.se"&gt;This is a link in a list&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://www.kth.se"&gt;This is a link in a list&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://www.kth.se"&gt;This is a link in a list&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
