@@ -8,27 +8,60 @@ import CodeSnippet from '../components/CodeSnippet'
 export const Main = props => {
   return (
     <main id="mainContent" className="mainContent">
-      <h1>Collapse with hooks</h1>
-
+      <h1>Collapse</h1>
       <p>
-        This example is based on bootstrap Collapse. To get the same functionality you have to install bootstrap and
-        jquery. To toggle the visibility of the collapse, bootstrap uses jquery toggle the class "show" and also to
-        toggle the value of aria-expanded attribute on the a-tag. If you dont want to use jquery in your project you
-        have to add your own javascript to handle the visibility.
+        Collapse elements show / hides an area with content. Here do we show two examples, one based on a react
+        component and the other based on Bootstrap.
       </p>
-      <Collapse title="hooks-test">
-        <div>Lorem ipsum</div>
+      <h2>Collapse based on a React component</h2>
+      <p>
+        This example is based on a React component. When the user click on the button to toggle the visibility of the
+        collapse, react uses javascript to toggle the class "open" on the card and the value of the aria-expanded
+        attribute (true/false) on the button tag.
+      </p>
+      <Collapse title="Collapse example (React)">
+        <p>This is some text inside the collapse element</p>
       </Collapse>
-      <h2>With bootstrap and jquery:</h2>
+
       <CodeSnippet
-        snippet={`<div class="card collapsible blue undefined">
+        snippet={`<div class="card collapsible blue">
   <div class="card-header">
-    <a aria-expanded="false" href="#collapseExample" aria-controls="collapseExample" load="false" data-toggle="collapse">hooks-test</a>
+    <button type="button" aria-expanded="false" aria-controls="collapseBody">Collapse example (React)</button>
   </div>
-  <div class="collapse" id="collapseExample">
-    <div class="card-body">
-      <div>Lorem ipsum</div>
-    </div>
+  <div class="card-body" id="collapseBody">
+    <p>This is some text inside the collapse element</p>
+  </div>
+</div>`}
+      />
+
+      <h2>Collapse based on Boostrap</h2>
+      <p>
+        This example is based on bootstrap Collapse. To get the same functionality you have to make sure bootstrap
+        (style and js) is available for functionality and style to work correctly. (This is included in kth-style) To
+        toggle the visibility of the collapse, bootstrap uses javascript to toggle the class "show" and also to toggle
+        the value of aria-expanded attribute on the button-tag.
+      </p>
+      <div className="card collapsible blue">
+        <button
+          className="card-header"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Collapse example (Bootstrap)
+        </button>
+        <div className="collapse card-body" id="collapseExample">
+          <p>This is some text inside the collapse element</p>
+        </div>
+      </div>
+
+      <CodeSnippet
+        snippet={`<div class="card collapsible blue">
+  <button class="card-header" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseBody">Collapse example (Bootstrap)</button>
+  <div class="collapse card-body" id="collapseBody">
+    <p>This is some text inside the collapse element</p>
   </div>
 </div>`}
       />
