@@ -37,7 +37,7 @@ export const Main = props => {
       <h2>Collapse based on Boostrap</h2>
       <p>
         This example is based on bootstrap Collapse. To get the same functionality you have to make sure bootstrap
-        (style and js) is available for functionality and style to work correctly. (This is included in kth-style) To
+        (style and js) is available for functionality and style to work correctly. Bootstrap.js need JQery as well. To
         toggle the visibility of the collapse, bootstrap uses javascript to toggle the class "show" and also to toggle
         the value of aria-expanded attribute on the button-tag.
       </p>
