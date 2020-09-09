@@ -10,18 +10,9 @@ export default props => {
   }
 
   return (
-    <div className={`card collapsible ${color || 'blue'}${open ? ' open' : ''}${className ? ' ' + className : ''}`}>
-      <div className="card-header" onClick={toggle}>
-        <button type="button" aria-expanded={open} aria-controls="collapseBody">
-          {title}
-        </button>
-      </div>
-
-      {open && (
-        <div className="card-body" id="collapseBody">
-          {children}
-        </div>
-      )}
-    </div>
+    <details>
+      <summary className={`${color || 'blue'}${className ? ' ' + className : ''}`}>{title}</summary>
+      {children}
+    </details>
   )
 }
