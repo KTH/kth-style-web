@@ -2,6 +2,17 @@
 
 @import '../../node_modules/kth-style/public/sass/variables/fonts';
 
+ul.deprecatedList {
+  li {
+    line-height: 1.5625;
+    margin-bottom: 20px;
+    ul {
+      li {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
 #app {
   width: 100%;
   padding: 15px 0;
@@ -63,7 +74,6 @@
 
   .gridItem {
     border: 1px solid lightgray;
-    margin-top: 30px;
   }
 }
 
