@@ -33,6 +33,20 @@ export const Main = props => {
 
       <details>
         <summary className="blue">Collapse example blue (Native HTML)</summary>
+        <ul className="link-list">
+          <li>
+            <a href="https://www.kth.se">This is a link in a list</a>
+          </li>
+          <li>
+            <a href="https://www.kth.se">This is a link in a list</a>
+          </li>
+          <li>
+            <a href="https://www.kth.se">This is a link in a list</a>
+          </li>
+          <li>
+            <a href="https://www.kth.se">This is a link in a list</a>
+          </li>
+        </ul>
         <p>This is some text inside the collapse element</p>
       </details>
 
