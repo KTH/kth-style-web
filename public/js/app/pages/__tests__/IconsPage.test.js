@@ -22,6 +22,9 @@ test('Icons page snapshot', () => {
         <h1>
           Ikoner
         </h1>
+        <h2>
+          Information
+        </h2>
         <div
           class="gridItemContainer"
         >
@@ -141,6 +144,87 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/modal-info.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              modal-info.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/modal-info.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/table-modal.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              table-modal.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/table-modal.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>
+          Pilar
+        </h2>
+        <div
+          class="gridItemContainer"
+        >
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
               style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-black-down.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
@@ -252,12 +336,12 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-cross-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-down.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
             <div
               class="displayName"
             >
-              arrow-cross-black.svg
+              arrow-white-down.svg
             </div>
             <div
               class="code-snippet"
@@ -269,7 +353,7 @@ test('Icons page snapshot', () => {
                   <code
                     class="language-html"
                   >
-                    url(/style/static/kth-style/img/kth-style/icons/arrow-cross-black.svg)
+                    url(/style/static/kth-style/img/kth-style/icons/arrow-white-down.svg)
                   </code>
                 </pre>
                 <div
@@ -289,12 +373,12 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-left.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
             />
             <div
               class="displayName"
             >
-              arrow-gallery.svg
+              arrow-white-left.svg
             </div>
             <div
               class="code-snippet"
@@ -306,7 +390,118 @@ test('Icons page snapshot', () => {
                   <code
                     class="language-html"
                   >
-                    url(/style/static/kth-style/img/kth-style/icons/arrow-gallery.svg)
+                    url(/style/static/kth-style/img/kth-style/icons/arrow-white-left.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-right.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              arrow-white-right.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/arrow-white-right.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-blue-right.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              arrow-blue-right.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/arrow-blue-right.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-blue-down.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              arrow-blue-down.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/arrow-blue-down.svg)
                   </code>
                 </pre>
                 <div
@@ -548,6 +743,43 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-cross-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              arrow-cross-black.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/arrow-cross-black.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
               style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-up-down-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
@@ -622,12 +854,12 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-down.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/back-to-top.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
               class="displayName"
             >
-              arrow-white-down.svg
+              back-to-top.svg
             </div>
             <div
               class="code-snippet"
@@ -639,7 +871,51 @@ test('Icons page snapshot', () => {
                   <code
                     class="language-html"
                   >
-                    url(/style/static/kth-style/img/kth-style/icons/arrow-white-down.svg)
+                    url(/style/static/kth-style/img/kth-style/back-to-top.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>
+          Galleri
+        </h2>
+        <div
+          class="gridItemContainer"
+        >
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              arrow-gallery.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/arrow-gallery.svg)
                   </code>
                 </pre>
                 <div
@@ -659,12 +935,12 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-left.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pause-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
               class="displayName"
             >
-              arrow-white-left.svg
+              pause-gallery.svg
             </div>
             <div
               class="code-snippet"
@@ -676,7 +952,7 @@ test('Icons page snapshot', () => {
                   <code
                     class="language-html"
                   >
-                    url(/style/static/kth-style/img/kth-style/icons/arrow-white-left.svg)
+                    url(/style/static/kth-style/img/kth-style/icons/pause-gallery.svg)
                   </code>
                 </pre>
                 <div
@@ -696,12 +972,12 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/arrow-white-right.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/play-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
               class="displayName"
             >
-              arrow-white-right.svg
+              play-gallery.svg
             </div>
             <div
               class="code-snippet"
@@ -713,7 +989,7 @@ test('Icons page snapshot', () => {
                   <code
                     class="language-html"
                   >
-                    url(/style/static/kth-style/img/kth-style/icons/arrow-white-right.svg)
+                    url(/style/static/kth-style/img/kth-style/icons/play-gallery.svg)
                   </code>
                 </pre>
                 <div
@@ -728,376 +1004,13 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/back-link-pill.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              back-link-pill.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/back-link-pill.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/back-link.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              back-link.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/back-link.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/balance-scale-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              balance-scale-black.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/balance-scale-black.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/balance-scale-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              balance-scale-white.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/balance-scale-white.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/canvas.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              canvas.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/canvas.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/check-mark.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              check-mark.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/check-mark.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/clock_grey_25.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              clock_grey_25.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/clock_grey_25.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/clock_grey_50.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              clock_grey_50.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/clock_grey_50.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/clock_grey_100.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              clock_grey_100.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/clock_grey_100.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/Clock_three_quarter.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              clock_three_quarter.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/Clock_three_quarter.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+        <h2>
+          Filer
+        </h2>
+        <div
+          class="gridItemContainer"
+        >
           <div
             class="gridItem"
           >
@@ -1158,80 +1071,6 @@ test('Icons page snapshot', () => {
                     class="language-html"
                   >
                     url(/style/static/kth-style/img/kth-style/icons/document.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/en_UK.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              en_UK.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/en_UK.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/external-link.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              external-link.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/external-link.svg)
                   </code>
                 </pre>
                 <div
@@ -1362,6 +1201,80 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-video-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              file-video-fa-regular.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/file-video-fa-regular.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-video-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              file-video-fa-solid.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/file-video-fa-solid.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
               style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-code-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
@@ -1473,6 +1386,117 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-upload-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              file-upload-fa-solid.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/file-upload-fa-solid.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-word-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              file-word-fa-regular.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/file-word-fa-regular.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-word-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              file-word-fa-solid.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/file-word-fa-solid.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
               style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-excel-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
@@ -1565,6 +1589,43 @@ test('Icons page snapshot', () => {
                     class="language-html"
                   >
                     url(/style/static/kth-style/img/kth-style/icons/file-export-fa-solid.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-import-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              file-import-fa-solid.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/file-import-fa-solid.svg)
                   </code>
                 </pre>
                 <div
@@ -1732,43 +1793,6 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-import-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              file-import-fa-solid.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/file-import-fa-solid.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
               style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-pdf-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
@@ -1912,17 +1936,24 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
+        </div>
+        <h2>
+          Flaggor
+        </h2>
+        <div
+          class="gridItemContainer"
+        >
           <div
             class="gridItem"
           >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-upload-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/en_UK.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
               class="displayName"
             >
-              file-upload-fa-solid.svg
+              en_UK.svg
             </div>
             <div
               class="code-snippet"
@@ -1934,7 +1965,7 @@ test('Icons page snapshot', () => {
                   <code
                     class="language-html"
                   >
-                    url(/style/static/kth-style/img/kth-style/icons/file-upload-fa-solid.svg)
+                    url(/style/static/kth-style/img/kth-style/icons/en_UK.svg)
                   </code>
                 </pre>
                 <div
@@ -1954,12 +1985,12 @@ test('Icons page snapshot', () => {
           >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-video-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/sv_SE.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
               class="displayName"
             >
-              file-video-fa-regular.svg
+              sv_SE.svg
             </div>
             <div
               class="code-snippet"
@@ -1971,118 +2002,7 @@ test('Icons page snapshot', () => {
                   <code
                     class="language-html"
                   >
-                    url(/style/static/kth-style/img/kth-style/icons/file-video-fa-regular.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-video-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              file-video-fa-solid.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/file-video-fa-solid.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-word-fa-regular.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              file-word-fa-regular.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/file-word-fa-regular.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/file-word-fa-solid.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              file-word-fa-solid.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/file-word-fa-solid.svg)
+                    url(/style/static/kth-style/img/kth-style/icons/sv_SE.svg)
                   </code>
                 </pre>
                 <div
@@ -2171,17 +2091,24 @@ test('Icons page snapshot', () => {
               </div>
             </div>
           </div>
+        </div>
+        <h2>
+          Övriga
+        </h2>
+        <div
+          class="gridItemContainer"
+        >
           <div
             class="gridItem"
           >
             <div
               class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/icon-from-canvas-blue.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/balance-scale-black.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
             />
             <div
               class="displayName"
             >
-              icon-from-canvas-blue.svg
+              balance-scale-black.svg
             </div>
             <div
               class="code-snippet"
@@ -2193,7 +2120,118 @@ test('Icons page snapshot', () => {
                   <code
                     class="language-html"
                   >
-                    url(/style/static/kth-style/img/kth-style/icons/icon-from-canvas-blue.svg)
+                    url(/style/static/kth-style/img/kth-style/icons/balance-scale-black.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/balance-scale-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              balance-scale-white.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/balance-scale-white.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/check-mark.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              check-mark.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/check-mark.svg)
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gridItem"
+          >
+            <div
+              class="itemBox"
+              style="background-image: url(/style/static/kth-style/img/kth-style/icons/external-link.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
+            />
+            <div
+              class="displayName"
+            >
+              external-link.svg
+            </div>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    url(/style/static/kth-style/img/kth-style/icons/external-link.svg)
                   </code>
                 </pre>
                 <div
@@ -2231,80 +2269,6 @@ test('Icons page snapshot', () => {
                     class="language-html"
                   >
                     url(/style/static/kth-style/img/kth-style/icons/link-white.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/modal-info.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              modal-info.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/modal-info.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pause-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              pause-gallery.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/pause-gallery.svg)
                   </code>
                 </pre>
                 <div
@@ -2416,191 +2380,6 @@ test('Icons page snapshot', () => {
                     class="language-html"
                   >
                     url(/style/static/kth-style/img/kth-style/icons/picture-white.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pill-back-white.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              pill-back-white.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/pill-back-white.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/pill-back.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              pill-back.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/pill-back.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/play-gallery.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              play-gallery.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/play-gallery.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/sv_SE.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              sv_SE.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/sv_SE.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/table-modal.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              table-modal.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/table-modal.svg)
                   </code>
                 </pre>
                 <div
@@ -2749,80 +2528,6 @@ test('Icons page snapshot', () => {
                     class="language-html"
                   >
                     url(/style/static/kth-style/img/kth-style/icons/trash-can-white.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/icons/white-arrow.svg); background-size: 30px 30px; background-repeat: no-repeat; background-color: rgb(101, 101, 108); margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              white-arrow.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/icons/white-arrow.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/back-to-top.svg); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              back-to-top.svg
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/back-to-top.svg)
                   </code>
                 </pre>
                 <div
@@ -3008,43 +2713,6 @@ test('Icons page snapshot', () => {
                     class="language-html"
                   >
                     url(/style/static/kth-style/img/kth-style/search-icon.svg)
-                  </code>
-                </pre>
-                <div
-                  class="code-snippet__btn-container"
-                >
-                  <button
-                    class="btn"
-                  >
-                    Copy
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="gridItem"
-          >
-            <div
-              class="itemBox"
-              style="background-image: url(/style/static/kth-style/img/kth-style/select-arrow.png); background-size: 30px 30px; background-repeat: no-repeat; margin: 20px auto auto auto; background-position: center;"
-            />
-            <div
-              class="displayName"
-            >
-              select-arrow.png
-            </div>
-            <div
-              class="code-snippet"
-            >
-              <div
-                class="code-snippet__container"
-              >
-                <pre>
-                  <code
-                    class="language-html"
-                  >
-                    url(/style/static/kth-style/img/kth-style/select-arrow.png)
                   </code>
                 </pre>
                 <div
