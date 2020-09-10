@@ -145,16 +145,6 @@ test('Navbar component includes typografi', () => {
             >
               <a
                 class="nav-link"
-                href="/style/layouts"
-              >
-                Layouter
-              </a>
-            </li>
-            <li
-              class="nav-item node expanded"
-            >
-              <a
-                class="nav-link"
                 href="/style/components"
               >
                 Komponenter
@@ -236,34 +226,59 @@ test('Navbar component includes typografi', () => {
               </ul>
             </li>
             <li
-              class="nav-item node"
+              class="nav-item node expanded"
             >
               <a
                 class="nav-link"
-                href="/style/guidelines"
+                href="/style/components"
               >
-                Riktlinjer
+                Bra att veta för utvecklare
               </a>
-            </li>
-            <li
-              class="nav-item node"
-            >
-              <a
-                class="nav-link"
-                href="/style/setup-guide"
+              <ul
+                class="nav nav-list"
+                id="leftmenu-div-3"
               >
-                Använda kth-style i sitt projekt
-              </a>
-            </li>
-            <li
-              class="nav-item node"
-            >
-              <a
-                class="nav-link"
-                href="/style/cortina-blocks"
-              >
-                Hur man hämtar html-block från Cortina
-              </a>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/guidelines"
+                  >
+                    Riktlinjer
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/setup-guide"
+                  >
+                    Använda kth-style i sitt projekt
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/cortina-blocks"
+                  >
+                    Hur man hämtar html-block från Cortina
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
+                    href="/style/deprecations"
+                  >
+                    Deprikerad style / kod
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>

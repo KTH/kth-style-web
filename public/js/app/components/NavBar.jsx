@@ -64,11 +64,6 @@ export default () => {
             </ul>
           </li>
           <li className="nav-item node expanded">
-            <a href="/style/layouts" className="nav-link">
-              Layouter
-            </a>
-          </li>
-          <li className="nav-item node expanded">
             <a href="/style/components" className="nav-link">
               Komponenter
             </a>
@@ -111,20 +106,32 @@ export default () => {
               </li>
             </ul>
           </li>
-          <li className="nav-item node">
-            <a href="/style/guidelines" className="nav-link">
-              Riktlinjer
+          <li className="nav-item node expanded">
+            <a href="/style/components" className="nav-link">
+              Bra att veta för utvecklare
             </a>
-          </li>
-          <li className="nav-item node">
-            <a href="/style/setup-guide" className="nav-link">
-              Använda kth-style i sitt projekt
-            </a>
-          </li>
-          <li className="nav-item node">
-            <a href="/style/cortina-blocks" className="nav-link">
-              Hur man hämtar html-block från Cortina
-            </a>
+            <ul id="leftmenu-div-3" className="nav nav-list">
+              <li className="nav-item leaf">
+                <a href="/style/guidelines" className="nav-link">
+                  Riktlinjer
+                </a>
+              </li>
+              <li className="nav-item leaf">
+                <a href="/style/setup-guide" className="nav-link">
+                  Använda kth-style i sitt projekt
+                </a>
+              </li>
+              <li className="nav-item leaf">
+                <a href="/style/cortina-blocks" className="nav-link">
+                  Hur man hämtar html-block från Cortina
+                </a>
+              </li>
+              <li className="nav-item leaf">
+                <a href="/style/deprecations" className="nav-link">
+                  Deprikerad style / kod
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>

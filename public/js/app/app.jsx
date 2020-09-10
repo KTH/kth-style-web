@@ -30,6 +30,7 @@ import SeparatorPage from './pages/SeparatorPage'
 import NavigationPage from './pages/NavigationPage'
 import ModalPage from './pages/ModalPage'
 import CortinaBlocksPage from './pages/CortinaBlocksPage'
+import DeprecationsPage from './pages/DeprecationsPage'
 
 function appFactory() {
   if (typeof window !== 'undefined') {
@@ -58,6 +59,7 @@ function appFactory() {
         <Route exact path="/navigation" component={NavigationPage} />
         <Route exact path="/modals" component={ModalPage} />
         <Route exact path="/cortina-blocks" component={CortinaBlocksPage} />
+        <Route exact path="/deprecations" component={DeprecationsPage} />
       </Switch>
     </Provider>
   )
