@@ -77,6 +77,38 @@ test('Collapse page snapshot', () => {
           >
             Collapse example blue (Native HTML)
           </summary>
+          <ul
+            class="link-list"
+          >
+            <li>
+              <a
+                href="https://www.kth.se"
+              >
+                This is a link in a list
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.kth.se"
+              >
+                This is a link in a list
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.kth.se"
+              >
+                This is a link in a list
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.kth.se"
+              >
+                This is a link in a list
+              </a>
+            </li>
+          </ul>
           <p>
             This is some text inside the collapse element
           </p>
