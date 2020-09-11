@@ -15,7 +15,7 @@ test('Cortina blocks page snapshot', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
-      <div
+      <main
         class="mainContent"
       >
         <h1>
@@ -143,7 +143,7 @@ test('Cortina blocks page snapshot', () => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   `)
 })
