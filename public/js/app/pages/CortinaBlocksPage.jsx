@@ -6,7 +6,7 @@ import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
   return (
-    <div className="mainContent">
+    <main className="mainContent">
       <h1>How to get html blocks from Cortina</h1>
       <p>
         To make your new application to look and behave as a "KTH application" you need a base html structure to apply
@@ -77,7 +77,7 @@ export const Main = props => {
   <a href="/">Välkommen till KTH</a>
 </h1>`}
       />
-    </div>
+    </main>
   )
 }
 
