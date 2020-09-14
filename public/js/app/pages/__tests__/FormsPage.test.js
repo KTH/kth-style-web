@@ -31,213 +31,198 @@ test('Forms page snapshot', () => {
             <h2>
               Form controls
             </h2>
-            <div
-              class="itemBox"
-            >
-              <form>
-                <div
-                  class="form-group"
-                >
-                  <label
-                    class="form-control-label"
-                    for="exampleInputText1"
-                  >
-                    Text input
-                  </label>
-                  <input
-                    class="form-control"
-                    id="exampleInputText1"
-                    type="text"
-                  />
-                </div>
-              </form>
+            <form>
               <div
-                class="code-snippet"
+                class="form-group"
               >
-                <div
-                  class="code-snippet__container"
+                <label
+                  class="form-control-label"
+                  for="exampleInputText1"
                 >
-                  <pre>
-                    <code
-                      class="language-html"
-                    >
-                      &lt;form&gt;
+                  Text input
+                </label>
+                <input
+                  class="form-control"
+                  id="exampleInputText1"
+                  type="text"
+                />
+              </div>
+            </form>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
       &lt;div class="form-group"&gt;
         &lt;label class="form-control-label" for="yourElementId"&gt;Text input&lt;/label&gt;
         &lt;input type="text" class="form-control" id="yourElementId"&gt;&lt;/input&gt;
       &lt;/div&gt;
     &lt;/form&gt;
-                    </code>
-                  </pre>
-                  <div
-                    class="code-snippet__btn-container"
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
                   >
-                    <button
-                      class="btn"
-                    >
-                      Copy
-                    </button>
-                  </div>
+                    Copy
+                  </button>
                 </div>
               </div>
             </div>
-            <div
-              class="itemBox"
-            >
-              <form>
-                <div
-                  class="form-group"
-                >
-                  <label
-                    class="form-control-label"
-                    for="exampleInputPassword1"
-                  >
-                    Password
-                  </label>
-                  <input
-                    class="form-control"
-                    id="exampleInputPassword1"
-                    placeholder="Password"
-                    type="password"
-                  />
-                </div>
-              </form>
+            <form>
               <div
-                class="code-snippet"
+                class="form-group"
               >
-                <div
-                  class="code-snippet__container"
+                <label
+                  class="form-control-label"
+                  for="exampleInputPassword1"
                 >
-                  <pre>
-                    <code
-                      class="language-html"
-                    >
-                      &lt;form&gt;
+                  Password
+                </label>
+                <input
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                  type="password"
+                />
+              </div>
+            </form>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
       &lt;div class="form-group"&gt;
         &lt;label class="form-control-label" for="yourElementId"&gt;Password&lt;/label&gt;
         &lt;input type="password" class="form-control" id="yourElementId" placeholder="Password"&gt;&lt;/input&gt;
       &lt;/div&gt;
     &lt;/form&gt;
-                    </code>
-                  </pre>
-                  <div
-                    class="code-snippet__btn-container"
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
                   >
-                    <button
-                      class="btn"
-                    >
-                      Copy
-                    </button>
-                  </div>
+                    Copy
+                  </button>
                 </div>
               </div>
             </div>
-            <div
-              class="itemBox"
-            >
-              <form>
-                <div
-                  class="form-group"
-                >
-                  <label
-                    class="form-control-label"
-                    for="exampleFormControlInput1"
-                  >
-                    Email address
-                  </label>
-                  <input
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="name@example.com"
-                    type="email"
-                  />
-                </div>
-              </form>
+            <form>
               <div
-                class="code-snippet"
+                class="form-group"
               >
-                <div
-                  class="code-snippet__container"
+                <label
+                  class="form-control-label"
+                  for="exampleFormControlInput1"
                 >
-                  <pre>
-                    <code
-                      class="language-html"
-                    >
-                      &lt;form&gt;
+                  Email address
+                </label>
+                <input
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                  type="email"
+                />
+              </div>
+            </form>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
       &lt;div class="form-group"&gt;
         &lt;label class="form-control-label" for="yourElementId"&gt;Email address&lt;/label&gt;
         &lt;input type="email" class="form-control" id="yourElementId" placeholder="name@example.com"&gt;&lt;/input&gt;
       &lt;/div&gt;
     &lt;/form&gt;
-                    </code>
-                  </pre>
-                  <div
-                    class="code-snippet__btn-container"
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
                   >
-                    <button
-                      class="btn"
-                    >
-                      Copy
-                    </button>
-                  </div>
+                    Copy
+                  </button>
                 </div>
               </div>
             </div>
-            <div
-              class="itemBox"
-            >
-              <form>
-                <div
-                  class="form-group"
+            <form>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-control-label"
+                  for="exampleFormControlSelect1"
                 >
-                  <label
-                    class="form-control-label"
-                    for="exampleFormControlSelect1"
-                  >
-                    Example select
-                  </label>
+                  Select
+                </label>
+                <div
+                  class="form-select form-group"
+                >
                   <div
-                    class="form-select form-group"
+                    class="select-wrapper"
                   >
-                    <div
-                      class="select-wrapper"
+                    <select
+                      aria-label="Välj något"
+                      class="form-control"
+                      id="exampleFormControlSelect1"
                     >
-                      <select
-                        aria-label="Välj något"
-                        class="form-control"
-                        id="exampleFormControlSelect1"
+                      <option
+                        selected=""
+                        value="undefined"
                       >
-                        <option
-                          selected=""
-                          value="undefined"
-                        >
-                          Välj...
-                        </option>
-                        <option>
-                          1
-                        </option>
-                        <option>
-                          2
-                        </option>
-                        <option>
-                          3
-                        </option>
-                      </select>
-                    </div>
+                        Välj...
+                      </option>
+                      <option>
+                        1
+                      </option>
+                      <option>
+                        2
+                      </option>
+                      <option>
+                        3
+                      </option>
+                    </select>
                   </div>
                 </div>
-              </form>
+              </div>
+            </form>
+            <div
+              class="code-snippet"
+            >
               <div
-                class="code-snippet"
+                class="code-snippet__container"
               >
-                <div
-                  class="code-snippet__container"
-                >
-                  <pre>
-                    <code
-                      class="language-html"
-                    >
-                      &lt;form&gt;
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
       &lt;div class="form-group"&gt;
         &lt;label class="form-control-label" for="exampleFormControlSelect1"&gt;Example select&lt;/label&gt;
         &lt;div class="form-select form-group"&gt;
@@ -252,195 +237,178 @@ test('Forms page snapshot', () => {
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/form&gt;
-                    </code>
-                  </pre>
-                  <div
-                    class="code-snippet__btn-container"
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
                   >
-                    <button
-                      class="btn"
-                    >
-                      Copy
-                    </button>
-                  </div>
+                    Copy
+                  </button>
                 </div>
               </div>
             </div>
-            <div
-              class="itemBox"
-            >
-              <form>
-                <div
-                  class="form-group"
-                >
-                  <label
-                    class="form-control-label"
-                    for="exampleFormControlTextarea1"
-                  >
-                    Example textarea
-                  </label>
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                  />
-                </div>
-              </form>
+            <form>
               <div
-                class="code-snippet"
+                class="form-group"
               >
-                <div
-                  class="code-snippet__container"
+                <label
+                  class="form-control-label"
+                  for="exampleFormControlTextarea1"
                 >
-                  <pre>
-                    <code
-                      class="language-html"
-                    >
-                      &lt;form&gt;
+                  Textarea
+                </label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                />
+              </div>
+            </form>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
       &lt;div class="form-group"&gt;
         &lt;label class="form-control-label" for="yourElementId"&gt;Example textarea&lt;/label&gt;
         &lt;textarea class="form-control" id="yourElementId" rows="3"&gt;&lt;/textarea&gt;
       &lt;/div&gt;
     &lt;/form&gt;
-                    </code>
-                  </pre>
-                  <div
-                    class="code-snippet__btn-container"
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
                   >
-                    <button
-                      class="btn"
-                    >
-                      Copy
-                    </button>
-                  </div>
+                    Copy
+                  </button>
                 </div>
               </div>
             </div>
             <h2>
               Checkboxes
             </h2>
-            <div
-              class="itemBox"
-            >
-              <form>
-                <div
-                  class="form-check form-group"
-                >
-                  <input
-                    class="form-check-input"
-                    id="exampleCheck1"
-                    type="checkbox"
-                  />
-                  <label
-                    class="form-control-label"
-                    for="exampleCheck1"
-                  >
-                    Check me out
-                  </label>
-                </div>
-              </form>
+            <form>
               <div
-                class="code-snippet"
+                class="form-check form-group"
               >
-                <div
-                  class="code-snippet__container"
+                <input
+                  class="form-check-input"
+                  id="exampleCheck1"
+                  type="checkbox"
+                />
+                <label
+                  class="form-control-label"
+                  for="exampleCheck1"
                 >
-                  <pre>
-                    <code
-                      class="language-html"
-                    >
-                      &lt;form&gt;
+                  Check me out
+                </label>
+              </div>
+            </form>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
       &lt;div class="form-check form-group"&gt;
         &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"&gt;&lt;/input&gt;
         &lt;label class="form-control-label" for="exampleCheck1"&gt;Check me out&lt;/label&gt;
       &lt;/div&gt;
     &lt;/form&gt;
-                    </code>
-                  </pre>
-                  <div
-                    class="code-snippet__btn-container"
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
                   >
-                    <button
-                      class="btn"
-                    >
-                      Copy
-                    </button>
-                  </div>
+                    Copy
+                  </button>
                 </div>
               </div>
             </div>
-            <h2
-              id="radio-group"
-            >
+            <h2>
               Radio buttons
             </h2>
-            <div
-              class="itemBox"
-            >
-              <form>
-                <div
-                  class="form-check form-group"
-                >
-                  <input
-                    aria-labelledby="radio-group"
-                    class="form-check-input"
-                    id="exampleRadios1"
-                    type="radio"
-                    value="Option 1"
-                  />
-                  <label
-                    class="form-control-label"
-                    for="exampleRadios1"
-                  >
-                    Option 1
-                  </label>
-                </div>
-                <div
-                  class="form-check form-group"
-                >
-                  <input
-                    aria-labelledby="radio-group"
-                    class="form-check-input"
-                    id="exampleRadios2"
-                    type="radio"
-                    value="Option 2"
-                  />
-                  <label
-                    class="form-control-label"
-                    for="exampleRadios2"
-                  >
-                    Option 2
-                  </label>
-                </div>
-                <div
-                  class="form-check form-group"
-                >
-                  <input
-                    aria-labelledby="radio-group"
-                    class="form-check-input"
-                    id="exampleRadios3"
-                    type="radio"
-                    value="Option 3"
-                  />
-                  <label
-                    class="form-control-label"
-                    for="exampleRadios3"
-                  >
-                    Option 3
-                  </label>
-                </div>
-              </form>
+            <form>
               <div
-                class="code-snippet"
+                class="form-check form-group"
               >
-                <div
-                  class="code-snippet__container"
+                <input
+                  class="form-check-input"
+                  id="exampleRadios1"
+                  type="radio"
+                  value="Option 1"
+                />
+                <label
+                  class="form-control-label"
+                  for="exampleRadios1"
                 >
-                  <pre>
-                    <code
-                      class="language-html"
-                    >
-                      &lt;form&gt;
+                  Option 1
+                </label>
+              </div>
+              <div
+                class="form-check form-group"
+              >
+                <input
+                  class="form-check-input"
+                  id="exampleRadios2"
+                  type="radio"
+                  value="Option 2"
+                />
+                <label
+                  class="form-control-label"
+                  for="exampleRadios2"
+                >
+                  Option 2
+                </label>
+              </div>
+              <div
+                class="form-check form-group"
+              >
+                <input
+                  class="form-check-input"
+                  id="exampleRadios3"
+                  type="radio"
+                  value="Option 3"
+                />
+                <label
+                  class="form-control-label"
+                  for="exampleRadios3"
+                >
+                  Option 3
+                </label>
+              </div>
+            </form>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
       &lt;div class="form-check form-group"&gt;
         &lt;input type="radio" class="form-check-input" value="Option 1" id="exampleRadios1"/&gt;
         &lt;label class="form-control-label" for="exampleRadios1"&gt;Option 1&lt;/label&gt;
@@ -454,17 +422,114 @@ test('Forms page snapshot', () => {
         &lt;label class="form-control-label" for="exampleRadios3"&gt;Option 3&lt;/label&gt;
       &lt;/div&gt;
     &lt;/form&gt;
-                    </code>
-                  </pre>
-                  <div
-                    class="code-snippet__btn-container"
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
                   >
-                    <button
-                      class="btn"
-                    >
-                      Copy
-                    </button>
-                  </div>
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2>
+              Group related elements with fieldset and legend tags
+            </h2>
+            <form>
+              <fieldset>
+                <legend>
+                  Choose one of the following options
+                </legend>
+                <div
+                  class="form-check form-group"
+                >
+                  <input
+                    class="form-check-input"
+                    id="radio1"
+                    type="radio"
+                    value="Option 1"
+                  />
+                  <label
+                    class="form-control-label"
+                    for="radio1"
+                  >
+                    Option 1
+                  </label>
+                </div>
+                <div
+                  class="form-check form-group"
+                >
+                  <input
+                    class="form-check-input"
+                    id="radio2"
+                    type="radio"
+                    value="Option 2"
+                  />
+                  <label
+                    class="form-control-label"
+                    for="radio2"
+                  >
+                    Option 2
+                  </label>
+                </div>
+                <div
+                  class="form-check form-group"
+                >
+                  <input
+                    class="form-check-input"
+                    id="radio3"
+                    type="radio"
+                    value="Option 3"
+                  />
+                  <label
+                    class="form-control-label"
+                    for="radio3"
+                  >
+                    Option 3
+                  </label>
+                </div>
+              </fieldset>
+            </form>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
+      &lt;fieldset&gt;
+        &lt;legend&gt;Choose one of the following options&lt;/legend&gt;
+        &lt;div class="form-check form-group"&gt;
+          &lt;input type="radio" class="form-check-input" value="Option 1" id="radio1"/&gt;
+          &lt;label class="form-control-label" for="radio1"&gt;Option 1&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="form-check form-group"&gt;
+          &lt;input type="radio" class="form-check-input" value="Option 2" id="radio2"/&gt;
+          &lt;label class="form-control-label" for="radio2"&gt;Option 2&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="form-check form-group"&gt;
+          &lt;input type="radio" class="form-check-input" value="Option 3" id="radio3"/&gt;
+          &lt;label class="form-control-label" for="radio3"&gt;Option 3&lt;/label&gt;
+        &lt;/div&gt;
+      &lt;/fieldset&gt;
+    &lt;/form&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
                 </div>
               </div>
             </div>
