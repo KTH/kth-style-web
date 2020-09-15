@@ -89,6 +89,35 @@ test('Modal page snapshot', () => {
             </div>
           </div>
         </div>
+        <div
+          class="code-snippet"
+        >
+          <div
+            class="code-snippet__container"
+          >
+            <pre>
+              <code
+                class="language-html"
+              >
+                &lt;button onClick={openModal} type="button" class="btn btn-primary feedback-btn"&gt;
+      Öppna modalfönster
+    &lt;/button&gt;
+    &lt;Modal isOpen={isOpen} closeModal={closeModal} lang={lang} title="Titel"&gt;
+      &lt;p&gt;Detta är innehåll i en modal baserad på en React-komponent.&lt;/p&gt;
+    &lt;/Modal&gt;
+              </code>
+            </pre>
+            <div
+              class="code-snippet__btn-container"
+            >
+              <button
+                class="btn"
+              >
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
         <h2>
           Modal baserad på Bootstrap
         </h2>
@@ -159,6 +188,49 @@ test('Modal page snapshot', () => {
                   Stäng
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="code-snippet"
+        >
+          <div
+            class="code-snippet__container"
+          >
+            <pre>
+              <code
+                class="language-html"
+              >
+                &lt;button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"&gt;
+      Öppna modalfönster
+    &lt;/button&gt;
+
+    &lt;div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"&gt;
+      &lt;div class="modal-dialog" role="document"&gt;
+        &lt;div class="modal-content"&gt;
+          &lt;div class="modal-header"&gt;
+            &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
+              &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;h3 class="modal-title" id="exampleModalLabel"&gt;Titel&lt;/h3&gt;
+          &lt;/div&gt;
+          &lt;div class="modal-body"&gt;Detta är innehåll i en modal baserad på Bootstrap.&lt;/div&gt;
+          &lt;div class="modal-footer"&gt;
+            &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Stäng&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+              </code>
+            </pre>
+            <div
+              class="code-snippet__btn-container"
+            >
+              <button
+                class="btn"
+              >
+                Copy
+              </button>
             </div>
           </div>
         </div>
