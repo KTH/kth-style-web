@@ -39,6 +39,8 @@ module.exports = {
     page_kth_style_icons: 'Ikoner',
     page_kth_style_buttons: 'Knappar',
 
+    modal_close_button_label: 'Stäng',
+    modal_title: 'Modaltitel',
     skip_to_main_content: 'Hoppa till huvudinnehållet',
   },
 }

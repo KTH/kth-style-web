@@ -22,9 +22,143 @@ test('Modal page snapshot', () => {
         <h1>
           Modaler
         </h1>
+        <h2>
+          Modal baserad på React
+        </h2>
         <p>
-          Modaler ... 
+          Denna modal är baserad på vår React-komponent och kräver således React i botten.
         </p>
+        <button
+          class="btn btn-primary feedback-btn"
+          type="button"
+        >
+          Öppna modalfönster
+        </button>
+        <div
+          aria-hidden="true"
+          aria-labelledby="feedbackModalLabel"
+          class="modal fade "
+          id="feedbackModal"
+          role="dialog"
+          style="display: none;"
+          tabindex="-1"
+        >
+          <div
+            class="modal-dialog modal-mg"
+            role="document"
+          >
+            <div
+              class="modal-content"
+            >
+              <div
+                class="modal-header"
+              >
+                <button
+                  aria-label="KEY close_button_label FOR LANGUAGE Swedish DOES NOT EXIST"
+                  class="close"
+                  type="button"
+                >
+                  <span
+                    aria-hidden="true"
+                  >
+                    ×
+                  </span>
+                </button>
+                <h3>
+                  Titel
+                </h3>
+              </div>
+              <div
+                class="modal-body"
+              >
+                <p>
+                  Detta är innehåll i en modal baserad på en React-komponent.
+                </p>
+              </div>
+              <div
+                class="modal-footer"
+              >
+                <button
+                  aria-label="Stäng"
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Stäng
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>
+          Modal baserad på Bootstrap
+        </h2>
+        <p>
+          Denna modal är baserad på Bootstrap och kräver att man har Bootstrap CSS och JS tillgängligt i sitt prjekt.
+        </p>
+        <button
+          class="btn btn-primary"
+          data-target="#exampleModal"
+          data-toggle="modal"
+          type="button"
+        >
+          Öppna modalfönster
+        </button>
+        <div
+          aria-hidden="true"
+          aria-labelledby="exampleModalLabel"
+          class="modal fade"
+          id="exampleModal"
+          role="dialog"
+          tabindex="-1"
+        >
+          <div
+            class="modal-dialog"
+            role="document"
+          >
+            <div
+              class="modal-content"
+            >
+              <div
+                class="modal-header"
+              >
+                <button
+                  aria-label="Close"
+                  class="close"
+                  data-dismiss="modal"
+                  type="button"
+                >
+                  <span
+                    aria-hidden="true"
+                  >
+                    ×
+                  </span>
+                </button>
+                <h3
+                  class="modal-title"
+                  id="exampleModalLabel"
+                >
+                  Titel
+                </h3>
+              </div>
+              <div
+                class="modal-body"
+              >
+                Detta är innehåll i en modal baserad på Bootstrap.
+              </div>
+              <div
+                class="modal-footer"
+              >
+                <button
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                  type="button"
+                >
+                  Stäng
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   `)

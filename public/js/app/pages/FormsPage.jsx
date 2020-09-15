@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React from 'react'
 import { inject, observer } from 'mobx-react'
 
 import NavBar from '../components/NavBar'
@@ -238,10 +238,10 @@ export default inject('styleStore')(
     const { message } = styleStore
 
     return (
-      <Fragment>
+      <>
         <NavBar />
         <Main message={message} />
-      </Fragment>
+      </>
     )
   })
 )
