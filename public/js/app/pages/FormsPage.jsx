@@ -148,19 +148,19 @@ export const Main = props => {
 
           <form>
             <div className="form-check form-group">
-              <input type="radio" className="form-check-input" value="Option 1" id="exampleRadios1" />
+              <input type="radio" className="form-check-input" name="example2" value="Option 1" id="exampleRadios1" />
               <label className="form-control-label" htmlFor="exampleRadios1">
                 Option 1
               </label>
             </div>
             <div className="form-check form-group">
-              <input type="radio" className="form-check-input" value="Option 2" id="exampleRadios2" />
+              <input type="radio" className="form-check-input" name="example2" value="Option 2" id="exampleRadios2" />
               <label className="form-control-label" htmlFor="exampleRadios2">
                 Option 2
               </label>
             </div>
             <div className="form-check form-group">
-              <input type="radio" className="form-check-input" value="Option 3" id="exampleRadios3" />
+              <input type="radio" className="form-check-input" name="example2" value="Option 3" id="exampleRadios3" />
               <label className="form-control-label" htmlFor="exampleRadios3">
                 Option 3
               </label>
@@ -169,15 +169,15 @@ export const Main = props => {
           <CodeSnippet
             snippet={`<form>
   <div class="form-check form-group">
-    <input type="radio" class="form-check-input" value="Option 1" id="exampleRadios1"/>
+    <input type="radio" class="form-check-input" name="example2" value="Option 1" id="exampleRadios1"/>
     <label class="form-control-label" for="exampleRadios1">Option 1</label>
   </div>
   <div class="form-check form-group">
-    <input type="radio" class="form-check-input" value="Option 2" id="exampleRadios2"/>
+    <input type="radio" class="form-check-input" name="example2" value="Option 2" id="exampleRadios2"/>
     <label class="form-control-label" for="exampleRadios2">Option 2</label>
   </div>
   <div class="form-check form-group">
-    <input type="radio" class="form-check-input" value="Option 3" id="exampleRadios3"/>
+    <input type="radio" class="form-check-input" name="example2" value="Option 3" id="exampleRadios3"/>
     <label class="form-control-label" for="exampleRadios3">Option 3</label>
   </div>
 </form>`}
@@ -189,19 +189,19 @@ export const Main = props => {
             <fieldset>
               <legend>Choose one of the following options</legend>
               <div className="form-check form-group">
-                <input type="radio" className="form-check-input" value="Option 1" id="radio1" />
+                <input type="radio" className="form-check-input" name="example3" value="Option 1" id="radio1" />
                 <label className="form-control-label" htmlFor="radio1">
                   Option 1
                 </label>
               </div>
               <div className="form-check form-group">
-                <input type="radio" className="form-check-input" value="Option 2" id="radio2" />
+                <input type="radio" className="form-check-input" name="example3" value="Option 2" id="radio2" />
                 <label className="form-control-label" htmlFor="radio2">
                   Option 2
                 </label>
               </div>
               <div className="form-check form-group">
-                <input type="radio" className="form-check-input" value="Option 3" id="radio3" />
+                <input type="radio" className="form-check-input" name="example3" value="Option 3" id="radio3" />
                 <label className="form-control-label" htmlFor="radio3">
                   Option 3
                 </label>
@@ -213,15 +213,15 @@ export const Main = props => {
   <fieldset>
     <legend>Choose one of the following options</legend>
     <div class="form-check form-group">
-      <input type="radio" class="form-check-input" value="Option 1" id="radio1"/>
+      <input type="radio" class="form-check-input" name="example3" value="Option 1" id="radio1"/>
       <label class="form-control-label" for="radio1">Option 1</label>
     </div>
     <div class="form-check form-group">
-      <input type="radio" class="form-check-input" value="Option 2" id="radio2"/>
+      <input type="radio" class="form-check-input" name="example3" value="Option 2" id="radio2"/>
       <label class="form-control-label" for="radio2">Option 2</label>
     </div>
     <div class="form-check form-group">
-      <input type="radio" class="form-check-input" value="Option 3" id="radio3"/>
+      <input type="radio" class="form-check-input" name="example3" value="Option 3" id="radio3"/>
       <label class="form-control-label" for="radio3">Option 3</label>
     </div>
   </fieldset>

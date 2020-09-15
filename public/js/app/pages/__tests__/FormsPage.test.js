@@ -355,6 +355,7 @@ test('Forms page snapshot', () => {
                 <input
                   class="form-check-input"
                   id="exampleRadios1"
+                  name="example2"
                   type="radio"
                   value="Option 1"
                 />
@@ -371,6 +372,7 @@ test('Forms page snapshot', () => {
                 <input
                   class="form-check-input"
                   id="exampleRadios2"
+                  name="example2"
                   type="radio"
                   value="Option 2"
                 />
@@ -387,6 +389,7 @@ test('Forms page snapshot', () => {
                 <input
                   class="form-check-input"
                   id="exampleRadios3"
+                  name="example2"
                   type="radio"
                   value="Option 3"
                 />
@@ -410,15 +413,15 @@ test('Forms page snapshot', () => {
                   >
                     &lt;form&gt;
       &lt;div class="form-check form-group"&gt;
-        &lt;input type="radio" class="form-check-input" value="Option 1" id="exampleRadios1"/&gt;
+        &lt;input type="radio" class="form-check-input" name="example2" value="Option 1" id="exampleRadios1"/&gt;
         &lt;label class="form-control-label" for="exampleRadios1"&gt;Option 1&lt;/label&gt;
       &lt;/div&gt;
       &lt;div class="form-check form-group"&gt;
-        &lt;input type="radio" class="form-check-input" value="Option 2" id="exampleRadios2"/&gt;
+        &lt;input type="radio" class="form-check-input" name="example2" value="Option 2" id="exampleRadios2"/&gt;
         &lt;label class="form-control-label" for="exampleRadios2"&gt;Option 2&lt;/label&gt;
       &lt;/div&gt;
       &lt;div class="form-check form-group"&gt;
-        &lt;input type="radio" class="form-check-input" value="Option 3" id="exampleRadios3"/&gt;
+        &lt;input type="radio" class="form-check-input" name="example2" value="Option 3" id="exampleRadios3"/&gt;
         &lt;label class="form-control-label" for="exampleRadios3"&gt;Option 3&lt;/label&gt;
       &lt;/div&gt;
     &lt;/form&gt;
@@ -449,6 +452,7 @@ test('Forms page snapshot', () => {
                   <input
                     class="form-check-input"
                     id="radio1"
+                    name="example3"
                     type="radio"
                     value="Option 1"
                   />
@@ -465,6 +469,7 @@ test('Forms page snapshot', () => {
                   <input
                     class="form-check-input"
                     id="radio2"
+                    name="example3"
                     type="radio"
                     value="Option 2"
                   />
@@ -481,6 +486,7 @@ test('Forms page snapshot', () => {
                   <input
                     class="form-check-input"
                     id="radio3"
+                    name="example3"
                     type="radio"
                     value="Option 3"
                   />
@@ -507,15 +513,15 @@ test('Forms page snapshot', () => {
       &lt;fieldset&gt;
         &lt;legend&gt;Choose one of the following options&lt;/legend&gt;
         &lt;div class="form-check form-group"&gt;
-          &lt;input type="radio" class="form-check-input" value="Option 1" id="radio1"/&gt;
+          &lt;input type="radio" class="form-check-input" name="example3" value="Option 1" id="radio1"/&gt;
           &lt;label class="form-control-label" for="radio1"&gt;Option 1&lt;/label&gt;
         &lt;/div&gt;
         &lt;div class="form-check form-group"&gt;
-          &lt;input type="radio" class="form-check-input" value="Option 2" id="radio2"/&gt;
+          &lt;input type="radio" class="form-check-input" name="example3" value="Option 2" id="radio2"/&gt;
           &lt;label class="form-control-label" for="radio2"&gt;Option 2&lt;/label&gt;
         &lt;/div&gt;
         &lt;div class="form-check form-group"&gt;
-          &lt;input type="radio" class="form-check-input" value="Option 3" id="radio3"/&gt;
+          &lt;input type="radio" class="form-check-input" name="example3" value="Option 3" id="radio3"/&gt;
           &lt;label class="form-control-label" for="radio3"&gt;Option 3&lt;/label&gt;
         &lt;/div&gt;
       &lt;/fieldset&gt;
