@@ -3,92 +3,7 @@ import { inject, observer } from 'mobx-react'
 
 import NavBar from '../components/NavBar'
 
-const TypographyItems = ({ list }) => {
-  return list.map((row, index) => (
-    <div key={index} className="itemBox typographyItem border">
-      <span className={row.className}>{row.text}</span>
-      <p>
-        <strong>HTML: </strong>
-        <code className="language-html">{row.html}</code>
-      </p>
-      <p>
-        <strong>Sass: </strong>
-        <code>{row.sass}</code>
-      </p>
-      <div>
-        <p>
-          <strong>Användningsområde: </strong>
-        </p>
-        <ul>
-          {row.usedFor.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    </div>
-  ))
-}
-
 export const Main = props => {
-  const tableRows = [
-    {
-      className: 't1',
-      text: 'H1 - Heading',
-      html: '<h1></h1>',
-      sass: 'h1 { @include t1; }',
-      usedFor: ['Rubrik nivå 1'],
-    },
-    {
-      className: 't2',
-      text: 'H2 - Heading',
-      html: '<h2></h2>',
-      sass: 'h2 { @include t2; }',
-      usedFor: ['Rubrik nivå 2'],
-    },
-    {
-      className: 't24',
-      text: 'H2 - Heading',
-      html: '<h2></h2>',
-      sass: 'h2 { @include t24; }',
-      usedFor: ['Rubrik puffblock bred'],
-    },
-    {
-      className: 't3',
-      text: 'H3 - Heading',
-      html: '<h3></h3>',
-      sass: 'h3 { @include t3; }',
-      usedFor: ['Rubrik nivå 3 (i artikel)'],
-    },
-    {
-      className: 't4',
-      text: 'H4 - Heading',
-      html: '<h4></h4>',
-      sass: 'h4 { @include t4; }',
-      usedFor: ['Rubrik nivå 4', 'Blockrubrik', 'Rubrik puffblock smal', 'Menyrubrik', 'Sitename'],
-    },
-    {
-      className: 't11',
-      text: 'P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      html: '<p></p>',
-      sass: '@include t11;',
-      usedFor: ['Brödtext puff'],
-    },
-    {
-      className: 't12',
-      text: 'P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      html: '<p class="t12"></p>',
-      sass: 'p { @include t12; }',
-      usedFor: ['Brödtext artikel'],
-    },
-    {
-      className: 't10',
-      text: 'P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      html: '<p class="t10"></p>',
-      sass: 'p { @include t10; }',
-      usedFor: ['Ingress', 'Megameny', 'Blockquote'],
-    },
-  ]
-
   return (
     <main id="mainContent" className="mainContent">
       <h1>Typografi</h1>
@@ -102,10 +17,170 @@ export const Main = props => {
       </p>
 
       <div className="itemContainer">
-        <TypographyItems list={tableRows} />
-      </div>
+        <div className="itemBox typographyItem border">
+          <h1 className="t1">H1 - Heading</h1>
+          <p>
+            <strong>HTML: </strong>
+            <code className="language-html">&lt;h1&gt;&lt;/h1&gt;</code>
+          </p>
+          <p>
+            <strong>Sass: </strong>
+            <code>h1 {'{ @include t1; }'}</code>
+          </p>
+          <div>
+            <p>
+              <strong>Användningsområde: </strong>
+            </p>
+            <ul>
+              <li>Rubrik nivå 1</li>
+            </ul>
+          </div>
+        </div>
+        <div className="itemBox typographyItem border">
+          <h2 className="t2">H2 - Heading</h2>
+          <p>
+            <strong>HTML: </strong>
+            <code className="language-html">&lt;h2&gt;&lt;/h2&gt;</code>
+          </p>
+          <p>
+            <strong>Sass: </strong>
+            <code>h2 {'{ @include t2; }'}</code>
+          </p>
+          <div>
+            <p>
+              <strong>Användningsområde: </strong>
+            </p>
+            <ul>
+              <li>Rubrik nivå 2</li>
+            </ul>
+          </div>
+        </div>
+        <div className="itemBox typographyItem border">
+          <h2 className="t24">H2 - Heading</h2>
+          <p>
+            <strong>HTML: </strong>
+            <code className="language-html">&lt;h2&gt;&lt;/h2&gt;</code>
+          </p>
+          <p>
+            <strong>Sass: </strong>
+            <code>h2 {'{ @include t24; }'}</code>
+          </p>
+          <div>
+            <p>
+              <strong>Användningsområde: </strong>
+            </p>
+            <ul>
+              <li>Rubrik puffblock bred</li>
+            </ul>
+          </div>
+        </div>
 
-      {/* <p>{`Message from styleStore: ${props.message}`}</p> */}
+        <div className="itemBox typographyItem border">
+          <h3 className="t3">H3 - Heading</h3>
+          <p>
+            <strong>HTML: </strong>
+            <code className="language-html">&lt;h3&gt;&lt;/h3&gt;</code>
+          </p>
+          <p>
+            <strong>Sass: </strong>
+            <code>h3 {'{ @include t3; }'}</code>
+          </p>
+          <div>
+            <p>
+              <strong>Användningsområde: </strong>
+            </p>
+            <ul>
+              <li>Rubrik nivå 3 (i artikel)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="itemBox typographyItem border">
+          <h4 className="t4">H4 - Heading</h4>
+          <p>
+            <strong>HTML: </strong>
+            <code className="language-html">&lt;h4&gt;&lt;/h4&gt;</code>
+          </p>
+          <p>
+            <strong>Sass: </strong>
+            <code>h4 {'{ @include t4; }'}</code>
+          </p>
+          <div>
+            <p>
+              <strong>Användningsområde: </strong>
+            </p>
+            <ul>
+              <li>Rubrik nivå 4</li>
+              <li>Blockrubrik</li>
+              <li>Rubrik puffblock smal</li>
+              <li>Menyrubrik</li>
+              <li>Sitename</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="itemBox typographyItem border">
+          <p className="t11">P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>
+            <strong>HTML: </strong>
+            <code className="language-html">&lt;p&gt;&lt;/p&gt;</code>
+          </p>
+          <p>
+            <strong>Sass: </strong>
+            <code>{'{ @include t11; }'}</code>
+          </p>
+          <div>
+            <p>
+              <strong>Användningsområde: </strong>
+            </p>
+            <ul>
+              <li>Brödtext puff</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="itemBox typographyItem border">
+          <p className="t12">P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>
+            <strong>HTML: </strong>
+            <code className="language-html">&lt;p class="t12"&gt;&lt;/p&gt;</code>
+          </p>
+          <p>
+            <strong>Sass: </strong>
+            <code>p {'{ @include t12; }'}</code>
+          </p>
+          <div>
+            <p>
+              <strong>Användningsområde: </strong>
+            </p>
+            <ul>
+              <li>Brödtext artikel</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="itemBox typographyItem border">
+          <p className="t10">P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>
+            <strong>HTML: </strong>
+            <code className="language-html">&lt;p class="t10"&gt;&lt;/p&gt;</code>
+          </p>
+          <p>
+            <strong>Sass: </strong>
+            <code>p {'{ @include t10; }'}</code>
+          </p>
+          <div>
+            <p>
+              <strong>Användningsområde: </strong>
+            </p>
+            <ul>
+              <li>Ingress</li>
+              <li>Megameny</li>
+              <li>Blockquote</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
   )
 }

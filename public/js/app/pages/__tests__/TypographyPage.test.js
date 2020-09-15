@@ -39,11 +39,11 @@ test('Typography page snapshot', () => {
           <div
             class="itemBox typographyItem border"
           >
-            <span
+            <h1
               class="t1"
             >
               H1 - Heading
-            </span>
+            </h1>
             <p>
               <strong>
                 HTML: 
@@ -59,7 +59,8 @@ test('Typography page snapshot', () => {
                 Sass: 
               </strong>
               <code>
-                h1 { @include t1; }
+                h1 
+                { @include t1; }
               </code>
             </p>
             <div>
@@ -78,11 +79,11 @@ test('Typography page snapshot', () => {
           <div
             class="itemBox typographyItem border"
           >
-            <span
+            <h2
               class="t2"
             >
               H2 - Heading
-            </span>
+            </h2>
             <p>
               <strong>
                 HTML: 
@@ -98,7 +99,8 @@ test('Typography page snapshot', () => {
                 Sass: 
               </strong>
               <code>
-                h2 { @include t2; }
+                h2 
+                { @include t2; }
               </code>
             </p>
             <div>
@@ -117,11 +119,11 @@ test('Typography page snapshot', () => {
           <div
             class="itemBox typographyItem border"
           >
-            <span
+            <h2
               class="t24"
             >
               H2 - Heading
-            </span>
+            </h2>
             <p>
               <strong>
                 HTML: 
@@ -137,7 +139,8 @@ test('Typography page snapshot', () => {
                 Sass: 
               </strong>
               <code>
-                h2 { @include t24; }
+                h2 
+                { @include t24; }
               </code>
             </p>
             <div>
@@ -156,11 +159,11 @@ test('Typography page snapshot', () => {
           <div
             class="itemBox typographyItem border"
           >
-            <span
+            <h3
               class="t3"
             >
               H3 - Heading
-            </span>
+            </h3>
             <p>
               <strong>
                 HTML: 
@@ -176,7 +179,8 @@ test('Typography page snapshot', () => {
                 Sass: 
               </strong>
               <code>
-                h3 { @include t3; }
+                h3 
+                { @include t3; }
               </code>
             </p>
             <div>
@@ -195,11 +199,11 @@ test('Typography page snapshot', () => {
           <div
             class="itemBox typographyItem border"
           >
-            <span
+            <h4
               class="t4"
             >
               H4 - Heading
-            </span>
+            </h4>
             <p>
               <strong>
                 HTML: 
@@ -215,7 +219,8 @@ test('Typography page snapshot', () => {
                 Sass: 
               </strong>
               <code>
-                h4 { @include t4; }
+                h4 
+                { @include t4; }
               </code>
             </p>
             <div>
@@ -246,11 +251,11 @@ test('Typography page snapshot', () => {
           <div
             class="itemBox typographyItem border"
           >
-            <span
+            <p
               class="t11"
             >
               P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </span>
+            </p>
             <p>
               <strong>
                 HTML: 
@@ -266,7 +271,7 @@ test('Typography page snapshot', () => {
                 Sass: 
               </strong>
               <code>
-                @include t11;
+                { @include t11; }
               </code>
             </p>
             <div>
@@ -285,11 +290,11 @@ test('Typography page snapshot', () => {
           <div
             class="itemBox typographyItem border"
           >
-            <span
+            <p
               class="t12"
             >
               P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </span>
+            </p>
             <p>
               <strong>
                 HTML: 
@@ -305,7 +310,8 @@ test('Typography page snapshot', () => {
                 Sass: 
               </strong>
               <code>
-                p { @include t12; }
+                p 
+                { @include t12; }
               </code>
             </p>
             <div>
@@ -324,11 +330,11 @@ test('Typography page snapshot', () => {
           <div
             class="itemBox typographyItem border"
           >
-            <span
+            <p
               class="t10"
             >
               P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </span>
+            </p>
             <p>
               <strong>
                 HTML: 
@@ -344,7 +350,8 @@ test('Typography page snapshot', () => {
                 Sass: 
               </strong>
               <code>
-                p { @include t10; }
+                p 
+                { @include t10; }
               </code>
             </p>
             <div>
