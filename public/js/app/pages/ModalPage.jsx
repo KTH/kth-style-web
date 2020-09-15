@@ -34,6 +34,7 @@ export const Main = props => {
 
       <h2>Modal baserad på Bootstrap</h2>
       <p>Denna modal är baserad på Bootstrap och kräver att man har Bootstrap CSS och JS tillgängligt i sitt prjekt.</p>
+      <p>Observera att React-modalens js stör den Bootstrap-baserade så tabbning inte fungerar i detta exempel.</p>
 
       <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Öppna modalfönster

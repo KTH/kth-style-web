@@ -95,6 +95,9 @@ test('Modal page snapshot', () => {
         <p>
           Denna modal är baserad på Bootstrap och kräver att man har Bootstrap CSS och JS tillgängligt i sitt prjekt.
         </p>
+        <p>
+          Observera att React-modalens js stör den Bootstrap-baserade så tabbning inte fungerar i detta exempel.
+        </p>
         <button
           class="btn btn-primary"
           data-target="#exampleModal"

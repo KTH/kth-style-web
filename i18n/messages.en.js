@@ -40,8 +40,6 @@ module.exports = {
     page_kth_style_buttons: 'Buttons',
 
     modal_close_button_label: 'Close',
-    modal_title: 'Modal title',
-    modal_description: 'Modal description text',
 
     skip_to_main_content: 'Skip to main content',
   },
