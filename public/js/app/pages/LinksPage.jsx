@@ -40,10 +40,20 @@ export const Main = props => {
         </div>
         <div className="itemBox">
           <a className="pdf-link" href="#">
-            Pdf link
+            Document with icon on the left
           </a>
+          <p>Check icons page for other document icons.</p>
           <CodeSnippet snippet={`<a class="pdf-link" href="#">Link</a>`} />
         </div>
+
+        <div className="itemBox">
+          <a className="pdf-post-link" target="_blank" href="#">
+            Document with icon on the right
+          </a>
+          <p>Check icons page for other document icons.</p>
+          <CodeSnippet snippet={`<a class="pdf-post-link" href="#">Link</a>`} />
+        </div>
+
         <div className="itemBox">
           <ul className="link-list">
             <li>
