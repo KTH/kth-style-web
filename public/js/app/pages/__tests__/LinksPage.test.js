@@ -202,8 +202,11 @@ test('Links page snapshot', () => {
               class="pdf-link"
               href="#"
             >
-              Pdf link
+              Document with icon on the left
             </a>
+            <p>
+              Check icons page for other document icons.
+            </p>
             <div
               class="code-snippet"
             >
@@ -215,6 +218,44 @@ test('Links page snapshot', () => {
                     class="language-html"
                   >
                     &lt;a class="pdf-link" href="#"&gt;Link&lt;/a&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="itemBox"
+          >
+            <a
+              class="pdf-post-link"
+              href="#"
+              target="_blank"
+            >
+              Document with icon on the right
+            </a>
+            <p>
+              Check icons page for other document icons.
+            </p>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;a class="pdf-post-link" href="#"&gt;Link&lt;/a&gt;
                   </code>
                 </pre>
                 <div
