@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React from 'react'
 import { inject, observer } from 'mobx-react'
 
 import NavBar from '../components/NavBar'
@@ -13,7 +13,7 @@ export const Main = props => {
         webbapplikationer på KTH. Den bygger sitt utseende och form på paketet{' '}
         <a href="https://github.com/KTH/kth-style/" alt="kth-style-paketet på Github">
           kth-style
-        </a>{' '}
+        </a>
         . Syftet är att snabba upp utvecklingen, skapa enhetlighet mellan applikationer samt underlätta form- och
         UX-arbete.
       </p>
@@ -48,10 +48,10 @@ export default inject('styleStore')(
     const { message } = styleStore
 
     return (
-      <Fragment>
+      <>
         <NavBar />
         <Main message={message} />
-      </Fragment>
+      </>
     )
   })
 )

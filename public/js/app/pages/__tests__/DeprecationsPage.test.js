@@ -3,7 +3,7 @@ import { render, waitForElement } from '@testing-library/react'
 import 'jest-axe/extend-expect'
 import { axe } from 'jest-axe'
 
-import { Main } from '../NavigationPage'
+import { Main } from '../DeprecationsPage'
 
 test('Deprecations page complies to axe accesibility', async () => {
   const { container } = render(<Main />)
@@ -20,151 +20,75 @@ test('Deprecations page snapshot', () => {
         id="mainContent"
       >
         <h1>
-          Navigation
+          Deprikerat
         </h1>
         <p>
-          Navigation is based on several menus in different contexts. Below you will find examples of these menus. 
+          Denna sida innehåller information om sådant som på sikt kommer att fasas ut (är deprikerat) i KTH Style. Alltså, det vi ska sluta använda helt eller byta ut mot annan komponent eller kod.
+        </p>
+        <p>
+          Den deprikerade koden kommer fungera tills nästa "major"-release av KTH Style släpps och kommer föregås av information till respektive team på IT-avdelningen. På detta sett får vi en kontrollerad utfasning av sådant som inte ska användas längre.
         </p>
         <h2>
-          Main navigation
+          Kommande major är 6.0.0
         </h2>
         <p>
-          The main navigation is placed on the left side of the main content. Real life examples can be found on KTH.se, for examle here: 
-          <a
-            href="https://www.kth.se/en/aktuellt/"
-          >
-            Aktuellt
-          </a>
+          Nästa major kommer innehålla följade förändringar som innebär någon form av översyn eller åtgärd.
         </p>
-        <p>
-          Remember that the aria-label attribute should be based on the current language of the page. For the primary menu it should be "Sub menu" or "Undermeny"
-        </p>
-        <p>
-          A shortened example of the code can be seen below:
-        </p>
-        <div
-          class="code-snippet"
+        <ul
+          class="deprecatedList"
         >
-          <div
-            class="code-snippet__container"
-          >
-            <pre>
-              <code
-                class="language-html"
-              >
-                &lt;nav id="mainMenu" class="col navbar navbar-expand-lg navbar-light" aria-label="Sub menu"&gt;
-      &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
-          &lt;ul class="nav"&gt;
-            &lt;li class="parentLink"&gt;&lt;a href="/"&gt;KTH&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;ul class="nav nav-ancestor"&gt;
-          &lt;li&gt;&lt;span class="nav-item ancestor"&gt;Aktuellt&lt;/span&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-          &lt;ul class="nav nav-list"&gt;
-            &lt;li class="nav-item leaf"&gt;&lt;a class="nav-link" href="/aktuellt/nyheter"&gt;Nyheter&lt;/a&gt;&lt;/li&gt;
-            &lt;li class="nav-item node"&gt;&lt;a class="nav-link" href="/aktuellt/nyhetsteman"&gt;Aktuella nyhetsteman&lt;/a&gt;&lt;/li&gt;
-            &lt;li class="nav-item node"&gt;&lt;a class="nav-link" href="/aktuellt/kalender"&gt;KTH-kalendern&lt;/a&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/div&gt;
-      &lt;/nav&gt;
-              </code>
-            </pre>
-            <div
-              class="code-snippet__btn-container"
+          <li>
+            Collapse kommer inte stödja uppbyggnad med button eller a-tag längre. Styling för dessa varianter utgår och ersätts av styling för details och summary istället. Exempel kan ses här:
+             
+            <a
+              alt="Exempel på Collapse-komponent"
+              href="https://app-r.referens.sys.kth.se/style/collapse"
             >
-              <button
-                class="btn"
-              >
-                Copy
-              </button>
-            </div>
-          </div>
-        </div>
-        <h2>
-          Secondary menu
-        </h2>
-        <p>
-          The secondary menu is placed in the top right corner of the header and contains entrancies for students, alumnies, employees and a language switcher. This menu is more or less included on all pages of www.kth.se.
-        </p>
-        <p>
-          This menu is preferably imported to the application you are building via
-           
-          <a
-            class="external-link"
-            href="https://github.com/KTH/kth-node-cortina-block"
-            target="_blank"
-          >
-            kth-node-cortina-block
-          </a>
-           
-          or similar functionality to keep the navigation in the header consistent throughout the sites.
-        </p>
-        <p>
-          Remember that the aria-label attribute should be based on the current language of the page. For the primary menu it should be "Secondary top menu" or "Sekundär toppmeny"
-        </p>
-        <div
-          class="code-snippet"
-        >
-          <div
-            class="code-snippet__container"
-          >
-            <pre>
-              <code
-                class="language-html"
-              >
-                &lt;nav aria-label="Secondary top menu"&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href="/student"&gt;Student&lt;/a&gt;
-        &lt;/li&gt;&lt;li&gt;&lt;a href="/alumni"&gt;Alumn&lt;/a&gt;
-        &lt;/li&gt;&lt;li&gt;&lt;a href="https://intra.kth.se/"&gt;Anställd&lt;/a&gt;
-        &lt;/li&gt;&lt;li&gt;&lt;a href="https://www.kth.se/en" hreflang="en-UK"&gt;International website&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/nav&gt;
-              </code>
-            </pre>
-            <div
-              class="code-snippet__btn-container"
-            >
-              <button
-                class="btn"
-              >
-                Copy
-              </button>
-            </div>
-          </div>
-        </div>
-        <h2>
-          Mega menu
-        </h2>
-        <p>
-          The mega menu is placed in the bottom of the the header and is expanded upon hover of a menu item and is included on all pages of www.kth.se.
-        </p>
-        <p>
-          This menu is also preferably imported to the application you are building via
-           
-          <a
-            class="external-link"
-            href="https://github.com/KTH/kth-node-cortina-block"
-            target="_blank"
-          >
-            kth-node-cortina-block
-          </a>
-           
-          or similar functionality to keep the navigation in the header consistent throughout the sites.
-        </p>
-        <p>
-          Remember that the aria-label attribute should be based on the current language of the page. For the primary menu it should be "Primary top menu" or "Primär toppmeny"
-        </p>
-        <h2>
-          Mobile menu
-        </h2>
-        <p>
-          The mobile meny is visible with its hamburger icon when the width of the screen is 992px or less. On that breakpoint the menu is build up with javascript (menues.js) that combines the the menus depending on which menus are available on the curret page.
-        </p>
-        <p>
-          If there is a main menu present, it combines the main menu and secondary menu. If there is no main menu present, it combines the mega menu and the secondary menu. menu in to the mobile menu.
-           
-        </p>
+              Collapse-exempel
+            </a>
+          </li>
+          <li>
+            Följande ikoner utgår ur KTH Style:
+            <ul>
+              <li>
+                back-link-pill.svg
+              </li>
+              <li>
+                back-link.svg
+              </li>
+              <li>
+                white-arrow.svg
+              </li>
+              <li>
+                clock_grey_25.svg
+              </li>
+              <li>
+                clock_grey_50.svg
+              </li>
+              <li>
+                clock_grey_100.svg
+              </li>
+              <li>
+                Clock_three_quarter.svg
+              </li>
+              <li>
+                canvas.svg
+              </li>
+              <li>
+                icon-from-canvas-blue.svg
+              </li>
+              <li>
+                pill-back-white.svg
+              </li>
+              <li>
+                pill-back.svg
+              </li>
+              <li>
+                select-arrow.png
+              </li>
+            </ul>
+          </li>
+        </ul>
       </main>
     </div>
   `)

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React from 'react'
 import { inject, observer } from 'mobx-react'
 
 import NavBar from '../components/NavBar'
@@ -27,9 +27,6 @@ export const Main = props => {
           <li className="breadcrumb-item">
             <a href="#">Library</a>
           </li>
-          <li className="breadcrumb-item active" aria-current="page">
-            Data
-          </li>
         </ol>
       </nav>
 
@@ -41,9 +38,6 @@ export const Main = props => {
     </li>
     <li class="breadcrumb-item">
       <a href="#">Library</a>
-    </li>
-    <li class="breadcrumb-item active" aria-current="page">
-      Data
     </li>
   </ol>
 </nav>`}
@@ -57,10 +51,10 @@ export default inject('styleStore')(
     const { message } = styleStore
 
     return (
-      <Fragment>
+      <>
         <NavBar />
         <Main message={message} />
-      </Fragment>
+      </>
     )
   })
 )

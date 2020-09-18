@@ -56,12 +56,6 @@ test('Breadcrumbs page snapshot', () => {
                 Library
               </a>
             </li>
-            <li
-              aria-current="page"
-              class="breadcrumb-item active"
-            >
-              Data
-            </li>
           </ol>
         </nav>
         <div
@@ -81,9 +75,6 @@ test('Breadcrumbs page snapshot', () => {
         &lt;/li&gt;
         &lt;li class="breadcrumb-item"&gt;
           &lt;a href="#"&gt;Library&lt;/a&gt;
-        &lt;/li&gt;
-        &lt;li class="breadcrumb-item active" aria-current="page"&gt;
-          Data
         &lt;/li&gt;
       &lt;/ol&gt;
     &lt;/nav&gt;
