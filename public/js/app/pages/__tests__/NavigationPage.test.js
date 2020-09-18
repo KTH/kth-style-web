@@ -155,6 +155,16 @@ test('Navigation page snapshot', () => {
         <p>
           Remember that the aria-label attribute should be based on the current language of the page. For the primary menu it should be "Primary top menu" or "Primär toppmeny"
         </p>
+        <h2>
+          Mobile menu
+        </h2>
+        <p>
+          The mobile meny is visible with its hamburger icon when the width of the screen is 992px or less. On that breakpoint the menu is build up with javascript (menues.js) that combines the the menus depending on which menus are available on the curret page.
+        </p>
+        <p>
+          If there is a main menu present, it combines the main menu and secondary menu. If there is no main menu present, it combines the mega menu and the secondary menu. menu in to the mobile menu.
+           
+        </p>
       </main>
     </div>
   `)
