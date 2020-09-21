@@ -49,7 +49,6 @@ async function getIndex(req, res, next) {
     if (location.replace(/\/style\//, '')) {
       pagePath = 'page_kth_style_' + location.replace(/\/style\//, '')
       if (i18n.message(pagePath).match(/DOES NOT EXIST/)) {
-        log.warn(`No page title defined for ${location}`)
         pagePath = 'page_kth_style_index'
       }
     }
