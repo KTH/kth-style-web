@@ -33,5 +33,6 @@ COPY ["server", "server"]
 ENV NODE_PATH /application
 
 EXPOSE 3000
+ENV TZ=Europe/Stockholm
 
 CMD ["node", "app.js"]
