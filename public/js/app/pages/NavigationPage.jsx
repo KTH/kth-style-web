@@ -89,6 +89,22 @@ export const Main = props => {
         If there is a main menu present, it combines the main menu and secondary menu. If there is no main menu present,
         it combines the mega menu and the secondary menu into the mobile menu.{' '}
       </p>
+
+      <CodeSnippet
+        snippet={`<div id="mobileMenuWrapper">
+  <button id="nav-icon" class="navbar-toggler nav-icon" type="button" title="Öppna/stäng mobilmenyn">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="mobileMenu" class="block navbar navbar-expand-lg navbar-light">
+    <div id="mobileMenuContent" class="navbar-collapse collapse">
+      <ul id="mobileMenuList" class="menu navbar-nav mr-auto"></ul>
+    </div>
+  </nav>
+</div>`}
+      />
     </main>
   )
 }

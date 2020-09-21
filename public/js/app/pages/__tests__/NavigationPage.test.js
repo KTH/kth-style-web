@@ -165,6 +165,42 @@ test('Navigation page snapshot', () => {
           If there is a main menu present, it combines the main menu and secondary menu. If there is no main menu present, it combines the mega menu and the secondary menu into the mobile menu.
            
         </p>
+        <div
+          class="code-snippet"
+        >
+          <div
+            class="code-snippet__container"
+          >
+            <pre>
+              <code
+                class="language-html"
+              >
+                &lt;div id="mobileMenuWrapper"&gt;
+      &lt;button id="nav-icon" class="navbar-toggler nav-icon" type="button" title="Öppna/stäng mobilmenyn"&gt;
+        &lt;span&gt;&lt;/span&gt;
+        &lt;span&gt;&lt;/span&gt;
+        &lt;span&gt;&lt;/span&gt;
+        &lt;span&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;nav id="mobileMenu" class="block navbar navbar-expand-lg navbar-light"&gt;
+        &lt;div id="mobileMenuContent" class="navbar-collapse collapse"&gt;
+          &lt;ul id="mobileMenuList" class="menu navbar-nav mr-auto"&gt;&lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;
+    &lt;/div&gt;
+              </code>
+            </pre>
+            <div
+              class="code-snippet__btn-container"
+            >
+              <button
+                class="btn"
+              >
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   `)
