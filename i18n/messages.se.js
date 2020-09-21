@@ -39,6 +39,9 @@ module.exports = {
     page_kth_style_icons: 'Ikoner',
     page_kth_style_buttons: 'Knappar',
 
+    button_mobile_menu_label: 'Öppna/stäng mobilmenyn',
+    mobile_menu_aria_label: 'Mobilemeny',
+
     modal_close_button_label: 'Stäng',
 
     skip_to_main_content: 'Hoppa till huvudinnehållet',

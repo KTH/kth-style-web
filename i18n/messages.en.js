@@ -39,6 +39,9 @@ module.exports = {
     page_kth_style_icons: 'Icons',
     page_kth_style_buttons: 'Buttons',
 
+    button_mobile_menu_label: 'Open/close the mobile menu',
+    mobile_menu_aria_label: 'Mobile menu',
+
     modal_close_button_label: 'Close',
 
     skip_to_main_content: 'Skip to main content',

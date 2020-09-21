@@ -98,7 +98,7 @@ export const Main = props => {
     <span></span>
     <span></span>
   </button>
-  <nav id="mobileMenu" class="block navbar navbar-expand-lg navbar-light">
+  <nav id="mobileMenu" aria-label="Mobilmeny" class="block navbar navbar-expand-lg navbar-light">
     <div id="mobileMenuContent" class="navbar-collapse collapse">
       <ul id="mobileMenuList" class="menu navbar-nav mr-auto"></ul>
     </div>

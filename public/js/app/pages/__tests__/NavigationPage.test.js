@@ -182,7 +182,7 @@ test('Navigation page snapshot', () => {
         &lt;span&gt;&lt;/span&gt;
         &lt;span&gt;&lt;/span&gt;
       &lt;/button&gt;
-      &lt;nav id="mobileMenu" class="block navbar navbar-expand-lg navbar-light"&gt;
+      &lt;nav id="mobileMenu" aria-label="Mobilmeny" class="block navbar navbar-expand-lg navbar-light"&gt;
         &lt;div id="mobileMenuContent" class="navbar-collapse collapse"&gt;
           &lt;ul id="mobileMenuList" class="menu navbar-nav mr-auto"&gt;&lt;/ul&gt;
         &lt;/div&gt;
