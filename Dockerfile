@@ -18,7 +18,7 @@ WORKDIR /application
 RUN cp -a /npm/node_modules /application && \
   rm -rf /npm
 
-# Copy files used by Gulp.
+# Copy files used by Parcel.
 COPY ["config", "config"]
 COPY ["public", "public"]
 COPY ["i18n", "i18n"]
