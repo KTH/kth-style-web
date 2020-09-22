@@ -40,7 +40,7 @@ module.exports = {
     page_kth_style_buttons: 'Knappar',
 
     button_mobile_menu_label: 'Öppna/stäng mobilmenyn',
-    mobile_menu_aria_label: 'Mobilemeny',
+    mobile_menu_aria_label: 'Mobilmeny',
 
     modal_close_button_label: 'Stäng',
 
