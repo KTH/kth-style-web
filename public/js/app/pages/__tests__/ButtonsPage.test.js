@@ -32,7 +32,7 @@ test('Buttons page snapshot', () => {
               Primary button
             </h2>
             <button
-              class="btn btn-primary"
+              class="btn btn-primary undefined"
             >
               Primary button
             </button>
@@ -65,10 +65,49 @@ test('Buttons page snapshot', () => {
             class="itemBox"
           >
             <h2>
+              Primary button
+            </h2>
+            <button
+              class="btn btn-primary arrow"
+            >
+              Primary button 
+              <span
+                class="arrow"
+              />
+            </button>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-primary"&gt;Primary button &lt;span class="arrow"&gt;&lt;/span&gt;&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="itemBox"
+          >
+            <h2>
               Secondary button
             </h2>
             <button
-              class="btn btn-secondary"
+              class="btn btn-secondary undefined"
             >
               Secondary
             </button>
@@ -101,10 +140,49 @@ test('Buttons page snapshot', () => {
             class="itemBox"
           >
             <h2>
+              Secondary button
+            </h2>
+            <button
+              class="btn btn-secondary arrow"
+            >
+              Secondary button 
+              <span
+                class="arrow"
+              />
+            </button>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-secondary"&gt;Secondary button &lt;span class="arrow"&gt;&lt;/span&gt;&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="itemBox"
+          >
+            <h2>
               Success button
             </h2>
             <button
-              class="btn btn-success"
+              class="btn btn-success undefined"
             >
               Save
             </button>
@@ -137,10 +215,49 @@ test('Buttons page snapshot', () => {
             class="itemBox"
           >
             <h2>
+              Success button
+            </h2>
+            <button
+              class="btn btn-success arrow"
+            >
+              Save 
+              <span
+                class="arrow"
+              />
+            </button>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;button class="btn btn-success"&gt;Success button &lt;span class="arrow"&gt;&lt;/span&gt;&lt;/button&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="itemBox"
+          >
+            <h2>
               Danger button
             </h2>
             <button
-              class="btn btn-danger"
+              class="btn btn-danger undefined"
             >
               Delete
             </button>
@@ -176,7 +293,7 @@ test('Buttons page snapshot', () => {
               Block level buttons
             </h2>
             <button
-              class="btn btn-primary btn-block"
+              class="btn btn-primary undefined btn-block"
             >
               Block level button
             </button>
@@ -205,7 +322,7 @@ test('Buttons page snapshot', () => {
               </div>
             </div>
             <button
-              class="btn btn-secondary btn-block"
+              class="btn btn-secondary undefined btn-block"
             >
               Block level button
             </button>
@@ -241,7 +358,7 @@ test('Buttons page snapshot', () => {
               Disabled buttons
             </h2>
             <button
-              class="btn btn-primary"
+              class="btn btn-primary undefined"
               disabled=""
             >
               Primary button

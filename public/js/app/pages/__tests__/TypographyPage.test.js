@@ -373,6 +373,65 @@ test('Typography page snapshot', () => {
               </ul>
             </div>
           </div>
+          <div
+            class="itemBox typographyItem border"
+          >
+            <header
+              role="presentation"
+            >
+              <h1
+                aria-labelledby="page-heading page-sub-heading"
+                id="page-heading"
+              >
+                Headline
+              </h1>
+              <p
+                aria-hidden="true"
+                id="page-sub-heading"
+              >
+                Subheading that clarifies the main heading
+              </p>
+            </header>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;header role="presentation" id="articleHeader" class="mb-4"&gt;
+      &lt;h1 id="page-heading" aria-labelledby="page-heading page-sub-heading"&gt;Headline&lt;/h1&gt;
+      &lt;p id="page-sub-heading"aria-hidden="true"&gt;Sub headline&lt;/p&gt;
+    &lt;/header&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p>
+                <strong>
+                  Användningsområde: 
+                </strong>
+              </p>
+              <ul>
+                <li>
+                  Rubrik med nedryckare
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </main>
     </div>
