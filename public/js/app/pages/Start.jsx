@@ -18,7 +18,7 @@ export const Main = props => {
         UX-arbete.
       </p>
       <p>
-        Till vänster i menyn hittar du formelement som färger och typografi samt form för olika komponenter. Tanken är
+        I menyn hittar du ingångar till formelement som färger och typografi samt form för olika komponenter. Tanken är
         att tillhandahålla det som är gemensamt för de flesta av våra applikationer och alltså inte all färg och form
         för alla tänkbara komponenter och applikationsspecifika delar.{' '}
       </p>
