@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import { inject, observer } from 'mobx-react'
 
 import NavBar from '../components/NavBar'
+import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
   return (
@@ -177,6 +178,31 @@ export const Main = props => {
               <li>Ingress</li>
               <li>Megameny</li>
               <li>Blockquote</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="itemBox typographyItem border">
+          <header role="presentation">
+            <h1 id="page-heading" aria-labelledby="page-heading page-sub-heading">
+              Headline
+            </h1>
+            <p id="page-sub-heading" aria-hidden="true">
+              Subheading that clarifies the main heading
+            </p>
+          </header>
+          <CodeSnippet
+            snippet={`<header role="presentation" id="articleHeader" class="mb-4">
+  <h1 id="page-heading" aria-labelledby="page-heading page-sub-heading">Headline</h1>
+  <p id="page-sub-heading"aria-hidden="true">Sub headline</p>
+</header>`}
+          />
+          <div>
+            <p>
+              <strong>Användningsområde: </strong>
+            </p>
+            <ul>
+              <li>Rubrik med nedryckare</li>
             </ul>
           </div>
         </div>
