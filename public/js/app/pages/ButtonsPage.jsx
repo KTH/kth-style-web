@@ -7,8 +7,8 @@ import CodeSnippet from '../components/CodeSnippet'
  *
  * @param {Object} param0
  */
-const Button = ({ type, disabled, children, block }) => {
-  let buttonClass = block ? `btn btn-${type} btn-block` : `btn btn-${type}`
+const Button = ({ type, disabled, children, block, icon }) => {
+  let buttonClass = block ? `btn btn-${type} ${icon} btn-block` : `btn btn-${type} ${icon}`
   return (
     <button className={buttonClass} disabled={disabled}>
       {children}
@@ -29,15 +29,45 @@ export const Main = props => {
         </div>
 
         <div className="itemBox">
+          <h2>Primary button</h2>
+          <Button type="primary" icon="arrow">
+            Primary button <span className="arrow"></span>
+          </Button>
+          <CodeSnippet
+            snippet={'<button class="btn btn-primary">Primary button <span class="arrow"></span></button>'}
+          />
+        </div>
+
+        <div className="itemBox">
           <h2>Secondary button</h2>
           <Button type="secondary">Secondary</Button>
           <CodeSnippet snippet={'<button class="btn btn-secondary">Secondary</button>'} />
         </div>
 
         <div className="itemBox">
+          <h2>Secondary button</h2>
+          <Button type="secondary" icon="arrow">
+            Secondary button <span className="arrow"></span>
+          </Button>
+          <CodeSnippet
+            snippet={'<button class="btn btn-secondary">Secondary button <span class="arrow"></span></button>'}
+          />
+        </div>
+
+        <div className="itemBox">
           <h2>Success button</h2>
           <Button type="success">Save</Button>
           <CodeSnippet snippet={'<button class="btn btn-success">Sucess button</button>'} />
+        </div>
+
+        <div className="itemBox">
+          <h2>Success button</h2>
+          <Button type="success" icon="arrow">
+            Save <span className="arrow"></span>
+          </Button>
+          <CodeSnippet
+            snippet={'<button class="btn btn-success">Success button <span class="arrow"></span></button>'}
+          />
         </div>
 
         <div className="itemBox">
