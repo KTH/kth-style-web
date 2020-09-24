@@ -192,9 +192,9 @@ export const Main = props => {
             </p>
           </header>
           <CodeSnippet
-            snippet={`<header role="presentation" id="articleHeader" class="mb-4">
+            snippet={`<header role="presentation">
   <h1 id="page-heading" aria-labelledby="page-heading page-sub-heading">Headline</h1>
-  <p id="page-sub-heading"aria-hidden="true">Sub headline</p>
+  <p id="page-sub-heading" aria-hidden="true">Sub headline</p>
 </header>`}
           />
           <div>

@@ -402,9 +402,9 @@ test('Typography page snapshot', () => {
                   <code
                     class="language-html"
                   >
-                    &lt;header role="presentation" id="articleHeader" class="mb-4"&gt;
+                    &lt;header role="presentation"&gt;
       &lt;h1 id="page-heading" aria-labelledby="page-heading page-sub-heading"&gt;Headline&lt;/h1&gt;
-      &lt;p id="page-sub-heading"aria-hidden="true"&gt;Sub headline&lt;/p&gt;
+      &lt;p id="page-sub-heading" aria-hidden="true"&gt;Sub headline&lt;/p&gt;
     &lt;/header&gt;
                   </code>
                 </pre>
