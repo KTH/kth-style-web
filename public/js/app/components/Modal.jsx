@@ -89,7 +89,7 @@ export default props => {
               <button
                 type="button"
                 className="close"
-                aria-label={i18n.message('close_button_label', lang)}
+                aria-label={i18n.message('modal_close_button_label', lang)}
                 onClick={closeModal}
               >
                 <span aria-hidden="true">&times;</span>

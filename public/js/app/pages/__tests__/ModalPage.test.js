@@ -54,7 +54,7 @@ test('Modal page snapshot', () => {
                 class="modal-header"
               >
                 <button
-                  aria-label="KEY close_button_label FOR LANGUAGE Swedish DOES NOT EXIST"
+                  aria-label="Stäng"
                   class="close"
                   type="button"
                 >
