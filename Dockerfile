@@ -1,40 +1,30 @@
 FROM kthse/kth-nodejs:12.0.0
 
-LABEL maintainer="KTH-Webb web-developers@kth.se"
+#
+# Put the application into a direcctory in the root.
+# This will prevent file polution, and possible overwriting of files.
+#
+RUN mkdir -p /application
+WORKDIR /application
+ENV NODE_PATH /application
 
-RUN mkdir -p /npm && \
-  mkdir -p /application
-
-# We do this to avoid npm install when we're only changing code
-WORKDIR /npm
-
+COPY ["build.sh", "build.sh"]
 COPY ["package.json", "package.json"]
 COPY ["package-lock.json", "package-lock.json"]
-
-RUN npm install --production --no-optional
-
-# Add the code and copy over the node_modules-catalog
-WORKDIR /application
-RUN cp -a /npm/node_modules /application && \
-  rm -rf /npm
-
-# Copy files used by Parcel.
-COPY ["build.sh", "build.sh"]
 COPY ["config", "config"]
 COPY ["public", "public"]
 COPY ["i18n", "i18n"]
-COPY ["package.json", "package.json"]
-COPY ["package-lock.json", "package-lock.json"]
 COPY [".babelrc.js", ".babelrc.js"]
-COPY ["server", "server"]
-RUN npm run docker
+
+RUN apk add --no-cache --virtual .gyp-dependencies python make g++ bash util-linux && \
+  npm run docker && \
+  apk del .gyp-dependencies
 
 COPY ["app.js", "app.js"]
 COPY ["server", "server"]
-
-ENV NODE_PATH /application
 
 EXPOSE 3000
 ENV TZ=Europe/Stockholm
 
 CMD ["node", "app.js"]
+
