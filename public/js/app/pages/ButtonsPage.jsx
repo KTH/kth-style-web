@@ -8,7 +8,9 @@ import CodeSnippet from '../components/CodeSnippet'
  * @param {Object} param0
  */
 const Button = ({ type, disabled, children, block, icon }) => {
-  let buttonClass = block ? `btn btn-${type} ${icon} btn-block` : `btn btn-${type} ${icon}`
+  const buttonClass = block
+    ? `btn btn-${type}${icon ? ' ' + icon : ''} btn-block`
+    : `btn btn-${type}${icon ? ' ' + icon : ''}`
   return (
     <button className={buttonClass} disabled={disabled}>
       {children}
@@ -22,61 +24,63 @@ export const Main = props => {
       <h1>Buttons</h1>
 
       <div className="itemContainer">
-        <div className="itemBox">
+        <div>
           <h2>Primary button</h2>
           <Button type="primary">Primary button</Button>
           <CodeSnippet snippet={'<button class="btn btn-primary">Primary button</button>'} />
         </div>
 
-        <div className="itemBox">
+        <div>
           <h2>Primary button</h2>
-          <Button type="primary" icon="arrow">
-            Primary button <span className="arrow"></span>
+          <Button type="primary" icon="next">
+            Primary button
           </Button>
-          <CodeSnippet
-            snippet={'<button class="btn btn-primary">Primary button <span class="arrow"></span></button>'}
-          />
+          <CodeSnippet snippet={'<button class="btn btn-primary next">Primary button</button>'} />
         </div>
 
-        <div className="itemBox">
+        <div>
           <h2>Secondary button</h2>
           <Button type="secondary">Secondary</Button>
           <CodeSnippet snippet={'<button class="btn btn-secondary">Secondary</button>'} />
         </div>
 
-        <div className="itemBox">
+        <div>
           <h2>Secondary button</h2>
-          <Button type="secondary" icon="arrow">
-            Secondary button <span className="arrow"></span>
+          <Button type="secondary" icon="next">
+            Secondary button
           </Button>
-          <CodeSnippet
-            snippet={'<button class="btn btn-secondary">Secondary button <span class="arrow"></span></button>'}
-          />
+          <CodeSnippet snippet={'<button class="btn btn-secondary next">Secondary button</button>'} />
         </div>
 
-        <div className="itemBox">
+        <div>
+          <h2>Secondary button</h2>
+          <Button type="secondary" icon="back">
+            Previous
+          </Button>
+          <CodeSnippet snippet={'<button class="btn btn-secondary back">Previous</button>'} />
+        </div>
+
+        <div>
           <h2>Success button</h2>
           <Button type="success">Save</Button>
-          <CodeSnippet snippet={'<button class="btn btn-success">Sucess button</button>'} />
+          <CodeSnippet snippet={'<button class="btn btn-success">Save</button>'} />
         </div>
 
-        <div className="itemBox">
+        <div>
           <h2>Success button</h2>
-          <Button type="success" icon="arrow">
-            Save <span className="arrow"></span>
+          <Button type="success" icon="next">
+            Next
           </Button>
-          <CodeSnippet
-            snippet={'<button class="btn btn-success">Success button <span class="arrow"></span></button>'}
-          />
+          <CodeSnippet snippet={'<button class="btn btn-success next">Next</button>'} />
         </div>
 
-        <div className="itemBox">
+        <div>
           <h2>Danger button</h2>
           <Button type="danger">Delete</Button>
           <CodeSnippet snippet={'<button class="btn btn-danger">Danger button</button>'} />
         </div>
 
-        <div className="itemBox">
+        <div>
           <h2>Block level buttons</h2>
           <Button type="primary" block>
             Block level button
@@ -89,7 +93,7 @@ export const Main = props => {
           <CodeSnippet snippet={'<button class="btn btn-secondary btn-block">Block level button</button>'} />
         </div>
 
-        <div className="itemBox">
+        <div>
           <h2>Disabled buttons</h2>
           <Button type="primary" disabled>
             Primary button
