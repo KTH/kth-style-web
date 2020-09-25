@@ -1,14 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { StaticRouter } from 'react-router'
-import { Provider } from 'mobx-react'
+// import { Provider } from 'mobx-react'
+
+import { MobxStoreProvider, uncompressStoreInPlaceFromDocument } from './mobx'
+import createApplicationStore from './stores/createApplicationStore'
 
 // Sass
 import '../../css/kth-style-web.scss'
-
-// Store
-import { styleStore } from './stores/StyleStore'
 
 // Pages
 import Start from './pages/Start'
@@ -32,13 +31,31 @@ import ModalPage from './pages/ModalPage'
 import CortinaBlocksPage from './pages/CortinaBlocksPage'
 import DeprecationsPage from './pages/DeprecationsPage'
 
-function appFactory() {
-  if (typeof window !== 'undefined') {
-    styleStore.initializeStore('styleStore')
+export default appFactory
+
+_renderOnClientSide()
+
+function _renderOnClientSide() {
+  const isClientSide = typeof window !== 'undefined'
+  if (!isClientSide) {
+    return
   }
 
+  // @ts-ignore
+  const basename = window.config.proxyPrefixPath.uri
+
+  const applicationStore = createApplicationStore()
+  uncompressStoreInPlaceFromDocument(applicationStore)
+
+  const app = <BrowserRouter basename={basename}>{appFactory(applicationStore)}</BrowserRouter>
+
+  const domElement = document.getElementById('app')
+  ReactDOM.hydrate(app, domElement)
+}
+
+function appFactory(applicationStore) {
   return (
-    <Provider styleStore={styleStore}>
+    <MobxStoreProvider initCallback={() => applicationStore}>
       <Switch>
         <Route exact path="/" component={Start} />
         <Route exact path="/colors" component={Colors} />
@@ -61,21 +78,6 @@ function appFactory() {
         <Route exact path="/cortina-blocks" component={CortinaBlocksPage} />
         <Route exact path="/deprecations" component={DeprecationsPage} />
       </Switch>
-    </Provider>
+    </MobxStoreProvider>
   )
 }
-
-function staticRender(context, location) {
-  return (
-    <StaticRouter location={location} context={context}>
-      {appFactory()}
-    </StaticRouter>
-  )
-}
-
-if (typeof window !== 'undefined') {
-  const basename = window.config.proxyPrefixPath.uri
-  ReactDOM.render(<BrowserRouter basename={basename}>{appFactory()}</BrowserRouter>, document.getElementById('app'))
-}
-
-export { appFactory, staticRender }

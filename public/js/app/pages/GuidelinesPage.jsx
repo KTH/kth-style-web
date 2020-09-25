@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react'
-import { inject, observer } from 'mobx-react'
+import React from 'react'
+import { observer } from 'mobx-react'
 
 import NavBar from '../components/NavBar'
 
@@ -28,15 +28,11 @@ export const Main = props => {
   )
 }
 
-export default inject('styleStore')(
-  observer(({ styleStore }) => {
-    const { message } = styleStore
-
-    return (
-      <Fragment>
-        <NavBar />
-        <Main message={message} />
-      </Fragment>
-    )
-  })
-)
+export default observer(() => {
+  return (
+    <>
+      <NavBar />
+      <Main />
+    </>
+  )
+})
