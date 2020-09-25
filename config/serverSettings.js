@@ -68,11 +68,6 @@ module.exports = {
   },
   ldap: unpackLDAPConfig('LDAP_URI', getEnv('LDAP_PASSWORD'), devLdap, ldapOptions),
 
-  // // Service API's
-  // nodeApi: {
-  //   nodeApi: unpackNodeApiConfig('NODE_API_URI', devInnovationApi)
-  // },
-
   // Cortina
   blockApi: {
     blockUrl: getEnv('CM_HOST_URL', devDefaults('https://www-r.referens.sys.kth.se/cm/')), // Block API base URL
