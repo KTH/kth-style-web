@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react'
-import { inject, observer } from 'mobx-react'
+import React from 'react'
+import { observer } from 'mobx-react'
 
 import NavBar from '../components/NavBar'
 import CodeSnippet from '../components/CodeSnippet'
@@ -95,15 +95,11 @@ app.use(config.proxyPrefixPath.uri +'/kth-style', express.static(path.join(__dir
   )
 }
 
-export default inject('styleStore')(
-  observer(({ styleStore }) => {
-    const { message } = styleStore
-
-    return (
-      <Fragment>
-        <NavBar />
-        <Main message={message} />
-      </Fragment>
-    )
-  })
-)
+export default observer(() => {
+  return (
+    <>
+      <NavBar />
+      <Main />
+    </>
+  )
+})

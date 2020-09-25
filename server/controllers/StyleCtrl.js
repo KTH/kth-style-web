@@ -1,70 +1,56 @@
-'use strict'
+/* eslint no-use-before-define: ["error", "nofunc"] */
+
+// @ts-check
 
 const ReactDOMServer = require('react-dom/server')
-const { toJS } = require('mobx')
 
 const log = require('kth-node-log')
 const language = require('kth-node-web-common/lib/language')
 
 const i18n = require('../../i18n')
 
-function hydrateStores(renderProps) {
-  // This assumes that all stores are specified in a root element called Provider
-  const outp = {}
-  const { props } = renderProps.props.children
+// eslint-disable-next-line no-unused-vars
+const paths = require('kth-node-express-routing').getPaths()
+const serverConfig = require('../configuration').server
+const browserConfig = require('../configuration').browser
 
-  Object.keys(props).map(key => {
-    if (typeof props[key].initializeStore === 'function') {
-      outp[key] = encodeURIComponent(JSON.stringify(toJS(props[key], true)))
-    }
-  })
-
-  return outp
-}
-
-function _staticRender(context, location) {
-  if (process.env.NODE_ENV === 'development') {
-    delete require.cache[require.resolve('../../dist/app.js')]
-  }
-
-  const { staticRender } = require('../../dist/app.js')
-
-  return staticRender(context, location)
-}
+const { getServerSideFunctions } = require('../utils/serverSideRendering')
 
 async function getIndex(req, res, next) {
   try {
-    const context = {}
-    const renderProps = _staticRender(context, req.url)
-
     const lang = language.getLanguage(res) || 'sv'
 
-    log.debug(`renderProps ${JSON.stringify(renderProps)}`)
-    const { styleStore } = renderProps.props.children.props
+    const { createStore, getCompressedStoreCode, renderStaticPage } = getServerSideFunctions()
 
-    styleStore.setMessage('Hello from store')
-    const html = ReactDOMServer.renderToString(renderProps)
-    const { location } = renderProps.props
-    let pagePath = 'page_kth_style_index'
-    if (location.replace(/\/style\//, '')) {
-      pagePath = 'page_kth_style_' + location.replace(/\/style\//, '')
-      if (i18n.message(pagePath).match(/DOES NOT EXIST/)) {
-        pagePath = 'page_kth_style_index'
-      }
-    }
+    const applicationStore = createStore()
+    applicationStore.setLanguage(lang)
+    applicationStore.setBrowserConfig(browserConfig)
+    applicationStore.setPaths(paths)
+
+    await _fillApplicationStoreOnServerSide({ applicationStore, query: req.query })
+
+    const compressedStoreCode = getCompressedStoreCode(applicationStore)
+    const location = req.url
+    const { uri: proxyPrefix } = serverConfig.proxyPrefixPath
+    const html = renderStaticPage({ applicationStore, location, proxyPrefix })
 
     res.render('react/index', {
       html,
       title: 'Style',
-      initialState: JSON.stringify(hydrateStores(renderProps)),
+      compressedStoreCode,
       lang,
       description: 'Style',
-      breadcrumbsPath: [{ label: `${i18n.message(pagePath)}` }],
+      breadcrumbsPath: [],
     })
   } catch (err) {
     log.error('Error in getIndex', { error: err })
     next(err)
   }
+}
+
+// eslint-disable-next-line no-unused-vars
+async function _fillApplicationStoreOnServerSide({ applicationStore, query }) {
+  applicationStore.setMessage('Message from style controller!')
 }
 
 module.exports = {

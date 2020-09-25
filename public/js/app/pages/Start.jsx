@@ -1,5 +1,6 @@
 import React from 'react'
-import { inject, observer } from 'mobx-react'
+import { observer } from 'mobx-react'
+import { useStore } from '../mobx'
 
 import NavBar from '../components/NavBar'
 
@@ -43,15 +44,13 @@ export const Main = props => {
   )
 }
 
-export default inject('styleStore')(
-  observer(({ styleStore }) => {
-    const { message } = styleStore
+export default observer(() => {
+  const { message, language: lang } = useStore()
 
-    return (
-      <>
-        <NavBar />
-        <Main message={message} />
-      </>
-    )
-  })
-)
+  return (
+    <>
+      <NavBar />
+      <Main />
+    </>
+  )
+})
