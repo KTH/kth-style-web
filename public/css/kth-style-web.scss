@@ -20,13 +20,13 @@ ul.deprecatedList {
   @media (min-width: 992px) {
     display: grid;
     grid-template-columns: 300px 1fr;
-    grid-gap: 15px;
+    // grid-gap: 15px;
   }
 }
 
 #mainContent {
   width: 100%;
-  padding: 15px;
+  padding: 1.875rem 1.875rem 1.875rem 0.938rem;
 }
 
 .colorBox {
@@ -37,7 +37,7 @@ ul.deprecatedList {
 }
 
 .itemBox {
-  padding: 30px;
+  padding: 0 30px 30px 0;
   overflow: hidden;
 }
 
@@ -80,6 +80,7 @@ ul.deprecatedList {
 .typographyItem {
   display: flex;
   flex-direction: column;
+  padding: 1.875rem;
 }
 
 .pdf-link {
