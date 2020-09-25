@@ -19,10 +19,12 @@ RUN cp -a /npm/node_modules /application && \
   rm -rf /npm
 
 # Copy files used by Parcel.
+COPY ["build.sh", "build.sh"]
 COPY ["config", "config"]
 COPY ["public", "public"]
 COPY ["i18n", "i18n"]
 COPY ["package.json", "package.json"]
+COPY ["package-lock.json", "package-lock.json"]
 COPY [".babelrc.js", ".babelrc.js"]
 COPY ["server", "server"]
 RUN npm run docker
