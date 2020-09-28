@@ -40,12 +40,18 @@ npm run vendor
 echo -e "${yellow}\n  3. Parcing the js views and putting them in the /dist folder${nc}"
 npm run parcel-views
 
-# Run parcel on the scss files and put the optimized file in the /dist/css
-echo -e "${yellow}\n  4. Transpiling sass files and putting them in the /dist folder${nc}"
-npm run parcel-sass
+if [ $1 == "prod" ]; then
+  # Run parcel on the scss files and put the optimized file in the /dist/css
+    echo -e "${yellow}\n  4. Transpiling sass files and putting them in the /dist folder${nc}"
+  npm run parcel-sass-prod
+fi
 
 # Only run Parcel watch in development
 if [ $1 == "dev" ]; then
+# Run parcel on the scss files and put the optimized file in the /dist/css
+  echo -e "${yellow}\n  4. Transpiling sass files and putting them in the /dist folder${nc}"
+  npm run parcel-sass-dev
+
   # Run parcel watch on the js and sass files and put the optimized files in the /dist folder upon change.
   echo -e "${yellow}\n  5. Running watch on js views and sass files${nc}"
   npm run parcel-watch
