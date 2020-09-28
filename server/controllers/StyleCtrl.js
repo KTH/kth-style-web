@@ -31,8 +31,8 @@ async function getIndex(req, res, next) {
 
     const compressedStoreCode = getCompressedStoreCode(applicationStore)
     const location = req.url
-    const { uri: proxyPrefix } = serverConfig.proxyPrefixPath
-    const html = renderStaticPage({ applicationStore, location, proxyPrefix })
+    const { uri: basename } = serverConfig.proxyPrefixPath
+    const html = renderStaticPage({ applicationStore, location, basename })
 
     res.render('react/index', {
       html,
