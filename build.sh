@@ -42,7 +42,7 @@ npm run parcel-views
 
 if [ $1 == "prod" ]; then
   # Run parcel on the scss files and put the optimized file in the /dist/css
-    echo -e "${yellow}\n  4. Transpiling sass files and putting them in the /dist folder${nc}"
+  echo -e "${yellow}\n  4. Transpiling sass files and putting them in the /dist folder${nc}"
   npm run parcel-sass-prod
 fi
 
