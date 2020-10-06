@@ -38,13 +38,23 @@ test('Navbar component includes typografi', () => {
               <span
                 class="nav-item ancestor"
               >
-                Style
+                KTH Style app
               </span>
             </li>
           </ul>
           <ul
-            class="nav nav-list expandable"
+            class="nav nav-list"
           >
+            <li
+              class="nav-item selected"
+            >
+              <a
+                class="nav-link"
+                href="/style"
+              >
+                Om KTH Style app
+              </a>
+            </li>
             <li
               class="nav-item node expanded"
             >
@@ -145,7 +155,7 @@ test('Navbar component includes typografi', () => {
             >
               <a
                 class="nav-link"
-                href="/style/components"
+                href="/style/alerts"
               >
                 Komponenter
               </a>
