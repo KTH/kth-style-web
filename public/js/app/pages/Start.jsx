@@ -7,7 +7,7 @@ import NavBar from '../components/NavBar'
 export const Main = props => {
   return (
     <main id="mainContent" className="mainContent">
-      <h1>KTH Style Web</h1>
+      <h1>KTH Style app</h1>
       <h2>Syftet med denna webbplats</h2>
       <p>
         Denna applikation kallas <i>kth-style-web</i> och är ett hjälpmedel för oss som jobbar med utveckling av

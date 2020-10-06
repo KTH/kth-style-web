@@ -14,8 +14,8 @@ export const Main = props => {
           <CodeSnippet snippet={`<a href="#">Link</a>`} />
         </div>
         <div className="itemBox">
-          <a href="#" target="_blank" className="external-link">
-            External link
+          <a href="#" target="_blank" title="Link text - opens in new tab" className="external-link">
+            Link text
           </a>
           <CodeSnippet snippet={`<a href="#" target="_blank" class="external-link">External link</a>`} />
         </div>
@@ -39,7 +39,7 @@ export const Main = props => {
           <CodeSnippet snippet={`<a class="link-to" href="#">Link</a>`} />
         </div>
         <div className="itemBox">
-          <a className="pdf-link" href="#">
+          <a className="pdf-link" href="#" title="Document opens in new tab">
             Document with icon on the left
           </a>
           <p>Check icons page for other document icons.</p>

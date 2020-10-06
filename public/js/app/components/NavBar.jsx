@@ -12,10 +12,15 @@ export default () => {
 
         <ul className="nav nav-ancestor">
           <li>
-            <span className="nav-item ancestor">Style</span>
+            <span className="nav-item ancestor">KTH Style app</span>
           </li>
         </ul>
-        <ul className="nav nav-list expandable">
+        <ul className="nav nav-list">
+          <li className="nav-item selected">
+            <a href="/style" className="nav-link">
+              Om KTH Style app
+            </a>
+          </li>
           <li className="nav-item node expanded">
             <a href="/style/colors" className="nav-link">
               Grundform
@@ -64,7 +69,7 @@ export default () => {
             </ul>
           </li>
           <li className="nav-item node expanded">
-            <a href="/style/components" className="nav-link">
+            <a href="/style/alerts" className="nav-link">
               Komponenter
             </a>
             <ul id="leftmenu-div-2" className="nav nav-list">
