@@ -60,7 +60,7 @@ test('Navbar component includes typografi', () => {
             >
               <a
                 class="nav-link"
-                href="/style/colors"
+                href="/style/basic/colors"
               >
                 Grundform
               </a>
@@ -73,7 +73,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/colors"
+                    href="/style/basic/colors"
                   >
                     Färger
                   </a>
@@ -83,7 +83,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/icons"
+                    href="/style/basic/icons"
                   >
                     Ikoner
                   </a>
@@ -93,7 +93,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/spacing"
+                    href="/style/basic/spacing"
                   >
                     Avstånd
                   </a>
@@ -103,7 +103,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/typography"
+                    href="/style/basic/typography"
                   >
                     Typografi
                   </a>
@@ -113,7 +113,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/links"
+                    href="/style/basic/links"
                   >
                     Länkar
                   </a>
@@ -123,7 +123,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/buttons"
+                    href="/style/basic/buttons"
                   >
                     Knappar
                   </a>
@@ -133,7 +133,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/tables"
+                    href="/style/basic/tables"
                   >
                     Tabeller
                   </a>
@@ -143,7 +143,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/separators"
+                    href="/style/basic/separators"
                   >
                     Avskiljare
                   </a>
@@ -155,7 +155,7 @@ test('Navbar component includes typografi', () => {
             >
               <a
                 class="nav-link"
-                href="/style/alerts"
+                href="/style/components/alerts"
               >
                 Komponenter
               </a>
@@ -168,7 +168,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/alerts"
+                    href="/style/components/alerts"
                   >
                     Meddelanderutor (Alerts)
                   </a>
@@ -178,7 +178,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/breadcrumbs"
+                    href="/style/components/breadcrumbs"
                   >
                     Brödsmulor
                   </a>
@@ -188,7 +188,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/collapse"
+                    href="/style/components/collapse"
                   >
                     Collapse
                   </a>
@@ -198,7 +198,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/forms"
+                    href="/style/components/forms"
                   >
                     Formulär
                   </a>
@@ -208,7 +208,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/modals"
+                    href="/style/components/modals"
                   >
                     Modaler
                   </a>
@@ -218,7 +218,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/navigation"
+                    href="/style/components/navigation"
                   >
                     Navigation
                   </a>
@@ -228,7 +228,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/tabs"
+                    href="/style/components/tabs"
                   >
                     Tabbar
                   </a>
@@ -240,7 +240,7 @@ test('Navbar component includes typografi', () => {
             >
               <a
                 class="nav-link"
-                href="/style/components"
+                href="/style/setup-guide/guidelines"
               >
                 Bra att veta för utvecklare
               </a>
@@ -253,7 +253,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/guidelines"
+                    href="/style/setup-guide/guidelines"
                   >
                     Riktlinjer
                   </a>
@@ -263,7 +263,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/setup-guide"
+                    href="/style/setup-guide/setup"
                   >
                     Använda kth-style i sitt projekt
                   </a>
@@ -273,7 +273,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/cortina-blocks"
+                    href="/style/setup-guide/cortina-blocks"
                   >
                     Hur man hämtar html-block från Cortina
                   </a>
@@ -283,7 +283,7 @@ test('Navbar component includes typografi', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/style/deprecations"
+                    href="/style/setup-guide/deprecations"
                   >
                     Deprikerad style / kod
                   </a>
