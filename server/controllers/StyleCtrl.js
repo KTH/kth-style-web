@@ -54,10 +54,10 @@ async function getIndex(req, res, next) {
 
     res.render('react/index', {
       html,
-      title: 'Style',
+      title: 'KTH Style app',
       compressedStoreCode,
       lang,
-      description: 'Style',
+      description: 'KTH Style app',
       breadcrumbsPath,
     })
   } catch (err) {

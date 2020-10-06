@@ -65,8 +65,9 @@ test('Links page snapshot', () => {
               class="external-link"
               href="#"
               target="_blank"
+              title="Link text - opens in new tab"
             >
-              External link
+              Link text
             </a>
             <div
               class="code-snippet"
@@ -201,6 +202,7 @@ test('Links page snapshot', () => {
             <a
               class="pdf-link"
               href="#"
+              title="Document opens in new tab"
             >
               Document with icon on the left
             </a>
