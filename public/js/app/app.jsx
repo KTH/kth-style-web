@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 // import { Provider } from 'mobx-react'
 
 import { MobxStoreProvider, uncompressStoreInPlaceFromDocument } from './mobx'
@@ -58,25 +58,34 @@ function appFactory(applicationStore) {
     <MobxStoreProvider initCallback={() => applicationStore}>
       <Switch>
         <Route exact path="/" component={Start} />
-        <Route exact path="/colors" component={Colors} />
-        <Route exact path="/icons" component={Icons} />
-        <Route exact path="/spacing" component={Spacing} />
-        <Route exact path="/typography" component={Typography} />
-        <Route exact path="/buttons" component={ButtonsPage} />
-        <Route exact path="/collapse" component={CollapsePage} />
-        <Route exact path="/tables" component={TablesPage} />
-        <Route exact path="/forms" component={FormsPage} />
-        <Route exact path="/setup-guide" component={SetupGuidePage} />
-        <Route exact path="/breadcrumbs" component={Breadcrumbs} />
-        <Route exact path="/alerts" component={Alerts} />
-        <Route exact path="/tabs" component={Tabs} />
-        <Route exact path="/links" component={Links} />
-        <Route exact path="/guidelines" component={GuidelinesPage} />
-        <Route exact path="/separators" component={SeparatorPage} />
-        <Route exact path="/navigation" component={NavigationPage} />
-        <Route exact path="/modals" component={ModalPage} />
-        <Route exact path="/cortina-blocks" component={CortinaBlocksPage} />
-        <Route exact path="/deprecations" component={DeprecationsPage} />
+        <Route exact path="/basic/">
+          <Redirect to="/basic/colors" />
+        </Route>
+        <Route exact path="/basic/colors" component={Colors} />
+        <Route exact path="/basic/icons" component={Icons} />
+        <Route exact path="/basic/spacing" component={Spacing} />
+        <Route exact path="/basic/typography" component={Typography} />
+        <Route exact path="/basic/buttons" component={ButtonsPage} />
+        <Route exact path="/basic/tables" component={TablesPage} />
+        <Route exact path="/basic/separators" component={SeparatorPage} />
+        <Route exact path="/basic/links" component={Links} />
+        <Route exact path="/components/">
+          <Redirect to="/components/forms" />
+        </Route>
+        <Route exact path="/components/forms" component={FormsPage} />
+        <Route exact path="/components/breadcrumbs" component={Breadcrumbs} />
+        <Route exact path="/components/alerts" component={Alerts} />
+        <Route exact path="/components/collapse" component={CollapsePage} />
+        <Route exact path="/components/tabs" component={Tabs} />
+        <Route exact path="/components/modals" component={ModalPage} />
+        <Route exact path="/components/navigation" component={NavigationPage} />
+        <Route exact path="/setup-guide/">
+          <Redirect to="/setup-guide/setup" />
+        </Route>
+        <Route exact path="/setup-guide/setup" component={SetupGuidePage} />
+        <Route exact path="/setup-guide/guidelines" component={GuidelinesPage} />
+        <Route exact path="/setup-guide/cortina-blocks" component={CortinaBlocksPage} />
+        <Route exact path="/setup-guide/deprecations" component={DeprecationsPage} />
       </Switch>
     </MobxStoreProvider>
   )

@@ -39,7 +39,7 @@ const logConfiguration = {
   level: config.logging.log.level,
   console: config.logging.console,
   stdout: config.logging.stdout,
-  src: config.logging.src
+  src: config.logging.src,
 }
 
 log.init(logConfiguration)
@@ -58,7 +58,7 @@ server.engine(
   exphbs({
     defaultLayout: 'publicLayout',
     layoutsDir: server.settings.layouts,
-    partialsDir: server.settings.partials
+    partialsDir: server.settings.partials,
   })
 )
 server.set('view engine', 'handlebars')
@@ -153,12 +153,12 @@ const {
   logoutHandler,
   pgtCallbackHandler,
   serverLogin,
-  getServerGatewayLogin
+  getServerGatewayLogin,
 } = require('kth-node-passport-cas').routeHandlers({
   casLoginUri: config.proxyPrefixPath.uri + '/login',
   casGatewayUri: config.proxyPrefixPath.uri + '/loginGateway',
   proxyPrefixPath: config.proxyPrefixPath.uri,
-  server
+  server,
 })
 const { redirectAuthenticatedUserHandler } = require('./authentication')
 server.use(passport.initialize())
@@ -191,7 +191,7 @@ server.use(
     blockUrl: config.blockApi.blockUrl,
     proxyPrefixPath: config.proxyPrefixPath.uri,
     hostUrl: config.hostUrl,
-    redisConfig: config.cache.cortinaBlock.redis
+    redisConfig: config.cache.cortinaBlock.redis,
   })
 )
 
@@ -204,7 +204,7 @@ const excludeExpression = new RegExp(excludePath)
 server.use(
   excludeExpression,
   require('kth-node-web-common/lib/web/crawlerRedirect')({
-    hostUrl: config.hostUrl
+    hostUrl: config.hostUrl,
   })
 )
 
@@ -225,8 +225,9 @@ server.use('/', systemRoute.getRouter())
 
 // App routes
 const appRoute = AppRouter()
-appRoute.get('system.index', config.proxyPrefixPath.uri + '/', KthStyle.getIndex)
-appRoute.get('system.index', config.proxyPrefixPath.uri + '/:page', KthStyle.getIndex)
+// appRoute.get('system.index', config.proxyPrefixPath.uri + '/', KthStyle.getIndex)
+// appRoute.get('system.index', config.proxyPrefixPath.uri + '/:page', KthStyle.getIndex)
+appRoute.get('system.index', config.proxyPrefixPath.uri + '/:section?/:page?', KthStyle.getIndex)
 
 appRoute.get(
   'system.gateway',

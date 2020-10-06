@@ -34,13 +34,31 @@ async function getIndex(req, res, next) {
     const { uri: basename } = serverConfig.proxyPrefixPath
     const html = renderStaticPage({ applicationStore, location, basename })
 
+    let breadcrumbsPath = []
+
+    if (req.params.section) {
+      const knownSections = {
+        basic: 'section_basic',
+        components: 'section_components',
+        'setup-guide': 'section_setup_guide',
+      }
+
+      if (knownSections[req.params.section]) {
+        breadcrumbsPath = [
+          { label: i18n.message(knownSections[req.params.section]), url: `${basename}/${req.params.section}` },
+        ]
+      } else {
+        throw new Error('Invalid section')
+      }
+    }
+
     res.render('react/index', {
       html,
       title: 'Style',
       compressedStoreCode,
       lang,
       description: 'Style',
-      breadcrumbsPath: [],
+      breadcrumbsPath,
     })
   } catch (err) {
     log.error('Error in getIndex', { error: err })

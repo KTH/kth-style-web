@@ -39,6 +39,10 @@ module.exports = {
     page_kth_style_icons: 'Ikoner',
     page_kth_style_buttons: 'Knappar',
 
+    section_basic: 'Grundform',
+    section_components: 'Komponenter',
+    section_setup_guide: 'Bra att veta för utvecklare',
+
     button_mobile_menu_label: 'Öppna/stäng mobilmenyn',
     mobile_menu_aria_label: 'Mobilmeny',
 
