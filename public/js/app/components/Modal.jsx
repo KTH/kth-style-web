@@ -11,9 +11,10 @@ export default props => {
       const listener = keyListenersMap.get(e.keyCode)
       return listener && listener(e)
     }
-    document.addEventListener('keydown', keyListener)
-    document.addEventListener('mousedown', handleClick)
-
+    if (isOpen) {
+      document.addEventListener('keydown', keyListener)
+      document.addEventListener('mousedown', handleClick)
+    }
     return () => {
       document.removeEventListener('keydown', keyListener)
       document.removeEventListener('mousedown', handleClick)
