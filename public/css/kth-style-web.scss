@@ -1,6 +1,4 @@
-// Scss code goes here!
-
-@import '../../node_modules/kth-style/public/sass/variables/fonts';
+// Specific kth-style-web scss
 
 ul.deprecatedList {
   li {
@@ -13,6 +11,7 @@ ul.deprecatedList {
     }
   }
 }
+
 #app {
   width: 100%;
   padding: 15px 0;
@@ -20,7 +19,6 @@ ul.deprecatedList {
   @media (min-width: 992px) {
     display: grid;
     grid-template-columns: 300px 1fr;
-    // grid-gap: 15px;
   }
 }
 
