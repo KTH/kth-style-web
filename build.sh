@@ -27,11 +27,6 @@ cp -R ./node_modules/kth-node-web-common/lib/handlebars/pages/views/. server/vie
 echo -e "     -> Copying errorLayout.handlebars to server/views/layouts folder"
 cp -R ./node_modules/kth-node-web-common/lib/handlebars/pages/layouts/. server/views/layouts
 
-# Copy datatables.net related files layout to the dist folder
-echo -e "     -> Copying datatables.net related files layout to /dist folder${nc}"
-cp -R ./node_modules/datatables.net/js/. ./dist
-cp -R ./public/css/datatables/. ./dist
-
 # Run parcel build on the vendor.js file and put the optimized file in the /public/js folder.
 echo -e "${yellow}\n  2. Parcing vendor.js and putting it in the /dist/js folder${nc}"
 npm run vendor
