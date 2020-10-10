@@ -42,7 +42,7 @@ test('Deprecations page snapshot', () => {
              
             <a
               alt="Exempel på Collapse-komponent"
-              href="https://app-r.referens.sys.kth.se/style/collapse"
+              href="/style/components/collapse"
             >
               Collapse-exempel
             </a>

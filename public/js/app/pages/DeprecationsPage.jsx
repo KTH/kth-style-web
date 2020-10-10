@@ -22,7 +22,7 @@ export const Main = props => {
         <li>
           Collapse kommer inte stödja uppbyggnad med button eller a-tag längre. Styling för dessa varianter utgår och
           ersätts av styling för details och summary istället. Exempel kan ses här:{' '}
-          <a href="https://app-r.referens.sys.kth.se/style/collapse" alt="Exempel på Collapse-komponent">
+          <a href="/style/components/collapse" alt="Exempel på Collapse-komponent">
             Collapse-exempel
           </a>
         </li>
