@@ -29,7 +29,7 @@ test('Modal page snapshot', () => {
           Denna modal är baserad på vår React-komponent och kräver således React i botten.
         </p>
         <button
-          class="btn btn-primary feedback-btn"
+          class="btn btn-primary"
           type="button"
         >
           Öppna modalfönster
@@ -99,7 +99,7 @@ test('Modal page snapshot', () => {
               <code
                 class="language-html"
               >
-                &lt;button onClick={openModal} type="button" class="btn btn-primary feedback-btn"&gt;
+                &lt;button onClick={openModal} type="button" class="btn btn-primary"&gt;
       Öppna modalfönster
     &lt;/button&gt;
     &lt;Modal isOpen={isOpen} closeModal={closeModal} lang={lang} title="Titel"&gt;
@@ -123,9 +123,6 @@ test('Modal page snapshot', () => {
         </h2>
         <p>
           Denna modal är baserad på Bootstrap och kräver att man har Bootstrap CSS och JS tillgängligt i sitt prjekt.
-        </p>
-        <p>
-          Observera att React-modalens js stör den Bootstrap-baserade så tabbning inte fungerar i detta exempel.
         </p>
         <button
           class="btn btn-primary"
