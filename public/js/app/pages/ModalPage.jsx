@@ -25,7 +25,7 @@ export const Main = props => {
       <h2>Modal baserad på React</h2>
       <p>Denna modal är baserad på vår React-komponent och kräver således React i botten.</p>
 
-      <button onClick={openModal} type="button" className="btn btn-primary feedback-btn">
+      <button onClick={openModal} type="button" className="btn btn-primary">
         Öppna modalfönster
       </button>
 
@@ -34,7 +34,7 @@ export const Main = props => {
       </Modal>
 
       <CodeSnippet
-        snippet={`<button onClick={openModal} type="button" class="btn btn-primary feedback-btn">
+        snippet={`<button onClick={openModal} type="button" class="btn btn-primary">
   Öppna modalfönster
 </button>
 <Modal isOpen={isOpen} closeModal={closeModal} lang={lang} title="Titel">
@@ -44,7 +44,6 @@ export const Main = props => {
 
       <h2>Modal baserad på Bootstrap</h2>
       <p>Denna modal är baserad på Bootstrap och kräver att man har Bootstrap CSS och JS tillgängligt i sitt prjekt.</p>
-      <p>Observera att React-modalens js stör den Bootstrap-baserade så tabbning inte fungerar i detta exempel.</p>
 
       <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Öppna modalfönster
