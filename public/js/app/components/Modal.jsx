@@ -4,6 +4,8 @@ import i18n from '../../../../i18n'
 
 export default props => {
   const node = useRef()
+  const close = useRef()
+
   const { isOpen, closeModal, lang, children, title } = props
 
   useEffect(() => {
@@ -12,6 +14,7 @@ export default props => {
       return listener && listener(e)
     }
     if (isOpen) {
+      close.current.focus()
       document.addEventListener('keydown', keyListener)
       document.addEventListener('mousedown', handleClick)
     }
@@ -104,6 +107,7 @@ export default props => {
                 className="btn btn-secondary"
                 aria-label={i18n.message('modal_close_button_label', lang)}
                 onClick={closeModal}
+                ref={close}
               >
                 {i18n.message('modal_close_button_label', lang)}
               </button>
