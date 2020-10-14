@@ -26,6 +26,7 @@ async function getIndex(req, res, next) {
     applicationStore.setLanguage(lang)
     applicationStore.setBrowserConfig(browserConfig)
     applicationStore.setPaths(paths)
+    applicationStore.setCurrentUrl(req.originalUrl)
 
     await _fillApplicationStoreOnServerSide({ applicationStore, query: req.query })
 

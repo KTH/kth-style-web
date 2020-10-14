@@ -2,6 +2,12 @@
   #mainMenu.col.navbar {
     padding: 0 35px 15px 30px;
 
+    .nav-link {
+      &.active {
+        font-weight: bold;
+      }
+    }
+
     &.navbar-expand-lg.navbar-light
       #navbarNav.collapse.navbar-collapse
       ul.nav.nav-list.expandable

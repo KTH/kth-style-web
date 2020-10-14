@@ -2,11 +2,117 @@ import React from 'react'
 import { observer } from 'mobx-react'
 import { useStore } from '../mobx'
 
-import NavBar from '../components/NavBar'
+import { useParams } from 'react-router'
+import ButtonsPage from './ButtonsPage'
+import TablesPage from './TablesPage'
 
-export const Main = props => {
+import Colors from './ColorsPage'
+import Icons from './IconsPage'
+import Spacing from './SpacingPage'
+import Typography from './TypographyPage'
+import CollapsePage from './CollapsePage'
+import FormsPage from './FormsPage'
+import SetupGuidePage from './SetupGuidePage'
+import Breadcrumbs from './BreadcrumbsPage'
+import Alerts from './AlertsPage'
+import Tabs from './TabsPage'
+import Links from './LinksPage'
+import GuidelinesPage from './GuidelinesPage'
+import SeparatorPage from './SeparatorPage'
+import NavigationPage from './NavigationPage'
+import ModalPage from './ModalPage'
+import CortinaBlocksPage from './CortinaBlocksPage'
+import DeprecationsPage from './DeprecationsPage'
+
+import NavBar from '../components/NavBar'
+import Collapse from '../components/Collapse'
+
+const ComponentExport = observer(Start)
+export default ComponentExport
+
+export function Start() {
+  const content = getComponentMatchingRoute()
   return (
-    <main id="mainContent" className="mainContent">
+    <>
+      <NavBar />
+      <main id="mainContent" className="mainContent">
+        {content}
+      </main>
+    </>
+  )
+}
+
+function getComponentMatchingRoute() {
+  const { section, page } = useParams()
+
+  switch (section) {
+    case 'basic':
+      switch (page) {
+        case 'colors':
+          return <Colors />
+        case 'icons':
+          return <Icons />
+        case 'spacing':
+          return <Spacing />
+        case 'typography':
+          return <Typography />
+        case 'buttons':
+          return <ButtonsPage />
+        case 'tables':
+          return <TablesPage />
+
+        case 'separators':
+          return <SeparatorPage />
+        case 'links':
+          return <Links />
+
+        default:
+          return <Colors />
+      }
+
+    case 'components':
+      switch (page) {
+        case 'alerts':
+          return <Alerts />
+        case 'forms':
+          return <FormsPage />
+        case 'breadcrumbs':
+          return <Breadcrumbs />
+        case 'collapse':
+          return <CollapsePage />
+        case 'tabs':
+          return <Tabs />
+        case 'modals':
+          return <ModalPage />
+        case 'navigation':
+          return <NavigationPage />
+
+        default:
+          return <Alerts />
+      }
+
+    case 'setup-guide':
+      switch (page) {
+        case 'guidelines':
+          return <GuidelinesPage />
+        case 'setup':
+          return <SetupGuidePage />
+        case 'cortina-blocks':
+          return <CortinaBlocksPage />
+        case 'deprecations':
+          return <DeprecationsPage />
+
+        default:
+          return <GuidelinesPage />
+      }
+    default:
+      return <Main />
+  }
+}
+
+function Main() {
+  return (
+    <>
       <h1>KTH Style app</h1>
       <h2>Syftet med denna webbplats</h2>
       <p>
@@ -40,17 +146,6 @@ export const Main = props => {
           kth-style-react-components
         </a>
       </p>
-    </main>
-  )
-}
-
-export default observer(() => {
-  const { message, language: lang } = useStore()
-
-  return (
-    <>
-      <NavBar />
-      <Main />
     </>
   )
-})
+}

@@ -1,6 +1,96 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { observer } from 'mobx-react'
+import { useStore } from '../mobx'
 
-export default () => {
+import { NavLink, useParams } from 'react-router-dom'
+
+export default observer(() => {
+  const { currentUrl } = useStore()
+  const params = useParams()
+  const section = params.section ? params.section : '/'
+
+  const basicPages = {
+    title: 'Grundform',
+    url: '/basic',
+    children: [
+      { title: 'Färger', url: '/basic/colors' },
+      { title: 'Ikoner', url: '/basic/icons' },
+      { title: 'Avstånd', url: '/basic/spacing' },
+      { title: 'Typografi', url: '/basic/typography' },
+      { title: 'Länkar', url: '/basic/links' },
+      { title: 'Knappar', url: '/basic/buttons' },
+      { title: 'Tabeller', url: '/basic/tables' },
+      { title: 'Avskiljare', url: '/basic/separators' },
+    ],
+  }
+
+  const componentsPages = {
+    title: 'Komponenter',
+    url: '/components',
+    children: [
+      { title: 'Meddelanderutor (Alerts)', url: '/components/alerts' },
+      { title: 'Brödsmulor', url: '/components/breadcrumbs' },
+      { title: 'Collapse', url: '/components/collapse' },
+      { title: 'Formulär', url: '/components/forms' },
+      { title: 'Modaler', url: '/components/modals' },
+      { title: 'Navigation', url: '/components/navigation' },
+      { title: 'Tabbar', url: '/components/tabs' },
+    ],
+  }
+
+  const setupPages = {
+    title: 'Bra att veta för utvecklare',
+    url: '/setup-guide',
+    children: [
+      { title: 'Riktlinjer', url: '/setup-guide/guidelines' },
+      { title: 'Använda kth-style i sitt projekt', url: '/setup-guide/setup' },
+      { title: 'Hur man hämtar html-block från Cortina', url: '/setup-guide/cortina-blocks' },
+      { title: 'Deprikerad style / kod', url: '/setup-guide/deprecations' },
+    ],
+  }
+
+  const aboutPage = {
+    title: 'Om KTH Style app',
+    url: '/',
+  }
+
+  const ChildItems = props => {
+    const list = props.children.map((page, index) => {
+      const isSelected = currentUrl === page.url || index[0]
+
+      return (
+        <li key={index} className={`nav-item leaf ${isSelected ? 'selected' : ''}`}>
+          <NavLink className="nav-link" to={page.url}>
+            {page.title}
+          </NavLink>
+        </li>
+      )
+    })
+
+    return (
+      <ul id="leftmenu-div-1" className="nav nav-list">
+        {list}
+      </ul>
+    )
+  }
+
+  const NavItem = ({ navItem }) => {
+    const { title, url, children } = navItem
+    const isExpanded = `/${section}` === url
+
+    const classes = `nav-item ${children ? 'node' : 'leaf'} ${isExpanded ? 'selected expanded' : ''}`
+
+    return (
+      <li className={classes}>
+        <NavLink className="nav-link" to={url}>
+          {title}
+        </NavLink>
+
+        {isExpanded && children && <ChildItems children={children} />}
+      </li>
+    )
+  }
+
   return (
     <nav id="mainMenu" aria-label="Sub menu" className="col navbar navbar-expand-lg navbar-light">
       <div className="collapse navbar-collapse" id="navbarNav">
@@ -15,131 +105,13 @@ export default () => {
             <span className="nav-item ancestor">KTH Style app</span>
           </li>
         </ul>
-        <ul className="nav nav-list">
-          <li className="nav-item selected">
-            <a href="/style" className="nav-link">
-              Om KTH Style app
-            </a>
-          </li>
-          <li className="nav-item node expanded">
-            <a href="/style/basic/colors" className="nav-link">
-              Grundform
-            </a>
-            <ul id="leftmenu-div-1" className="nav nav-list">
-              <li className="nav-item leaf">
-                <a href="/style/basic/colors" className="nav-link">
-                  Färger
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/basic/icons" className="nav-link">
-                  Ikoner
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/basic/spacing" className="nav-link">
-                  Avstånd
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/basic/typography" className="nav-link">
-                  Typografi
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/basic/links" className="nav-link">
-                  Länkar
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/basic/buttons" className="nav-link">
-                  Knappar
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/basic/tables" className="nav-link">
-                  Tabeller
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/basic/separators" className="nav-link">
-                  Avskiljare
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className="nav-item node expanded">
-            <a href="/style/components/alerts" className="nav-link">
-              Komponenter
-            </a>
-            <ul id="leftmenu-div-2" className="nav nav-list">
-              <li className="nav-item leaf">
-                <a href="/style/components/alerts" className="nav-link">
-                  Meddelanderutor (Alerts)
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/components/breadcrumbs" className="nav-link">
-                  Brödsmulor
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/components/collapse" className="nav-link">
-                  Collapse
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/components/forms" className="nav-link">
-                  Formulär
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/components/modals" className="nav-link">
-                  Modaler
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/components/navigation" className="nav-link">
-                  Navigation
-                </a>
-              </li>
-
-              <li className="nav-item leaf">
-                <a href="/style/components/tabs" className="nav-link">
-                  Tabbar
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className="nav-item node expanded">
-            <a href="/style/setup-guide/guidelines" className="nav-link">
-              Bra att veta för utvecklare
-            </a>
-            <ul id="leftmenu-div-3" className="nav nav-list">
-              <li className="nav-item leaf">
-                <a href="/style/setup-guide/guidelines" className="nav-link">
-                  Riktlinjer
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/setup-guide/setup" className="nav-link">
-                  Använda kth-style i sitt projekt
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/setup-guide/cortina-blocks" className="nav-link">
-                  Hur man hämtar html-block från Cortina
-                </a>
-              </li>
-              <li className="nav-item leaf">
-                <a href="/style/setup-guide/deprecations" className="nav-link">
-                  Deprikerad style / kod
-                </a>
-              </li>
-            </ul>
-          </li>
+        <ul className="nav nav-list expandable">
+          <NavItem navItem={aboutPage} />
+          <NavItem navItem={basicPages} />
+          <NavItem navItem={componentsPages} />
+          <NavItem navItem={setupPages} />
         </ul>
       </div>
     </nav>
   )
-}
+})

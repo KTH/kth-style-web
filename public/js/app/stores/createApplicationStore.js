@@ -13,6 +13,8 @@ function createApplicationStore() {
     message: 'Hello',
     browserConfig: {},
     paths: {},
+    currentUrl: null,
+    breadcrumbs: [],
 
     setMessage: action(function setMessage(text) {
       this.message = text
@@ -28,6 +30,10 @@ function createApplicationStore() {
 
     setPaths: action(function setPaths(paths) {
       this.paths = paths
+    }),
+
+    setCurrentUrl: action(function setCurrentUrl(url) {
+      this.currentUrl = url
     }),
   }
 

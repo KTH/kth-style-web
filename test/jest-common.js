@@ -5,7 +5,7 @@ module.exports = {
   moduleDirectories: ['node_modules', path.join(__dirname, '../src')],
   testEnvironment: 'jest-environment-jsdom',
   moduleNameMapper: {
-    '\\.css$': require.resolve('./style-mock.js')
+    '\\.(css|scss)$': require.resolve('./style-mock.js'),
   },
-  verbose: true
+  verbose: true,
 }

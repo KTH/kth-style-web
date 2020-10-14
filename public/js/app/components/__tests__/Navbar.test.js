@@ -1,12 +1,32 @@
 import React from 'react'
-import { render, waitForElement } from '@testing-library/react'
+import { render } from '@testing-library/react'
+import { MemoryRouter, Route } from 'react-router-dom'
+
 import 'jest-axe/extend-expect'
 import { axe } from 'jest-axe'
 
 import NavBar from '../NavBar'
 
+test('Navbar component complies to axe accesibility', async () => {
+  const { container } = render(
+    <MemoryRouter initialEntries={['components/alerts']}>
+      <Route path=":section/:page">
+        <NavBar />
+      </Route>
+    </MemoryRouter>
+  )
+  const results = await axe(container)
+  expect(results).toHaveNoViolations()
+})
+
 test('Navbar component includes typografi', () => {
-  const { container, getByText, debug } = render(<NavBar />)
+  const { container, getByText } = render(
+    <MemoryRouter initialEntries={['basic/typography']}>
+      <Route path=":section/:page">
+        <NavBar />
+      </Route>
+    </MemoryRouter>
+  )
   expect(container).toMatchInlineSnapshot(`
     <div>
       <nav
@@ -43,24 +63,24 @@ test('Navbar component includes typografi', () => {
             </li>
           </ul>
           <ul
-            class="nav nav-list"
+            class="nav nav-list expandable"
           >
             <li
-              class="nav-item selected"
+              class="nav-item leaf "
             >
               <a
                 class="nav-link"
-                href="/style"
+                href="/"
               >
                 Om KTH Style app
               </a>
             </li>
             <li
-              class="nav-item node expanded"
+              class="nav-item node selected expanded"
             >
               <a
                 class="nav-link"
-                href="/style/basic/colors"
+                href="/basic"
               >
                 Grundform
               </a>
@@ -69,81 +89,81 @@ test('Navbar component includes typografi', () => {
                 id="leftmenu-div-1"
               >
                 <li
-                  class="nav-item leaf"
+                  class="nav-item leaf "
                 >
                   <a
                     class="nav-link"
-                    href="/style/basic/colors"
+                    href="/basic/colors"
                   >
                     Färger
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf"
+                  class="nav-item leaf "
                 >
                   <a
                     class="nav-link"
-                    href="/style/basic/icons"
+                    href="/basic/icons"
                   >
                     Ikoner
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf"
+                  class="nav-item leaf "
                 >
                   <a
                     class="nav-link"
-                    href="/style/basic/spacing"
+                    href="/basic/spacing"
                   >
                     Avstånd
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf"
+                  class="nav-item leaf "
                 >
                   <a
                     class="nav-link"
-                    href="/style/basic/typography"
+                    href="/basic/typography"
                   >
                     Typografi
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf"
+                  class="nav-item leaf "
                 >
                   <a
                     class="nav-link"
-                    href="/style/basic/links"
+                    href="/basic/links"
                   >
                     Länkar
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf"
+                  class="nav-item leaf "
                 >
                   <a
                     class="nav-link"
-                    href="/style/basic/buttons"
+                    href="/basic/buttons"
                   >
                     Knappar
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf"
+                  class="nav-item leaf "
                 >
                   <a
                     class="nav-link"
-                    href="/style/basic/tables"
+                    href="/basic/tables"
                   >
                     Tabeller
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf"
+                  class="nav-item leaf "
                 >
                   <a
                     class="nav-link"
-                    href="/style/basic/separators"
+                    href="/basic/separators"
                   >
                     Avskiljare
                   </a>
@@ -151,144 +171,24 @@ test('Navbar component includes typografi', () => {
               </ul>
             </li>
             <li
-              class="nav-item node expanded"
+              class="nav-item node "
             >
               <a
                 class="nav-link"
-                href="/style/components/alerts"
+                href="/components"
               >
                 Komponenter
               </a>
-              <ul
-                class="nav nav-list"
-                id="leftmenu-div-2"
-              >
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/components/alerts"
-                  >
-                    Meddelanderutor (Alerts)
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/components/breadcrumbs"
-                  >
-                    Brödsmulor
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/components/collapse"
-                  >
-                    Collapse
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/components/forms"
-                  >
-                    Formulär
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/components/modals"
-                  >
-                    Modaler
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/components/navigation"
-                  >
-                    Navigation
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/components/tabs"
-                  >
-                    Tabbar
-                  </a>
-                </li>
-              </ul>
             </li>
             <li
-              class="nav-item node expanded"
+              class="nav-item node "
             >
               <a
                 class="nav-link"
-                href="/style/setup-guide/guidelines"
+                href="/setup-guide"
               >
                 Bra att veta för utvecklare
               </a>
-              <ul
-                class="nav nav-list"
-                id="leftmenu-div-3"
-              >
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/setup-guide/guidelines"
-                  >
-                    Riktlinjer
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/setup-guide/setup"
-                  >
-                    Använda kth-style i sitt projekt
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/setup-guide/cortina-blocks"
-                  >
-                    Hur man hämtar html-block från Cortina
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/style/setup-guide/deprecations"
-                  >
-                    Deprikerad style / kod
-                  </a>
-                </li>
-              </ul>
             </li>
           </ul>
         </div>
@@ -296,10 +196,4 @@ test('Navbar component includes typografi', () => {
     </div>
   `)
   getByText(/Typografi/i)
-})
-
-test('Navbar component complies to axe accesibility', async () => {
-  const { container } = render(<NavBar />)
-  const results = await axe(container)
-  expect(results).toHaveNoViolations()
 })
