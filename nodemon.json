@@ -1,8 +1,5 @@
 {
   "verbose": true,
-  "ignore": [
-  	"public/**/*.*", 
-  	"test/**/*.*", 
-  	"bundles/**/*.*",
-	  "server/views**/*.*"]
+  "ignore": ["dist/*", "dist-dev/*"],
+  "ext": "js,jsx,handlebars,scss,svg,png"
 }

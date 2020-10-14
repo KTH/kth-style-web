@@ -24,7 +24,7 @@
     "parcel-sass-dev": "parcel build ./public/css/**/*.scss --public-url /style/static",
     "parcel-watch": "parcel watch ./public/js/app/app.jsx --public-url /style/static && parcel watch ./public/css/*.scss --public-url /style/static",
     "start": "NODE_ENV=production node app.js",
-    "start-dev": "cross-env NODE_ENV=development concurrently --kill-others \"nodemon --ignore dist/ --ignore dist-dev/ app.js\" \"npm run parcel-watch\""
+    "start-dev": "cross-env NODE_ENV=development concurrently --kill-others \"nodemon app.js\" \"npm run parcel-watch\""
   },
   "dependencies": {
     "applicationinsights": "^1.8.7",
