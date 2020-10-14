@@ -15,7 +15,6 @@ export const Main = props => {
 export default observer(() => {
   return (
     <>
-      <NavBar />
       <Main />
     </>
   )

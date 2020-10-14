@@ -98,7 +98,6 @@ app.use(config.proxyPrefixPath.uri +'/kth-style', express.static(path.join(__dir
 export default observer(() => {
   return (
     <>
-      <NavBar />
       <Main />
     </>
   )

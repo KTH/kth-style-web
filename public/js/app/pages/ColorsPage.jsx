@@ -1,8 +1,6 @@
 import React from 'react'
 import { observer } from 'mobx-react'
 
-import NavBar from '../components/NavBar'
-
 const ColorBox = props => {
   const { code, displayName } = props
   const colorBoxStyle = {
@@ -80,7 +78,6 @@ export const Main = props => {
 export default observer(() => {
   return (
     <>
-      <NavBar />
       <Main />
     </>
   )
