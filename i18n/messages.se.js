@@ -49,5 +49,6 @@ module.exports = {
     modal_close_button_label: 'Stäng',
 
     skip_to_main_content: 'Hoppa till huvudinnehållet',
+    back_to_top_label: 'Till sidans topp',
   },
 }

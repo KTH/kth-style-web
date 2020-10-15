@@ -49,5 +49,6 @@ module.exports = {
     modal_close_button_label: 'Close',
 
     skip_to_main_content: 'Skip to main content',
+    back_to_top_label: 'To page top',
   },
 }
