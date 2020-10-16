@@ -27,11 +27,13 @@ export default props => {
     return null
   }
 
-  const _turnItemIntoBreadcrumb = ({ index, label, url }) => (
-    <li key={index} className="breadcrumb-item">
-      <a href={url}>{label}</a>
-    </li>
-  )
+  const _turnItemIntoBreadcrumb = (item, index) => {
+    return (
+      <li key={index} className="breadcrumb-item">
+        <a href={item.url}>{item.label}</a>
+      </li>
+    )
+  }
 
   const ariaLabel = language === 'sv' ? 'Brödsmulor' : 'Breadcrumbs'
 
@@ -39,8 +41,8 @@ export default props => {
     <div className="container articleNavigation">
       <nav id="breadcrumbs" aria-label={ariaLabel}>
         <ol className="breadcrumb">
-          {basicBreadcrumbs.map((index, label, url) => _turnItemIntoBreadcrumb(index, label, url))}
-          {breadcrumbItems.map((index, label, url) => _turnItemIntoBreadcrumb(index, label, url))}
+          {basicBreadcrumbs.map(_turnItemIntoBreadcrumb)}
+          {breadcrumbItems.map(_turnItemIntoBreadcrumb)}
         </ol>
       </nav>
     </div>
