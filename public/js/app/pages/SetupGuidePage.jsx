@@ -1,10 +1,9 @@
 import React from 'react'
 import { observer } from 'mobx-react'
 
-import NavBar from '../components/NavBar'
 import CodeSnippet from '../components/CodeSnippet'
 
-export const Main = props => {
+export const Main = () => {
   return (
     <main id="mainContent" className="mainContent">
       <h1>How to use KTH Style in your project</h1>

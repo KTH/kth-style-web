@@ -3,9 +3,8 @@ import { observer } from 'mobx-react'
 
 import Modal from '../components/Modal'
 import CodeSnippet from '../components/CodeSnippet'
-import NavBar from '../components/NavBar'
 
-export const Main = props => {
+export const Main = () => {
   const [isOpen, setModal] = useState(false)
 
   const openModal = () => {

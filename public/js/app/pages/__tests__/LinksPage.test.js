@@ -100,6 +100,7 @@ test('Links page snapshot', () => {
             <button
               class="btn-link"
               href="#"
+              type="button"
             >
               Button link
             </button>

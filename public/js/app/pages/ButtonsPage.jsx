@@ -1,7 +1,6 @@
 import React from 'react'
 import { observer } from 'mobx-react'
 
-import NavBar from '../components/NavBar'
 import CodeSnippet from '../components/CodeSnippet'
 /**
  *
@@ -18,7 +17,7 @@ const Button = ({ type, disabled, children, block, icon }) => {
   )
 }
 
-export const Main = props => {
+export const Main = () => {
   return (
     <main id="mainContent" className="mainContent">
       <h1>Buttons</h1>

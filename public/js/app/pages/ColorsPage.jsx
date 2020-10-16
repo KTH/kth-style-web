@@ -8,14 +8,14 @@ const ColorBox = props => {
   }
   return (
     <div className="itemBox">
-      <div className="colorBox" style={colorBoxStyle}></div>
+      <div className="colorBox" style={colorBoxStyle} />
       <div>{displayName}</div>
       <div>{code}</div>
     </div>
   )
 }
 
-export const Main = props => {
+export const Main = () => {
   const bgColorsWithWhitText = [
     { displayName: '$grey', code: '#65656c' },
     { displayName: '$blue', code: '#007fae' },

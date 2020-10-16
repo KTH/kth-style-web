@@ -1,10 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { observer } from 'mobx-react'
 
-import NavBar from '../components/NavBar'
 import CodeSnippet from '../components/CodeSnippet'
 
-export const Main = props => {
+export const Main = () => {
   return (
     <main id="mainContent" className="mainContent">
       <h1>Links</h1>
@@ -20,7 +20,7 @@ export const Main = props => {
           <CodeSnippet snippet={`<a href="#" target="_blank" class="external-link">External link</a>`} />
         </div>
         <div className="itemBox">
-          <button href="#" className="btn-link">
+          <button type="button" href="#" className="btn-link">
             Button link
           </button>
           <CodeSnippet snippet={`<button href="#" class="btn-link">Button link</button>`} />

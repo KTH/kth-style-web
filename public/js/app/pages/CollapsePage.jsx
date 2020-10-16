@@ -1,11 +1,10 @@
 import React from 'react'
 import { observer } from 'mobx-react'
-import NavBar from '../components/NavBar'
 
 import Collapse from '../components/Collapse'
 import CodeSnippet from '../components/CodeSnippet'
 
-export const Main = props => {
+export const Main = () => {
   return (
     <main id="mainContent" className="mainContent">
       <h1>Collapse</h1>

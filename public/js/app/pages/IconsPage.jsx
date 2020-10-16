@@ -1,11 +1,10 @@
 import React from 'react'
 import { observer } from 'mobx-react'
 
-import NavBar from '../components/NavBar'
 import CodeSnippet from '../components/CodeSnippet'
 
 const ItemBox = props => {
-  const { url, displayName, isWhite, width } = props
+  const { url, displayName, isWhite } = props
   const imgUrl = `url(/style/static/kth-style/img/kth-style/${url})`
   const itemBoxStyle = {
     backgroundImage: imgUrl,
@@ -24,7 +23,7 @@ const ItemBox = props => {
     </div>
   )
 }
-export const Main = props => {
+export const Main = () => {
   const alertItems = [
     { displayName: 'alert-attention.svg', url: 'icons/alert-attention.svg' },
     { displayName: 'alert-info.svg', url: 'icons/alert-info.svg' },

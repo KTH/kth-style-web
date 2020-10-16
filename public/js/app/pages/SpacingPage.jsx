@@ -1,9 +1,7 @@
 import React from 'react'
 import { observer } from 'mobx-react'
 
-import NavBar from '../components/NavBar'
-
-export const Main = props => {
+export const Main = () => {
   return (
     <main id="mainContent" className="mainContent">
       <h1>Avstånd</h1>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { observer } from 'mobx-react'
 import { useStore } from '../mobx'
 
@@ -55,7 +55,8 @@ export default observer(() => {
   }
 
   const ChildItems = props => {
-    const list = props.children.map((page, index) => {
+    const { children } = props
+    const list = children.map((page, index) => {
       const isSelected = currentUrl === page.url || index[0]
 
       return (
@@ -86,7 +87,7 @@ export default observer(() => {
           {title}
         </NavLink>
 
-        {isExpanded && children && <ChildItems children={children} />}
+        {isExpanded && children && <ChildItems>{children}</ChildItems>}
       </li>
     )
   }
