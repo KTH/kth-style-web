@@ -1,6 +1,9 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable no-use-before-define */
 import React from 'react'
 import { observer } from 'mobx-react'
 import { useStore } from '../mobx'
+import i18n from '../../../../i18n'
 
 import { useParams } from 'react-router'
 import ButtonsPage from './ButtonsPage'
@@ -13,7 +16,7 @@ import Typography from './TypographyPage'
 import CollapsePage from './CollapsePage'
 import FormsPage from './FormsPage'
 import SetupGuidePage from './SetupGuidePage'
-import Breadcrumbs from './BreadcrumbsPage'
+import BreadcrumbsPage from './BreadcrumbsPage'
 import Alerts from './AlertsPage'
 import Tabs from './TabsPage'
 import Links from './LinksPage'
@@ -25,19 +28,33 @@ import CortinaBlocksPage from './CortinaBlocksPage'
 import DeprecationsPage from './DeprecationsPage'
 
 import NavBar from '../components/NavBar'
-import Collapse from '../components/Collapse'
+import Breadcrumbs from '../components/BreadCrumbs'
 
 const ComponentExport = observer(Start)
 export default ComponentExport
 
 export function Start() {
+  const store = useStore()
+  const { proxyPrefixPath } = store.browserConfig
+  const { section } = useParams()
+
+  let breadcrumbs = []
+
+  if (section) {
+    breadcrumbs = [
+      {
+        label: section ? i18n.message(`section_${section}`) : 'hoahoa',
+        url: `${proxyPrefixPath.uri}/${section}`,
+      },
+    ]
+  }
+
   const content = getComponentMatchingRoute()
   return (
     <>
+      <Breadcrumbs items={breadcrumbs} />
       <NavBar />
-      <main id="mainContent" className="mainContent">
-        {content}
-      </main>
+      {content}
     </>
   )
 }
@@ -77,7 +94,7 @@ function getComponentMatchingRoute() {
         case 'forms':
           return <FormsPage />
         case 'breadcrumbs':
-          return <Breadcrumbs />
+          return <BreadcrumbsPage />
         case 'collapse':
           return <CollapsePage />
         case 'tabs':
@@ -86,7 +103,6 @@ function getComponentMatchingRoute() {
           return <ModalPage />
         case 'navigation':
           return <NavigationPage />
-
         default:
           return <Alerts />
       }
@@ -106,7 +122,11 @@ function getComponentMatchingRoute() {
           return <GuidelinesPage />
       }
     default:
-      return <Main />
+      return (
+        <main id="mainContent" className="mainContent">
+          <Main />
+        </main>
+      )
   }
 }
 
@@ -135,12 +155,12 @@ function Main() {
         <a href="https://github.com/KTH/kth-style-web/" alt="kth-style-paketet på Github">
           kth-style-web
         </a>
-        <br></br>
+        <br />
         Github:{' '}
         <a href="https://github.com/KTH/kth-style/" alt="kth-style-paketet på Github">
           kth-style
         </a>
-        <br></br>
+        <br />
         Github:{' '}
         <a href="https://github.com/KTH/kth-style-react-components" alt="kth-style-react-components-paketet på Github">
           kth-style-react-components

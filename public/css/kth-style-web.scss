@@ -17,8 +17,16 @@ ul.deprecatedList {
   padding: 15px 0;
 
   @media (min-width: 992px) {
+    padding: 0;
     display: grid;
     grid-template-columns: 300px 1fr;
+
+    .articleNavigation {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      padding-bottom: 15px;
+      margin: 0;
+    }
   }
 }
 

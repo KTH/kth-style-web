@@ -24,34 +24,13 @@ async function getIndex(req, res, next) {
 
     const applicationStore = createStore()
     applicationStore.setLanguage(lang)
-    applicationStore.setBrowserConfig(browserConfig)
-    applicationStore.setPaths(paths)
-    applicationStore.setCurrentUrl(req.originalUrl)
 
-    await _fillApplicationStoreOnServerSide({ applicationStore, query: req.query })
+    await _fillApplicationStoreOnServerSide({ applicationStore, query: req.query, lang })
 
     const compressedStoreCode = getCompressedStoreCode(applicationStore)
     const location = req.url
     const { uri: basename } = serverConfig.proxyPrefixPath
     const html = renderStaticPage({ applicationStore, location, basename })
-
-    let breadcrumbsPath = []
-
-    if (req.params.section) {
-      const knownSections = {
-        basic: 'section_basic',
-        components: 'section_components',
-        'setup-guide': 'section_setup_guide',
-      }
-
-      if (knownSections[req.params.section]) {
-        breadcrumbsPath = [
-          { label: i18n.message(knownSections[req.params.section]), url: `${basename}/${req.params.section}` },
-        ]
-      } else {
-        throw new Error('Invalid section')
-      }
-    }
 
     res.render('react/index', {
       html,
@@ -59,7 +38,6 @@ async function getIndex(req, res, next) {
       compressedStoreCode,
       lang,
       description: 'KTH Style app',
-      breadcrumbsPath,
     })
   } catch (err) {
     log.error('Error in getIndex', { error: err })
@@ -68,8 +46,16 @@ async function getIndex(req, res, next) {
 }
 
 // eslint-disable-next-line no-unused-vars
-async function _fillApplicationStoreOnServerSide({ applicationStore, query }) {
-  applicationStore.setMessage('Message from style controller!')
+async function _fillApplicationStoreOnServerSide({ applicationStore, query, lang }) {
+  applicationStore.setBrowserConfig(browserConfig)
+  applicationStore.setPaths(paths)
+
+  applicationStore.createBasicBreadcrumbs({
+    hostLabel: i18n.message('host_name', lang),
+    hostUrl: serverConfig.hostUrl,
+    baseLabel: i18n.message('site_name', lang),
+    baseUrl: serverConfig.proxyPrefixPath.uri,
+  })
 }
 
 module.exports = {
