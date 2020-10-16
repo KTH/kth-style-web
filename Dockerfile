@@ -16,15 +16,14 @@ COPY ["public", "public"]
 COPY ["i18n", "i18n"]
 COPY [".babelrc.js", ".babelrc.js"]
 
+COPY ["app.js", "app.js"]
+COPY ["server", "server"]
+
 RUN apk add --no-cache --virtual .gyp-dependencies python make g++ bash util-linux && \
   npm run docker && \
   apk del .gyp-dependencies
-
-COPY ["app.js", "app.js"]
-COPY ["server", "server"]
 
 EXPOSE 3000
 ENV TZ=Europe/Stockholm
 
 CMD ["node", "app.js"]
-

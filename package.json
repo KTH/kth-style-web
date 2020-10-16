@@ -24,7 +24,10 @@
     "parcel-sass-dev": "parcel build ./public/css/**/*.scss --public-url /style/static",
     "parcel-watch": "parcel watch ./public/js/app/app.jsx --public-url /style/static && parcel watch ./public/css/*.scss --public-url /style/static",
     "start": "NODE_ENV=production node app.js",
-    "start-dev": "cross-env NODE_ENV=development concurrently --kill-others \"nodemon app.js\" \"npm run parcel-watch\""
+    "start-dev": "cross-env NODE_ENV=development concurrently --kill-others \"nodemon app.js\" \"npm run parcel-watch\"",
+    "docker:start": "docker build --tag kth-style-web:local . && docker images --filter=reference=kth-style-* && echo \"\\n\\nStarting container - don't forget 'npm run docker:stop' when you are done.\\n\\n\" && docker run --publish 3001:3001 --env-file .env kth-style-web:local",
+    "docker:stop": "bash -c 'IDS1=`docker ps --filter ancestor=kth-style-web:local -aq`; if [ -n \"$IDS1\" ]; then docker rm -v --force \"$IDS1\"; fi; IDS2=`docker ps --filter status=exited -aq`; if [ -n \"$IDS2\" ]; then docker rm -v \"$IDS2\"; fi'",
+    "docker:clean": "npm run docker:stop && bash -c 'docker rmi $(docker images --quiet kth-style-web:local)'"
   },
   "dependencies": {
     "applicationinsights": "^1.8.7",
