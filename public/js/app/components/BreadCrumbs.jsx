@@ -27,8 +27,8 @@ export default props => {
     return null
   }
 
-  const _turnItemIntoBreadcrumb = ({ label, url }) => (
-    <li className="breadcrumb-item">
+  const _turnItemIntoBreadcrumb = ({ index, label, url }) => (
+    <li key={index} className="breadcrumb-item">
       <a href={url}>{label}</a>
     </li>
   )
@@ -39,8 +39,8 @@ export default props => {
     <div className="container articleNavigation">
       <nav id="breadcrumbs" aria-label={ariaLabel}>
         <ol className="breadcrumb">
-          {basicBreadcrumbs.map(_turnItemIntoBreadcrumb)}
-          {breadcrumbItems.map(_turnItemIntoBreadcrumb)}
+          {basicBreadcrumbs.map((index, label, url) => _turnItemIntoBreadcrumb(index, label, url))}
+          {breadcrumbItems.map((index, label, url) => _turnItemIntoBreadcrumb(index, label, url))}
         </ol>
       </nav>
     </div>
