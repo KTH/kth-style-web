@@ -1,7 +1,7 @@
 import React from 'react'
 import { useStore } from '../mobx'
 
-const { isNoObject } = require('../../../../server/utils/objects')
+const { isNoObject } = require('../util/objects')
 
 function ensureItemsAreValid(items) {
   if (!Array.isArray(items) || items.some(isNoObject)) {

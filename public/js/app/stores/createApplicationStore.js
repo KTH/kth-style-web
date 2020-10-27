@@ -4,7 +4,7 @@
 
 // eslint-disable-next-line no-unused-vars
 import { action } from 'mobx'
-const { isNoObject } = require('../../../../server/utils/objects')
+const { isNoObject } = require('../util/objects')
 
 export default createApplicationStore
 
