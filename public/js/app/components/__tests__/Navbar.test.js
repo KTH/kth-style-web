@@ -89,7 +89,7 @@ test('Navbar component includes typografi', () => {
                 id="leftmenu-div-1"
               >
                 <li
-                  class="nav-item leaf "
+                  class="nav-item leaf"
                 >
                   <a
                     class="nav-link"
@@ -99,7 +99,7 @@ test('Navbar component includes typografi', () => {
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf "
+                  class="nav-item leaf"
                 >
                   <a
                     class="nav-link"
@@ -109,7 +109,7 @@ test('Navbar component includes typografi', () => {
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf "
+                  class="nav-item leaf"
                 >
                   <a
                     class="nav-link"
@@ -119,7 +119,7 @@ test('Navbar component includes typografi', () => {
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf "
+                  class="nav-item leaf"
                 >
                   <a
                     class="nav-link"
@@ -129,7 +129,7 @@ test('Navbar component includes typografi', () => {
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf "
+                  class="nav-item leaf"
                 >
                   <a
                     class="nav-link"
@@ -139,7 +139,7 @@ test('Navbar component includes typografi', () => {
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf "
+                  class="nav-item leaf"
                 >
                   <a
                     class="nav-link"
@@ -149,7 +149,7 @@ test('Navbar component includes typografi', () => {
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf "
+                  class="nav-item leaf"
                 >
                   <a
                     class="nav-link"
@@ -159,7 +159,7 @@ test('Navbar component includes typografi', () => {
                   </a>
                 </li>
                 <li
-                  class="nav-item leaf "
+                  class="nav-item leaf"
                 >
                   <a
                     class="nav-link"

@@ -5,6 +5,7 @@
     .nav-link {
       &.active {
         font-weight: bold;
+        pointer-events: none;
       }
     }
 

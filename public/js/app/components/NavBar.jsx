@@ -1,11 +1,9 @@
 import React from 'react'
 import { observer } from 'mobx-react'
-import { useStore } from '../mobx'
 
 import { NavLink, useParams } from 'react-router-dom'
 
 export default observer(() => {
-  const { currentUrl } = useStore()
   const params = useParams()
   const section = params.section ? params.section : '/'
 
@@ -57,11 +55,11 @@ export default observer(() => {
   const ChildItems = props => {
     const { children } = props
     const list = children.map((page, index) => {
-      const isSelected = currentUrl === page.url || index[0]
+      const navClass = !params.page && index === 0 ? ' active' : ''
 
       return (
-        <li key={index} className={`nav-item leaf ${isSelected ? 'selected' : ''}`}>
-          <NavLink className="nav-link" to={page.url}>
+        <li key={index} className="nav-item leaf">
+          <NavLink className={`nav-link${navClass}`} to={page.url}>
             {page.title}
           </NavLink>
         </li>
@@ -83,7 +81,7 @@ export default observer(() => {
 
     return (
       <li className={classes}>
-        <NavLink className="nav-link" to={url}>
+        <NavLink className="nav-link" to={url} exact={url === '/'}>
           {title}
         </NavLink>
 
