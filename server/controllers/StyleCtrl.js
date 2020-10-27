@@ -2,8 +2,6 @@
 
 // @ts-check
 
-const ReactDOMServer = require('react-dom/server')
-
 const log = require('kth-node-log')
 const language = require('kth-node-web-common/lib/language')
 

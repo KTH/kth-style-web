@@ -11,7 +11,7 @@ const Button = ({ type, disabled, children, block, icon }) => {
     ? `btn btn-${type}${icon ? ' ' + icon : ''} btn-block`
     : `btn btn-${type}${icon ? ' ' + icon : ''}`
   return (
-    <button className={buttonClass} disabled={disabled}>
+    <button type="button" className={buttonClass} disabled={disabled}>
       {children}
     </button>
   )

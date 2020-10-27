@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import { observer } from 'mobx-react'
 
@@ -34,13 +36,11 @@ export const Main = () => {
         When you have that installed, run the following command in your project root. This will create a folder named
         node_modules/kth-style.
       </p>
-      <CodeSnippet snippet={'$ npm i -S kth-style'} />
+      <CodeSnippet snippet="$ npm i -S kth-style" />
       <h3>Linking to static resouces from the kth-style package</h3>
       <p>If you just want to reference resources in the node_modules/kth-style package. Eg. from scss files.</p>
       <CodeSnippet snippet={`@import '../../node_modules/kth-style/public/sass/variables/fonts';`} />
-      <CodeSnippet
-        snippet={`background-image: url(../../node_modules/kth-style/dist/img/kth-style/icons/arrow-black-left.svg);`}
-      />
+      <CodeSnippet snippet="background-image: url(../../node_modules/kth-style/dist/img/kth-style/icons/arrow-black-left.svg);" />
       <h3>Use the scss resources as part of your project's local transpilation</h3>
       <p>
         If you want to use the scss resources in your local project just import them in your scss files so you can use
@@ -53,7 +53,7 @@ export const Main = () => {
         reference.
       </p>
       <p>Install kth-style by typing:</p>
-      <CodeSnippet snippet={'$ npm i -S kth-style'} />
+      <CodeSnippet snippet="$ npm i -S kth-style" />
       <p>
         This will add the kth-style package to your dependencies in you package.json file and into the node_modules
         folder.

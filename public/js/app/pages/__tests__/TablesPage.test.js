@@ -147,6 +147,7 @@ test('Tables page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>

@@ -58,6 +58,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -95,6 +96,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -132,6 +134,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -169,6 +172,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -206,6 +210,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -250,6 +255,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -287,6 +293,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -324,6 +331,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -361,6 +369,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -398,6 +407,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -435,6 +445,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -472,6 +483,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -509,6 +521,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -546,6 +559,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -583,6 +597,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -620,6 +635,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -657,6 +673,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -694,6 +711,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -731,6 +749,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -768,6 +787,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -805,6 +825,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -842,6 +863,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -879,6 +901,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -916,6 +939,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -953,6 +977,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -990,6 +1015,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1027,6 +1053,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1071,6 +1098,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1108,6 +1136,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1145,6 +1174,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1189,6 +1219,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1226,6 +1257,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1263,6 +1295,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1300,6 +1333,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1337,6 +1371,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1374,6 +1409,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1411,6 +1447,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1448,6 +1485,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1485,6 +1523,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1522,6 +1561,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1559,6 +1599,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1596,6 +1637,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1633,6 +1675,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1670,6 +1713,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1707,6 +1751,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1744,6 +1789,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1781,6 +1827,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1818,6 +1865,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1855,6 +1903,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1892,6 +1941,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1929,6 +1979,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -1966,6 +2017,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2003,6 +2055,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2040,6 +2093,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2077,6 +2131,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2121,6 +2176,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2158,6 +2214,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2195,6 +2252,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2232,6 +2290,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2276,6 +2335,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2313,6 +2373,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2350,6 +2411,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2387,6 +2449,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2424,6 +2487,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2461,6 +2525,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2498,6 +2563,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2535,6 +2601,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2572,6 +2639,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2609,6 +2677,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2646,6 +2715,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2683,6 +2753,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2720,6 +2791,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2757,6 +2829,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2794,6 +2867,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2831,6 +2905,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -2868,6 +2943,7 @@ test('Icons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>

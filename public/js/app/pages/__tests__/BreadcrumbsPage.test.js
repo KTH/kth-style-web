@@ -85,6 +85,7 @@ test('Breadcrumbs page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>

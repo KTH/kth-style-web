@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import useHover from '../hooks/useHover'
 
 export default props => {
@@ -13,14 +13,14 @@ export default props => {
   const Tooltip = () => {
     return (
       <div className="tooltip bs-tooltip-bottom code-snippet__tooltip">
-        <div className="arrow"></div>
+        <div className="arrow" />
         <div className="tooltip-inner">{copySuccess ? 'Copied!' : 'Copy to clipboard'}</div>
       </div>
     )
   }
 
   const copyToClipBoard = () => {
-    document.oncopy = function(e) {
+    document.oncopy = function (e) {
       const formattedSnippet = snippet.replace(/^\$/g, '')
       e.clipboardData.setData('text/plain', formattedSnippet)
       e.preventDefault()
@@ -42,7 +42,7 @@ export default props => {
           <code className="language-html">{snippet}</code>
         </pre>
         <div className="code-snippet__btn-container" ref={hoverRef}>
-          <button className="btn" onClick={copyToClipBoard}>
+          <button type="button" className="btn" onClick={copyToClipBoard}>
             Copy
           </button>
           {isHovered ? <Tooltip /> : null}

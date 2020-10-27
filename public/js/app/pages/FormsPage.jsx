@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react'
 import { observer } from 'mobx-react'
 
@@ -17,7 +18,7 @@ export const Main = () => {
               <label className="form-control-label" htmlFor="exampleInputText1">
                 Text input
               </label>
-              <input type="text" className="form-control" id="exampleInputText1"></input>
+              <input type="text" className="form-control" id="exampleInputText1" />
             </div>
           </form>
           <CodeSnippet
@@ -34,7 +35,7 @@ export const Main = () => {
               <label className="form-control-label" htmlFor="exampleInputPassword1">
                 Password
               </label>
-              <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"></input>
+              <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
             </div>
           </form>
           <CodeSnippet
@@ -56,7 +57,7 @@ export const Main = () => {
                 className="form-control"
                 id="exampleFormControlInput1"
                 placeholder="name@example.com"
-              ></input>
+              />
             </div>
           </form>
           <CodeSnippet
@@ -76,7 +77,7 @@ export const Main = () => {
               <div className="form-select form-group">
                 <div className="select-wrapper">
                   <select
-                    defaultValue={'undefined'}
+                    defaultValue="undefined"
                     className="form-control"
                     id="exampleFormControlSelect1"
                     aria-label="Välj något"
@@ -113,7 +114,7 @@ export const Main = () => {
               <label className="form-control-label" htmlFor="exampleFormControlTextarea1">
                 Textarea
               </label>
-              <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" />
             </div>
           </form>
           <CodeSnippet
@@ -128,7 +129,7 @@ export const Main = () => {
           <h2>Checkboxes</h2>
           <form>
             <div className="form-check form-group">
-              <input type="checkbox" className="form-check-input" id="exampleCheck1"></input>
+              <input type="checkbox" className="form-check-input" id="exampleCheck1" />
               <label className="form-control-label" htmlFor="exampleCheck1">
                 Check me out
               </label>

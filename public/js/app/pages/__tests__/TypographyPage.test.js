@@ -413,6 +413,7 @@ test('Typography page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>

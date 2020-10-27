@@ -62,6 +62,7 @@ test('Collapse page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -134,6 +135,7 @@ test('Collapse page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -174,6 +176,7 @@ test('Collapse page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>

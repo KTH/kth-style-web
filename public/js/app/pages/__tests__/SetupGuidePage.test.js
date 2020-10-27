@@ -64,6 +64,7 @@ test('Setup guide page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -100,6 +101,7 @@ test('Setup guide page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -130,6 +132,7 @@ test('Setup guide page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -154,6 +157,7 @@ test('Setup guide page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -200,6 +204,7 @@ test('Setup guide page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -243,6 +248,7 @@ test('Setup guide page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -280,6 +286,7 @@ test('Setup guide page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -310,6 +317,7 @@ test('Setup guide page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>

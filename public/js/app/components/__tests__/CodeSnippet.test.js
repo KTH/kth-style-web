@@ -58,6 +58,7 @@ test('CodeSnippet component snapshot', () => {
           >
             <button
               class="btn"
+              type="button"
             >
               Copy
             </button>

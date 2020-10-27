@@ -74,6 +74,7 @@ test('Navigation page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -92,6 +93,7 @@ test('Navigation page snapshot', () => {
           <a
             class="external-link"
             href="https://github.com/KTH/kth-node-cortina-block"
+            rel="noreferrer"
             target="_blank"
           >
             kth-node-cortina-block
@@ -127,6 +129,7 @@ test('Navigation page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -145,6 +148,7 @@ test('Navigation page snapshot', () => {
           <a
             class="external-link"
             href="https://github.com/KTH/kth-node-cortina-block"
+            rel="noreferrer"
             target="_blank"
           >
             kth-node-cortina-block
@@ -195,6 +199,7 @@ test('Navigation page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>

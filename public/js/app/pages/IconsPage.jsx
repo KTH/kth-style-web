@@ -17,7 +17,7 @@ const ItemBox = props => {
   }
   return (
     <div className="gridItem">
-      <div className="itemBox" style={itemBoxStyle}></div>
+      <div className="itemBox" style={itemBoxStyle} />
       <div className="displayName">{displayName}</div>
       <CodeSnippet snippet={imgUrl} />
     </div>

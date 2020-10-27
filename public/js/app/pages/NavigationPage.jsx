@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react'
 import { observer } from 'mobx-react'
 
@@ -42,7 +44,12 @@ export const Main = () => {
       </p>
       <p>
         This menu is preferably imported to the application you are building via{' '}
-        <a href="https://github.com/KTH/kth-node-cortina-block" target="_blank" className="external-link">
+        <a
+          href="https://github.com/KTH/kth-node-cortina-block"
+          target="_blank"
+          rel="noreferrer"
+          className="external-link"
+        >
           kth-node-cortina-block
         </a>{' '}
         or similar functionality to keep the navigation in the header consistent throughout the sites.
@@ -68,7 +75,12 @@ export const Main = () => {
       </p>
       <p>
         This menu is also preferably imported to the application you are building via{' '}
-        <a href="https://github.com/KTH/kth-node-cortina-block" target="_blank" className="external-link">
+        <a
+          href="https://github.com/KTH/kth-node-cortina-block"
+          target="_blank"
+          rel="noreferrer"
+          className="external-link"
+        >
           kth-node-cortina-block
         </a>{' '}
         or similar functionality to keep the navigation in the header consistent throughout the sites.

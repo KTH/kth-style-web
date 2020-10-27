@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, waitForElement } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import 'jest-axe/extend-expect'
 import { axe } from 'jest-axe'
 
@@ -12,7 +12,7 @@ test('Links page complies to axe accesibility', async () => {
 })
 
 test('Links page snapshot', () => {
-  const { container, getByText, debug } = render(<Main />)
+  const { container } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
       <main
@@ -51,6 +51,7 @@ test('Links page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -87,6 +88,7 @@ test('Links page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -122,6 +124,7 @@ test('Links page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -156,6 +159,7 @@ test('Links page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -190,6 +194,7 @@ test('Links page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -228,6 +233,7 @@ test('Links page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -266,6 +272,7 @@ test('Links page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -331,6 +338,7 @@ test('Links page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>

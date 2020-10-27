@@ -17,6 +17,7 @@ test('Cortina blocks page snapshot', () => {
     <div>
       <main
         class="mainContent"
+        id="mainContent"
       >
         <h1>
           How to get html blocks from Cortina
@@ -33,6 +34,7 @@ test('Cortina blocks page snapshot', () => {
           <a
             class="external-link"
             href="https://github.com/KTH/kth-node-cortina-block"
+            rel="noreferrer"
             target="_blank"
           >
             kth-node-cortina-block
@@ -95,6 +97,7 @@ test('Cortina blocks page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -137,6 +140,7 @@ test('Cortina blocks page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>

@@ -71,6 +71,7 @@ test('Forms page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -118,6 +119,7 @@ test('Forms page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -165,6 +167,7 @@ test('Forms page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -244,6 +247,7 @@ test('Forms page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -290,6 +294,7 @@ test('Forms page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -339,6 +344,7 @@ test('Forms page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -432,6 +438,7 @@ test('Forms page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -533,6 +540,7 @@ test('Forms page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>

@@ -45,37 +45,37 @@ test('Tabs page snapshot', () => {
                       class="nav-item"
                       role="presentation"
                     >
-                      <a
+                      <button
                         class="nav-link active show"
-                        href="#"
                         role="tab"
+                        type="button"
                       >
                         Tab1
-                      </a>
+                      </button>
                     </li>
                     <li
                       class="nav-item"
                       role="presentation"
                     >
-                      <a
+                      <button
                         class="nav-link "
-                        href="#"
                         role="tab"
+                        type="button"
                       >
                         Tab2
-                      </a>
+                      </button>
                     </li>
                     <li
                       class="nav-item"
                       role="presentation"
                     >
-                      <a
+                      <button
                         class="nav-link "
-                        href="#"
                         role="tab"
+                        type="button"
                       >
                         Tab3
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -152,6 +152,7 @@ test('Tabs page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>

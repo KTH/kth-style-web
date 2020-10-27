@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react'
 
 export default props => {
@@ -22,7 +23,7 @@ export default props => {
           <ul className="nav nav-tabs" role="tablist">
             {list.map((item, index) => {
               const isActive = index === active
-              let tabClasses = `nav-link ${isActive ? 'active show' : ''}`
+              const tabClasses = `nav-link ${isActive ? 'active show' : ''}`
 
               if (!item.tab) {
                 return null
@@ -30,9 +31,9 @@ export default props => {
 
               return (
                 <li key={index} className="nav-item" role="presentation">
-                  <a className={tabClasses} role="tab" onClick={e => handleClick(e, index)} href="#">
+                  <button type="button" className={tabClasses} role="tab" onClick={e => handleClick(e, index)}>
                     {item.tab}
-                  </a>
+                  </button>
                 </li>
               )
             })}
@@ -50,7 +51,7 @@ export default props => {
       <div className="tab-content">
         {list.map((item, index) => {
           const isActive = index === active
-          let contentClasses = `tab-pane fade ${isActive ? 'active show' : ''}`
+          const contentClasses = `tab-pane fade ${isActive ? 'active show' : ''}`
           return (
             <div key={index} className={contentClasses} role="tabpanel">
               <div className="tab-container">{item.content}</div>

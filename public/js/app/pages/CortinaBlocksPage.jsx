@@ -1,11 +1,15 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable react/no-unescaped-entities */
+
 import React from 'react'
 import { observer } from 'mobx-react'
 
 import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = () => {
+  // eslint-disable react/jsx-one-expression-per-line
   return (
-    <main className="mainContent">
+    <main id="mainContent" className="mainContent">
       <h1>How to get html blocks from Cortina</h1>
       <p>
         To make your new application to look and behave as a "KTH application" you need a base html structure to apply
@@ -16,7 +20,12 @@ export const Main = () => {
       <h2>NodeJS based applications</h2>
       <p>
         If your application is based on NodeJS, you can use the{' '}
-        <a href="https://github.com/KTH/kth-node-cortina-block" target="_blank" className="external-link">
+        <a
+          href="https://github.com/KTH/kth-node-cortina-block"
+          target="_blank"
+          rel="noreferrer"
+          className="external-link"
+        >
           kth-node-cortina-block
         </a>{' '}
         package to retrive the html blocks you need. Look at the documentation of the package to see how it works.

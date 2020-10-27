@@ -112,6 +112,7 @@ test('Modal page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>
@@ -225,6 +226,7 @@ test('Modal page snapshot', () => {
             >
               <button
                 class="btn"
+                type="button"
               >
                 Copy
               </button>

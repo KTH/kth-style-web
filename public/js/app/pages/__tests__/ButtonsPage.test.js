@@ -31,6 +31,7 @@ test('Buttons page snapshot', () => {
             </h2>
             <button
               class="btn btn-primary"
+              type="button"
             >
               Primary button
             </button>
@@ -52,6 +53,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -65,6 +67,7 @@ test('Buttons page snapshot', () => {
             </h2>
             <button
               class="btn btn-primary next"
+              type="button"
             >
               Primary button
             </button>
@@ -86,6 +89,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -99,6 +103,7 @@ test('Buttons page snapshot', () => {
             </h2>
             <button
               class="btn btn-secondary"
+              type="button"
             >
               Secondary
             </button>
@@ -120,6 +125,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -133,6 +139,7 @@ test('Buttons page snapshot', () => {
             </h2>
             <button
               class="btn btn-secondary next"
+              type="button"
             >
               Secondary button
             </button>
@@ -154,6 +161,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -167,6 +175,7 @@ test('Buttons page snapshot', () => {
             </h2>
             <button
               class="btn btn-secondary back"
+              type="button"
             >
               Previous
             </button>
@@ -188,6 +197,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -201,6 +211,7 @@ test('Buttons page snapshot', () => {
             </h2>
             <button
               class="btn btn-success"
+              type="button"
             >
               Save
             </button>
@@ -222,6 +233,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -235,6 +247,7 @@ test('Buttons page snapshot', () => {
             </h2>
             <button
               class="btn btn-success next"
+              type="button"
             >
               Next
             </button>
@@ -256,6 +269,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -269,6 +283,7 @@ test('Buttons page snapshot', () => {
             </h2>
             <button
               class="btn btn-danger"
+              type="button"
             >
               Delete
             </button>
@@ -290,6 +305,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -303,6 +319,7 @@ test('Buttons page snapshot', () => {
             </h2>
             <button
               class="btn btn-primary btn-block"
+              type="button"
             >
               Block level button
             </button>
@@ -324,6 +341,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -332,6 +350,7 @@ test('Buttons page snapshot', () => {
             </div>
             <button
               class="btn btn-secondary btn-block"
+              type="button"
             >
               Block level button
             </button>
@@ -353,6 +372,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
@@ -367,6 +387,7 @@ test('Buttons page snapshot', () => {
             <button
               class="btn btn-primary"
               disabled=""
+              type="button"
             >
               Primary button
             </button>
@@ -388,6 +409,7 @@ test('Buttons page snapshot', () => {
                 >
                   <button
                     class="btn"
+                    type="button"
                   >
                     Copy
                   </button>
