@@ -43,7 +43,7 @@ export function Start() {
   if (section) {
     breadcrumbs = [
       {
-        label: section ? i18n.message(`section_${section}`) : 'hoahoa',
+        label: section ? i18n.message(`section_${section}`) : '',
         url: `${proxyPrefixPath.uri}/${section}`,
       },
     ]

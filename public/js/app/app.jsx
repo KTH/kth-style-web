@@ -1,7 +1,7 @@
+/* eslint-disable no-use-before-define */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
-// import { Provider } from 'mobx-react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import { MobxStoreProvider, uncompressStoreInPlaceFromDocument } from './mobx'
 import createApplicationStore from './stores/createApplicationStore'
@@ -10,7 +10,7 @@ import createApplicationStore from './stores/createApplicationStore'
 import '../../css/kth-style-web.scss'
 
 // Pages
-import Start from './pages/Start'
+import { Start } from './pages/Start'
 
 export default appFactory
 

@@ -1,9 +1,7 @@
 /* eslint no-use-before-define: ["error", "nofunc"] */
 
-// @ts-check
-
 import React from 'react'
-import { useLocalStore } from 'mobx-react'
+import { useLocalObservable } from 'mobx-react'
 
 export { createMobxManager, getMobxManager }
 
@@ -72,7 +70,7 @@ function _hoistClassDefinition() {
       this._reactContext = React.createContext(null)
       this._ReactContextProvider = this._reactContext.Provider
 
-      this._mobxStore = useLocalStore(this._initCallback)
+      this._mobxStore = useLocalObservable(this._initCallback)
 
       this._initialized = true
       return this
@@ -86,7 +84,7 @@ function _hoistClassDefinition() {
       this._initCallback = initCallback
 
       if (this._initialized) {
-        this._mobxStore = useLocalStore(this._initCallback)
+        this._mobxStore = useLocalObservable(this._initCallback)
         return this
       }
 
