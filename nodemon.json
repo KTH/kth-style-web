@@ -1,5 +1,15 @@
 {
-  "verbose": true,
-  "ignore": ["dist/*", "dist-dev/*"],
-  "ext": "js,jsx,handlebars,scss,svg,png"
+  "ignore": [
+    "server/views/system/error.handlebars",
+    "server/views/layouts/errorLayout.handlebars",
+    "dist/*",
+    "test-utils/*",
+    "*/__tests__/*",
+    "*/__mocks__/*",
+    "*/__snapshots__/*",
+    "*.test.js",
+    "./*.svg"
+  ],
+  "ext": "js,jsx,handlebars,scss,svg,png",
+  "delay": 3000
 }
