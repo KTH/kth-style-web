@@ -65,7 +65,11 @@ function _getFriendlyErrorMessage(lang, statusCode) {
 // this function must keep this signature for it to work properly, next param is needed.
 // eslint-disable-next-line no-unused-vars
 function _final(err, req, res, next) {
-  switch (err.status) {
+  const statusCode = err.status || err.statusCode || 500
+  const isProd = /prod/gi.test(process.env.NODE_ENV)
+  const lang = language.getLanguage(res)
+
+  switch (statusCode) {
     case 403:
       log.info({ err }, `403 Forbidden ${err.message}`)
       break
@@ -76,10 +80,6 @@ function _final(err, req, res, next) {
       log.error({ err }, `Unhandled error ${err.message}`)
       break
   }
-
-  const statusCode = err.status || err.statusCode || 500
-  const isProd = /prod/gi.test(process.env.NODE_ENV)
-  const lang = language.getLanguage(res)
 
   res.format({
     'text/html': () => {
