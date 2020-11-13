@@ -3,19 +3,46 @@
 /**
  * System controller for functions such as /about and /monitor
  */
+const os = require('os')
+
 const log = require('kth-node-log')
-const version = require('../../config/version')
-const config = require('../configuration').server
-const packageFile = require('../../package.json')
-const ldapClient = require('../adldapClient')
 const { getPaths } = require('kth-node-express-routing')
 const language = require('kth-node-web-common/lib/language')
-const os = require('os')
-const i18n = require('../../i18n')
-const api = require('../api')
 const registry = require('component-registry').globalRegistry
 const { IHealthCheck } = require('kth-node-monitor').interfaces
-const started = new Date()
+
+const version = require('../../config/version')
+const packageFile = require('../../package.json')
+const i18n = require('../../i18n')
+
+const ldapClient = require('../adldapClient')
+const api = require('../api')
+const config = require('../configuration').server
+
+/**
+ * Adds a zero (0) to numbers less then ten (10)
+ */
+function zeroPad(value) {
+  return value < 10 ? '0' + value : value
+}
+
+/**
+ * Takes a Date object and returns a simple date string.
+ */
+function _simpleDate(date) {
+  const year = date.getFullYear()
+  const month = zeroPad(date.getMonth() + 1)
+  const day = zeroPad(date.getDate())
+  const hours = zeroPad(date.getHours())
+  const minutes = zeroPad(date.getMinutes())
+  const seconds = zeroPad(date.getSeconds())
+  const hoursBeforeGMT = date.getTimezoneOffset() / -60
+  const timezone = [' GMT', ' CET', ' CEST'][hoursBeforeGMT] || ''
+  return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}${timezone}`
+}
+
+const started = _simpleDate(new Date())
+
 /**
  * Get request on not found (404)
  * Renders the view 'notFound' with the layout 'exampleLayout'.
@@ -36,8 +63,13 @@ function _getFriendlyErrorMessage(lang, statusCode) {
 }
 
 // this function must keep this signature for it to work properly, next param is needed.
+// eslint-disable-next-line no-unused-vars
 function _final(err, req, res, next) {
-  switch (err.status) {
+  const statusCode = err.status || err.statusCode || 500
+  const isProd = /prod/gi.test(process.env.NODE_ENV)
+  const lang = language.getLanguage(res)
+
+  switch (statusCode) {
     case 403:
       log.info({ err }, `403 Forbidden ${err.message}`)
       break
@@ -48,10 +80,6 @@ function _final(err, req, res, next) {
       log.error({ err }, `Unhandled error ${err.message}`)
       break
   }
-
-  const statusCode = err.status || err.statusCode || 500
-  const isProd = /prod/gi.test(process.env.NODE_ENV)
-  const lang = language.getLanguage(res)
 
   res.format({
     'text/html': () => {
@@ -86,23 +114,30 @@ function _final(err, req, res, next) {
  * About page
  */
 function _about(req, res) {
+  const { uri: proxyPrefix } = config.proxyPrefixPath
+  const paths = getPaths()
+
   res.render('system/about', {
-    debug: 'debug' in req.query,
     layout: 'systemLayout',
-    appName: JSON.stringify(packageFile.name),
-    appVersion: JSON.stringify(packageFile.version),
-    appDescription: JSON.stringify(packageFile.description),
-    version: JSON.stringify(version),
-    config: JSON.stringify(config.templateConfig),
+    title: `About ${packageFile.name}`,
+    proxyPrefix,
+    appName: packageFile.name,
+    appVersion: packageFile.version,
+    appDescription: packageFile.description,
+    monitorUri: paths.system.monitor.uri,
+    robotsUri: paths.system.robots.uri,
     gitBranch: JSON.stringify(version.gitBranch),
     gitCommit: JSON.stringify(version.gitCommit),
     jenkinsBuild: JSON.stringify(version.jenkinsBuild),
-    jenkinsBuildDate: JSON.stringify(version.jenkinsBuildDate),
+    jenkinsBuildDate: /^\d{4}-/.test(version.jenkinsBuildDate)
+      ? _simpleDate(new Date(version.jenkinsBuildDate))
+      : JSON.stringify(version.jenkinsBuildDate),
     dockerName: JSON.stringify(version.dockerName),
     dockerVersion: JSON.stringify(version.dockerVersion),
     language: language.getLanguage(res),
     hostname: os.hostname(),
     started,
+    env: process.env.NODE_ENV,
   })
 }
 
