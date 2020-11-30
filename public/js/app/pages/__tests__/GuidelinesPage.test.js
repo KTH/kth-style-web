@@ -20,25 +20,19 @@ test('Guidelines page snapshot', () => {
         id="mainContent"
       >
         <h1>
-          Riktlinjer för användbarhet och tillgänglighet
+          Guidelines for usability and accessibility
         </h1>
         <p>
-          Som utvecklare behöver behöver du ta del av de riktlinjer som först ger en övergripande förståelse av användbarhet och tillgänglighet för att sedan gå in på riktlinjer för ett specifikt område som t.ex. information, återkoppling eller liknade.
-           
-        </p>
-        <p>
-          För varje område får du veta varför du ska informera / ge återkoppling, när du ska göra det (du får t. e.x hjälp att välja vilken informationskomponent du ska använda för att uppnå vad) och övergripande (hur du informerar / ger återkoppling). För varje komponent listas sedan komponenten, kod och UX riktlinjer specifika för komponenten.
-           
-        </p>
-        <p>
-          På KTH:s Intranät finns detta beskrivet i det vi kallar:
+          First of all. When KTH Style is implemented you also need to know when and how its components should be used. For this you have to consult the KTH Style guide. It is recommended that you start with the page
            
           <a
-            alt="KTH Style Guide på Intranätet"
-            href="https://intra.kth.se/ita/tjansteutbud/style"
+            href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/design-av-app-
+    utifran-kth-style-1.1002797"
           >
-            KTH Style Guide
+            Design av app utifrån KTH Style
           </a>
+           
+          and then look further into the guidelines for the specific components. (Information in Swedish on the KTH Intranet.)
         </p>
       </main>
     </div>

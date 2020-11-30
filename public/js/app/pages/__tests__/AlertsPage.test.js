@@ -22,6 +22,18 @@ test('Alerts page snapshot', () => {
         <h1>
           Alerts
         </h1>
+        <p>
+          Read the guidelines for the use of alerts in the
+           
+          <a
+            href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/alerts-och-
+    tooltips-1.952153"
+          >
+            KTH Style guide
+          </a>
+           
+          at the KTH Intranet (Information in Swedish).
+        </p>
         <div
           class="alert alert-success"
           role="alert"

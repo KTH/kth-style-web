@@ -20,8 +20,20 @@ test('Icons page snapshot', () => {
         id="mainContent"
       >
         <h1>
-          Ikoner
+          Icons
         </h1>
+        <p>
+          Read the guidelines for the use of icons in the
+           
+          <a
+            href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/ikoner-
+    1.962665"
+          >
+            KTH Style guide
+          </a>
+           
+          at the KTH Intranet (Information in Swedish).
+        </p>
         <h2>
           Information
         </h2>

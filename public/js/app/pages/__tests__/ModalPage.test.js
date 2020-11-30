@@ -20,19 +20,32 @@ test('Modal page snapshot', () => {
         id="mainContent"
       >
         <h1>
-          Modaler
+          Modals
         </h1>
+        <p>
+          Read the guidelines for the use of modals in the
+           
+          <a
+            href="
+    https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/modaler-
+    1.952157"
+          >
+            KTH Style guide
+          </a>
+           
+          at the KTH Intranet (Information in Swedish).
+        </p>
         <h2>
-          Modal baserad på React
+          Modals based on React
         </h2>
         <p>
-          Denna modal är baserad på vår React-komponent och kräver således React i botten.
+          This modal is based on a React component and require React.
         </p>
         <button
           class="btn btn-primary"
           type="button"
         >
-          Öppna modalfönster
+          Open modal
         </button>
         <div
           aria-hidden="true"
@@ -72,7 +85,7 @@ test('Modal page snapshot', () => {
                 class="modal-body"
               >
                 <p>
-                  Detta är innehåll i en modal baserad på en React-komponent.
+                  This is content in a React based modal.
                 </p>
               </div>
               <div
@@ -100,10 +113,10 @@ test('Modal page snapshot', () => {
                 class="language-html"
               >
                 &lt;button onClick={openModal} type="button" class="btn btn-primary"&gt;
-      Öppna modalfönster
+      Open modal
     &lt;/button&gt;
-    &lt;Modal isOpen={isOpen} closeModal={closeModal} lang={lang} title="Titel"&gt;
-      &lt;p&gt;Detta är innehåll i en modal baserad på en React-komponent.&lt;/p&gt;
+    &lt;Modal isOpen={isOpen} closeModal={closeModal} lang={lang} title="Title"&gt;
+      &lt;p&gt;This is content in a react based modal..&lt;/p&gt;
     &lt;/Modal&gt;
               </code>
             </pre>
@@ -120,10 +133,10 @@ test('Modal page snapshot', () => {
           </div>
         </div>
         <h2>
-          Modal baserad på Bootstrap
+          Modal based on Bootstrap
         </h2>
         <p>
-          Denna modal är baserad på Bootstrap och kräver att man har Bootstrap CSS och JS tillgängligt i sitt prjekt.
+          This modal is based on Bootstrap and require Bootstrap CSS and JS in the project.
         </p>
         <button
           class="btn btn-primary"
@@ -131,7 +144,7 @@ test('Modal page snapshot', () => {
           data-toggle="modal"
           type="button"
         >
-          Öppna modalfönster
+          Open modal
         </button>
         <div
           aria-hidden="true"
@@ -167,13 +180,13 @@ test('Modal page snapshot', () => {
                   class="modal-title"
                   id="exampleModalLabel"
                 >
-                  Titel
+                  Title
                 </h3>
               </div>
               <div
                 class="modal-body"
               >
-                Detta är innehåll i en modal baserad på Bootstrap.
+                This is content in a modal based on Bootstrap.
               </div>
               <div
                 class="modal-footer"
@@ -183,7 +196,7 @@ test('Modal page snapshot', () => {
                   data-dismiss="modal"
                   type="button"
                 >
-                  Stäng
+                  Close
                 </button>
               </div>
             </div>
@@ -210,11 +223,11 @@ test('Modal page snapshot', () => {
             &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
               &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
             &lt;/button&gt;
-            &lt;h3 class="modal-title" id="exampleModalLabel"&gt;Titel&lt;/h3&gt;
+            &lt;h3 class="modal-title" id="exampleModalLabel"&gt;Title&lt;/h3&gt;
           &lt;/div&gt;
-          &lt;div class="modal-body"&gt;Detta är innehåll i en modal baserad på Bootstrap.&lt;/div&gt;
+          &lt;div class="modal-body"&gt;This is content in a modal based on Bootstrap.&lt;/div&gt;
           &lt;div class="modal-footer"&gt;
-            &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Stäng&lt;/button&gt;
+            &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Close&lt;/button&gt;
           &lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;

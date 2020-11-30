@@ -19,7 +19,7 @@ test('Navbar component complies to axe accesibility', async () => {
   expect(results).toHaveNoViolations()
 })
 
-test('Navbar component includes typografi', () => {
+test('Navbar component includes typography', () => {
   const { container, getByText } = render(
     <MemoryRouter initialEntries={['basic/typography']}>
       <Route path=":section/:page">
@@ -82,7 +82,7 @@ test('Navbar component includes typografi', () => {
                 class="nav-link"
                 href="/basic"
               >
-                Grundform
+                Basic
               </a>
               <ul
                 class="nav nav-list"
@@ -95,7 +95,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/basic/colors"
                   >
-                    Färger
+                    Colors
                   </a>
                 </li>
                 <li
@@ -105,7 +105,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/basic/icons"
                   >
-                    Ikoner
+                    Icons
                   </a>
                 </li>
                 <li
@@ -115,7 +115,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/basic/spacing"
                   >
-                    Avstånd
+                    Structure and layout
                   </a>
                 </li>
                 <li
@@ -125,37 +125,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/basic/typography"
                   >
-                    Typografi
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/basic/links"
-                  >
-                    Länkar
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/basic/buttons"
-                  >
-                    Knappar
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/basic/tables"
-                  >
-                    Tabeller
+                    Typography
                   </a>
                 </li>
                 <li
@@ -165,7 +135,7 @@ test('Navbar component includes typografi', () => {
                     class="nav-link"
                     href="/basic/separators"
                   >
-                    Avskiljare
+                    Separators
                   </a>
                 </li>
               </ul>
@@ -177,7 +147,7 @@ test('Navbar component includes typografi', () => {
                 class="nav-link"
                 href="/components"
               >
-                Komponenter
+                Components
               </a>
             </li>
             <li
@@ -187,7 +157,7 @@ test('Navbar component includes typografi', () => {
                 class="nav-link"
                 href="/setup-guide"
               >
-              Setup guide
+                Setup guide
               </a>
             </li>
           </ul>
@@ -195,5 +165,5 @@ test('Navbar component includes typografi', () => {
       </nav>
     </div>
   `)
-  getByText(/Typografi/i)
+  getByText(/Typography/i)
 })

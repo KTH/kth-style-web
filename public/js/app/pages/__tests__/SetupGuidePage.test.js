@@ -22,9 +22,6 @@ test('Setup guide page snapshot', () => {
         <h1>
           How to use KTH Style in your project
         </h1>
-        <p>
-          (The technical documentation is written in english)
-        </p>
         <h2>
           General description
         </h2>

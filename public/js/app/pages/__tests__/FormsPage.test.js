@@ -22,6 +22,19 @@ test('Forms page snapshot', () => {
         <h1>
           Forms
         </h1>
+        <p>
+          Read the guidelines for the use of forms and their elements in the
+           
+          <a
+            href="
+    https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/formular-
+    1.952156"
+          >
+            KTH Style guide
+          </a>
+           
+          at the KTH Intranet (Information in Swedish).
+        </p>
         <div
           class="itemContainer"
         >

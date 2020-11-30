@@ -11,7 +11,7 @@ test('Colors page complies to axe accesibility', async () => {
   expect(results).toHaveNoViolations()
 })
 
-test('Colors component includes headline Färger', () => {
+test('Colors component includes headline Colors', () => {
   const { container, getByText, debug } = render(<Main />)
   expect(container).toMatchInlineSnapshot(`
     <div>
@@ -20,10 +20,22 @@ test('Colors component includes headline Färger', () => {
         id="mainContent"
       >
         <h1>
-          Färger
+          Colors
         </h1>
+        <p>
+          Read the guidelines for the use of colors in the
+           
+          <a
+            href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/farger-
+    1.952147"
+          >
+            KTH Style guide
+          </a>
+           
+          at the KTH Intranet (Information in Swedish).
+        </p>
         <h2>
-          Bakgrundsfärger med vit text
+          Dark background
         </h2>
         <div
           class="gridItemContainer"
@@ -61,20 +73,6 @@ test('Colors component includes headline Färger', () => {
           >
             <div
               class="colorBox"
-              style="background-color: rgb(0, 99, 136);"
-            />
-            <div>
-              $blueHover
-            </div>
-            <div>
-              #006388
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
               style="background-color: rgb(98, 146, 46);"
             />
             <div>
@@ -82,62 +80,6 @@ test('Colors component includes headline Färger', () => {
             </div>
             <div>
               #62922e
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(78, 116, 37);"
-            />
-            <div>
-              $greenHover
-            </div>
-            <div>
-              #4e7425
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(224, 31, 40);"
-            />
-            <div>
-              $red
-            </div>
-            <div>
-              #e01f28
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(142, 11, 24);"
-            />
-            <div>
-              $redHover
-            </div>
-            <div>
-              #8e0b18
-            </div>
-          </div>
-          <div
-            class="itemBox"
-          >
-            <div
-              class="colorBox"
-              style="background-color: rgb(250, 185, 25);"
-            />
-            <div>
-              $infoYellowIcon
-            </div>
-            <div>
-              #fab919
             </div>
           </div>
           <div
@@ -156,7 +98,7 @@ test('Colors component includes headline Färger', () => {
           </div>
         </div>
         <h2>
-          Bakgrundsfärger med svart text
+          Light background
         </h2>
         <div
           class="gridItemContainer"
@@ -189,6 +131,48 @@ test('Colors component includes headline Färger', () => {
               #f6f6f6
             </div>
           </div>
+        </div>
+        <h2>
+          Information and alert
+        </h2>
+        <div
+          class="gridItemContainer"
+        >
+          <div
+            class="itemBox"
+          >
+            <div
+              class="colorBox"
+              style="background-color: rgb(252, 248, 227);"
+            />
+            <div>
+              $infoYellow
+            </div>
+            <div>
+              #fcf8e3
+            </div>
+          </div>
+          <div
+            class="itemBox"
+          >
+            <div
+              class="colorBox"
+              style="background-color: rgb(250, 185, 25);"
+            />
+            <div>
+              $infoYellowIcon
+            </div>
+            <div>
+              #fab919
+            </div>
+          </div>
+        </div>
+        <h2>
+          Success
+        </h2>
+        <div
+          class="gridItemContainer"
+        >
           <div
             class="itemBox"
           >
@@ -203,6 +187,13 @@ test('Colors component includes headline Färger', () => {
               #dff0d8
             </div>
           </div>
+        </div>
+        <h2>
+          Error
+        </h2>
+        <div
+          class="gridItemContainer"
+        >
           <div
             class="itemBox"
           >
@@ -222,18 +213,18 @@ test('Colors component includes headline Färger', () => {
           >
             <div
               class="colorBox"
-              style="background-color: rgb(252, 248, 227);"
+              style="background-color: rgb(224, 31, 40);"
             />
             <div>
-              $infoYellow
+              $red
             </div>
             <div>
-              #fcf8e3
+              #e01f28
             </div>
           </div>
         </div>
         <h2>
-          Textfärger
+          Hover
         </h2>
         <div
           class="gridItemContainer"
@@ -243,15 +234,50 @@ test('Colors component includes headline Färger', () => {
           >
             <div
               class="colorBox"
-              style="background-color: rgb(0, 108, 183);"
+              style="background-color: rgb(0, 99, 136);"
             />
             <div>
-              $linkBlue
+              $blueHover
             </div>
             <div>
-              #006cb7
+              #006388
             </div>
           </div>
+          <div
+            class="itemBox"
+          >
+            <div
+              class="colorBox"
+              style="background-color: rgb(78, 116, 37);"
+            />
+            <div>
+              $greenHover
+            </div>
+            <div>
+              #4e7425
+            </div>
+          </div>
+          <div
+            class="itemBox"
+          >
+            <div
+              class="colorBox"
+              style="background-color: rgb(142, 11, 24);"
+            />
+            <div>
+              $redHover
+            </div>
+            <div>
+              #8e0b18
+            </div>
+          </div>
+        </div>
+        <h2>
+          Text
+        </h2>
+        <div
+          class="gridItemContainer"
+        >
           <div
             class="itemBox"
           >
@@ -280,9 +306,23 @@ test('Colors component includes headline Färger', () => {
               #fff
             </div>
           </div>
+          <div
+            class="itemBox"
+          >
+            <div
+              class="colorBox"
+              style="background-color: rgb(0, 108, 183);"
+            />
+            <div>
+              $linkBlue
+            </div>
+            <div>
+              #006cb7
+            </div>
+          </div>
         </div>
         <h2>
-          Kantfärger
+          Border
         </h2>
         <div
           class="gridItemContainer"
@@ -301,9 +341,23 @@ test('Colors component includes headline Färger', () => {
               #d4d4d4
             </div>
           </div>
+          <div
+            class="itemBox"
+          >
+            <div
+              class="colorBox"
+              style="background-color: rgb(101, 101, 108);"
+            />
+            <div>
+              $grey
+            </div>
+            <div>
+              #65656c
+            </div>
+          </div>
         </div>
       </main>
     </div>
   `)
-  getByText(/Textfärger/i)
+  getByText(/Text/i)
 })

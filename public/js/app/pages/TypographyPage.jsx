@@ -7,7 +7,7 @@ import CodeSnippet from '../components/CodeSnippet'
 export const Main = props => {
   return (
     <main id="mainContent" className="mainContent">
-      <h1>Typografi</h1>
+      <h1>Typography</h1>
       <p>
         Read the guidelines for the use of different text formats in the{' '}
         <a
