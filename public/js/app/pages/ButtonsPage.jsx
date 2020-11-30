@@ -21,7 +21,16 @@ export const Main = () => {
   return (
     <main id="mainContent" className="mainContent">
       <h1>Buttons</h1>
-
+      <p>
+        Read the guidelines for the use of buttons in the
+        <a
+          href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/knappar-och-
+lankar-1.952154"
+        >
+          KTH Style guide
+        </a>{' '}
+        at the KTH Intranet (Information in Swedish).
+      </p>
       <div className="itemContainer">
         <div>
           <h2>Primary button</h2>

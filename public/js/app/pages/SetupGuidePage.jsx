@@ -9,7 +9,6 @@ export const Main = () => {
   return (
     <main id="mainContent" className="mainContent">
       <h1>How to use KTH Style in your project</h1>
-      <p>(The technical documentation is written in english)</p>
       <h2>General description</h2>
       <p>
         The <a href="https://www.npmjs.com/package/kth-style">kth-style package</a> is a npm package with resources for

@@ -32,10 +32,10 @@ async function getIndex(req, res, next) {
 
     res.render('react/index', {
       html,
-      title: 'KTH Style app',
+      title: 'KTH Style',
       compressedStoreCode,
       lang,
-      description: 'KTH Style app',
+      description: 'KTH Style',
     })
   } catch (err) {
     log.error('Error in getIndex', { error: err })

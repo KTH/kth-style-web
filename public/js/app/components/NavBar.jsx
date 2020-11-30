@@ -9,47 +9,47 @@ export default observer(() => {
   const section = params.section ? params.section : '/'
 
   const basicPages = {
-    title: 'Grundform',
+    title: 'Basic',
     url: '/basic',
     children: [
-      { title: 'Färger', url: '/basic/colors' },
-      { title: 'Ikoner', url: '/basic/icons' },
-      { title: 'Avstånd', url: '/basic/spacing' },
-      { title: 'Typografi', url: '/basic/typography' },
-      { title: 'Länkar', url: '/basic/links' },
-      { title: 'Knappar', url: '/basic/buttons' },
-      { title: 'Tabeller', url: '/basic/tables' },
-      { title: 'Avskiljare', url: '/basic/separators' },
+      { title: 'Colors', url: '/basic/colors' },
+      { title: 'Icons', url: '/basic/icons' },
+      { title: 'Structure and layout', url: '/basic/spacing' },
+      { title: 'Typography', url: '/basic/typography' },
+      { title: 'Separators', url: '/basic/separators' },
     ],
   }
 
   const componentsPages = {
-    title: 'Komponenter',
+    title: 'Components',
     url: '/components',
     children: [
-      { title: 'Meddelanderutor (Alerts)', url: '/components/alerts' },
-      { title: 'Brödsmulor', url: '/components/breadcrumbs' },
+      { title: 'Alerts', url: '/components/alerts' },
+      { title: 'Breadcrumbs', url: '/components/breadcrumbs' },
       { title: 'Collapse', url: '/components/collapse' },
-      { title: 'Formulär', url: '/components/forms' },
-      { title: 'Modaler', url: '/components/modals' },
+      { title: 'Form', url: '/components/forms' },
+      { title: 'Links', url: '/components/links' },
+      { title: 'Buttons', url: '/components/buttons' },
+      { title: 'Tables', url: '/components/tables' },
+      { title: 'Modals', url: '/components/modals' },
       { title: 'Navigation', url: '/components/navigation' },
-      { title: 'Tabbar', url: '/components/tabs' },
+      { title: 'Tabs', url: '/components/tabs' },
     ],
   }
 
   const setupPages = {
-    title: 'Bra att veta för utvecklare',
+    title: 'Setup guide',
     url: '/setup-guide',
     children: [
-      { title: 'Riktlinjer', url: '/setup-guide/guidelines' },
-      { title: 'Använda kth-style i sitt projekt', url: '/setup-guide/setup' },
-      { title: 'Hur man hämtar html-block från Cortina', url: '/setup-guide/cortina-blocks' },
-      { title: 'Deprikerad style / kod', url: '/setup-guide/deprecations' },
+      { title: 'Guidlines', url: '/setup-guide/guidlines' },
+      { title: 'How to use kth-style in your project', url: '/setup-guide/setup' },
+      { title: 'How to fetch html blocks from Cortina', url: '/setup-guide/cortina-blocks' },
+      { title: 'Depricated style / code', url: '/setup-guide/deprecations' },
     ],
   }
 
   const aboutPage = {
-    title: 'Om KTH Style app',
+    title: 'About KTH Style',
     url: '/',
   }
 
@@ -102,7 +102,7 @@ export default observer(() => {
 
         <ul className="nav nav-ancestor">
           <li>
-            <span className="nav-item ancestor">KTH Style app</span>
+            <span className="nav-item ancestor">KTH Style</span>
           </li>
         </ul>
         <ul className="nav nav-list expandable">

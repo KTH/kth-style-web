@@ -32,7 +32,7 @@ module.exports = {
     lang_block_id: '1.272446',
     locale_text: 'KTH style på svenska',
 
-    site_name: 'KTH style app',
+    site_name: 'KTH style',
     host_name: 'KTH',
     page_kth_style_index: 'Start',
     page_kth_style_colors: 'Färger',
@@ -41,7 +41,7 @@ module.exports = {
 
     section_basic: 'Grundform',
     section_components: 'Komponenter',
-    'section_setup-guide': 'Bra att veta för utvecklare',
+    'section_setup-guide': 'Setup guide',
 
     button_mobile_menu_label: 'Öppna/stäng mobilmenyn',
     mobile_menu_aria_label: 'Mobilmeny',

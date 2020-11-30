@@ -16,7 +16,6 @@ import Typography from './TypographyPage'
 import CollapsePage from './CollapsePage'
 import FormsPage from './FormsPage'
 import SetupGuidePage from './SetupGuidePage'
-import BreadcrumbsPage from './BreadcrumbsPage'
 import Alerts from './AlertsPage'
 import Tabs from './TabsPage'
 import Links from './LinksPage'
@@ -73,16 +72,8 @@ function getComponentMatchingRoute() {
           return <Spacing />
         case 'typography':
           return <Typography />
-        case 'buttons':
-          return <ButtonsPage />
-        case 'tables':
-          return <TablesPage />
-
         case 'separators':
           return <SeparatorPage />
-        case 'links':
-          return <Links />
-
         default:
           return <Colors />
       }
@@ -93,10 +84,14 @@ function getComponentMatchingRoute() {
           return <Alerts />
         case 'forms':
           return <FormsPage />
-        case 'breadcrumbs':
-          return <BreadcrumbsPage />
         case 'collapse':
           return <CollapsePage />
+        case 'buttons':
+          return <ButtonsPage />
+        case 'links':
+          return <Links />
+        case 'tables':
+          return <TablesPage />
         case 'tabs':
           return <Tabs />
         case 'modals':
@@ -133,38 +128,28 @@ function getComponentMatchingRoute() {
 function Main() {
   return (
     <>
-      <h1>KTH Style app</h1>
-      <h2>Syftet med denna webbplats</h2>
+      <h1>About KTH Style</h1>
       <p>
-        Denna applikation kallas <i>kth-style-web</i> och är ett hjälpmedel för oss som jobbar med utveckling av
-        webbapplikationer på KTH. Den bygger sitt utseende och form på paketet{' '}
-        <a href="https://github.com/KTH/kth-style/" alt="kth-style-paketet på Github">
-          kth-style
-        </a>
-        . Syftet är att snabba upp utvecklingen, skapa enhetlighet mellan applikationer samt underlätta form- och
-        UX-arbete.
+        KTH Style is a tool for bringing proper design and UX proof elements to web applications at KTH. The purpose of
+        KTH Style is to accelerate development, create consistency between applications and facilitate the work with
+        usability and accessibility.
       </p>
       <p>
-        I menyn hittar du ingångar till formelement som färger och typografi samt form för olika komponenter. Tanken är
-        att tillhandahålla det som är gemensamt för de flesta av våra applikationer och alltså inte all färg och form
-        för alla tänkbara komponenter och applikationsspecifika delar.{' '}
+        This website (of course based on KTH Style) presents the look of basic form elements and specific components
+        with code examples, and provides technical guidance on how to implement KTH Style in your application.
       </p>
-      <h3>Relaterade projekt</h3>
       <p>
-        Github:{' '}
-        <a href="https://github.com/KTH/kth-style-web/" alt="kth-style-paketet på Github">
-          kth-style-web
-        </a>
-        <br />
-        Github:{' '}
-        <a href="https://github.com/KTH/kth-style/" alt="kth-style-paketet på Github">
-          kth-style
-        </a>
-        <br />
-        Github:{' '}
-        <a href="https://github.com/KTH/kth-style-react-components" alt="kth-style-react-components-paketet på Github">
-          kth-style-react-components
-        </a>
+        Instructions for how KTH Style is technically implemented are described in the section{' '}
+        <a href="https://app.kth.se/style/setup-guide">Setup guide</a>
+      </p>
+      <p>
+        The content of KTH Style is accompanied by the KTH Style guide. As a developer you need to understand which
+        component to use, when they apply and how they should be used. You also need an overall understanding about
+        usability and accessibility to make the right design decision for your app.
+      </p>
+      <p>
+        The <a href="https://intra.kth.se/administration/kommunikation/webb/style">KTH Style guide</a> is found at KTH
+        Intranet (Information in Swedish).
       </p>
     </>
   )

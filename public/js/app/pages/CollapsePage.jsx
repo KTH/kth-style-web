@@ -9,6 +9,17 @@ export const Main = () => {
     <main id="mainContent" className="mainContent">
       <h1>Collapse</h1>
       <p>
+        Read the guidelines for the use of collapse elements in the{' '}
+        <a
+          href="
+https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/collapse-
+1.963801"
+        >
+          KTH Style guide
+        </a>{' '}
+        at the KTH Intranet (Information in Swedish).
+      </p>
+      <p>
         Collapse elements show / hides an area with content. Here do we show three examples, one based on a react
         component and the other two are based on native HTML.
       </p>

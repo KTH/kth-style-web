@@ -15,6 +15,17 @@ export const Main = props => {
   return (
     <main id="mainContent" className="mainContent">
       <h1>Tabs</h1>
+      <p>
+        Read the guidelines for the use of tabs in the{' '}
+        <a
+          href="
+https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/tabbar-
+1.963802"
+        >
+          KTH Style guide
+        </a>{' '}
+        at the KTH Intranet (Information in Swedish).
+      </p>
       <div className="itemContainer">
         <div className="itemBox">
           <Tabs items={itemList} defaultTab={0} />

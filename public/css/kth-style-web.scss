@@ -87,6 +87,10 @@ ul.deprecatedList {
   display: flex;
   flex-direction: column;
   padding: 1.875rem;
+
+  &.no-top-pad {
+    padding-top: 0;
+  }
 }
 
 .pdf-link {

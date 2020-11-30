@@ -32,7 +32,7 @@ module.exports = {
     lang_block_id: '1.77273',
     locale_text: 'KTH style in English',
 
-    site_name: 'KTH style app',
+    site_name: 'KTH style',
     host_name: 'KTH',
     page_kth_style_index: 'Start',
     page_kth_style_colors: 'Colors',

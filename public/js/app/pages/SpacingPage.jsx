@@ -4,8 +4,8 @@ import { observer } from 'mobx-react'
 export const Main = () => {
   return (
     <main id="mainContent" className="mainContent">
-      <h1>Avstånd</h1>
-      <p>Avstånd mellan olika element ...</p>
+      <h1>Structure and layout</h1>
+      <p>...</p>
     </main>
   )
 }

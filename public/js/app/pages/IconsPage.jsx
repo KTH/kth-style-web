@@ -181,8 +181,17 @@ export const Main = () => {
 
   return (
     <main id="mainContent" className="mainContent">
-      <h1>Ikoner</h1>
-
+      <h1>Icons</h1>
+      <p>
+        Read the guidelines for the use of icons in the{' '}
+        <a
+          href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/ikoner-
+1.962665"
+        >
+          KTH Style guide
+        </a>{' '}
+        at the KTH Intranet (Information in Swedish).
+      </p>
       <h2>Information</h2>
       <div className="gridItemContainer">{alertItemsPane}</div>
 

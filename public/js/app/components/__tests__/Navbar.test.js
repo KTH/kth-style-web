@@ -58,7 +58,7 @@ test('Navbar component includes typografi', () => {
               <span
                 class="nav-item ancestor"
               >
-                KTH Style app
+                KTH Style
               </span>
             </li>
           </ul>
@@ -72,7 +72,7 @@ test('Navbar component includes typografi', () => {
                 class="nav-link"
                 href="/"
               >
-                Om KTH Style app
+                About KTH Style
               </a>
             </li>
             <li
@@ -187,7 +187,7 @@ test('Navbar component includes typografi', () => {
                 class="nav-link"
                 href="/setup-guide"
               >
-                Bra att veta för utvecklare
+              Setup guide
               </a>
             </li>
           </ul>

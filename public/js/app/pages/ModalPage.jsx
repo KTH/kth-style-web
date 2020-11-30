@@ -19,33 +19,43 @@ export const Main = () => {
 
   return (
     <main id="mainContent" className="mainContent">
-      <h1>Modaler</h1>
-
-      <h2>Modal baserad på React</h2>
-      <p>Denna modal är baserad på vår React-komponent och kräver således React i botten.</p>
+      <h1>Modals</h1>
+      <p>
+        Read the guidelines for the use of modals in the{' '}
+        <a
+          href="
+https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/modaler-
+1.952157"
+        >
+          KTH Style guide
+        </a>{' '}
+        at the KTH Intranet (Information in Swedish).
+      </p>
+      <h2>Modals based on React</h2>
+      <p>This modal is based on a React component and require React.</p>
 
       <button onClick={openModal} type="button" className="btn btn-primary">
-        Öppna modalfönster
+        Open modal
       </button>
 
       <Modal isOpen={isOpen} closeModal={closeModal} lang={lang} title="Titel">
-        <p>Detta är innehåll i en modal baserad på en React-komponent.</p>
+        <p>This is content in a React based modal.</p>
       </Modal>
 
       <CodeSnippet
         snippet={`<button onClick={openModal} type="button" class="btn btn-primary">
-  Öppna modalfönster
+  Open modal
 </button>
-<Modal isOpen={isOpen} closeModal={closeModal} lang={lang} title="Titel">
-  <p>Detta är innehåll i en modal baserad på en React-komponent.</p>
+<Modal isOpen={isOpen} closeModal={closeModal} lang={lang} title="Title">
+  <p>This is content in a react based modal..</p>
 </Modal>`}
       />
 
-      <h2>Modal baserad på Bootstrap</h2>
-      <p>Denna modal är baserad på Bootstrap och kräver att man har Bootstrap CSS och JS tillgängligt i sitt prjekt.</p>
+      <h2>Modal based on Bootstrap</h2>
+      <p>This modal is based on Bootstrap and require Bootstrap CSS and JS in the project.</p>
 
       <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Öppna modalfönster
+        Open modal
       </button>
 
       <div
@@ -63,13 +73,13 @@ export const Main = () => {
                 <span aria-hidden="true">&times;</span>
               </button>
               <h3 className="modal-title" id="exampleModalLabel">
-                Titel
+                Title
               </h3>
             </div>
-            <div className="modal-body">Detta är innehåll i en modal baserad på Bootstrap.</div>
+            <div className="modal-body">This is content in a modal based on Bootstrap.</div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-dismiss="modal">
-                Stäng
+                Close
               </button>
             </div>
           </div>
@@ -88,11 +98,11 @@ export const Main = () => {
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <h3 class="modal-title" id="exampleModalLabel">Titel</h3>
+        <h3 class="modal-title" id="exampleModalLabel">Title</h3>
       </div>
-      <div class="modal-body">Detta är innehåll i en modal baserad på Bootstrap.</div>
+      <div class="modal-body">This is content in a modal based on Bootstrap.</div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
