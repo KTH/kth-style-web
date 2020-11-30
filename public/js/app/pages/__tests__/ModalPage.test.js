@@ -67,7 +67,7 @@ test('Modal page snapshot', () => {
                 class="modal-header"
               >
                 <button
-                  aria-label="Stäng"
+                  aria-label="Close"
                   class="close"
                   type="button"
                 >
@@ -92,11 +92,11 @@ test('Modal page snapshot', () => {
                 class="modal-footer"
               >
                 <button
-                  aria-label="Stäng"
+                  aria-label="Close"
                   class="btn btn-secondary"
                   type="button"
                 >
-                  Stäng
+                  Close
                 </button>
               </div>
             </div>

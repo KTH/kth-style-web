@@ -43,7 +43,7 @@ export default observer(() => {
       { title: 'Guidlines', url: '/setup-guide/guidlines' },
       { title: 'How to use kth-style in your project', url: '/setup-guide/setup' },
       { title: 'How to fetch html blocks from Cortina', url: '/setup-guide/cortina-blocks' },
-      { title: 'Depricated style / code', url: '/setup-guide/deprecations' },
+      { title: 'Deprecated style / code', url: '/setup-guide/deprecations' },
     ],
   }
 
