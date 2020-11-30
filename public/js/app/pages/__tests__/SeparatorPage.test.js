@@ -20,10 +20,10 @@ test('Separator page snapshot', () => {
         id="mainContent"
       >
         <h1>
-          Avskiljare
+          Separators
         </h1>
         <p>
-          Avskiljare mellan element ... 
+          ...
         </p>
       </main>
     </div>

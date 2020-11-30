@@ -232,7 +232,7 @@ test('Icons page snapshot', () => {
           </div>
         </div>
         <h2>
-          Pilar
+          Arrows
         </h2>
         <div
           class="gridItemContainer"
@@ -1075,7 +1075,7 @@ test('Icons page snapshot', () => {
           </div>
         </div>
         <h2>
-          Galleri
+          Gallery
         </h2>
         <div
           class="gridItemContainer"
@@ -1196,7 +1196,7 @@ test('Icons page snapshot', () => {
           </div>
         </div>
         <h2>
-          Filer
+          Files
         </h2>
         <div
           class="gridItemContainer"
@@ -2153,7 +2153,7 @@ test('Icons page snapshot', () => {
           </div>
         </div>
         <h2>
-          Flaggor
+          Flags
         </h2>
         <div
           class="gridItemContainer"
@@ -2312,7 +2312,7 @@ test('Icons page snapshot', () => {
           </div>
         </div>
         <h2>
-          Övriga
+          Other
         </h2>
         <div
           class="gridItemContainer"

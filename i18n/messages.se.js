@@ -35,20 +35,20 @@ module.exports = {
     site_name: 'KTH style',
     host_name: 'KTH',
     page_kth_style_index: 'Start',
-    page_kth_style_colors: 'Färger',
-    page_kth_style_icons: 'Ikoner',
-    page_kth_style_buttons: 'Knappar',
+    page_kth_style_colors: 'Colors',
+    page_kth_style_icons: 'Icons',
+    page_kth_style_buttons: 'Buttons',
 
-    section_basic: 'Grundform',
-    section_components: 'Komponenter',
+    section_basic: 'Basic',
+    section_components: 'Components',
     'section_setup-guide': 'Setup guide',
 
-    button_mobile_menu_label: 'Öppna/stäng mobilmenyn',
-    mobile_menu_aria_label: 'Mobilmeny',
+    button_mobile_menu_label: 'Open/close mobile menu',
+    mobile_menu_aria_label: 'Mobile menu',
 
-    modal_close_button_label: 'Stäng',
+    modal_close_button_label: 'Close',
 
-    skip_to_main_content: 'Hoppa till huvudinnehållet',
-    back_to_top_label: 'Till sidans topp',
+    skip_to_main_content: 'Skip to main content',
+    back_to_top_label: 'To page top',
   },
 }
