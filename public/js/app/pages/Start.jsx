@@ -27,7 +27,6 @@ import CortinaBlocksPage from './CortinaBlocksPage'
 import DeprecationsPage from './DeprecationsPage'
 
 import NavBar from '../components/NavBar'
-import Breadcrumbs from '../components/BreadCrumbs'
 
 const ComponentExport = observer(Start)
 export default ComponentExport

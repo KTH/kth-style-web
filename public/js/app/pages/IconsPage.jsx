@@ -195,19 +195,19 @@ export const Main = () => {
       <h2>Information</h2>
       <div className="gridItemContainer">{alertItemsPane}</div>
 
-      <h2>Pilar</h2>
+      <h2>Arrows</h2>
       <div className="gridItemContainer">{arrowItemsPane}</div>
 
-      <h2>Galleri</h2>
+      <h2>Gallery</h2>
       <div className="gridItemContainer">{galleryItemsPane}</div>
 
-      <h2>Filer</h2>
+      <h2>Files</h2>
       <div className="gridItemContainer">{fileItemsPane}</div>
 
-      <h2>Flaggor</h2>
+      <h2>Flags</h2>
       <div className="gridItemContainer">{flagItemsPane}</div>
 
-      <h2>Övriga</h2>
+      <h2>Other</h2>
       <div className="gridItemContainer">{otherItemsPane}</div>
     </main>
   )

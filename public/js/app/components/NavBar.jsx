@@ -25,7 +25,6 @@ export default observer(() => {
     url: '/components',
     children: [
       { title: 'Alerts', url: '/components/alerts' },
-      { title: 'Breadcrumbs', url: '/components/breadcrumbs' },
       { title: 'Collapse', url: '/components/collapse' },
       { title: 'Form', url: '/components/forms' },
       { title: 'Links', url: '/components/links' },
