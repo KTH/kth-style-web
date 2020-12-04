@@ -262,6 +262,11 @@ test('Typography page snapshot', () => {
               </code>
             </p>
           </div>
+          <h2
+            class="t2"
+          >
+            Paragraphs
+          </h2>
           <div
             class="itemBox typographyItem border"
           >

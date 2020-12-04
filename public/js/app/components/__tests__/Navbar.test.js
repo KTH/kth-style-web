@@ -21,7 +21,7 @@ test('Navbar component complies to axe accesibility', async () => {
 
 test('Navbar component includes typography', () => {
   const { container, getByText } = render(
-    <MemoryRouter initialEntries={['basic/typography']}>
+    <MemoryRouter initialEntries={['basics/typography']}>
       <Route path=":section/:page">
         <NavBar />
       </Route>
@@ -93,7 +93,7 @@ test('Navbar component includes typography', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/basic/colors"
+                    href="/basics/colors"
                   >
                     Colors
                   </a>
@@ -103,7 +103,7 @@ test('Navbar component includes typography', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/basic/icons"
+                    href="/basics/icons"
                   >
                     Icons
                   </a>
@@ -113,7 +113,7 @@ test('Navbar component includes typography', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/basic/spacing"
+                    href="/basics/spacing"
                   >
                     Structure and layout
                   </a>
@@ -123,7 +123,7 @@ test('Navbar component includes typography', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/basic/typography"
+                    href="/basics/typography"
                   >
                     Typography
                   </a>
@@ -133,7 +133,7 @@ test('Navbar component includes typography', () => {
                 >
                   <a
                     class="nav-link"
-                    href="/basic/separators"
+                    href="/basics/separators"
                   >
                     Separators
                   </a>
