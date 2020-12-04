@@ -4,7 +4,7 @@ import { observer } from 'mobx-react'
 export const Main = () => {
   return (
     <main id="mainContent" className="mainContent">
-      <h1>Page, structure and layout</h1>
+      <h1>Structure and layout</h1>
       <p>
         See the{' '}
         <a href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/struktur-och-layout">
