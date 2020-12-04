@@ -39,7 +39,7 @@ module.exports = {
     page_kth_style_icons: 'Icons',
     page_kth_style_buttons: 'Buttons',
 
-    section_basic: 'Basic',
+    section_basics: 'Basics',
     section_components: 'Components',
     'section_setup-guide': 'Setup guide',
 

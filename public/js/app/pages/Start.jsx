@@ -62,7 +62,7 @@ function getComponentMatchingRoute() {
   const { section, page } = useParams()
 
   switch (section) {
-    case 'basic':
+    case 'basics':
       switch (page) {
         case 'colors':
           return <Colors />
@@ -129,7 +129,7 @@ function Main() {
   return (
     <>
       <h1>About KTH Style</h1>
-      <p>
+      <p className="lead">
         KTH Style is a tool for bringing proper design and UX proof elements to web applications at KTH. The purpose of
         KTH Style is to accelerate development, create consistency between applications and facilitate the work with
         usability and accessibility.

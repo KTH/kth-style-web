@@ -1,7 +1,5 @@
 import React from 'react'
 import { observer } from 'mobx-react'
-
-import NavBar from '../components/NavBar'
 import CodeSnippet from '../components/CodeSnippet'
 
 export const Main = props => {
@@ -115,6 +113,7 @@ brodtext-1.952152"
           </p>
         </div>
 
+        <h2 className="t2">Paragraphs</h2>
         <div className="itemBox typographyItem border">
           <p className="t12">P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <p>

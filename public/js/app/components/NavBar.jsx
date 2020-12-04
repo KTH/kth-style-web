@@ -9,14 +9,14 @@ export default observer(() => {
   const section = params.section ? params.section : '/'
 
   const basicPages = {
-    title: 'Basic',
-    url: '/basic',
+    title: 'Basics',
+    url: '/basics',
     children: [
-      { title: 'Colors', url: '/basic/colors' },
-      { title: 'Icons', url: '/basic/icons' },
-      { title: 'Structure and layout', url: '/basic/spacing' },
-      { title: 'Typography', url: '/basic/typography' },
-      { title: 'Separators', url: '/basic/separators' },
+      { title: 'Colors', url: '/basics/colors' },
+      { title: 'Icons', url: '/basics/icons' },
+      { title: 'Structure and layout', url: '/basics/spacing' },
+      { title: 'Typography', url: '/basics/typography' },
+      { title: 'Separators', url: '/basics/separators' },
     ],
   }
 

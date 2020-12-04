@@ -80,9 +80,9 @@ test('Navbar component includes typography', () => {
             >
               <a
                 class="nav-link"
-                href="/basic"
+                href="/basics"
               >
-                Basic
+                Basics
               </a>
               <ul
                 class="nav nav-list"

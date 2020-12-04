@@ -1,7 +1,6 @@
 import React from 'react'
 import { observer } from 'mobx-react'
 
-import NavBar from '../components/NavBar'
 import CodeSnippet from '../components/CodeSnippet'
 import Tabs from '../components/Tabs'
 
