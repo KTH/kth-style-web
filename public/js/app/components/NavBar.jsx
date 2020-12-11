@@ -25,14 +25,14 @@ export default observer(() => {
     url: '/components',
     children: [
       { title: 'Alerts', url: '/components/alerts' },
+      { title: 'Buttons', url: '/components/buttons' },
       { title: 'Collapse', url: '/components/collapse' },
       { title: 'Form', url: '/components/forms' },
       { title: 'Links', url: '/components/links' },
       { title: 'Lists', url: '/components/lists' },
-      { title: 'Buttons', url: '/components/buttons' },
-      { title: 'Tables', url: '/components/tables' },
       { title: 'Modals', url: '/components/modals' },
       { title: 'Navigation', url: '/components/navigation' },
+      { title: 'Tables', url: '/components/tables' },
       { title: 'Tabs', url: '/components/tabs' },
     ],
   }
