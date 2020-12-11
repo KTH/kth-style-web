@@ -63,31 +63,6 @@ lankar-1.952154"
           <p>Check icons page for other document icons.</p>
           <CodeSnippet snippet={`<a class="pdf-post-link" href="#">Link</a>`} />
         </div>
-
-        <div className="itemBox">
-          <ul className="link-list">
-            <li>
-              <a href="https://www.kth.se">This is a link in a list</a>
-            </li>
-            <li>
-              <a href="https://www.kth.se">This is a link in a list</a>
-            </li>
-            <li>
-              <a href="https://www.kth.se">This is a link in a list</a>
-            </li>
-            <li>
-              <a href="https://www.kth.se">This is a link in a list</a>
-            </li>
-          </ul>
-          <CodeSnippet
-            snippet={`<ul class="link-list">
-  <li><a href="https://www.kth.se">This is a link in a list</a></li>
-  <li><a href="https://www.kth.se">This is a link in a list</a></li>
-  <li><a href="https://www.kth.se">This is a link in a list</a></li>
-  <li><a href="https://www.kth.se">This is a link in a list</a></li>
-</ul>`}
-          />
-        </div>
       </div>
     </main>
   )

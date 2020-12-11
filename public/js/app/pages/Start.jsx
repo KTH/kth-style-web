@@ -19,6 +19,7 @@ import SetupGuidePage from './SetupGuidePage'
 import Alerts from './AlertsPage'
 import Tabs from './TabsPage'
 import Links from './LinksPage'
+import Lists from './ListsPage'
 import GuidelinesPage from './GuidelinesPage'
 import SeparatorPage from './SeparatorPage'
 import NavigationPage from './NavigationPage'
@@ -70,10 +71,10 @@ function getComponentMatchingRoute() {
           return <Icons />
         case 'spacing':
           return <Spacing />
-        case 'typography':
-          return <Typography />
         case 'separators':
           return <SeparatorPage />
+        case 'typography':
+          return <Typography />
         default:
           return <Colors />
       }
@@ -90,6 +91,8 @@ function getComponentMatchingRoute() {
           return <ButtonsPage />
         case 'links':
           return <Links />
+        case 'lists':
+          return <Lists />
         case 'tables':
           return <TablesPage />
         case 'tabs':

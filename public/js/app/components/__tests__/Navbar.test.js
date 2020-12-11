@@ -113,6 +113,16 @@ test('Navbar component includes typography', () => {
                 >
                   <a
                     class="nav-link"
+                    href="/basics/separators"
+                  >
+                    Separators
+                  </a>
+                </li>
+                <li
+                  class="nav-item leaf"
+                >
+                  <a
+                    class="nav-link"
                     href="/basics/spacing"
                   >
                     Structure and layout
@@ -126,16 +136,6 @@ test('Navbar component includes typography', () => {
                     href="/basics/typography"
                   >
                     Typography
-                  </a>
-                </li>
-                <li
-                  class="nav-item leaf"
-                >
-                  <a
-                    class="nav-link"
-                    href="/basics/separators"
-                  >
-                    Separators
                   </a>
                 </li>
               </ul>

@@ -53,7 +53,7 @@ test('Typography page snapshot', () => {
             <h1
               class="t1"
             >
-              H1
+              H1 heading
             </h1>
             <p>
               <strong>
@@ -129,7 +129,7 @@ test('Typography page snapshot', () => {
             <h2
               class="t2"
             >
-              H2
+              H2 heading
             </h2>
             <p>
               <strong>
@@ -139,15 +139,6 @@ test('Typography page snapshot', () => {
                 class="language-html"
               >
                 &lt;h2&gt;&lt;/h2&gt;
-              </code>
-            </p>
-            <p>
-              <strong>
-                Sass: 
-              </strong>
-              <code>
-                h2 
-                { @include t2; }
               </code>
             </p>
           </div>
@@ -157,7 +148,7 @@ test('Typography page snapshot', () => {
             <h2
               class="t24"
             >
-              H2
+              H2 sub block
             </h2>
             <p>
               <strong>
@@ -169,15 +160,6 @@ test('Typography page snapshot', () => {
                 &lt;h2&gt;&lt;/h2&gt;
               </code>
             </p>
-            <p>
-              <strong>
-                Sass: 
-              </strong>
-              <code>
-                h2 
-                { @include t24; }
-              </code>
-            </p>
           </div>
           <div
             class="itemBox typographyItem border no-top-pad"
@@ -185,7 +167,7 @@ test('Typography page snapshot', () => {
             <h3
               class="t3"
             >
-              H3
+              H3 heading
             </h3>
             <p>
               <strong>
@@ -197,15 +179,6 @@ test('Typography page snapshot', () => {
                 &lt;h3&gt;&lt;/h3&gt;
               </code>
             </p>
-            <p>
-              <strong>
-                Sass: 
-              </strong>
-              <code>
-                h3 
-                { @include t3; }
-              </code>
-            </p>
           </div>
           <div
             class="itemBox typographyItem border no-top-pad"
@@ -213,7 +186,7 @@ test('Typography page snapshot', () => {
             <h4
               class="t4"
             >
-              H4
+              H4 heading
             </h4>
             <p>
               <strong>
@@ -225,13 +198,30 @@ test('Typography page snapshot', () => {
                 &lt;h4&gt;&lt;/h4&gt;
               </code>
             </p>
+          </div>
+          <h2
+            class="t2"
+          >
+            Paragraphs
+          </h2>
+          <div
+            class="itemBox typographyItem border"
+          >
+            <div
+              class="paragraphs"
+            >
+              <p>
+                P - Body text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
             <p>
               <strong>
-                Sass: 
+                HTML: 
               </strong>
-              <code>
-                h4 
-                { @include t4; }
+              <code
+                class="language-html"
+              >
+                &lt;div class="paragraphs"&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
               </code>
             </p>
           </div>
@@ -241,7 +231,7 @@ test('Typography page snapshot', () => {
             <p
               class="t11"
             >
-              P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              P - Short text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <p>
               <strong>
@@ -253,27 +243,14 @@ test('Typography page snapshot', () => {
                 &lt;p&gt;&lt;/p&gt;
               </code>
             </p>
-            <p>
-              <strong>
-                Sass: 
-              </strong>
-              <code>
-                { @include t11; }
-              </code>
-            </p>
           </div>
-          <h2
-            class="t2"
-          >
-            Paragraphs
-          </h2>
           <div
             class="itemBox typographyItem border"
           >
             <p
-              class="t12"
+              class="lead"
             >
-              P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              P - Lead text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <p>
               <strong>
@@ -282,44 +259,7 @@ test('Typography page snapshot', () => {
               <code
                 class="language-html"
               >
-                &lt;p class="t12"&gt;&lt;/p&gt;
-              </code>
-            </p>
-            <p>
-              <strong>
-                Sass: 
-              </strong>
-              <code>
-                p 
-                { @include t12; }
-              </code>
-            </p>
-          </div>
-          <div
-            class="itemBox typographyItem border"
-          >
-            <p
-              class="t10"
-            >
-              P - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <p>
-              <strong>
-                HTML: 
-              </strong>
-              <code
-                class="language-html"
-              >
-                &lt;p class="t10"&gt;&lt;/p&gt;
-              </code>
-            </p>
-            <p>
-              <strong>
-                Sass: 
-              </strong>
-              <code>
-                p 
-                { @include t10; }
+                &lt;p class="lead"&gt;&lt;/p&gt;
               </code>
             </p>
           </div>

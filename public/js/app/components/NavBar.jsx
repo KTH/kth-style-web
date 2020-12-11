@@ -14,9 +14,9 @@ export default observer(() => {
     children: [
       { title: 'Colors', url: '/basics/colors' },
       { title: 'Icons', url: '/basics/icons' },
+      { title: 'Separators', url: '/basics/separators' },
       { title: 'Structure and layout', url: '/basics/spacing' },
       { title: 'Typography', url: '/basics/typography' },
-      { title: 'Separators', url: '/basics/separators' },
     ],
   }
 
@@ -28,6 +28,7 @@ export default observer(() => {
       { title: 'Collapse', url: '/components/collapse' },
       { title: 'Form', url: '/components/forms' },
       { title: 'Links', url: '/components/links' },
+      { title: 'Lists', url: '/components/lists' },
       { title: 'Buttons', url: '/components/buttons' },
       { title: 'Tables', url: '/components/tables' },
       { title: 'Modals', url: '/components/modals' },
