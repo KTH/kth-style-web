@@ -89,7 +89,7 @@ brodtext-1.952152"
 
         <div className="itemBox typographyItem border">
           <div className="paragraphs">
-            <p>P - Body text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>P body text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
           <p>
             <strong>HTML: </strong>
@@ -98,7 +98,7 @@ brodtext-1.952152"
         </div>
 
         <div className="itemBox typographyItem border">
-          <p className="t11">P - Short text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="t11">P short text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <p>
             <strong>HTML: </strong>
             <code className="language-html">&lt;p&gt;&lt;/p&gt;</code>
@@ -106,7 +106,7 @@ brodtext-1.952152"
         </div>
 
         <div className="itemBox typographyItem border">
-          <p className="lead">P - Lead text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="lead">P lead text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <p>
             <strong>HTML: </strong>
             <code className="language-html">&lt;p class="lead"&gt;&lt;/p&gt;</code>

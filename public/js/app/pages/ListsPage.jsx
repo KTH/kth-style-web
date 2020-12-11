@@ -46,7 +46,7 @@ export const Main = () => {
 </ul>`}
           />
 
-          <h2>Link lists</h2>
+          <h2>Link list</h2>
           <ul className="link-list">
             <li>
               <a href="https://www.kth.se">This is a link in a list</a>
