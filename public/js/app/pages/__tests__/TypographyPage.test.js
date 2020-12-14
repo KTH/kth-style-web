@@ -211,7 +211,7 @@ test('Typography page snapshot', () => {
               class="paragraphs"
             >
               <p>
-                P - Body text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                P body text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
             <p>
@@ -231,7 +231,7 @@ test('Typography page snapshot', () => {
             <p
               class="t11"
             >
-              P - Short text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              P short text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <p>
               <strong>
@@ -250,7 +250,7 @@ test('Typography page snapshot', () => {
             <p
               class="lead"
             >
-              P - Lead text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              P lead text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <p>
               <strong>
