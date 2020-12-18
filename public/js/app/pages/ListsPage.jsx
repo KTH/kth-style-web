@@ -19,11 +19,11 @@ export const Main = () => {
         <div className="itemBox">
           <h2>Ordered list</h2>
 
-          <ul>
+          <ol>
             <li>First item</li>
             <li>Second item</li>
             <li>Third item</li>
-          </ul>
+          </ol>
           <CodeSnippet
             snippet={`<ol>
   <li>First item</li>
