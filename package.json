@@ -24,7 +24,7 @@
     "docker": "npm install --development && npm run build && npm prune --production"
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "applicationinsights": "^1.8.8",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.5.3",
