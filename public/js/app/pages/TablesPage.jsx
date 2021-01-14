@@ -5,6 +5,7 @@ import CodeSnippet from '../components/CodeSnippet'
 const Table = () => {
   return (
     <table className="table">
+      <caption>Optional Table Caption</caption>
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -37,8 +38,9 @@ const Table = () => {
   )
 }
 
-export const Main = props => {
+export const Main = () => {
   const snippet = `<table class="table">
+  <caption>Optional Table Caption</caption>
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -76,7 +78,7 @@ export const Main = props => {
         Read the guidelines for the use of tables in the{' '}
         <a href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/tabeller-1.1005514">
           KTH Style guide
-        </a>{' '}
+        </a>
         at the KTH Intranet (Information in Swedish).
       </p>
       <Table />
