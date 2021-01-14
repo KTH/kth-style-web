@@ -36,6 +36,9 @@ test('Tables page snapshot', () => {
         <table
           class="table"
         >
+          <caption>
+            Optional Table Caption
+          </caption>
           <thead>
             <tr>
               <th
@@ -122,6 +125,7 @@ test('Tables page snapshot', () => {
                 class="language-html"
               >
                 &lt;table class="table"&gt;
+      &lt;caption&gt;Optional Table Caption&lt;/caption&gt;
       &lt;thead&gt;
         &lt;tr&gt;
           &lt;th scope="col"&gt;#&lt;/th&gt;

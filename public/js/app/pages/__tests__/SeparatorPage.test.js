@@ -23,8 +23,50 @@ test('Separator page snapshot', () => {
           Separators
         </h1>
         <p>
-          ...
+          Read the guidelines for the use of separators in the
+           
+          <a
+            href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/farger-1.952147"
+          >
+            KTH Style guide
+          </a>
+           
+          at the KTH Intranet (Information in Swedish).
         </p>
+        <h2>
+          Separator example
+        </h2>
+        <p>
+          Below is an example of a separator (gray line) used for separating content in some cases.
+        </p>
+        <div
+          class="separator gray"
+        />
+        <div
+          class="code-snippet"
+        >
+          <div
+            class="code-snippet__container"
+          >
+            <pre>
+              <code
+                class="language-html"
+              >
+                &lt;div className="separator gray" /&gt;
+              </code>
+            </pre>
+            <div
+              class="code-snippet__btn-container"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   `)

@@ -11,7 +11,7 @@ export const Main = () => {
         Read the guidelines for the use of separators in the{' '}
         <a href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/farger-1.952147">
           KTH Style guide
-        </a>
+        </a>{' '}
         at the KTH Intranet (Information in Swedish).
       </p>
 

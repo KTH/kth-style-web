@@ -78,7 +78,7 @@ export const Main = () => {
         Read the guidelines for the use of tables in the{' '}
         <a href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/tabeller-1.1005514">
           KTH Style guide
-        </a>
+        </a>{' '}
         at the KTH Intranet (Information in Swedish).
       </p>
       <Table />
