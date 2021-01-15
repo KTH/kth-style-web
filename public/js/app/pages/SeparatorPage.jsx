@@ -9,7 +9,7 @@ export const Main = () => {
       <h1>Separators</h1>
       <p>
         Read the guidelines for the use of separators in the{' '}
-        <a href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/farger-1.952147">
+        <a href="https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/struktur-och-layout/sidans-struktur-1.1006152">
           KTH Style guide
         </a>{' '}
         at the KTH Intranet (Information in Swedish).
