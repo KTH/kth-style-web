@@ -173,6 +173,11 @@ https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/navigati
   </ol>
 </nav>`}
       />
+
+      <h2>Skip to main content</h2>
+      <p>The "skip to main content navigation is a link used ...". Its link text should be language specific </p>
+
+      <CodeSnippet snippet={`<a class="skipToMainContent" href="#mainContent" tabindex="1">Skip to main content</a>`} />
     </main>
   )
 }

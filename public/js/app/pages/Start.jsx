@@ -53,8 +53,8 @@ export function Start() {
   return (
     <>
       <Breadcrumbs items={breadcrumbs} />
-      <NavBar />
       {content}
+      <NavBar />
     </>
   )
 }
