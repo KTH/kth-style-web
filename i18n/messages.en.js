@@ -30,7 +30,7 @@ module.exports = {
     field_label_post_example: 'My modelData(Response from api call POST): ',
 
     lang_block_id: '1.77273',
-    locale_text: 'KTH style in English',
+    locale_text: 'KTH in English',
 
     site_name: 'KTH style',
     host_name: 'KTH',
@@ -39,7 +39,7 @@ module.exports = {
     page_kth_style_icons: 'Icons',
     page_kth_style_buttons: 'Buttons',
 
-    section_basic: 'Basic style',
+    section_basics: 'Basic style',
     section_components: 'Components',
     'section_setup-guide': 'Setup guide for developers',
 
