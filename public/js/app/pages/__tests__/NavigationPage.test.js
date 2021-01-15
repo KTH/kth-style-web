@@ -304,6 +304,37 @@ test('Navigation page snapshot', () => {
             </div>
           </div>
         </div>
+        <h2>
+          Skip to main content
+        </h2>
+        <p>
+          The "skip to main content navigation is a link used ...". Its link text should be language specific 
+        </p>
+        <div
+          class="code-snippet"
+        >
+          <div
+            class="code-snippet__container"
+          >
+            <pre>
+              <code
+                class="language-html"
+              >
+                &lt;a class="skipToMainContent" href="#mainContent" tabindex="1"&gt;Skip to main content&lt;/a&gt;
+              </code>
+            </pre>
+            <div
+              class="code-snippet__btn-container"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   `)
