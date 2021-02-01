@@ -213,13 +213,13 @@ test('Colors component includes headline Colors', () => {
           >
             <div
               class="colorBox"
-              style="background-color: rgb(224, 31, 40);"
+              style="background-color: rgb(212, 53, 28);"
             />
             <div>
               $red
             </div>
             <div>
-              #e01f28
+              #d4351c
             </div>
           </div>
         </div>
@@ -262,13 +262,13 @@ test('Colors component includes headline Colors', () => {
           >
             <div
               class="colorBox"
-              style="background-color: rgb(142, 11, 24);"
+              style="background-color: rgb(181, 44, 23);"
             />
             <div>
               $redHover
             </div>
             <div>
-              #8e0b18
+              #b52c17
             </div>
           </div>
         </div>

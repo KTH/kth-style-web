@@ -37,13 +37,13 @@ export const Main = () => {
 
   const error = [
     { displayName: '$infoRed', code: '#f2dede' },
-    { displayName: '$red', code: '#e01f28' },
+    { displayName: '$red', code: '#d4351c' },
   ]
 
   const hover = [
     { displayName: '$blueHover', code: '#006388' },
     { displayName: '$greenHover', code: '#4e7425' },
-    { displayName: '$redHover', code: '#8e0b18' },
+    { displayName: '$redHover', code: '#b52c17' },
   ]
 
   const textColors = [
