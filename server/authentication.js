@@ -43,7 +43,7 @@ passport.deserializeUser((user, done) => {
 const casOptions = {
   ssoBaseURL: config.cas.ssoBaseURL,
   serverBaseURL: config.hostUrl,
-  log
+  log,
 }
 
 if (config.cas.pgtUrl) {
@@ -61,7 +61,7 @@ passport.use(strategy)
 passport.use(
   new GatewayStrategy(
     {
-      casUrl: config.cas.ssoBaseURL
+      casUrl: config.cas.ssoBaseURL,
     },
     (result, done) => {
       log.debug({ result }, `CAS Gateway user: ${result.user}`)
@@ -87,9 +87,9 @@ module.exports.redirectAuthenticatedUserHandler = require('kth-node-passport-cas
         email: ldapUser.mail,
         pgtIou,
         // This is where you can set custom roles
-        isAdmin: hasGroup(config.auth.adminGroup, ldapUser)
+        isAdmin: hasGroup(config.auth.adminGroup, ldapUser),
       }
-    }
+    },
   }
 )
 
