@@ -42,18 +42,7 @@ test('Navigation page snapshot', () => {
           Main navigation
         </h2>
         <p>
-          The main navigation is placed on the left side of the main content. Real life examples can be found on KTH.se, for examle here: 
-          <a
-            href="https://www.kth.se/en/aktuellt/"
-          >
-            Aktuellt
-          </a>
-        </p>
-        <p>
           Remember that the aria-label attribute should be based on the current language of the page. For the primary menu it should be "Sub menu" or "Undermeny"
-        </p>
-        <p>
-          A shortened example of the code can be seen below:
         </p>
         <div
           class="code-snippet"
@@ -97,9 +86,6 @@ test('Navigation page snapshot', () => {
         <h2>
           Secondary menu
         </h2>
-        <p>
-          The secondary menu is placed in the top right corner of the header and contains entrancies for students, alumnies, employees and a language switcher. This menu is more or less included on all pages of www.kth.se.
-        </p>
         <p>
           This menu is preferably imported to the application you are building via
            
@@ -153,9 +139,6 @@ test('Navigation page snapshot', () => {
           Mega menu
         </h2>
         <p>
-          The mega menu is placed in the bottom of the the header and is expanded upon hover of a menu item and is included on all pages of www.kth.se.
-        </p>
-        <p>
           This menu is also preferably imported to the application you are building via
            
           <a
@@ -177,10 +160,6 @@ test('Navigation page snapshot', () => {
         </h2>
         <p>
           The mobile meny is visible with its hamburger icon when the width of the screen is 992px or less. On that breakpoint the menu is build up with javascript (menues.js) that combines the the menus depending on which menus are available on the current page.
-        </p>
-        <p>
-          If there is a main menu present, it combines the main menu and secondary menu. If there is no main menu present, it combines the mega menu and the secondary menu into the mobile menu.
-           
         </p>
         <div
           class="code-snippet"
@@ -239,9 +218,6 @@ test('Navigation page snapshot', () => {
         </p>
         <p>
           Remember that the aria-label attribute should be based on the current language of the page. For the primary menu it should be "Breadcrumbs" or "Brödsmulor"
-        </p>
-        <p>
-          An example of the code can be seen below:
         </p>
         <nav
           aria-label="Breadcrumbs"
