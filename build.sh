@@ -59,7 +59,7 @@ if [ "$ENV" == "dev" ]; then
   # Run parcel build on the files in /public/js/app and put the optimized files into the /dist folder.
   echo
   echoYellow "  3. Bundling the client app into the /dist folder to list results\n"
-  parcel build --no-minify './public/js/app/{*.js,*.jsx}' --public-url http://localhost:3000$PROXY_PREFIX_PATH/static
+  parcel build --no-optimize './public/js/app/{*.js,*.jsx}' --public-url http://localhost:3000$PROXY_PREFIX_PATH/static
 
   # Run parcel watch on the files in /public/js/app and put the optimized files into the /dist folder.
   echo
