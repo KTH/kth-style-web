@@ -14,7 +14,7 @@ COPY ["package-lock.json", "package-lock.json"]
 COPY ["config", "config"]
 COPY ["public", "public"]
 COPY ["i18n", "i18n"]
-COPY [".babelrc.js", ".babelrc.js"]
+COPY [".babelrc", ".babelrc"]
 
 RUN apk add --no-cache --virtual .gyp-dependencies python make g++ bash util-linux && \
   npm run docker && \
