@@ -97,6 +97,100 @@ test('Forms page snapshot', () => {
               >
                 <label
                   class="form-control-label"
+                  for="exampleInputNumber"
+                >
+                  Number input
+                </label>
+                <input
+                  class="form-control"
+                  id="exampleInputNumber"
+                  type="number"
+                />
+              </div>
+            </form>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
+      &lt;div class="form-group"&gt;
+        &lt;label class="form-control-label" for="exampleInputNumber"&gt;Number input&lt;/label&gt;
+        &lt;input type="number" class="form-control" id="exampleInputNumber"&gt;&lt;/input&gt;
+      &lt;/div&gt;
+    &lt;/form&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+            <form>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-control-label"
+                  for="exampleInputDate"
+                >
+                  Date input
+                </label>
+                <input
+                  class="form-control"
+                  id="exampleInputDate"
+                  type="date"
+                />
+              </div>
+            </form>
+            <div
+              class="code-snippet"
+            >
+              <div
+                class="code-snippet__container"
+              >
+                <pre>
+                  <code
+                    class="language-html"
+                  >
+                    &lt;form&gt;
+      &lt;div class="form-group"&gt;
+        &lt;label class="form-control-label" for="exampleInputDate"&gt;Dte input&lt;/label&gt;
+        &lt;input type="date" class="form-control" id="exampleInputDate"&gt;&lt;/input&gt;
+      &lt;/div&gt;
+    &lt;/form&gt;
+                  </code>
+                </pre>
+                <div
+                  class="code-snippet__btn-container"
+                >
+                  <button
+                    class="btn"
+                    type="button"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+            <form>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-control-label"
                   for="exampleInputPassword1"
                 >
                   Password
@@ -121,8 +215,8 @@ test('Forms page snapshot', () => {
                   >
                     &lt;form&gt;
       &lt;div class="form-group"&gt;
-        &lt;label class="form-control-label" for="yourElementId"&gt;Password&lt;/label&gt;
-        &lt;input type="password" class="form-control" id="yourElementId" placeholder="Password"&gt;&lt;/input&gt;
+        &lt;label class="form-control-label" for="exampleInputPassword1"&gt;Password&lt;/label&gt;
+        &lt;input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"&gt;&lt;/input&gt;
       &lt;/div&gt;
     &lt;/form&gt;
                   </code>

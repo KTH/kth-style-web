@@ -42,6 +42,40 @@ https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/formular
 
           <form>
             <div className="form-group">
+              <label className="form-control-label" htmlFor="exampleInputNumber">
+                Number input
+              </label>
+              <input type="number" className="form-control" id="exampleInputNumber" />
+            </div>
+          </form>
+          <CodeSnippet
+            snippet={`<form>
+  <div class="form-group">
+    <label class="form-control-label" for="exampleInputNumber">Number input</label>
+    <input type="number" class="form-control" id="exampleInputNumber"></input>
+  </div>
+</form>`}
+          />
+
+          <form>
+            <div className="form-group">
+              <label className="form-control-label" htmlFor="exampleInputDate">
+                Date input
+              </label>
+              <input type="date" className="form-control" id="exampleInputDate" />
+            </div>
+          </form>
+          <CodeSnippet
+            snippet={`<form>
+  <div class="form-group">
+    <label class="form-control-label" for="exampleInputDate">Dte input</label>
+    <input type="date" class="form-control" id="exampleInputDate"></input>
+  </div>
+</form>`}
+          />
+
+          <form>
+            <div className="form-group">
               <label className="form-control-label" htmlFor="exampleInputPassword1">
                 Password
               </label>
@@ -51,8 +85,8 @@ https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/formular
           <CodeSnippet
             snippet={`<form>
   <div class="form-group">
-    <label class="form-control-label" for="yourElementId">Password</label>
-    <input type="password" class="form-control" id="yourElementId" placeholder="Password"></input>
+    <label class="form-control-label" for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"></input>
   </div>
 </form>`}
           />
