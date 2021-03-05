@@ -11,16 +11,11 @@ export default createApplicationStore
 function createApplicationStore() {
   const store = {
     language: null,
-    message: 'Hello',
     browserConfig: {},
     paths: {},
     basicBreadcrumbs: [{ label: 'KTH', url: 'https://www.kth.se' }],
     setBasicBreadcrumbs,
     createBasicBreadcrumbs,
-
-    setMessage: action(function setMessage(text) {
-      this.message = text
-    }),
 
     setLanguage: action(function setLanguage(lang) {
       this.language = lang
