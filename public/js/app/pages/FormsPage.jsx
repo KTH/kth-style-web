@@ -178,12 +178,32 @@ https://intra.kth.se/administration/kommunikation/webb/style/riktlinjer/formular
                 Check me out
               </label>
             </div>
+            <div className="form-check form-group">
+              <input type="checkbox" className="form-check-input" id="exampleCheck2" />
+              <label className="form-control-label" htmlFor="exampleCheck2">
+                Check me out
+              </label>
+            </div>
+            <div className="form-check form-group">
+              <input type="checkbox" className="form-check-input" id="exampleCheck3" />
+              <label className="form-control-label" htmlFor="exampleCheck3">
+                Check me out
+              </label>
+            </div>
           </form>
           <CodeSnippet
             snippet={`<form>
   <div class="form-check form-group">
     <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
     <label class="form-control-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <div class="form-check form-group">
+    <input type="checkbox" class="form-check-input" id="exampleCheck2"></input>
+    <label class="form-control-label" for="exampleCheck2">Check me out</label>
+  </div>
+  <div class="form-check form-group">
+    <input type="checkbox" class="form-check-input" id="exampleCheck3"></input>
+    <label class="form-control-label" for="exampleCheck3">Check me out</label>
   </div>
 </form>`}
           />

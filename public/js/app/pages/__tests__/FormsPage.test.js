@@ -427,6 +427,36 @@ test('Forms page snapshot', () => {
                   Check me out
                 </label>
               </div>
+              <div
+                class="form-check form-group"
+              >
+                <input
+                  class="form-check-input"
+                  id="exampleCheck2"
+                  type="checkbox"
+                />
+                <label
+                  class="form-control-label"
+                  for="exampleCheck2"
+                >
+                  Check me out
+                </label>
+              </div>
+              <div
+                class="form-check form-group"
+              >
+                <input
+                  class="form-check-input"
+                  id="exampleCheck3"
+                  type="checkbox"
+                />
+                <label
+                  class="form-control-label"
+                  for="exampleCheck3"
+                >
+                  Check me out
+                </label>
+              </div>
             </form>
             <div
               class="code-snippet"
@@ -442,6 +472,14 @@ test('Forms page snapshot', () => {
       &lt;div class="form-check form-group"&gt;
         &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"&gt;&lt;/input&gt;
         &lt;label class="form-control-label" for="exampleCheck1"&gt;Check me out&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="form-check form-group"&gt;
+        &lt;input type="checkbox" class="form-check-input" id="exampleCheck2"&gt;&lt;/input&gt;
+        &lt;label class="form-control-label" for="exampleCheck2"&gt;Check me out&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="form-check form-group"&gt;
+        &lt;input type="checkbox" class="form-check-input" id="exampleCheck3"&gt;&lt;/input&gt;
+        &lt;label class="form-control-label" for="exampleCheck3"&gt;Check me out&lt;/label&gt;
       &lt;/div&gt;
     &lt;/form&gt;
                   </code>
