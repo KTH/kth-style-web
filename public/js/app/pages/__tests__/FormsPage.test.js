@@ -408,54 +408,61 @@ test('Forms page snapshot', () => {
                 </div>
               </div>
             </div>
-            <h2>
-              Checkboxes
-            </h2>
             <form>
               <div
-                class="form-check form-group"
+                class="form-group"
               >
-                <input
-                  class="form-check-input"
-                  id="exampleCheck1"
-                  type="checkbox"
-                />
                 <label
                   class="form-control-label"
-                  for="exampleCheck1"
+                  for="exampleFormControlCheckboxes"
                 >
-                  Check me out
+                  Checkboxes
                 </label>
-              </div>
-              <div
-                class="form-check form-group"
-              >
-                <input
-                  class="form-check-input"
-                  id="exampleCheck2"
-                  type="checkbox"
-                />
-                <label
-                  class="form-control-label"
-                  for="exampleCheck2"
+                <div
+                  class="form-check form-group"
                 >
-                  Check me out
-                </label>
-              </div>
-              <div
-                class="form-check form-group"
-              >
-                <input
-                  class="form-check-input"
-                  id="exampleCheck3"
-                  type="checkbox"
-                />
-                <label
-                  class="form-control-label"
-                  for="exampleCheck3"
+                  <input
+                    class="form-check-input"
+                    id="exampleCheck1"
+                    type="checkbox"
+                  />
+                  <label
+                    class="form-control-label"
+                    for="exampleCheck1"
+                  >
+                    Check me out
+                  </label>
+                </div>
+                <div
+                  class="form-check form-group"
                 >
-                  Check me out
-                </label>
+                  <input
+                    class="form-check-input"
+                    id="exampleCheck2"
+                    type="checkbox"
+                  />
+                  <label
+                    class="form-control-label"
+                    for="exampleCheck2"
+                  >
+                    Check me out
+                  </label>
+                </div>
+                <div
+                  class="form-check form-group"
+                >
+                  <input
+                    class="form-check-input"
+                    id="exampleCheck3"
+                    type="checkbox"
+                  />
+                  <label
+                    class="form-control-label"
+                    for="exampleCheck3"
+                  >
+                    Check me out
+                  </label>
+                </div>
               </div>
             </form>
             <div
@@ -469,18 +476,23 @@ test('Forms page snapshot', () => {
                     class="language-html"
                   >
                     &lt;form&gt;
-      &lt;div class="form-check form-group"&gt;
-        &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"&gt;&lt;/input&gt;
-        &lt;label class="form-control-label" for="exampleCheck1"&gt;Check me out&lt;/label&gt;
-      &lt;/div&gt;
-      &lt;div class="form-check form-group"&gt;
-        &lt;input type="checkbox" class="form-check-input" id="exampleCheck2"&gt;&lt;/input&gt;
-        &lt;label class="form-control-label" for="exampleCheck2"&gt;Check me out&lt;/label&gt;
-      &lt;/div&gt;
-      &lt;div class="form-check form-group"&gt;
-        &lt;input type="checkbox" class="form-check-input" id="exampleCheck3"&gt;&lt;/input&gt;
-        &lt;label class="form-control-label" for="exampleCheck3"&gt;Check me out&lt;/label&gt;
-      &lt;/div&gt;
+        &lt;div className="form-group"&gt;
+          &lt;label className="form-control-label" htmlFor="exampleFormControlCheckboxes"&gt;
+            Checkboxes
+          &lt;/label&gt;
+          &lt;div class="form-check form-group"&gt;
+            &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"&gt;&lt;/input&gt;
+            &lt;label class="form-control-label" for="exampleCheck1"&gt;Check me out&lt;/label&gt;
+          &lt;/div&gt;
+          &lt;div class="form-check form-group"&gt;
+            &lt;input type="checkbox" class="form-check-input" id="exampleCheck2"&gt;&lt;/input&gt;
+            &lt;label class="form-control-label" for="exampleCheck2"&gt;Check me out&lt;/label&gt;
+          &lt;/div&gt;
+          &lt;div class="form-check form-group"&gt;
+            &lt;input type="checkbox" class="form-check-input" id="exampleCheck3"&gt;&lt;/input&gt;
+            &lt;label class="form-control-label" for="exampleCheck3"&gt;Check me out&lt;/label&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
     &lt;/form&gt;
                   </code>
                 </pre>
@@ -496,60 +508,67 @@ test('Forms page snapshot', () => {
                 </div>
               </div>
             </div>
-            <h2>
-              Radio buttons
-            </h2>
             <form>
               <div
-                class="form-check form-group"
+                class="form-group"
               >
-                <input
-                  class="form-check-input"
-                  id="exampleRadios1"
-                  name="example2"
-                  type="radio"
-                  value="Option 1"
-                />
                 <label
                   class="form-control-label"
-                  for="exampleRadios1"
+                  for="exampleFormControlRadioButtons"
                 >
-                  Option 1
+                  Radio buttons
                 </label>
-              </div>
-              <div
-                class="form-check form-group"
-              >
-                <input
-                  class="form-check-input"
-                  id="exampleRadios2"
-                  name="example2"
-                  type="radio"
-                  value="Option 2"
-                />
-                <label
-                  class="form-control-label"
-                  for="exampleRadios2"
+                <div
+                  class="form-check form-group"
                 >
-                  Option 2
-                </label>
-              </div>
-              <div
-                class="form-check form-group"
-              >
-                <input
-                  class="form-check-input"
-                  id="exampleRadios3"
-                  name="example2"
-                  type="radio"
-                  value="Option 3"
-                />
-                <label
-                  class="form-control-label"
-                  for="exampleRadios3"
+                  <input
+                    class="form-check-input"
+                    id="exampleRadios1"
+                    name="example2"
+                    type="radio"
+                    value="Option 1"
+                  />
+                  <label
+                    class="form-control-label"
+                    for="exampleRadios1"
+                  >
+                    Option 1
+                  </label>
+                </div>
+                <div
+                  class="form-check form-group"
                 >
-                  Option 3
-                </label>
+                  <input
+                    class="form-check-input"
+                    id="exampleRadios2"
+                    name="example2"
+                    type="radio"
+                    value="Option 2"
+                  />
+                  <label
+                    class="form-control-label"
+                    for="exampleRadios2"
+                  >
+                    Option 2
+                  </label>
+                </div>
+                <div
+                  class="form-check form-group"
+                >
+                  <input
+                    class="form-check-input"
+                    id="exampleRadios3"
+                    name="example2"
+                    type="radio"
+                    value="Option 3"
+                  />
+                  <label
+                    class="form-control-label"
+                    for="exampleRadios3"
+                  >
+                    Option 3
+                  </label>
+                </div>
               </div>
             </form>
             <div
@@ -563,17 +582,22 @@ test('Forms page snapshot', () => {
                     class="language-html"
                   >
                     &lt;form&gt;
-      &lt;div class="form-check form-group"&gt;
-        &lt;input type="radio" class="form-check-input" name="example2" value="Option 1" id="exampleRadios1"/&gt;
-        &lt;label class="form-control-label" for="exampleRadios1"&gt;Option 1&lt;/label&gt;
-      &lt;/div&gt;
-      &lt;div class="form-check form-group"&gt;
-        &lt;input type="radio" class="form-check-input" name="example2" value="Option 2" id="exampleRadios2"/&gt;
-        &lt;label class="form-control-label" for="exampleRadios2"&gt;Option 2&lt;/label&gt;
-      &lt;/div&gt;
-      &lt;div class="form-check form-group"&gt;
-        &lt;input type="radio" class="form-check-input" name="example2" value="Option 3" id="exampleRadios3"/&gt;
-        &lt;label class="form-control-label" for="exampleRadios3"&gt;Option 3&lt;/label&gt;
+      &lt;div className="form-group"&gt;
+        &lt;label className="form-control-label" htmlFor="exampleFormControlRadioButtons"&gt;
+          Radio buttons
+        &lt;/label&gt;
+        &lt;div class="form-check form-group"&gt;
+          &lt;input type="radio" class="form-check-input" name="example2" value="Option 1" id="exampleRadios1"/&gt;
+          &lt;label class="form-control-label" for="exampleRadios1"&gt;Option 1&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="form-check form-group"&gt;
+          &lt;input type="radio" class="form-check-input" name="example2" value="Option 2" id="exampleRadios2"/&gt;
+          &lt;label class="form-control-label" for="exampleRadios2"&gt;Option 2&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="form-check form-group"&gt;
+          &lt;input type="radio" class="form-check-input" name="example2" value="Option 3" id="exampleRadios3"/&gt;
+          &lt;label class="form-control-label" for="exampleRadios3"&gt;Option 3&lt;/label&gt;
+        &lt;/div&gt;
       &lt;/div&gt;
     &lt;/form&gt;
                   </code>
