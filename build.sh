@@ -48,7 +48,7 @@ if [ "$ENV" == "prod" ]; then
   # Run parcel build on the files in /public/js/app and put the optimized files into the /dist folder.
   echo
   echoYellow "  3. Bundling the client app into the /dist folder\n"
-  parcel build './public/js/app/{*.js,*.jsx}' --public-url $PROXY_PREFIX_PATH/static
+  parcel build --no-source-maps './public/js/app/{*.js,*.jsx}' --public-url $PROXY_PREFIX_PATH/static
 
   echo
   echoYellow "  Done.\n"
