@@ -79,7 +79,7 @@
     "husky": "^6.0.0",
     "jest": "^26.6.3",
     "jest-axe": "^4.1.0",
-    "jest-emotion": "^11.0.0",
+    "jest-emotion": "^10.0.32",
     "jest-extended": "^0.11.5",
     "merge-stream": "^2.0.0",
     "mocha": "8.3.2",
