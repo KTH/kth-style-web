@@ -1,29 +1,34 @@
 FROM kthse/kth-nodejs:12.0.0
+LABEL maintainer="KTH-Webb web-developers@kth.se"
 
-#
-# Put the application into a direcctory in the root.
-# This will prevent file polution, and possible overwriting of files.
-#
-RUN mkdir -p /application
 WORKDIR /application
 ENV NODE_PATH /application
 
-COPY ["build.sh", "build.sh"]
+ENV TZ Europe/Stockholm
+
 COPY ["package.json", "package.json"]
 COPY ["package-lock.json", "package-lock.json"]
+
 COPY ["config", "config"]
-COPY ["public", "public"]
 COPY ["i18n", "i18n"]
-COPY [".babelrc", ".babelrc"]
-
-RUN apk add --no-cache --virtual .gyp-dependencies python make g++ bash util-linux && \
-  npm run docker && \
-  apk del .gyp-dependencies
-
-COPY ["app.js", "app.js"]
+COPY ["public", "public"]
 COPY ["server", "server"]
 
+COPY [".babelrc.json", ".babelrc.json"]
+COPY ["app.js", "app.js"]
+COPY ["build.sh", "build.sh"]
+COPY ["webpack.config.js", "webpack.config.js"]
+
+RUN apk stats && \
+    chmod a+rx build.sh && \
+    apk add --no-cache bash && \
+    apk add --no-cache --virtual .gyp-dependencies python make g++ util-linux && \
+    npm install --unsafe-perm && \
+    npm run build && \
+    npm prune --production && \
+    apk del .gyp-dependencies && \
+    apk stats
+
 EXPOSE 3000
-ENV TZ=Europe/Stockholm
 
 CMD ["node", "app.js"]
