@@ -36,6 +36,7 @@ async function getIndex(req, res, next) {
       compressedStoreCode,
       lang,
       description: 'KTH Style',
+      toolbarUrl: serverConfig.toolbar.url,
     })
   } catch (err) {
     log.error('Error in getIndex', { error: err })

@@ -23,12 +23,9 @@
   {{prefixScript '/static/kth-style/js/menus.js' 'head-scripts'}}
   {{prefixScript '/static/kth-style/js/backtotop.js' 'head-scripts'}}
 
-  {{#extend 'head-scripts'}}
-  <script src="//www.kth.se/social/toolbar/widget.js"></script>
-
-  {{/extend}}
-
   {{{render 'head-scripts'}}}
+  
+  <script src="{{toolbarUrl}}"></script>
 </head>
 
 <body>
