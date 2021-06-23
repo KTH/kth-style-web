@@ -100,6 +100,7 @@ module.exports = {
       // do not set session secret here!!
       cookie: {
         secure: safeGet(() => getEnv('SESSION_SECURE_COOKIE', false) === 'true'),
+        path: getEnv('SERVICE_PUBLISH', '/style'),
       },
       proxy: safeGet(() => getEnv('SESSION_TRUST_PROXY', true) === 'true'),
     },
