@@ -44,7 +44,7 @@
     "kth-node-passport-cas": "^3.1.15",
     "kth-node-redis": "^3.1.30",
     "kth-node-server": "^3.1.5",
-    "kth-node-session": "^1.0.6",
+    "kth-node-session": "^2.0.1",
     "kth-node-web-common": "^5.1.16",
     "kth-style": "^6.0.21",
     "locale": "^0.1.0",
